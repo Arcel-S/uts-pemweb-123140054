@@ -1,4 +1,3 @@
-// --- 1. IMPORT FUNGSI DARI FILE BARU ---
 import { formatDate } from '../utils/formatDate.js';
 
 const DetailCard = ({ article }) => {
@@ -28,7 +27,6 @@ const DetailCard = ({ article }) => {
             Sumber: <strong>{source.name}</strong>
           </span>
           <span className="meta-date">
-            {/* --- 2. FUNGSI LAMA SUDAH DIHAPUS --- */}
             {formatDate(publishedAt)}
           </span>
         </div>

@@ -116,6 +116,9 @@ h1.main-title {
     color: var(--text-color);
     text-decoration: none;
     font-size: 1.2em;
+    /* Tambahkan ini agar ikon rapi */
+    display: flex;
+    align-items: center;
 }
 
 
@@ -261,37 +264,73 @@ h1.main-title {
 }
 
 
-/* --- PERBAIKAN REVISI 1 (WARNA) --- */
 .search-input:focus {
-  border-color: var(--text-color-light); /* Ganti dari biru ke abu-abu */
+  border-color: var(--text-color-light); 
 }
 
 .search-button {
   padding: 8px 12px; 
-  font-size: 1.2em; /* Ukuran ikon */
-  
-  background-color: transparent; /* Ganti dari biru */
-  color: var(--text-color-light); /* Ganti dari putih */
-  
-  /* Tambahkan border agar menyatu */
+  font-size: 1.2em; 
+  background-color: transparent; 
+  color: var(--text-color-light); 
   border: 2px solid var(--border-color-darker);
-  border-left: none; /* Hapus border kiri agar tidak double */
-  
+  border-left: none; 
   border-radius: 0 4px 4px 0;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
-  
-  /* Atur agar ikon di tengah */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .search-button:hover {
-  background-color: var(--border-color); /* Hover abu-abu */
+  background-color: var(--border-color); 
   color: var(--text-color);
 }
-/* --- AKHIR PERBAIKAN --- */
+
+/* --- STYLING BARU UNTUK DATE PICKER --- */
+.datepicker-container {
+  /* Biarkan flexbox yang mengatur */
+}
+
+.datepicker-input {
+  /* Samakan dengan search input */
+  padding: 8px 12px; 
+  font-size: 0.9em;  
+  border: 2px solid var(--border-color-darker);
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  width: 150px; /* Atur lebar placeholder */
+}
+
+.datepicker-input:focus {
+  border-color: var(--text-color-light); 
+}
+
+/* Override dark mode untuk kalender pop-up */
+.react-datepicker-popper[data-placement^="bottom"] {
+  z-index: 10;
+}
+.react-datepicker {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.react-datepicker__header {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #aeaeae;
+}
+.react-datepicker__day--selected {
+  background-color: var(--primary-color);
+}
+.react-datepicker__day:hover {
+  background-color: #f0f0f0;
+}
+/* --- AKHIR STYLING DATE PICKER --- */
+
 
 .article-list-grid {
   display: grid;
@@ -465,5 +504,15 @@ h1.main-title {
         margin-right: 0;
         animation: none; 
         width: 100%;
+    }
+    
+    /* Atur ulang date picker di mobile */
+    .datepicker-container {
+        order: 9; /* Muncul sebelum search form */
+        flex-basis: 100%;
+        margin-top: 10px;
+    }
+    .datepicker-input {
+        width: 100%; /* Buat full width */
     }
 }

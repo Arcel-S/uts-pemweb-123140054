@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import DataTable from './components/DataTable';
 import './App.css';
+import 'react-datepicker/dist/react-datepicker.css'; // Pastikan CSS-nya diimpor
 
 function App() {
   const [articles, setArticles] = useState([]);
@@ -13,29 +14,27 @@ function App() {
   const [totalResults, setTotalResults] = useState(0);
   const [popularArticles, setPopularArticles] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
-  
-  // --- 1. STATE BARU UNTUK TEMA ---
-  // Kita baca dari localStorage agar pilihan Anda tersimpan
   const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'light');
+  
+  // --- 1. STATE BARU UNTUK TANGGAL ---
+  const [startDate, setStartDate] = useState(null); // 'null' berarti "tidak ada tanggal"
   
   const API_KEY = import.meta.env.VITE_NEWS_API_KEY; 
 
   const BASE_URL_TOP = 'https://newsapi.org/v2/everything';
   const BASE_URL_EVERY = 'https://newsapi.org/v2/top-headlines';
 
-  // --- 2. EFFECT UNTUK MENGUBAH TEMA ---
   useEffect(() => {
-    // Terapkan tema ke body dan simpan pilihan
     document.body.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
-  }, [theme]); // Dijalankan setiap kali 'theme' berubah
+  }, [theme]); 
 
-  // --- 3. FUNGSI UNTUK TOGGLE TEMA ---
   const toggleTheme = () => {
     setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
   };
 
   const getCustomUrl = (topic, query, pageSize, page) => {
+      // (Kita akan update logika ini di commit berikutnya)
       const now = new Date();
       const getFormattedDate = (date) => date.toISOString().split('T')[0];
       const yesterdayDate = new Date(now);
@@ -158,13 +157,15 @@ function App() {
 
   return (
     <div className="app-container">
-      {/* --- 4. KIRIM PROPS TEMA KE HEADER --- */}
       <Header 
         onCategoryChange={handleCategoryChange} 
         currentCategory={category}
         onSearchSubmit={handleSearchSubmit} 
         theme={theme}
         toggleTheme={toggleTheme}
+        // --- 2. KIRIM STATE TANGGAL KE HEADER ---
+        startDate={startDate}
+        setStartDate={setStartDate}
       />
 
       <main>
