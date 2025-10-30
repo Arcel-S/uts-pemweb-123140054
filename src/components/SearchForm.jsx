@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { HiOutlineSearch } from 'react-icons/hi';
 
-const SearchForm = ({ onSearchSubmit }) => {
+// --- 1. TERIMA PROPS 'sortBy' dan 'setSortBy' ---
+const SearchForm = ({ onSearchSubmit, sortBy, setSortBy }) => {
   const [query, setQuery] = useState('');
-  // State baru untuk input tambahan (belum digunakan)
-  const [sortBy, setSortBy] = useState('publishedAt');
+  // Hapus state lokal sortBy
   const [filter1, setFilter1] = useState(false);
   const [filter2, setFilter2] = useState(false);
   const [radioOption, setRadioOption] = useState('option1');
@@ -13,13 +13,13 @@ const SearchForm = ({ onSearchSubmit }) => {
     e.preventDefault(); 
     
     if (query.trim()) {
-      onSearchSubmit(query.trim()); 
+      // --- 2. KIRIM 'sortBy' SAAT SUBMIT ---
+      onSearchSubmit(query.trim(), sortBy); 
     }
   };
 
   return (
     <form className="search-form with-filters" onSubmit={handleSubmit}>
-      {/* Input #1: Text (Sudah ada) */}
       <input
         type="text"
         placeholder="Cari artikel..."
@@ -30,10 +30,10 @@ const SearchForm = ({ onSearchSubmit }) => {
         autoFocus
       />
       
-      {/* Input #2: Select (Dropdown) */}
+      {/* --- 3. KONTROL INPUT DARI PROPS --- */}
       <select 
-        value={sortBy} 
-        onChange={(e) => setSortBy(e.target.value)} 
+        value={sortBy} // Menggunakan props 'sortBy'
+        onChange={(e) => setSortBy(e.target.value)} // Menggunakan props 'setSortBy'
         className="search-select"
       >
         <option value="publishedAt">Terbaru</option>
@@ -41,7 +41,7 @@ const SearchForm = ({ onSearchSubmit }) => {
         <option value="popularity">Popularitas</option>
       </select>
 
-      {/* Input #3 & #4: Checkbox */}
+      {/* (Checkbox dan Radio belum fungsional) */}
       <div className="search-checkboxes">
         <label>
           <input 
@@ -59,7 +59,6 @@ const SearchForm = ({ onSearchSubmit }) => {
         </label>
       </div>
       
-      {/* Input #5 & #6: Radio Buttons */}
       <div className="search-radios">
         <label>
           <input 

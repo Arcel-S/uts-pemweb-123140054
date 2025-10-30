@@ -17,6 +17,9 @@ function App() {
   const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'light');
   const [startDate, setStartDate] = useState(null); 
   
+  // --- 1. STATE BARU UNTUK SORTING ---
+  const [sortBy, setSortBy] = useState('publishedAt'); // Default: Terbaru
+
   const API_KEY = import.meta.env.VITE_NEWS_API_KEY; 
 
   const BASE_URL_TOP = 'https://newsapi.org/v2/everything';
@@ -31,20 +34,19 @@ function App() {
     setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
   };
 
-  // --- 1. UPDATE getCustomUrl ---
-  const getCustomUrl = (topic, query, date, pageSize, page) => {
-      // Helper untuk format YYYY-MM-DD
+  // --- 2. UPDATE getCustomUrl ---
+  const getCustomUrl = (topic, query, date, sort, pageSize, page) => {
       const yyyymmdd = (d) => d.toISOString().split('T')[0];
-      const defaultParams = `pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}`;
+      const defaultParams = `pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}&sortBy=${sort}`;
 
       if (date) {
         const queryTerm = query ? query : topic; 
-        const dateFilter = `&from=${yyyymmdd(date)}&to=${yyyymmdd(date)}`; // Filter untuk hari itu
-        return `${BASE_URL_TOP}?q=${encodeURIComponent(queryTerm)}&sortBy=publishedAt&${defaultParams}${dateFilter}`;
+        const dateFilter = `&from=${yyyymmdd(date)}&to=${yyyymmdd(date)}`;
+        return `${BASE_URL_TOP}?q=${encodeURIComponent(queryTerm)}&${defaultParams}${dateFilter}`;
       }
 
       if (topic === 'search' && query) {
-        return `${BASE_URL_TOP}?q=${encodeURIComponent(query)}&sortBy=publishedAt&${defaultParams}`;
+        return `${BASE_URL_TOP}?q=${encodeURIComponent(query)}&${defaultParams}`;
       }
       
       const now = new Date();
@@ -57,29 +59,28 @@ function App() {
       
       switch (topic.toLowerCase()) {
           case 'apple':
-              return `${BASE_URL_TOP}?q=apple&from=${yesterday}&to=${yesterday}&sortBy=popularity&${defaultParams}`;
+              return `${BASE_URL_TOP}?q=apple&from=${yesterday}&to=${yesterday}&${defaultParams}`;
           case 'tesla':
-              return `${BASE_URL_TOP}?q=tesla&from=${oneMonthAgo}&sortBy=publishedAt&${defaultParams}`;
+              return `${BASE_URL_TOP}?q=tesla&from=${oneMonthAgo}&${defaultParams}`;
           case 'business':
-              return `${BASE_URL_EVERY}?country=us&category=business&${defaultParams}`;
+              return `${BASE_URL_EVERY}?country=us&category=business&pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}`;
           case 'technology':
-              return `${BASE_URL_EVERY}?country=us&category=technology&${defaultParams}`;
+              return `${BASE_URL_EVERY}?country=us&category=technology&pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}`;
           case 'sports':
-              return `${BASE_URL_EVERY}?country=us&category=sports&${defaultParams}`;
+              return `${BASE_URL_EVERY}?country=us&category=sports&pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}`;
           default:
-              return `${BASE_URL_EVERY}?country=us&category=business&${defaultParams}`;
+              return `${BASE_URL_EVERY}?country=us&category=business&pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}`;
       }
   };
 
-  // --- 2. UPDATE fetchNews ---
-  const fetchNews = async (currentTopic, query, date, params = {}, page = 1) => {
+  // --- 3. UPDATE fetchNews ---
+  const fetchNews = async (currentTopic, query, date, sort, params = {}, page = 1) => {
     setLoading(true);
     setError(null);
     const pageSize = params.pageSize || 20;
 
     try {
-      // Kirim 'date' ke getCustomUrl
-      const url = getCustomUrl(currentTopic, query, date, pageSize, page);
+      const url = getCustomUrl(currentTopic, query, date, sort, pageSize, page);
       const response = await fetch(url);
       
       if (!response.ok) {
@@ -104,17 +105,14 @@ function App() {
     }
   };
 
-  // --- 3. UPDATE useEffect (main) ---
+  // --- 4. UPDATE useEffect (main) ---
   useEffect(() => {
     if(API_KEY) {
-      // Kirim 'startDate' ke fetchNews
-      fetchNews(category, searchTerm, startDate, searchParams, currentPage); 
+      fetchNews(category, searchTerm, startDate, sortBy, searchParams, currentPage); 
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  // Tambahkan 'startDate' sebagai dependency
-  }, [category, searchTerm, startDate, searchParams, currentPage, API_KEY]);
+  }, [category, searchTerm, startDate, sortBy, searchParams, currentPage, API_KEY]);
 
-  // useEffect (popular posts) - tidak berubah
   useEffect(() => {
     const fetchPopularNews = async () => {
       const popularUrl = `${BASE_URL_EVERY}?country=us&pageSize=5&apiKey=${API_KEY}`;
@@ -130,19 +128,20 @@ function App() {
     if (API_KEY) fetchPopularNews();
   }, [API_KEY, BASE_URL_EVERY]); 
 
-  // --- 4. UPDATE handleCategoryChange ---
+  // --- 5. UPDATE Handlers ---
   const handleCategoryChange = (newCategory) => {
     setCategory(newCategory);
     setSearchTerm(''); 
-    setStartDate(null); // Reset tanggal
+    setStartDate(null); 
+    setSortBy('publishedAt'); // Reset sort
     setCurrentPage(1);
   };
 
-  // --- 5. UPDATE handleSearchSubmit ---
-  const handleSearchSubmit = (query) => {
+  const handleSearchSubmit = (query, sortValue) => {
     setCategory('search'); 
     setSearchTerm(query);  
-    setStartDate(null); // Reset tanggal
+    setSortBy(sortValue); // Set sort dari form
+    setStartDate(null); 
     setCurrentPage(1);     
   };
 
@@ -154,28 +153,23 @@ function App() {
     }
   };
   
-  // --- 6. UPDATE getTitle ---
   const getTitle = (topic) => {
       let titleText = '';
       switch (topic.toLowerCase()) {
           case 'search': titleText = `Hasil Pencarian: "${searchTerm}"`; break;
-          case 'apple': titleText = 'Berita APPLE'; break; // (Hapus custom date)
-          case 'tesla': titleText = 'Berita TESLA'; break; // (Hapus custom date)
+          case 'apple': titleText = 'Berita APPLE'; break;
+          case 'tesla': titleText = 'Berita TESLA'; break;
           case 'business': titleText = 'HEADLINE BISNIS US TERKINI'; break;
           case 'technology': titleText = 'HEADLINE TEKNOLOGI TERKINI'; break;
           case 'sports': titleText = 'HEADLINE OLAHRAGA TERKINI'; break;
           default: titleText = `Berita Terbaru - ${topic.toUpperCase()}`;
       }
 
-      // Tambahkan info tanggal jika ada
       if (startDate) {
         const displayDate = startDate.toLocaleDateString('id-ID', {day: 'numeric', month: 'long', year: 'numeric'});
-        
-        // Jika topiknya 'search', tambahkan ke judul
         if (topic === 'search') {
           titleText += ` pada ${displayDate}`;
         } else {
-          // Jika topiknya kategori, ganti judulnya
           titleText = `Berita ${topic.toUpperCase()} pada ${displayDate}`;
         }
       }
@@ -192,7 +186,10 @@ function App() {
         theme={theme}
         toggleTheme={toggleTheme}
         startDate={startDate}
-        setStartDate={setStartDate} // setStartDate akan langsung memicu useEffect
+        setStartDate={setStartDate}
+        // --- 6. KIRIM PROPS SORT KE HEADER ---
+        sortBy={sortBy}
+        setSortBy={setSortBy}
       />
 
       <main>

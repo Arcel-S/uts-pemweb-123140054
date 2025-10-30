@@ -6,10 +6,9 @@ import {
   HiOutlineMoon, 
   HiOutlineSun 
 } from 'react-icons/hi'; 
-// --- 1. IMPORT DATE PICKER ---
 import DatePicker from 'react-datepicker';
 
-// --- 2. TERIMA PROPS 'startDate' dan 'setStartDate' ---
+// --- 1. TERIMA PROPS 'sortBy' dan 'setSortBy' ---
 const Header = ({ 
   onCategoryChange, 
   currentCategory, 
@@ -17,7 +16,9 @@ const Header = ({
   theme, 
   toggleTheme,
   startDate,
-  setStartDate 
+  setStartDate,
+  sortBy,
+  setSortBy
 }) => {
   const categories = [
     { name: 'Business', param: 'business' },
@@ -33,8 +34,9 @@ const Header = ({
     onCategoryChange(param);
   };
 
-  const handleSearchAndClose = (query) => {
-    onSearchSubmit(query);
+  const handleSearchAndClose = (query, sortValue) => {
+    // Kirim 'sortValue' ke App.jsx
+    onSearchSubmit(query, sortValue);
     setIsSearchVisible(false); 
   };
 
@@ -42,6 +44,7 @@ const Header = ({
     <header className="main-header">
       <div className="top-bar">
         <div className="top-content-wrapper">
+          
           <div className="logo-section">
             <span className="logo">NEWSPORTAL.ID</span>
             <div className="logo-caption">Kabar Seluruh Dunia</div>
@@ -63,24 +66,26 @@ const Header = ({
             </ul>
           </nav>
 
+          {/* --- 2. KIRIM PROPS SORT KE SEARCHFORM --- */}
           {isSearchVisible && (
-            <SearchForm onSearchSubmit={handleSearchAndClose} />
+            <SearchForm 
+              onSearchSubmit={handleSearchAndClose}
+              sortBy={sortBy}
+              setSortBy={setSortBy}
+            />
           )}
 
           <div className="utility-menu">
-            
-            {/* --- 3. RENDER DATE PICKER DI SINI --- */}
             <div className="datepicker-container">
               <DatePicker
                 selected={startDate}
                 onChange={(date) => setStartDate(date)}
-                isClearable // Menampilkan tombol 'x' untuk clear
+                isClearable
                 placeholderText="Pilih tanggal..."
-                className="datepicker-input" // Class untuk styling
+                className="datepicker-input"
                 dateFormat="dd/MM/yyyy"
               />
             </div>
-            {/* --- AKHIR DATE PICKER --- */}
 
             <a href="#" onClick={() => setIsSearchVisible(prev => !prev)}>
               {isSearchVisible ? <HiOutlineX /> : <HiOutlineSearch />}
