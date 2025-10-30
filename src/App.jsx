@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import DataTable from './components/DataTable';
 import './App.css';
-import 'react-datepicker/dist/react-datepicker.css'; // Pastikan CSS-nya diimpor
+import 'react-datepicker/dist/react-datepicker.css'; 
 
 function App() {
   const [articles, setArticles] = useState([]);
@@ -15,9 +15,7 @@ function App() {
   const [popularArticles, setPopularArticles] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'light');
-  
-  // --- 1. STATE BARU UNTUK TANGGAL ---
-  const [startDate, setStartDate] = useState(null); // 'null' berarti "tidak ada tanggal"
+  const [startDate, setStartDate] = useState(null); 
   
   const API_KEY = import.meta.env.VITE_NEWS_API_KEY; 
 
@@ -33,26 +31,29 @@ function App() {
     setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
   };
 
-  const getCustomUrl = (topic, query, pageSize, page) => {
-      // (Kita akan update logika ini di commit berikutnya)
-      const now = new Date();
-      const getFormattedDate = (date) => date.toISOString().split('T')[0];
-      const yesterdayDate = new Date(now);
-      yesterdayDate.setDate(now.getDate() - 1);
-      const yesterday = getFormattedDate(yesterdayDate);
-      const oneMonthAgoDate = new Date(now);
-      oneMonthAgoDate.setMonth(now.getMonth() - 1);
-      const oneMonthAgo = getFormattedDate(oneMonthAgoDate);
-      const sixMonthsAgoDate = new Date(now);
-      sixMonthsAgoDate.setMonth(now.getMonth() - 6);
-      const sixMonthsAgo = getFormattedDate(sixMonthsAgoDate);
-      const today = getFormattedDate(now);
-      
+  // --- 1. UPDATE getCustomUrl ---
+  const getCustomUrl = (topic, query, date, pageSize, page) => {
+      // Helper untuk format YYYY-MM-DD
+      const yyyymmdd = (d) => d.toISOString().split('T')[0];
       const defaultParams = `pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}`;
-      
+
+      if (date) {
+        const queryTerm = query ? query : topic; 
+        const dateFilter = `&from=${yyyymmdd(date)}&to=${yyyymmdd(date)}`; // Filter untuk hari itu
+        return `${BASE_URL_TOP}?q=${encodeURIComponent(queryTerm)}&sortBy=publishedAt&${defaultParams}${dateFilter}`;
+      }
+
       if (topic === 'search' && query) {
         return `${BASE_URL_TOP}?q=${encodeURIComponent(query)}&sortBy=publishedAt&${defaultParams}`;
       }
+      
+      const now = new Date();
+      const yesterdayDate = new Date(now);
+      yesterdayDate.setDate(now.getDate() - 1);
+      const yesterday = yyyymmdd(yesterdayDate);
+      const oneMonthAgoDate = new Date(now);
+      oneMonthAgoDate.setMonth(now.getMonth() - 1);
+      const oneMonthAgo = yyyymmdd(oneMonthAgoDate);
       
       switch (topic.toLowerCase()) {
           case 'apple':
@@ -70,13 +71,15 @@ function App() {
       }
   };
 
-  const fetchNews = async (currentTopic, query, params = {}, page = 1) => {
+  // --- 2. UPDATE fetchNews ---
+  const fetchNews = async (currentTopic, query, date, params = {}, page = 1) => {
     setLoading(true);
     setError(null);
     const pageSize = params.pageSize || 20;
 
     try {
-      const url = getCustomUrl(currentTopic, query, pageSize, page);
+      // Kirim 'date' ke getCustomUrl
+      const url = getCustomUrl(currentTopic, query, date, pageSize, page);
       const response = await fetch(url);
       
       if (!response.ok) {
@@ -101,13 +104,17 @@ function App() {
     }
   };
 
+  // --- 3. UPDATE useEffect (main) ---
   useEffect(() => {
     if(API_KEY) {
-      fetchNews(category, searchTerm, searchParams, currentPage); 
+      // Kirim 'startDate' ke fetchNews
+      fetchNews(category, searchTerm, startDate, searchParams, currentPage); 
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [category, searchTerm, searchParams, currentPage, API_KEY]);
+  // Tambahkan 'startDate' sebagai dependency
+  }, [category, searchTerm, startDate, searchParams, currentPage, API_KEY]);
 
+  // useEffect (popular posts) - tidak berubah
   useEffect(() => {
     const fetchPopularNews = async () => {
       const popularUrl = `${BASE_URL_EVERY}?country=us&pageSize=5&apiKey=${API_KEY}`;
@@ -123,15 +130,19 @@ function App() {
     if (API_KEY) fetchPopularNews();
   }, [API_KEY, BASE_URL_EVERY]); 
 
+  // --- 4. UPDATE handleCategoryChange ---
   const handleCategoryChange = (newCategory) => {
     setCategory(newCategory);
     setSearchTerm(''); 
+    setStartDate(null); // Reset tanggal
     setCurrentPage(1);
   };
 
+  // --- 5. UPDATE handleSearchSubmit ---
   const handleSearchSubmit = (query) => {
     setCategory('search'); 
     setSearchTerm(query);  
+    setStartDate(null); // Reset tanggal
     setCurrentPage(1);     
   };
 
@@ -143,17 +154,34 @@ function App() {
     }
   };
   
+  // --- 6. UPDATE getTitle ---
   const getTitle = (topic) => {
+      let titleText = '';
       switch (topic.toLowerCase()) {
-          case 'search': return `Hasil Pencarian: "${searchTerm}"`;
-          case 'apple': return 'Berita APPLE (24 Jam Terakhir, Populer)';
-          case 'tesla': return 'Berita TESLA (1 Bulan Terakhir, Terbaru)';
-          case 'business': return 'HEADLINE BISNIS US TERKINI';
-          case 'technology': return 'HEADLINE TEKNOLOGI TERKINI';
-          case 'sports': return 'HEADLINE OLAHRAGA TERKINI';
-          default: return `Berita Terbaru - ${topic.toUpperCase()}`;
+          case 'search': titleText = `Hasil Pencarian: "${searchTerm}"`; break;
+          case 'apple': titleText = 'Berita APPLE'; break; // (Hapus custom date)
+          case 'tesla': titleText = 'Berita TESLA'; break; // (Hapus custom date)
+          case 'business': titleText = 'HEADLINE BISNIS US TERKINI'; break;
+          case 'technology': titleText = 'HEADLINE TEKNOLOGI TERKINI'; break;
+          case 'sports': titleText = 'HEADLINE OLAHRAGA TERKINI'; break;
+          default: titleText = `Berita Terbaru - ${topic.toUpperCase()}`;
       }
+
+      // Tambahkan info tanggal jika ada
+      if (startDate) {
+        const displayDate = startDate.toLocaleDateString('id-ID', {day: 'numeric', month: 'long', year: 'numeric'});
+        
+        // Jika topiknya 'search', tambahkan ke judul
+        if (topic === 'search') {
+          titleText += ` pada ${displayDate}`;
+        } else {
+          // Jika topiknya kategori, ganti judulnya
+          titleText = `Berita ${topic.toUpperCase()} pada ${displayDate}`;
+        }
+      }
+      return titleText;
   };
+
 
   return (
     <div className="app-container">
@@ -163,9 +191,8 @@ function App() {
         onSearchSubmit={handleSearchSubmit} 
         theme={theme}
         toggleTheme={toggleTheme}
-        // --- 2. KIRIM STATE TANGGAL KE HEADER ---
         startDate={startDate}
-        setStartDate={setStartDate}
+        setStartDate={setStartDate} // setStartDate akan langsung memicu useEffect
       />
 
       <main>
