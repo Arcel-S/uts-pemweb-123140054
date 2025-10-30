@@ -1,5 +1,4 @@
 :root {
-  /* Variabel Light Mode (Default) */
   --primary-color: #007bff;
   --secondary-color: #d11f26; 
   --text-color: #333;
@@ -10,7 +9,6 @@
   --border-color-darker: #ddd;
 }
 
-/* Definisi Warna Dark Mode */
 body[data-theme="dark"] {
   --primary-color: #007bff;
   --secondary-color: #d11f26; 
@@ -22,7 +20,6 @@ body[data-theme="dark"] {
   --border-color-darker: #444;
 }
 
-/* Animasi expand (width) */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -116,7 +113,6 @@ h1.main-title {
     color: var(--text-color);
     text-decoration: none;
     font-size: 1.2em;
-    /* Tambahkan ini agar ikon rapi */
     display: flex;
     align-items: center;
 }
@@ -288,13 +284,10 @@ h1.main-title {
   color: var(--text-color);
 }
 
-/* --- STYLING BARU UNTUK DATE PICKER --- */
 .datepicker-container {
-  /* Biarkan flexbox yang mengatur */
 }
 
 .datepicker-input {
-  /* Samakan dengan search input */
   padding: 8px 12px; 
   font-size: 0.9em;  
   border: 2px solid var(--border-color-darker);
@@ -303,14 +296,13 @@ h1.main-title {
   transition: border-color 0.3s;
   background-color: var(--bg-color);
   color: var(--text-color);
-  width: 150px; /* Atur lebar placeholder */
+  width: 150px; 
 }
 
 .datepicker-input:focus {
   border-color: var(--text-color-light); 
 }
 
-/* Override dark mode untuk kalender pop-up */
 .react-datepicker-popper[data-placement^="bottom"] {
   z-index: 10;
 }
@@ -329,7 +321,46 @@ h1.main-title {
 .react-datepicker__day:hover {
   background-color: #f0f0f0;
 }
-/* --- AKHIR STYLING DATE PICKER --- */
+
+.search-form.with-filters {
+  flex-wrap: wrap; 
+  width: 300px; 
+  background-color: var(--card-bg-color); 
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: absolute; 
+  top: 65px; 
+  right: 20px; 
+  z-index: 20; 
+}
+
+.search-select,
+.search-checkboxes,
+.search-radios {
+  display: none; 
+  margin-top: 5px;
+  width: 100%;
+}
+
+.search-checkboxes, .search-radios {
+  display: flex;
+  gap: 10px;
+  font-size: 0.8em;
+}
+
+.search-form.with-filters .search-input {
+  border-radius: 4px 0 0 4px; 
+}
+.search-form.with-filters .search-button {
+   border-radius: 0 4px 4px 0;
+}
+
+.search-form.with-filters:focus-within .search-select,
+.search-form.with-filters:focus-within .search-checkboxes,
+.search-form.with-filters:focus-within .search-radios {
+   display: flex; 
+}
 
 
 .article-list-grid {
@@ -506,13 +537,21 @@ h1.main-title {
         width: 100%;
     }
     
-    /* Atur ulang date picker di mobile */
     .datepicker-container {
-        order: 9; /* Muncul sebelum search form */
+        order: 9; 
         flex-basis: 100%;
         margin-top: 10px;
     }
     .datepicker-input {
-        width: 100%; /* Buat full width */
+        width: 100%; 
+    }
+    
+    .search-form.with-filters {
+      position: relative;
+      top: 0;
+      right: 0;
+      width: 100%;
+      box-shadow: none;
+      padding: 0;
     }
 }
