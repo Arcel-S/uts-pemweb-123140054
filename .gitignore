@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Local Environment Variables
+# Abaikan semua file .env
+.env
+.env.*
+
+!.env.example
