@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
 :root {
   --primary-color: #007bff;
   --secondary-color: #d11f26; 
@@ -201,6 +203,9 @@ h1.main-title {
   color: var(--text-color);
   padding-bottom: 10px;
   border-bottom: 1px solid var(--border-color);
+  display: flex;
+  gap: 15px; 
+  align-items: flex-start;
 }
 
 .popular-item:last-child {
@@ -210,6 +215,19 @@ h1.main-title {
 
 .popular-item:hover .popular-title {
   color: var(--primary-color);
+}
+
+.popular-image {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0; 
+  background-color: var(--bg-color);
+}
+
+.popular-content {
+  flex-grow: 1; 
 }
 
 .popular-title {
@@ -304,6 +322,10 @@ h1.main-title {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+.article-card:hover .card-content h3 {
+  color: var(--secondary-color);
+}
+
 .card-image-container {
   width: 100%;
   height: 200px;
@@ -325,6 +347,9 @@ h1.main-title {
   margin-top: 0;
   font-size: 1.1em;
   line-height: 1.4;
+  font-family: 'Merriweather', serif; 
+  color: var(--text-color);
+  transition: color 0.2s; 
 }
 
 .card-meta {
@@ -439,7 +464,7 @@ h1.main-title {
     }
 
     .category-links a {
-        padding: 15px 20px; 
+        padding: 15px 20px;
         font-size: 1em;
     }
     
@@ -471,7 +496,7 @@ h1.main-title {
     }
     
     .search-form.with-filters {
-      order: 10;
+      order: 10; 
       flex-basis: 100%;
       margin-top: 10px;
       position: relative;
@@ -484,10 +509,11 @@ h1.main-title {
     }
     
 }
+
 .search-form.with-filters {
   display: flex;
   flex-direction: column; 
-  width: 340px; 
+  width: 340px;
   background-color: var(--card-bg-color); 
   padding: 15px;
   border-radius: 8px;
@@ -496,8 +522,8 @@ h1.main-title {
   top: 65px; 
   right: 20px; 
   z-index: 20; 
-  gap: 20px;
-  animation: fadeIn 0.2s ease-out; 
+  gap: 20px; 
+  animation: fadeIn 0.2s ease-out;
 }
 
 .search-bar-group {
@@ -507,8 +533,8 @@ h1.main-title {
 
 .search-form.with-filters .search-input {
   flex-grow: 1;
-  border-radius: 4px 0 0 4px;
-  border-right: none;
+  border-radius: 4px 0 0 4px; 
+  border-right: none; 
   width: 100%; 
   padding: 8px 12px; 
   font-size: 0.9em;  
@@ -545,7 +571,7 @@ h1.main-title {
 
 .search-filters-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr;
   gap: 15px; 
   width: 100%;
 }
@@ -582,7 +608,7 @@ h1.main-title {
 }
 
 .filter-group-checkbox {
-  grid-column: 1 / -1; 
+  grid-column: 1 / -1;
   flex-direction: row;
   align-items: center;
   background-color: var(--bg-color);
@@ -602,7 +628,7 @@ h1.main-title {
 }
 
 .filter-group-radios {
-  grid-column: 1 / -1;
+  grid-column: 1 / -1; 
 }
 .radio-options {
   display: flex;
