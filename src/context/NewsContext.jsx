@@ -69,7 +69,11 @@ const getCustomUrl = (state) => {
   const yyyymmdd = (d) => d.toISOString().split('T')[0];
 
   const topHeadlineParams = `pageSize=${pageSize}&page=${currentPage}&apiKey=${API_KEY}`;
-  let everythingParams = `pageSize=${pageSize}&page=${currentPage}&apiKey=${API_KEY}&sortBy=${sortBy}&language=${language}`;
+  
+  // --- PERBAIKAN DI SINI ---
+  // Hapus 'language' dari parameter default
+  let everythingParams = `pageSize=${pageSize}&page=${currentPage}&apiKey=${API_KEY}&sortBy=${sortBy}`;
+  // --- AKHIR PERBAIKAN ---
 
   let query = searchTerm;
   if (searchInTitle) {
@@ -99,7 +103,11 @@ const getCustomUrl = (state) => {
   }
 
   let searchQuery = query ? query : 'berita';
-  let url = `${BASE_URL_TOP}?q=${encodeURIComponent(searchQuery)}&${everythingParams}`;
+  
+  // --- PERBAIKAN DI SINI ---
+  // Tambahkan 'language' HANYA ke URL pencarian kustom
+  let url = `${BASE_URL_TOP}?q=${encodeURIComponent(searchQuery)}&${everythingParams}&language=${language}`;
+  // --- AKHIR PERBAIKAN ---
 
   if (startDate) {
     const dateFilter = `&from=${yyyymmdd(startDate)}&to=${yyyymmdd(startDate)}`;

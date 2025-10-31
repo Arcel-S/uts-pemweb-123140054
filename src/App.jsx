@@ -1,4 +1,4 @@
-import { useContext, useMemo, useCallback } from 'react';
+import { useContext, useMemo, useCallback, useEffect } from 'react';
 import Header from './components/Header';
 import DataTable from './components/DataTable';
 import './App.css';
@@ -11,6 +11,10 @@ function App() {
   const { articles, loading, error, popularArticles, totalResults, currentPage, pageSize } = state;
   
   const [theme, setTheme] = useLocalStorage('theme', 'light');
+
+  useEffect(() => {
+    document.body.setAttribute('data-theme', theme);
+  }, [theme]);
 
   const toggleTheme = useCallback(() => {
     setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
