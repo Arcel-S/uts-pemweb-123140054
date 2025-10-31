@@ -37,15 +37,18 @@ function App() {
   // --- 2. UPDATE getCustomUrl ---
   const getCustomUrl = (topic, query, date, sort, pageSize, page) => {
       const yyyymmdd = (d) => d.toISOString().split('T')[0];
+      // Tambahkan parameter 'sort' (sortBy)
       const defaultParams = `pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}&sortBy=${sort}`;
 
       if (date) {
         const queryTerm = query ? query : topic; 
         const dateFilter = `&from=${yyyymmdd(date)}&to=${yyyymmdd(date)}`;
+        // Ganti endpoint ke /everything dan tambahkan sort
         return `${BASE_URL_TOP}?q=${encodeURIComponent(queryTerm)}&${defaultParams}${dateFilter}`;
       }
 
       if (topic === 'search' && query) {
+        // Tambahkan 'sort' ke pencarian
         return `${BASE_URL_TOP}?q=${encodeURIComponent(query)}&${defaultParams}`;
       }
       
@@ -57,11 +60,13 @@ function App() {
       oneMonthAgoDate.setMonth(now.getMonth() - 1);
       const oneMonthAgo = yyyymmdd(oneMonthAgoDate);
       
+      // Hapus sortBy dari sini karena sudah ada di defaultParams
       switch (topic.toLowerCase()) {
           case 'apple':
               return `${BASE_URL_TOP}?q=apple&from=${yesterday}&to=${yesterday}&${defaultParams}`;
           case 'tesla':
               return `${BASE_URL_TOP}?q=tesla&from=${oneMonthAgo}&${defaultParams}`;
+          // Endpoint /top-headlines tidak mendukung sortBy, jadi kita HAPUS dari defaultParams
           case 'business':
               return `${BASE_URL_EVERY}?country=us&category=business&pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}`;
           case 'technology':
@@ -113,6 +118,7 @@ function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [category, searchTerm, startDate, sortBy, searchParams, currentPage, API_KEY]);
 
+  // useEffect (popular posts) - tidak berubah
   useEffect(() => {
     const fetchPopularNews = async () => {
       const popularUrl = `${BASE_URL_EVERY}?country=us&pageSize=5&apiKey=${API_KEY}`;

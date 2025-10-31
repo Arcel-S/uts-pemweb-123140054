@@ -8,7 +8,6 @@ import {
 } from 'react-icons/hi'; 
 import DatePicker from 'react-datepicker';
 
-// --- 1. TERIMA PROPS 'sortBy' dan 'setSortBy' ---
 const Header = ({ 
   onCategoryChange, 
   currentCategory, 
@@ -29,15 +28,18 @@ const Header = ({
   ];
 
   const [isSearchVisible, setIsSearchVisible] = useState(false);
+  // --- 1. STATE BARU UNTUK BURGER MENU ---
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleClick = (param) => {
     onCategoryChange(param);
+    setIsMobileMenuOpen(false); // Otomatis tutup menu saat kategori dipilih
   };
 
   const handleSearchAndClose = (query, sortValue) => {
-    // Kirim 'sortValue' ke App.jsx
     onSearchSubmit(query, sortValue);
     setIsSearchVisible(false); 
+    setIsMobileMenuOpen(false); // Otomatis tutup menu
   };
 
   return (
@@ -50,7 +52,8 @@ const Header = ({
             <div className="logo-caption">Kabar Seluruh Dunia</div>
           </div>
           
-          <nav className="main-nav-single">
+          {/* --- 2. TAMBAHKAN KELAS KONDISIONAL --- */}
+          <nav className={`main-nav-single ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
             <ul className="category-links">
               {categories.map((cat, index) => (
                 <li key={index}>
@@ -66,7 +69,6 @@ const Header = ({
             </ul>
           </nav>
 
-          {/* --- 2. KIRIM PROPS SORT KE SEARCHFORM --- */}
           {isSearchVisible && (
             <SearchForm 
               onSearchSubmit={handleSearchAndClose}
@@ -93,6 +95,12 @@ const Header = ({
             
             <a href="#" onClick={toggleTheme} className="theme-toggle-button">
               {theme === 'light' ? <HiOutlineMoon /> : <HiOutlineSun />}
+            </a>
+            
+            {/* --- 3. JADIKAN IKON ☰ SEBAGAI TOMBOL TOGGLE --- */}
+            <a href="#" onClick={() => setIsMobileMenuOpen(prev => !prev)} className="burger-toggle">
+              {/* Ganti ikon burger menjadi X jika menu mobile terbuka */}
+              {isMobileMenuOpen ? <HiOutlineX /> : '☰'}
             </a>
           </div>
         </div>

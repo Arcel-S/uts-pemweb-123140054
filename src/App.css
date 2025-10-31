@@ -65,7 +65,7 @@ h1.main-title {
     font-size: 2em;
     margin-top: 0;
     margin-bottom: 20px;
-    padding: 0 0px;
+    padding: 0 20px;
 }
 
 .top-bar {
@@ -73,6 +73,7 @@ h1.main-title {
     border-bottom: 1px solid var(--border-color);
     width: 100%; 
     transition: background-color 0.2s;
+    position: relative; /* Penting untuk menu mobile */
 }
 
 .top-content-wrapper {
@@ -115,6 +116,10 @@ h1.main-title {
     font-size: 1.2em;
     display: flex;
     align-items: center;
+}
+
+.burger-toggle {
+    display: none; /* Sembunyikan di desktop */
 }
 
 
@@ -468,6 +473,7 @@ h1.main-title {
     }
 }
 
+/* --- PERUBAHAN BESAR DI SINI (MOBILE RESPONSIVE) --- */
 @media (max-width: 768px) {
     .top-content-wrapper {
         flex-wrap: wrap; 
@@ -484,28 +490,49 @@ h1.main-title {
         justify-content: flex-end;
     }
 
+    .burger-toggle {
+        display: flex; /* Tampilkan ikon burger di mobile */
+    }
+
     .main-nav-single {
-        order: 10; 
-        flex-basis: 100%;
-        margin-top: 10px;
-        margin-right: 0;
+        /* Sembunyikan navbar di mobile secara default */
+        display: none; 
+        
+        /* Styling untuk menu dropdown */
+        position: absolute;
+        top: 100%; /* Muncul di bawah top-bar */
+        left: 0;
+        width: 100%;
+        background-color: var(--card-bg-color);
+        border-bottom: 1px solid var(--border-color);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        z-index: 100;
+    }
+    
+    .main-nav-single.mobile-open {
+        display: flex; /* Tampilkan jika .mobile-open aktif */
     }
 
     .category-links {
-        justify-content: space-around;
-        flex-wrap: wrap; 
+        /* Ubah arah tumpukan */
+        flex-direction: column;
         width: 100%;
-        overflow: auto; 
+        overflow: visible;
+        white-space: normal;
     }
     
     .category-links li {
-        margin-right: 5px;
-        margin-bottom: 5px;
+        margin-right: 0;
+        border-bottom: 1px solid var(--border-color);
+    }
+    
+    .category-links li:last-child {
+        border-bottom: none;
     }
 
     .category-links a {
-        padding: 8px 5px;
-        font-size: 0.75em;
+        padding: 15px 20px; /* Buat target tap lebih besar */
+        font-size: 1em;
     }
     
     main {
@@ -555,3 +582,4 @@ h1.main-title {
       padding: 0;
     }
 }
+/* --- AKHIR PERUBAHAN --- */

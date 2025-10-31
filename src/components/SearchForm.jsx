@@ -32,8 +32,8 @@ const SearchForm = ({ onSearchSubmit, sortBy, setSortBy }) => {
       
       {/* --- 3. KONTROL INPUT DARI PROPS --- */}
       <select 
-        value={sortBy} // Menggunakan props 'sortBy'
-        onChange={(e) => setSortBy(e.target.value)} // Menggunakan props 'setSortBy'
+        value={sortBy} // Gunakan props 'sortBy'
+        onChange={(e) => setSortBy(e.target.value)} // Gunakan props 'setSortBy'
         className="search-select"
       >
         <option value="publishedAt">Terbaru</option>
