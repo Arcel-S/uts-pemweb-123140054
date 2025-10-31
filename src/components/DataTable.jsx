@@ -1,11 +1,10 @@
 import DetailCard from './DetailCard';
+import PropTypes from 'prop-types';
 
 const DataTable = ({ articles }) => {
   return (
-    // Kriteria CPMK0501 - Formatting rapi, menggunakan CSS Grid untuk layout
     <section className="article-list-grid"> 
       {articles.map((article, index) => (
-        // Kriteria CPMK0502 - Conditional Rendering: Filter item tanpa judul
         article.title && ( 
           <DetailCard 
             key={index} 
@@ -15,6 +14,10 @@ const DataTable = ({ articles }) => {
       ))}
     </section>
   );
+};
+
+DataTable.propTypes = {
+  articles: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default DataTable;

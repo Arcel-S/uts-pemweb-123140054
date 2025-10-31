@@ -1,15 +1,25 @@
-import { useState } from 'react';
+import { useState, useContext, useRef, useEffect } from 'react';
 import { HiOutlineSearch } from 'react-icons/hi';
 import DatePicker from 'react-datepicker';
+import { NewsContext } from '../context/NewsContext';
+import PropTypes from 'prop-types';
 
-const SearchForm = ({ 
-  onSearchSubmit, 
-  sortBy, setSortBy, 
-  searchInTitle, setSearchInTitle,
-  language, setLanguage,
-  startDate, setStartDate
-}) => {
-  const [query, setQuery] = useState('');
+const SearchForm = ({ onSearchSubmit }) => {
+  const { state, dispatch } = useContext(NewsContext);
+  
+  const [query, setQuery] = useState(state.searchTerm);
+  const [sortBy, setSortBy] = useState(state.sortBy);
+  const [startDate, setStartDate] = useState(state.startDate);
+  const [searchInTitle, setSearchInTitle] = useState(state.searchInTitle);
+  const [language, setLanguage] = useState(state.language);
+  
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    if (inputRef.current) {
+      inputRef.current.focus();
+    }
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault(); 
@@ -22,7 +32,8 @@ const SearchForm = ({
         langValue: language,
         dateValue: startDate
       };
-      onSearchSubmit(searchPayload); 
+      dispatch({ type: 'SET_SEARCH_PAYLOAD', payload: searchPayload });
+      onSearchSubmit(); 
     }
   };
 
@@ -37,7 +48,7 @@ const SearchForm = ({
           onChange={(e) => setQuery(e.target.value)}
           className="search-input"
           required 
-          autoFocus
+          ref={inputRef}
         />
         <button type="submit" className="search-button">
           <HiOutlineSearch />
@@ -111,6 +122,10 @@ const SearchForm = ({
       
     </form>
   );
+};
+
+SearchForm.propTypes = {
+  onSearchSubmit: PropTypes.func.isRequired,
 };
 
 export default SearchForm;

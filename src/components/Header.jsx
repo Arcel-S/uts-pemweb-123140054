@@ -1,29 +1,20 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import SearchForm from './SearchForm';
 import { 
   HiOutlineSearch, 
   HiOutlineX, 
   HiOutlineMoon, 
   HiOutlineSun 
-} from 'react-icons/hi'; 
-// Hapus 'import DatePicker' karena sudah tidak ada di file ini
+} from 'react-icons/hi';
+import PropTypes from 'prop-types';
+import { NewsContext } from '../context/NewsContext';
 
 const Header = ({ 
-  onCategoryChange, 
-  currentCategory, 
-  onSearchSubmit, // Ini akan menerima payload
   theme, 
   toggleTheme,
-  // --- 1. TERIMA SEMUA PROPS BARU ---
-  startDate,
-  setStartDate,
-  sortBy,
-  setSortBy,
-  searchInTitle,
-  setSearchInTitle,
-  language,
-  setLanguage
 }) => {
+  const { state, dispatch } = useContext(NewsContext);
+  
   const categories = [
     { name: 'Business', param: 'business' },
     { name: 'Apple', param: 'apple' },
@@ -36,16 +27,13 @@ const Header = ({
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleClick = (param) => {
-    onCategoryChange(param);
+    dispatch({ type: 'SET_CATEGORY', payload: param });
     setIsMobileMenuOpen(false); 
   };
 
-  // --- 2. FIX UTAMA DI SINI ---
-  // Terima 'searchPayload' sebagai OBJECT dan teruskan
-  const handleSearchAndClose = (searchPayload) => {
-    onSearchSubmit(searchPayload); // Teruskan object-nya ke App.jsx
-    setIsSearchVisible(false); 
-    setIsMobileMenuOpen(false); 
+  const handleSearchToggle = () => {
+    setIsSearchVisible(prev => !prev);
+    setIsMobileMenuOpen(false);
   };
 
   return (
@@ -65,7 +53,7 @@ const Header = ({
                   <a 
                     href="#"
                     onClick={() => handleClick(cat.param)}
-                    className={currentCategory === cat.param ? 'active' : ''}
+                    className={state.category === cat.param ? 'active' : ''}
                   >
                     {cat.name}
                   </a>
@@ -75,24 +63,11 @@ const Header = ({
           </nav>
 
           {isSearchVisible && (
-            // --- 3. TERUSKAN SEMUA PROPS KE SEARCHFORM ---
-            <SearchForm 
-              onSearchSubmit={handleSearchAndClose}
-              sortBy={sortBy}
-              setSortBy={setSortBy}
-              startDate={startDate}
-              setStartDate={setStartDate}
-              searchInTitle={searchInTitle}
-              setSearchInTitle={setSearchInTitle}
-              language={language}
-              setLanguage={setLanguage}
-            />
+            <SearchForm onSearchSubmit={handleSearchToggle} />
           )}
 
           <div className="utility-menu">
-            {/* Date picker sudah dihapus dari sini */}
-
-            <a href="#" onClick={() => setIsSearchVisible(prev => !prev)}>
+            <a href="#" onClick={handleSearchToggle}>
               {isSearchVisible ? <HiOutlineX /> : <HiOutlineSearch />}
             </a>
             
@@ -108,6 +83,11 @@ const Header = ({
       </div>
     </header>
   );
+};
+
+Header.propTypes = {
+  theme: PropTypes.string.isRequired,
+  toggleTheme: PropTypes.func.isRequired,
 };
 
 export default Header;

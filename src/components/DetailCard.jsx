@@ -1,4 +1,5 @@
 import { formatDate } from '../utils/formatDate.js';
+import PropTypes from 'prop-types';
 
 const DetailCard = ({ article }) => {
   const { urlToImage, title, source, publishedAt, url } = article;
@@ -34,6 +35,18 @@ const DetailCard = ({ article }) => {
       </div>
     </a>
   );
+};
+
+DetailCard.propTypes = {
+  article: PropTypes.shape({
+    urlToImage: PropTypes.string,
+    title: PropTypes.string,
+    source: PropTypes.shape({
+      name: PropTypes.string,
+    }),
+    publishedAt: PropTypes.string,
+    url: PropTypes.string,
+  }).isRequired,
 };
 
 export default DetailCard;
