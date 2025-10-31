@@ -28,18 +28,17 @@ const Header = ({
   ];
 
   const [isSearchVisible, setIsSearchVisible] = useState(false);
-  // --- 1. STATE BARU UNTUK BURGER MENU ---
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleClick = (param) => {
     onCategoryChange(param);
-    setIsMobileMenuOpen(false); // Otomatis tutup menu saat kategori dipilih
+    setIsMobileMenuOpen(false); 
   };
 
   const handleSearchAndClose = (query, sortValue) => {
     onSearchSubmit(query, sortValue);
     setIsSearchVisible(false); 
-    setIsMobileMenuOpen(false); // Otomatis tutup menu
+    setIsMobileMenuOpen(false); 
   };
 
   return (
@@ -52,7 +51,6 @@ const Header = ({
             <div className="logo-caption">Kabar Seluruh Dunia</div>
           </div>
           
-          {/* --- 2. TAMBAHKAN KELAS KONDISIONAL --- */}
           <nav className={`main-nav-single ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
             <ul className="category-links">
               {categories.map((cat, index) => (
@@ -78,16 +76,6 @@ const Header = ({
           )}
 
           <div className="utility-menu">
-            <div className="datepicker-container">
-              <DatePicker
-                selected={startDate}
-                onChange={(date) => setStartDate(date)}
-                isClearable
-                placeholderText="Pilih tanggal..."
-                className="datepicker-input"
-                dateFormat="dd/MM/yyyy"
-              />
-            </div>
 
             <a href="#" onClick={() => setIsSearchVisible(prev => !prev)}>
               {isSearchVisible ? <HiOutlineX /> : <HiOutlineSearch />}
@@ -97,9 +85,7 @@ const Header = ({
               {theme === 'light' ? <HiOutlineMoon /> : <HiOutlineSun />}
             </a>
             
-            {/* --- 3. JADIKAN IKON ☰ SEBAGAI TOMBOL TOGGLE --- */}
             <a href="#" onClick={() => setIsMobileMenuOpen(prev => !prev)} className="burger-toggle">
-              {/* Ganti ikon burger menjadi X jika menu mobile terbuka */}
               {isMobileMenuOpen ? <HiOutlineX /> : '☰'}
             </a>
           </div>

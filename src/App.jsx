@@ -220,14 +220,14 @@ function App() {
                           onClick={() => handlePageChange(currentPage - 1)} 
                           disabled={currentPage === 1}
                         >
-                          Sebelumnya
+                          Previous
                         </button>
-                        <span>Halaman {currentPage} dari {totalPages}</span>
+                        <span>Page {currentPage} Of {totalPages}</span>
                         <button 
                           onClick={() => handlePageChange(currentPage + 1)} 
                           disabled={currentPage >= totalPages}
                         >
-                          Berikutnya
+                          Next
                         </button>
                       </div>
                     </>
