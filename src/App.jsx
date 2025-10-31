@@ -13,18 +13,24 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1); 
   const [totalResults, setTotalResults] = useState(0);
   const [popularArticles, setPopularArticles] = useState([]);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'light');
-  const [startDate, setStartDate] = useState(null); 
   
-  // --- 1. STATE BARU UNTUK SORTING ---
-  const [sortBy, setSortBy] = useState('publishedAt'); // Default: Terbaru
+  // --- INI YANG HILANG (SAYA TAMBAHKAN KEMBALI) ---
+  const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'light');
+  // ---
+
+  // --- 1. STATE UNTUK PENCARIAN LENGKAP ---
+  const [searchTerm, setSearchTerm] = useState('');
+  const [startDate, setStartDate] = useState(null); 
+  const [sortBy, setSortBy] = useState('publishedAt'); 
+  const [searchInTitle, setSearchInTitle] = useState(false);
+  const [language, setLanguage] = useState('id');
 
   const API_KEY = import.meta.env.VITE_NEWS_API_KEY; 
 
   const BASE_URL_TOP = 'https://newsapi.org/v2/everything';
   const BASE_URL_EVERY = 'https://newsapi.org/v2/top-headlines';
 
+  // --- EFEK TEMA (SEKARANG BERFUNGSI) ---
   useEffect(() => {
     document.body.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
@@ -33,59 +39,69 @@ function App() {
   const toggleTheme = () => {
     setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
   };
+  // ---
 
-  // --- 2. UPDATE getCustomUrl ---
-  const getCustomUrl = (topic, query, date, sort, pageSize, page) => {
+  // --- 2. UPDATE getCustomUrl UNTUK MENANGANI SEMUA FILTER ---
+  const getCustomUrl = (topic, query, date, sort, page, pageSize, lang, titleOnly) => {
       const yyyymmdd = (d) => d.toISOString().split('T')[0];
-      // Tambahkan parameter 'sort' (sortBy)
-      const defaultParams = `pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}&sortBy=${sort}`;
+      
+      // Parameter /top-headlines (tidak mendukung banyak filter)
+      const topHeadlineParams = `pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}`;
+      // Parameter /everything (mendukung semua filter)
+      let everythingParams = `pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}&sortBy=${sort}&language=${lang}`;
+
+      if (titleOnly) {
+        // Akali: NewsAPI tidak punya qInTitle. Kita akan gunakan "query IN TITLE"
+        query = query ? `"${query}" IN TITLE` : ''; 
+      }
+      
+      // Jika KATEGORI (bukan search)
+      if (topic !== 'search') {
+          // Kategori spesifik (Apple, Tesla) harus pakai /everything
+          const now = new Date();
+          const oneMonthAgoDate = new Date(now);
+          oneMonthAgoDate.setMonth(now.getMonth() - 1);
+          const oneMonthAgo = yyyymmdd(oneMonthAgoDate);
+
+          switch (topic.toLowerCase()) {
+              case 'apple':
+                  return `${BASE_URL_TOP}?q=apple&from=${oneMonthAgo}&${everythingParams}`;
+              case 'tesla':
+                  return `${BASE_URL_TOP}?q=tesla&from=${oneMonthAgo}&${everythingParams}`;
+              // Kategori umum pakai /top-headlines (lebih cepat, lebih relevan)
+              case 'business':
+                  return `${BASE_URL_EVERY}?country=us&category=business&${topHeadlineParams}`;
+              case 'technology':
+                  return `${BASE_URL_EVERY}?country=us&category=technology&${topHeadlineParams}`;
+              case 'sports':
+                  return `${BASE_URL_EVERY}?country=us&category=sports&${topHeadlineParams}`;
+              default:
+                  return `${BASE_URL_EVERY}?country=us&category=business&${topHeadlineParams}`;
+          }
+      }
+
+      // Jika INI ADALAH PENCARIAN (topic === 'search')
+      // Kita harus pakai /everything
+      
+      let searchQuery = query ? query : 'berita'; // Fallback jika query kosong
+      let url = `${BASE_URL_TOP}?q=${encodeURIComponent(searchQuery)}&${everythingParams}`;
 
       if (date) {
-        const queryTerm = query ? query : topic; 
         const dateFilter = `&from=${yyyymmdd(date)}&to=${yyyymmdd(date)}`;
-        // Ganti endpoint ke /everything dan tambahkan sort
-        return `${BASE_URL_TOP}?q=${encodeURIComponent(queryTerm)}&${defaultParams}${dateFilter}`;
-      }
-
-      if (topic === 'search' && query) {
-        // Tambahkan 'sort' ke pencarian
-        return `${BASE_URL_TOP}?q=${encodeURIComponent(query)}&${defaultParams}`;
+        url += dateFilter;
       }
       
-      const now = new Date();
-      const yesterdayDate = new Date(now);
-      yesterdayDate.setDate(now.getDate() - 1);
-      const yesterday = yyyymmdd(yesterdayDate);
-      const oneMonthAgoDate = new Date(now);
-      oneMonthAgoDate.setMonth(now.getMonth() - 1);
-      const oneMonthAgo = yyyymmdd(oneMonthAgoDate);
-      
-      // Hapus sortBy dari sini karena sudah ada di defaultParams
-      switch (topic.toLowerCase()) {
-          case 'apple':
-              return `${BASE_URL_TOP}?q=apple&from=${yesterday}&to=${yesterday}&${defaultParams}`;
-          case 'tesla':
-              return `${BASE_URL_TOP}?q=tesla&from=${oneMonthAgo}&${defaultParams}`;
-          // Endpoint /top-headlines tidak mendukung sortBy, jadi kita HAPUS dari defaultParams
-          case 'business':
-              return `${BASE_URL_EVERY}?country=us&category=business&pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}`;
-          case 'technology':
-              return `${BASE_URL_EVERY}?country=us&category=technology&pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}`;
-          case 'sports':
-              return `${BASE_URL_EVERY}?country=us&category=sports&pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}`;
-          default:
-              return `${BASE_URL_EVERY}?country=us&category=business&pageSize=${pageSize}&page=${page}&apiKey=${API_KEY}`;
-      }
+      return url;
   };
 
   // --- 3. UPDATE fetchNews ---
-  const fetchNews = async (currentTopic, query, date, sort, params = {}, page = 1) => {
+  const fetchNews = async (currentTopic, query, date, sort, params = {}, page = 1, lang, titleOnly) => {
     setLoading(true);
     setError(null);
     const pageSize = params.pageSize || 20;
 
     try {
-      const url = getCustomUrl(currentTopic, query, date, sort, pageSize, page);
+      const url = getCustomUrl(currentTopic, query, date, sort, page, pageSize, lang, titleOnly);
       const response = await fetch(url);
       
       if (!response.ok) {
@@ -113,10 +129,11 @@ function App() {
   // --- 4. UPDATE useEffect (main) ---
   useEffect(() => {
     if(API_KEY) {
-      fetchNews(category, searchTerm, startDate, sortBy, searchParams, currentPage); 
+      // Kirim semua state filter ke fetchNews
+      fetchNews(category, searchTerm, startDate, sortBy, searchParams, currentPage, language, searchInTitle); 
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [category, searchTerm, startDate, sortBy, searchParams, currentPage, API_KEY]);
+  }, [category, searchTerm, startDate, sortBy, searchParams, currentPage, API_KEY, language, searchInTitle]); // Tambahkan dependensi baru
 
   // useEffect (popular posts) - tidak berubah
   useEffect(() => {
@@ -139,15 +156,24 @@ function App() {
     setCategory(newCategory);
     setSearchTerm(''); 
     setStartDate(null); 
-    setSortBy('publishedAt'); // Reset sort
+    setSortBy('publishedAt');
+    setLanguage('id');
+    setSearchInTitle(false);
     setCurrentPage(1);
   };
 
-  const handleSearchSubmit = (query, sortValue) => {
+  // --- 6. FIX UTAMA DI SINI ---
+  // Terima 'searchPayload' sebagai OBJECT
+  const handleSearchSubmit = (searchPayload) => {
+    // Destructuring object-nya
+    const { query, sortValue, titleOnly, langValue, dateValue } = searchPayload;
+
     setCategory('search'); 
-    setSearchTerm(query);  
-    setSortBy(sortValue); // Set sort dari form
-    setStartDate(null); 
+    setSearchTerm(query);  // Sekarang 'query' adalah string, bukan object
+    setSortBy(sortValue); 
+    setStartDate(dateValue); 
+    setLanguage(langValue);
+    setSearchInTitle(titleOnly);
     setCurrentPage(1);     
   };
 
@@ -159,24 +185,25 @@ function App() {
     }
   };
   
+  // Fungsi getTitle sekarang akan bekerja
   const getTitle = (topic) => {
       let titleText = '';
       switch (topic.toLowerCase()) {
-          case 'search': titleText = `Hasil Pencarian: "${searchTerm}"`; break;
-          case 'apple': titleText = 'Berita APPLE'; break;
-          case 'tesla': titleText = 'Berita TESLA'; break;
-          case 'business': titleText = 'HEADLINE BISNIS US TERKINI'; break;
-          case 'technology': titleText = 'HEADLINE TEKNOLOGI TERKINI'; break;
-          case 'sports': titleText = 'HEADLINE OLAHRAGA TERKINI'; break;
-          default: titleText = `Berita Terbaru - ${topic.toUpperCase()}`;
+          case 'search': titleText = `Search Results: "${searchTerm}"`; break;
+          case 'apple': titleText = 'APPLE News'; break;
+          case 'tesla': titleText = 'TESLA News'; break;
+          case 'business': titleText = 'LATEST US BUSINESS HEADLINES'; break;
+          case 'technology': titleText = 'LATEST TECHNOLOGY HEADLINES'; break;
+          case 'sports': titleText = 'LATEST SPORTS HEADLINES'; break;
+          default: titleText = `Latest News - ${topic.toUpperCase()}`;
       }
 
-      if (startDate) {
-        const displayDate = startDate.toLocaleDateString('id-ID', {day: 'numeric', month: 'long', year: 'numeric'});
+      if (startDate && (topic === 'search' || topic === 'apple' || topic === 'tesla')) {
+        const displayDate = startDate.toLocaleDateString('en-GB', {day: 'numeric', month: 'long', year: 'numeric'});
         if (topic === 'search') {
-          titleText += ` pada ${displayDate}`;
+          titleText += ` on ${displayDate}`;
         } else {
-          titleText = `Berita ${topic.toUpperCase()} pada ${displayDate}`;
+          titleText = `News for ${topic.toUpperCase()} on ${displayDate}`;
         }
       }
       return titleText;
@@ -185,17 +212,23 @@ function App() {
 
   return (
     <div className="app-container">
+      {/* --- 7. KIRIM SEMUA PROPS KE HEADER --- */}
       <Header 
         onCategoryChange={handleCategoryChange} 
         currentCategory={category}
         onSearchSubmit={handleSearchSubmit} 
         theme={theme}
         toggleTheme={toggleTheme}
+        
+        // Props baru untuk SearchForm
         startDate={startDate}
         setStartDate={setStartDate}
-        // --- 6. KIRIM PROPS SORT KE HEADER ---
         sortBy={sortBy}
         setSortBy={setSortBy}
+        searchInTitle={searchInTitle}
+        setSearchInTitle={setSearchInTitle}
+        language={language}
+        setLanguage={setLanguage}
       />
 
       <main>
@@ -205,14 +238,14 @@ function App() {
                {getTitle(category)}
              </h1>
 
-              {loading && <p>Memuat berita...</p>}
+              {loading && <p>Loading news...</p>}
               {error && <p className="error-message">Error: {error}</p>}
               
               {
                 !loading && !error && (
                   articles.length > 0 ? (
                     <>
-                      <p>Total {totalResults} artikel ditemukan.</p>
+                      <p>Total {totalResults} articles found.</p>
                       <DataTable articles={articles} />
                       
                       <div className="pagination-controls">
@@ -232,7 +265,7 @@ function App() {
                       </div>
                     </>
                   ) : (
-                    <p>Tidak ada artikel yang ditemukan untuk kategori atau pencarian ini.</p>
+                    <p>No articles found for this category or search.</p>
                   )
                 )
               }
@@ -255,7 +288,7 @@ function App() {
                   </a>
                 ))
               ) : (
-                <p>Memuat popular posts...</p>
+                <p>Loading popular posts...</p>
               )}
             </div>
           </aside>

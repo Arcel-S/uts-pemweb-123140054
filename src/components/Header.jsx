@@ -6,18 +6,23 @@ import {
   HiOutlineMoon, 
   HiOutlineSun 
 } from 'react-icons/hi'; 
-import DatePicker from 'react-datepicker';
+// Hapus 'import DatePicker' karena sudah tidak ada di file ini
 
 const Header = ({ 
   onCategoryChange, 
   currentCategory, 
-  onSearchSubmit, 
+  onSearchSubmit, // Ini akan menerima payload
   theme, 
   toggleTheme,
+  // --- 1. TERIMA SEMUA PROPS BARU ---
   startDate,
   setStartDate,
   sortBy,
-  setSortBy
+  setSortBy,
+  searchInTitle,
+  setSearchInTitle,
+  language,
+  setLanguage
 }) => {
   const categories = [
     { name: 'Business', param: 'business' },
@@ -35,8 +40,10 @@ const Header = ({
     setIsMobileMenuOpen(false); 
   };
 
-  const handleSearchAndClose = (query, sortValue) => {
-    onSearchSubmit(query, sortValue);
+  // --- 2. FIX UTAMA DI SINI ---
+  // Terima 'searchPayload' sebagai OBJECT dan teruskan
+  const handleSearchAndClose = (searchPayload) => {
+    onSearchSubmit(searchPayload); // Teruskan object-nya ke App.jsx
     setIsSearchVisible(false); 
     setIsMobileMenuOpen(false); 
   };
@@ -68,14 +75,22 @@ const Header = ({
           </nav>
 
           {isSearchVisible && (
+            // --- 3. TERUSKAN SEMUA PROPS KE SEARCHFORM ---
             <SearchForm 
               onSearchSubmit={handleSearchAndClose}
               sortBy={sortBy}
               setSortBy={setSortBy}
+              startDate={startDate}
+              setStartDate={setStartDate}
+              searchInTitle={searchInTitle}
+              setSearchInTitle={setSearchInTitle}
+              language={language}
+              setLanguage={setLanguage}
             />
           )}
 
           <div className="utility-menu">
+            {/* Date picker sudah dihapus dari sini */}
 
             <a href="#" onClick={() => setIsSearchVisible(prev => !prev)}>
               {isSearchVisible ? <HiOutlineX /> : <HiOutlineSearch />}
