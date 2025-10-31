@@ -73,7 +73,7 @@ h1.main-title {
     border-bottom: 1px solid var(--border-color);
     width: 100%; 
     transition: background-color 0.2s;
-    position: relative; /* Penting untuk menu mobile */
+    position: relative;
 }
 
 .top-content-wrapper {
@@ -119,7 +119,7 @@ h1.main-title {
 }
 
 .burger-toggle {
-    display: none; /* Sembunyikan di desktop */
+    display: none; 
 }
 
 
@@ -242,53 +242,6 @@ h1.main-title {
   border-radius: 4px;
 }
 
-.search-form {
-  display: flex;
-  margin-right: 20px;
-  width: 300px;
-  animation: fadeIn 0.3s ease-out;
-  flex-shrink: 0; 
-  overflow: hidden; 
-}
-
-.search-input {
-  flex-grow: 1; 
-  padding: 8px 12px; 
-  font-size: 0.9em;  
-  border: 2px solid var(--border-color-darker);
-  border-radius: 4px 0 0 4px;
-  outline: none;
-  transition: border-color 0.3s;
-  width: 100%; 
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
-
-
-.search-input:focus {
-  border-color: var(--text-color-light); 
-}
-
-.search-button {
-  padding: 8px 12px; 
-  font-size: 1.2em; 
-  background-color: transparent; 
-  color: var(--text-color-light); 
-  border: 2px solid var(--border-color-darker);
-  border-left: none; 
-  border-radius: 0 4px 4px 0;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.search-button:hover {
-  background-color: var(--border-color); 
-  color: var(--text-color);
-}
-
 .datepicker-container {
 }
 
@@ -326,47 +279,6 @@ h1.main-title {
 .react-datepicker__day:hover {
   background-color: #f0f0f0;
 }
-
-.search-form.with-filters {
-  flex-wrap: wrap; 
-  width: 300px; 
-  background-color: var(--card-bg-color); 
-  padding: 5px;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  position: absolute; 
-  top: 65px; 
-  right: 20px; 
-  z-index: 20; 
-}
-
-.search-select,
-.search-checkboxes,
-.search-radios {
-  display: none; 
-  margin-top: 5px;
-  width: 100%;
-}
-
-.search-checkboxes, .search-radios {
-  display: flex;
-  gap: 10px;
-  font-size: 0.8em;
-}
-
-.search-form.with-filters .search-input {
-  border-radius: 4px 0 0 4px; 
-}
-.search-form.with-filters .search-button {
-   border-radius: 0 4px 4px 0;
-}
-
-.search-form.with-filters:focus-within .search-select,
-.search-form.with-filters:focus-within .search-checkboxes,
-.search-form.with-filters:focus-within .search-radios {
-   display: flex; 
-}
-
 
 .article-list-grid {
   display: grid;
@@ -473,7 +385,6 @@ h1.main-title {
     }
 }
 
-/* --- PERUBAHAN BESAR DI SINI (MOBILE RESPONSIVE) --- */
 @media (max-width: 768px) {
     .top-content-wrapper {
         flex-wrap: wrap; 
@@ -491,16 +402,14 @@ h1.main-title {
     }
 
     .burger-toggle {
-        display: flex; /* Tampilkan ikon burger di mobile */
+        display: flex; 
     }
 
     .main-nav-single {
-        /* Sembunyikan navbar di mobile secara default */
         display: none; 
         
-        /* Styling untuk menu dropdown */
         position: absolute;
-        top: 100%; /* Muncul di bawah top-bar */
+        top: 100%; 
         left: 0;
         width: 100%;
         background-color: var(--card-bg-color);
@@ -510,11 +419,10 @@ h1.main-title {
     }
     
     .main-nav-single.mobile-open {
-        display: flex; /* Tampilkan jika .mobile-open aktif */
+        display: flex; 
     }
 
     .category-links {
-        /* Ubah arah tumpukan */
         flex-direction: column;
         width: 100%;
         overflow: visible;
@@ -531,7 +439,7 @@ h1.main-title {
     }
 
     .category-links a {
-        padding: 15px 20px; /* Buat target tap lebih besar */
+        padding: 15px 20px; 
         font-size: 1em;
     }
     
@@ -553,17 +461,6 @@ h1.main-title {
       gap: 20px;
     }
     
-    .search-form {
-        max-width: 100%; 
-        width: 100%;
-        order: 10; 
-        flex-basis: 100%;
-        margin-top: 10px;
-        margin-right: 0;
-        animation: none; 
-        width: 100%;
-    }
-    
     .datepicker-container {
         order: 9; 
         flex-basis: 100%;
@@ -574,12 +471,169 @@ h1.main-title {
     }
     
     .search-form.with-filters {
+      order: 10;
+      flex-basis: 100%;
+      margin-top: 10px;
       position: relative;
       top: 0;
       right: 0;
       width: 100%;
       box-shadow: none;
-      padding: 0;
+      padding: 10px;
+      gap: 15px;
     }
+    
 }
-/* --- AKHIR PERUBAHAN --- */
+.search-form.with-filters {
+  display: flex;
+  flex-direction: column; 
+  width: 340px; 
+  background-color: var(--card-bg-color); 
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
+  position: absolute; 
+  top: 65px; 
+  right: 20px; 
+  z-index: 20; 
+  gap: 20px;
+  animation: fadeIn 0.2s ease-out; 
+}
+
+.search-bar-group {
+  display: flex;
+  width: 100%;
+}
+
+.search-form.with-filters .search-input {
+  flex-grow: 1;
+  border-radius: 4px 0 0 4px;
+  border-right: none;
+  width: 100%; 
+  padding: 8px 12px; 
+  font-size: 0.9em;  
+  border: 2px solid var(--border-color-darker);
+  outline: none;
+  transition: border-color 0.3s;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+.search-form.with-filters .search-input:focus {
+  border-color: var(--text-color-light); 
+}
+
+.search-form.with-filters .search-button {
+  border-radius: 0 4px 4px 0;
+  flex-shrink: 0; 
+  padding: 8px 12px; 
+  font-size: 1.2em; 
+  background-color: transparent; 
+  color: var(--text-color-light); 
+  border: 2px solid var(--border-color-darker);
+  border-left: none; 
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-form.with-filters .search-button:hover {
+  background-color: var(--border-color); 
+  color: var(--text-color);
+}
+
+
+.search-filters-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 15px; 
+  width: 100%;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; 
+}
+
+.filter-group label {
+  font-size: 0.85em;
+  font-weight: bold;
+  color: var(--text-color-light);
+  text-transform: uppercase;
+}
+
+.search-select,
+.search-datepicker-input {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 0.9em;
+  border: 2px solid var(--border-color-darker);
+  border-radius: 4px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: border-color 0.2s;
+}
+
+.search-select:focus,
+.search-datepicker-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.filter-group-checkbox {
+  grid-column: 1 / -1; 
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--bg-color);
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+.filter-group-checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: normal; 
+  text-transform: none;
+  color: var(--text-color);
+  width: 100%;
+  cursor: pointer;
+}
+
+.filter-group-radios {
+  grid-column: 1 / -1;
+}
+.radio-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+.radio-options label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: normal;
+  text-transform: none;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  padding: 8px 12px;
+  border-radius: 4px;
+  flex-grow: 1;
+  justify-content: center;
+  border: 2px solid var(--bg-color);
+  cursor: pointer;
+}
+
+.radio-options input[type="radio"]:checked + label {
+}
+
+.radio-options label:has(input[type="radio"]:checked) {
+   border-color: var(--primary-color);
+   color: var(--primary-color);
+   background-color: var(--card-bg-color);
+}
+
+.radio-options input[type="radio"] {
+  display: none;
+}

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { HiOutlineSearch } from 'react-icons/hi';
-// 1. IMPORT DATEPICKER DI SINI
 import DatePicker from 'react-datepicker';
 
 const SearchForm = ({ 
@@ -8,7 +7,6 @@ const SearchForm = ({
   sortBy, setSortBy, 
   searchInTitle, setSearchInTitle,
   language, setLanguage,
-  // 2. TERIMA PROPS TANGGAL
   startDate, setStartDate
 }) => {
   const [query, setQuery] = useState('');
@@ -21,7 +19,8 @@ const SearchForm = ({
         query: query.trim(),
         sortValue: sortBy,
         titleOnly: searchInTitle,
-        langValue: language
+        langValue: language,
+        dateValue: startDate
       };
       onSearchSubmit(searchPayload); 
     }
@@ -29,73 +28,87 @@ const SearchForm = ({
 
   return (
     <form className="search-form with-filters" onSubmit={handleSubmit}>
-      <input
-        type="text"
-        placeholder="Cari artikel..."
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        className="search-input"
-        required 
-        autoFocus
-      />
       
-      <select 
-        value={sortBy} 
-        onChange={(e) => setSortBy(e.target.value)} 
-        className="search-select"
-      >
-        <option value="publishedAt">Terbaru</option>
-        <option value="relevancy">Relevansi</option>
-        <option value="popularity">Popularitas</option>
-      </select>
-
-      {/* 3. RENDER DATEPICKER DI SINI */}
-      <div className="search-datepicker-wrapper">
-        <DatePicker
-          selected={startDate}
-          onChange={(date) => setStartDate(date)}
-          isClearable
-          placeholderText="Pilih tanggal..."
-          className="search-datepicker-input" // Class baru untuk styling
-          dateFormat="dd/MM/yyyy"
+      <div className="search-bar-group">
+        <input
+          type="text"
+          placeholder="Search article..."
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          className="search-input"
+          required 
+          autoFocus
         />
+        <button type="submit" className="search-button">
+          <HiOutlineSearch />
+        </button>
       </div>
-      {/* AKHIR RENDER DATEPICKER */}
 
-      <div className="search-filters-row">
-        <label>
-          <input 
-            type="checkbox" 
-            checked={searchInTitle} 
-            onChange={(e) => setSearchInTitle(e.target.checked)} 
-          /> Title
-        </label>
+      <div className="search-filters-grid">
+
+        <div className="filter-group">
+          <label htmlFor="sort-by-select">Sort By</label>
+          <select 
+            id="sort-by-select"
+            value={sortBy} 
+            onChange={(e) => setSortBy(e.target.value)} 
+            className="search-select"
+          >
+            <option value="publishedAt">Latest</option>
+            <option value="relevancy">Relevance</option>
+            <option value="popularity">Popularity</option>
+          </select>
+        </div>
+
+        <div className="filter-group">
+          <label htmlFor="search-datepicker">Date</label>
+          <DatePicker
+            id="search-datepicker"
+            selected={startDate}
+            onChange={(date) => setStartDate(date)}
+            isClearable
+            placeholderText="Choose a date..."
+            className="search-datepicker-input"
+            dateFormat="dd/MM/yyyy"
+          />
+        </div>
         
-        <span className="filter-separator">|</span>
+        <div className="filter-group filter-group-radios">
+          <label>Language</label>
+          <div className="radio-options">
+            <label>
+              <input 
+                type="radio" 
+                name="language" 
+                value="id" 
+                checked={language === 'id'} 
+                onChange={(e) => setLanguage(e.target.value)} 
+              /> ID
+            </label>
+            <label>
+              <input 
+                type="radio" 
+                name="language" 
+                value="en" 
+                checked={language === 'en'} 
+                onChange={(e) => setLanguage(e.target.value)} 
+              /> EN
+            </label>
+          </div>
+        </div>
 
-        <label>
-          <input 
-            type="radio" 
-            name="radioGroup" 
-            value="id" 
-            checked={language === 'id'} 
-            onChange={(e) => setLanguage(e.target.value)} 
-          /> ID
-        </label>
-         <label>
-          <input 
-            type="radio" 
-            name="radioGroup" 
-            value="en" 
-            checked={language === 'en'} 
-            onChange={(e) => setLanguage(e.target.value)} 
-          /> EN
-        </label>
-      </div>
-
-      <button type="submit" className="search-button">
-        <HiOutlineSearch />
-      </button>
+        <div className="filter-group filter-group-checkbox">
+          <label>
+            <input 
+              type="checkbox" 
+              checked={searchInTitle} 
+              onChange={(e) => setSearchInTitle(e.target.checked)} 
+            /> 
+            <span>Search Title</span>
+          </label>
+        </div>
+      </div> 
+      
     </form>
   );
 };
