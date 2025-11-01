@@ -1,19 +1,22 @@
-import { useContext, useMemo, useCallback, useEffect } from 'react';
+import { useContext, useMemo, useCallback, useEffect, useState } from 'react';
 import Header from './components/Header';
 import DataTable from './components/DataTable';
-import Footer from './components/Footer'; // <-- BARU: 1. Import Footer
+import Footer from './components/Footer';
 import './App.css';
 import 'react-datepicker/dist/react-datepicker.css'; 
 import { NewsContext } from './context/NewsContext';
 import { useLocalStorage } from './hooks/useLocalStorage';
 
+// --- (BARU) Import untuk Auth ---
+// Pastikan path dan nama file (authUtils.js) sesuai
+import { getCurrentUser, logoutUser } from './utils/authUtils.js'; 
+import AuthModal from './components/AuthModal';
+
 function App() {
   // 1. Theme/Local Storage Logic
-  // Menggunakan Custom Hook useLocalStorage
   const [theme, setTheme] = useLocalStorage('theme', 'light');
 
   useEffect(() => {
-    // Memastikan body HTML memiliki atribut data-theme
     document.body.setAttribute('data-theme', theme);
   }, [theme]);
 
@@ -23,95 +26,124 @@ function App() {
 
 
   // 2. News Context Logic
-  // Mengambil state dan dispatch dari NewsContext
   const { state, dispatch } = useContext(NewsContext);
   const { 
     articles, 
     loading, 
     error, 
-    category, 
-    currentPage, 
-    totalResults, 
-    pageSize, 
     popularArticles,
-    searchTerm,
-    startDate,
+    totalResults, 
+    currentPage, 
+    pageSize 
   } = state;
 
-  // 3. Derived State and Handlers (useCallback untuk optimasi)
+  
+  // --- (BARU) 3. Authentication State ---
+  const [currentUser, setCurrentUser] = useState(getCurrentUser()); // Cek user di localStorage
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false); // State Modal
+
+  // Callback ini dikirim ke AuthModal
+  const handleLoginSuccess = useCallback((username) => {
+    setCurrentUser(username);
+  }, []);
+
+  // Callback ini dikirim ke Header
+  const handleLogout = useCallback(() => {
+    logoutUser();
+    setCurrentUser(null);
+  }, []);
+  // --- AKHIR AUTHENTICATION STATE ---
+
+
+  // 4. Derived State and Handlers
   const totalPages = Math.ceil(totalResults / pageSize);
 
-  const handleCategoryChange = useCallback((param) => {
-    dispatch({ type: 'SET_CATEGORY', payload: param });
-  }, [dispatch]);
-
-  const handleSearchSubmit = useCallback((payload) => {
-    dispatch({ type: 'SET_SEARCH_PAYLOAD', payload });
-  }, [dispatch]);
-
-  const handlePageChange = useCallback((page) => {
-    dispatch({ type: 'SET_PAGE', payload: page });
-  }, [dispatch]);
-  
-  // 4. useMemo for Title (Mengoptimalkan komputasi judul)
-  const getTitle = useMemo(() => {
-    if (category === 'search' && searchTerm) {
-      const dateStr = startDate ? ` - Tanggal: ${startDate.toLocaleDateString('id-ID')}` : '';
-      return `Hasil Pencarian: "${searchTerm}"${dateStr}`;
+  const handlePageChange = useCallback((newPage) => {
+    if (newPage > 0 && newPage <= totalPages) {
+      dispatch({ type: 'SET_PAGE', payload: newPage });
     }
-    // Membuat judul kategori lebih rapi
-    return category.charAt(0).toUpperCase() + category.slice(1) + ' Headlines';
-  }, [category, searchTerm, startDate]);
+  }, [totalPages, dispatch]);
+  
+  // 5. useMemo for Title
+  const getTitle = useMemo(() => {
+      const { category, searchTerm, startDate } = state;
+      let titleText = '';
+      switch (category.toLowerCase()) {
+          case 'search': titleText = `Search Results: "${searchTerm}"`; break;
+          case 'apple': titleText = 'APPLE News'; break;
+          case 'tesla': titleText = 'TESLA News'; break;
+          case 'business': titleText = 'LATEST US BUSINESS HEADLINES'; break;
+          case 'technology': titleText = 'LATEST TECHNOLOGY HEADLINES'; break;
+          case 'sports': titleText = 'LATEST SPORTS HEADLINES'; break;
+          default: titleText = `Latest News - ${category.toUpperCase()}`;
+      }
 
+      if (startDate && (category === 'search' || category === 'apple' || category === 'tesla')) {
+        const displayDate = startDate.toLocaleDateString('en-GB', {day: 'numeric', month: 'long', year: 'numeric'});
+        if (category === 'search') {
+          titleText += ` on ${displayDate}`;
+        } else {
+          titleText = `News for ${category.toUpperCase()} on ${displayDate}`;
+        }
+      }
+      return titleText;
+  }, [state.category, state.searchTerm, state.startDate]);
+
+  const handlePopularImageError = useCallback((e) => {
+    e.currentTarget.src = 'https://placehold.co/65x65?text=Img';
+  }, []);
 
   return (
     <div className="app-container">
       <Header 
-        onCategoryChange={handleCategoryChange}
-        currentCategory={category}
-        onSearchSubmit={handleSearchSubmit}
         theme={theme}
         toggleTheme={toggleTheme}
+        // --- (BARU) Props untuk Auth ---
+        currentUser={currentUser}
+        onLogout={handleLogout}
+        onOpenAuthModal={() => setIsAuthModalOpen(true)}
       />
 
       <main>
-        <h1 className="main-title">{getTitle}</h1>
         <div className="news-layout-grid">
-          
-          {/* KOLOM ARTIKEL UTAMA */}
-          <section>
-            {error && <p className="error-message">Error: {error}</p>}
-            {loading && <p>Memuat artikel...</p>}
-            
-            {!loading && !error && (
-              articles.length > 0 ? (
-                <>
-                  <DataTable articles={articles} />
-                  
-                  {/* Pagination */}
-                  <div className="pagination-controls">
-                    <button 
-                      onClick={() => handlePageChange(currentPage - 1)} 
-                      disabled={currentPage <= 1}
-                    >
-                      Previous
-                    </button>
-                    <span>Page {currentPage} Of {totalPages}</span>
-                    <button 
-                      onClick={() => handlePageChange(currentPage + 1)} 
-                      disabled={currentPage >= totalPages}
-                    >
-                      Next
-                    </button>
-                  </div>
-                </>
-              ) : (
-                <p>Tidak ada artikel yang ditemukan untuk kategori atau pencarian ini.</p>
-              )
-            )}
+          <section className="featured-column">
+             <h1 className="main-title">
+               {getTitle}
+             </h1>
+
+              {loading && <p>Loading news...</p>}
+              {error && <p className="error-message">Error: {error}</p>}
+              
+              {
+                !loading && !error && (
+                  articles.length > 0 ? (
+                    <>
+                      <p>Total {totalResults} articles found.</p>
+                      <DataTable articles={articles} />
+                      
+                      <div className="pagination-controls">
+                        <button 
+                          onClick={() => handlePageChange(currentPage - 1)} 
+                          disabled={currentPage === 1}
+                        >
+                          Previous
+                        </button>
+                        <span>Page {currentPage} Of {totalPages}</span>
+                        <button 
+                          onClick={() => handlePageChange(currentPage + 1)} 
+                          disabled={currentPage >= totalPages}
+                        >
+                          Next
+                        </button>
+                      </div>
+                    </>
+                  ) : (
+                    <p>No articles found for this category or search.</p>
+                  )
+                )
+              }
           </section>
           
-          {/* SIDEBAR POPULAR POSTS */}
           <aside className="popular-column">
             <h2>POPULAR POSTS</h2>
             <div className="popular-list">
@@ -125,25 +157,34 @@ function App() {
                     className="popular-item"
                   >
                     <img 
-                        src={article.urlToImage || 'https://placehold.co/65x65?text=Image'} 
-                        alt={article.title || 'Popular article thumbnail'} 
-                        className="popular-image" 
+                      src={article.urlToImage || 'https://placehold.co/65x65?text=Img'}
+                      alt={article.title}
+                      className="popular-image"
+                      onError={handlePopularImageError}
                     />
                     <div className="popular-content">
-                        <h4 className="popular-title">{article.title}</h4>
-                        <span className="popular-source">{article.source.name}</span>
+                      <h4 className="popular-title">{article.title}</h4>
+                      <span className="popular-source">{article.source.name}</span>
                     </div>
                   </a>
                 ))
               ) : (
-                <p>Memuat popular posts...</p>
+                <p>Loading popular posts...</p>
               )}
             </div>
           </aside>
         </div>
       </main>
       
-      <Footer /> {/* <-- BARIS BARU: 5. Tambahkan Footer */}
+      <Footer />
+
+      {/* --- (BARU) Render Modal Auth --- */}
+      {isAuthModalOpen && (
+        <AuthModal 
+          onClose={() => setIsAuthModalOpen(false)}
+          onLoginSuccess={handleLoginSuccess}
+        />
+      )}
     </div>
   );
 }

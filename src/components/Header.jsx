@@ -1,18 +1,26 @@
 import { useState, useContext } from 'react';
 import SearchForm from './SearchForm';
-import '../components/Header.css';
 import { 
   HiOutlineSearch, 
   HiOutlineX, 
   HiOutlineMoon, 
-  HiOutlineSun 
+  HiOutlineSun,
+  // --- (BARU) Import Ikon Auth ---
+  HiOutlineUser,
+  HiOutlineLogout,
+  HiOutlineHeart
 } from 'react-icons/hi';
 import PropTypes from 'prop-types';
 import { NewsContext } from '../context/NewsContext';
+import '../components/Header.css';
 
 const Header = ({ 
   theme, 
   toggleTheme,
+  // --- (BARU) Props untuk Auth ---
+  currentUser,
+  onLogout,
+  onOpenAuthModal
 }) => {
   const { state, dispatch } = useContext(NewsContext);
   
@@ -27,7 +35,7 @@ const Header = ({
   const [isSearchVisible, setIsSearchVisible] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const handleClick = (param) => {
+  const handleClickCategory = (param) => {
     dispatch({ type: 'SET_CATEGORY', payload: param });
     setIsMobileMenuOpen(false); 
   };
@@ -35,6 +43,17 @@ const Header = ({
   const handleSearchToggle = () => {
     setIsSearchVisible(prev => !prev);
     setIsMobileMenuOpen(false);
+  };
+
+  // --- (BARU) Handler untuk Tombol Auth ---
+  const handleAuthClick = (e) => {
+    e.preventDefault();
+    if (currentUser) {
+        onLogout();
+    } else {
+        onOpenAuthModal();
+    }
+    setIsMobileMenuOpen(false); // Tutup menu mobile setelah diklik
   };
 
   return (
@@ -53,13 +72,39 @@ const Header = ({
                 <li key={index}>
                   <a 
                     href="#"
-                    onClick={() => handleClick(cat.param)}
+                    onClick={(e) => { e.preventDefault(); handleClickCategory(cat.param); }}
                     className={state.category === cat.param ? 'active' : ''}
                   >
                     {cat.name}
                   </a>
                 </li>
               ))}
+
+              {/* --- (BARU) Tombol Auth & Favorites untuk Mobile --- */}
+              <li className="mobile-only-menu">
+                <a href="#" onClick={handleAuthClick}>
+                  {currentUser ? (
+                    <>
+                      <HiOutlineLogout /> Logout ({currentUser})
+                    </>
+                  ) : (
+                    <>
+                      <HiOutlineUser /> Login / Register
+                    </>
+                  )}
+                </a>
+              </li>
+
+              {currentUser && (
+                <li className="mobile-only-menu">
+                  {/* TODO: Ganti onClick ini dengan fungsi 'buka halaman favorit' */}
+                  <a href="#" onClick={(e) => {e.preventDefault(); setIsMobileMenuOpen(false);}}> 
+                    <HiOutlineHeart /> My Favorites
+                  </a>
+                </li>
+              )}
+              {/* --- AKHIR MENU MOBILE BARU --- */}
+
             </ul>
           </nav>
 
@@ -68,15 +113,28 @@ const Header = ({
           )}
 
           <div className="utility-menu">
-            <a href="#" onClick={handleSearchToggle}>
+            <a href="#" onClick={(e) => { e.preventDefault(); handleSearchToggle(); }}>
               {isSearchVisible ? <HiOutlineX /> : <HiOutlineSearch />}
             </a>
             
-            <a href="#" onClick={toggleTheme} className="theme-toggle-button">
+            <a href="#" onClick={(e) => { e.preventDefault(); toggleTheme(); }} className="theme-toggle-button">
               {theme === 'light' ? <HiOutlineMoon /> : <HiOutlineSun />}
             </a>
+
+            {/* --- (BARU) Tombol Auth untuk Desktop --- */}
+            <a href="#" onClick={handleAuthClick} className="desktop-auth-button">
+              {currentUser ? (
+                <>
+                  <span className="desktop-username">{currentUser}</span>
+                  <HiOutlineLogout />
+                </>
+              ) : (
+                <HiOutlineUser />
+              )}
+            </a>
+            {/* --- AKHIR TOMBOL DESKTOP BARU --- */}
             
-            <a href="#" onClick={() => setIsMobileMenuOpen(prev => !prev)} className="burger-toggle">
+            <a href="#" onClick={(e) => { e.preventDefault(); setIsMobileMenuOpen(prev => !prev); }} className="burger-toggle">
               {isMobileMenuOpen ? <HiOutlineX /> : '☰'}
             </a>
           </div>
@@ -89,6 +147,10 @@ const Header = ({
 Header.propTypes = {
   theme: PropTypes.string.isRequired,
   toggleTheme: PropTypes.func.isRequired,
+  // --- (BARU) PropTypes untuk Auth ---
+  currentUser: PropTypes.string, // string (username) or null
+  onLogout: PropTypes.func.isRequired,
+  onOpenAuthModal: PropTypes.func.isRequired,
 };
 
 export default Header;
