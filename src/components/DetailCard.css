@@ -1,0 +1,64 @@
+/* --- DETAIL CARD STYLING --- */
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--card-bg-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.article-card:hover .card-content h3 {
+  color: var(--secondary-color);
+}
+
+.card-image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.card-content {
+  padding: 15px;
+  flex-grow: 1;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  font-size: 1.1em;
+  line-height: 1.4;
+  font-family: 'Merriweather', serif;
+  color: var(--text-color);
+  transition: color 0.2s;
+}
+
+.card-meta {
+  display: flex; 
+  justify-content: space-between;
+  font-size: 0.8em;
+  color: var(--text-color-light);
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-color);
+  flex-wrap: wrap; 
+  gap: 5px; 
+}
+
+.meta-date {
+  white-space: nowrap; 
+}

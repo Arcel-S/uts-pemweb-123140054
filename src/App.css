@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
+/* --- VARIABEL GLOBAL & THEME --- */
 :root {
   --primary-color: #007bff;
   --secondary-color: #d11f26; 
@@ -21,6 +22,7 @@ body[data-theme="dark"] {
   --border-color: #333;
   --border-color-darker: #444;
 }
+/* --- AKHIR THEME --- */
 
 @keyframes fadeIn {
   from {
@@ -70,103 +72,7 @@ h1.main-title {
     padding: 0 20px;
 }
 
-.top-bar {
-    background-color: var(--card-bg-color); 
-    border-bottom: 1px solid var(--border-color);
-    width: 100%; 
-    transition: background-color 0.2s;
-    position: relative;
-}
-
-.top-content-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: var(--max-width); 
-    margin: 0 auto;
-    padding: 15px 20px; 
-}
-
-.logo-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-right: 20px; 
-}
-
-.logo-section .logo {
-    font-size: 2.5rem; 
-    font-weight: 900;
-    color: var(--secondary-color); 
-}
-
-.logo-caption {
-    font-size: 0.7em;
-    color: var(--text-color-light);
-}
-
-.utility-menu {
-    display: flex;
-    align-items: center; 
-    gap: 15px; 
-    flex-shrink: 0; 
-}
-
-.utility-menu a {
-    color: var(--text-color);
-    text-decoration: none;
-    font-size: 1.2em;
-    display: flex;
-    align-items: center;
-}
-
-.burger-toggle {
-    display: none; 
-}
-
-
-.main-nav-single {
-    flex-grow: 1; 
-    display: flex;
-    justify-content: flex-start; 
-    margin-right: 20px; 
-    min-width: 100px; 
-    overflow: hidden; 
-}
-
-.category-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    overflow: hidden; 
-    white-space: nowrap;
-}
-
-.category-links li {
-    margin-right: 15px;
-}
-
-.category-links a {
-    color: var(--text-color);
-    text-decoration: none;
-    padding: 5px 0;
-    display: block;
-    font-weight: bold;
-    font-size: 0.9em;
-    transition: color 0.3s, border-bottom 0.3s;
-    text-transform: uppercase;
-}
-
-.category-links a:hover {
-    color: var(--primary-color);
-}
-
-.category-links a.active {
-    color: var(--secondary-color); 
-    border-bottom: 2px solid var(--secondary-color);
-}
-
+/* --- LAYOUT UTAMA (MAIN GRID) --- */
 .news-layout-grid {
     display: grid;
     grid-template-columns: 1fr 300px;
@@ -177,80 +83,7 @@ h1.main-title {
     padding: 0 20px; 
 }
 
-.popular-column {
-    background-color: var(--card-bg-color);
-    padding: 20px;
-    border-radius: 8px;
-    align-self: flex-start; 
-    transition: background-color 0.2s;
-}
-
-.popular-column h2 {
-    font-size: 1.2em;
-    color: var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color);
-    padding-bottom: 10px;
-}
-
-.popular-list {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.popular-item {
-  text-decoration: none;
-  color: var(--text-color);
-  padding-bottom: 10px;
-  border-bottom: 1px solid var(--border-color);
-  display: flex;
-  gap: 15px; 
-  align-items: flex-start;
-}
-
-.popular-item:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.popular-item:hover .popular-title {
-  color: var(--primary-color);
-}
-
-.popular-image {
-  width: 65px;
-  height: 65px;
-  object-fit: cover;
-  border-radius: 4px;
-  flex-shrink: 0; 
-  background-color: var(--bg-color);
-}
-
-.popular-content {
-  flex-grow: 1; 
-}
-
-.popular-title {
-  font-size: 0.9em;
-  font-weight: bold;
-  line-height: 1.4;
-  margin: 0 0 5px 0;
-  transition: color 0.2s;
-}
-
-.popular-source {
-  font-size: 0.8em;
-  color: var(--text-color-light);
-}
-
-.popular-placeholder {
-    padding: 15px;
-    background-color: var(--bg-color);
-    color: var(--text-color-light);
-    border-radius: 4px;
-    font-size: 0.9em;
-}
-
+/* --- PESAN UMUM & DATE PICKER GAYA VENDOR --- */
 .error-message {
   padding: 15px;
   background-color: #ffdddd;
@@ -258,25 +91,6 @@ h1.main-title {
   color: #cc0000;
   margin-top: 20px;
   border-radius: 4px;
-}
-
-.datepicker-container {
-}
-
-.datepicker-input {
-  padding: 8px 12px; 
-  font-size: 0.9em;  
-  border: 2px solid var(--border-color-darker);
-  border-radius: 4px;
-  outline: none;
-  transition: border-color 0.3s;
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  width: 150px; 
-}
-
-.datepicker-input:focus {
-  border-color: var(--text-color-light); 
 }
 
 .react-datepicker-popper[data-placement^="bottom"] {
@@ -297,80 +111,9 @@ h1.main-title {
 .react-datepicker__day:hover {
   background-color: #f0f0f0;
 }
+/* --- AKHIR PESAN UMUM --- */
 
-.article-list-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  margin-top: 30px;
-}
-
-.article-card {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--card-bg-color);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  text-decoration: none;
-  color: var(--text-color);
-  transition: transform 0.2s, background-color 0.2s;
-}
-
-.article-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.article-card:hover .card-content h3 {
-  color: var(--secondary-color);
-}
-
-.card-image-container {
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-}
-
-.card-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; 
-}
-
-.card-content {
-  padding: 15px;
-  flex-grow: 1;
-}
-
-.card-content h3 {
-  margin-top: 0;
-  font-size: 1.1em;
-  line-height: 1.4;
-  font-family: 'Merriweather', serif; 
-  color: var(--text-color);
-  transition: color 0.2s; 
-}
-
-.card-meta {
-  display: flex; 
-  justify-content: space-between;
-  font-size: 0.8em;
-  color: var(--text-color-light);
-  margin-top: 10px;
-  padding-top: 10px;
-  border-top: 1px solid var(--border-color);
-  flex-wrap: wrap; 
-  gap: 5px; 
-}
-
-.meta-source {
-}
-.meta-date {
-  white-space: nowrap; 
-}
-
-
+/* --- PAGINATION --- */
 .pagination-controls {
   display: flex;
   justify-content: center;
@@ -402,7 +145,9 @@ h1.main-title {
 .pagination-controls span {
   font-weight: bold;
 }
+/* --- AKHIR PAGINATION --- */
 
+/* --- RESPONSIVE LAYOUT UMUM --- */
 @media (max-width: 992px) {
     .news-layout-grid {
         grid-template-columns: 1fr;
@@ -411,63 +156,6 @@ h1.main-title {
 }
 
 @media (max-width: 768px) {
-    .top-content-wrapper {
-        flex-wrap: wrap; 
-        padding: 10px 10px;
-    }
-    
-    .logo-section {
-        flex-basis: 50%; 
-    }
-
-    .utility-menu {
-        flex-basis: 50%;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .burger-toggle {
-        display: flex; 
-    }
-
-    .main-nav-single {
-        display: none; 
-        
-        position: absolute;
-        top: 100%; 
-        left: 0;
-        width: 100%;
-        background-color: var(--card-bg-color);
-        border-bottom: 1px solid var(--border-color);
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        z-index: 100;
-    }
-    
-    .main-nav-single.mobile-open {
-        display: flex; 
-    }
-
-    .category-links {
-        flex-direction: column;
-        width: 100%;
-        overflow: visible;
-        white-space: normal;
-    }
-    
-    .category-links li {
-        margin-right: 0;
-        border-bottom: 1px solid var(--border-color);
-    }
-    
-    .category-links li:last-child {
-        border-bottom: none;
-    }
-
-    .category-links a {
-        padding: 15px 20px;
-        font-size: 1em;
-    }
-    
     main {
         padding: 0;
     }
@@ -480,186 +168,4 @@ h1.main-title {
         padding: 0 10px;
         font-size: 1.5em;
     }
-
-    .article-list-grid {
-      grid-template-columns: 1fr; 
-      gap: 20px;
-    }
-    
-    .datepicker-container {
-        order: 9; 
-        flex-basis: 100%;
-        margin-top: 10px;
-    }
-    .datepicker-input {
-        width: 100%; 
-    }
-    
-    .search-form.with-filters {
-      order: 10; 
-      flex-basis: 100%;
-      margin-top: 10px;
-      position: relative;
-      top: 0;
-      right: 0;
-      width: 100%;
-      box-shadow: none;
-      padding: 10px;
-      gap: 15px;
-    }
-    
-}
-
-.search-form.with-filters {
-  display: flex;
-  flex-direction: column; 
-  width: 340px;
-  background-color: var(--card-bg-color); 
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
-  position: absolute; 
-  top: 65px; 
-  right: 20px; 
-  z-index: 20; 
-  gap: 20px; 
-  animation: fadeIn 0.2s ease-out;
-}
-
-.search-bar-group {
-  display: flex;
-  width: 100%;
-}
-
-.search-form.with-filters .search-input {
-  flex-grow: 1;
-  border-radius: 4px 0 0 4px; 
-  border-right: none; 
-  width: 100%; 
-  padding: 8px 12px; 
-  font-size: 0.9em;  
-  border: 2px solid var(--border-color-darker);
-  outline: none;
-  transition: border-color 0.3s;
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
-.search-form.with-filters .search-input:focus {
-  border-color: var(--text-color-light); 
-}
-
-.search-form.with-filters .search-button {
-  border-radius: 0 4px 4px 0;
-  flex-shrink: 0; 
-  padding: 8px 12px; 
-  font-size: 1.2em; 
-  background-color: transparent; 
-  color: var(--text-color-light); 
-  border: 2px solid var(--border-color-darker);
-  border-left: none; 
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.search-form.with-filters .search-button:hover {
-  background-color: var(--border-color); 
-  color: var(--text-color);
-}
-
-
-.search-filters-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px; 
-  width: 100%;
-}
-
-.filter-group {
-  display: flex;
-  flex-direction: column;
-  gap: 8px; 
-}
-
-.filter-group label {
-  font-size: 0.85em;
-  font-weight: bold;
-  color: var(--text-color-light);
-  text-transform: uppercase;
-}
-
-.search-select,
-.search-datepicker-input {
-  width: 100%;
-  padding: 8px 10px;
-  font-size: 0.9em;
-  border: 2px solid var(--border-color-darker);
-  border-radius: 4px;
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  transition: border-color 0.2s;
-}
-
-.search-select:focus,
-.search-datepicker-input:focus {
-  outline: none;
-  border-color: var(--primary-color);
-}
-
-.filter-group-checkbox {
-  grid-column: 1 / -1;
-  flex-direction: row;
-  align-items: center;
-  background-color: var(--bg-color);
-  padding: 10px;
-  border-radius: 4px;
-  margin-top: 5px;
-}
-.filter-group-checkbox label {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: normal; 
-  text-transform: none;
-  color: var(--text-color);
-  width: 100%;
-  cursor: pointer;
-}
-
-.filter-group-radios {
-  grid-column: 1 / -1; 
-}
-.radio-options {
-  display: flex;
-  gap: 10px;
-  margin-top: 5px;
-}
-.radio-options label {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-weight: normal;
-  text-transform: none;
-  color: var(--text-color);
-  background-color: var(--bg-color);
-  padding: 8px 12px;
-  border-radius: 4px;
-  flex-grow: 1;
-  justify-content: center;
-  border: 2px solid var(--bg-color);
-  cursor: pointer;
-}
-
-.radio-options input[type="radio"]:checked + label {
-}
-
-.radio-options label:has(input[type="radio"]:checked) {
-   border-color: var(--primary-color);
-   color: var(--primary-color);
-   background-color: var(--card-bg-color);
-}
-
-.radio-options input[type="radio"] {
-  display: none;
 }

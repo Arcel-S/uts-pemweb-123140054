@@ -1,0 +1,164 @@
+/* --- SEARCH FORM STYLING --- */
+
+.search-form.with-filters {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  background-color: var(--card-bg-color); 
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  position: absolute; 
+  top: 65px; 
+  right: 20px; 
+  z-index: 20; 
+  gap: 20px;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.search-bar-group {
+  display: flex;
+  width: 100%;
+}
+
+.search-form.with-filters .search-input {
+  flex-grow: 1;
+  border-radius: 4px 0 0 4px; 
+  border-right: none;
+  width: 100%;
+  padding: 8px 12px; 
+  font-size: 0.9em;  
+  border: 2px solid var(--border-color-darker);
+  outline: none;
+  transition: border-color 0.3s;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+.search-form.with-filters .search-input:focus {
+  border-color: var(--text-color-light); 
+}
+
+.search-form.with-filters .search-button {
+  border-radius: 0 4px 4px 0;
+  flex-shrink: 0;
+  padding: 8px 12px; 
+  font-size: 1.2em; 
+  background-color: transparent; 
+  color: var(--text-color-light); 
+  border: 2px solid var(--border-color-darker);
+  border-left: none; 
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-form.with-filters .search-button:hover {
+  background-color: var(--border-color); 
+  color: var(--text-color);
+}
+
+.search-filters-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  width: 100%;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filter-group label {
+  font-size: 0.85em;
+  font-weight: bold;
+  color: var(--text-color-light);
+  text-transform: uppercase;
+}
+
+.search-select,
+.search-datepicker-input {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 0.9em;
+  border: 2px solid var(--border-color-darker);
+  border-radius: 4px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: border-color 0.2s;
+}
+
+.search-select:focus,
+.search-datepicker-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.filter-group-checkbox {
+  grid-column: 1 / -1;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--bg-color);
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+.filter-group-checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: normal; 
+  text-transform: none;
+  color: var(--text-color);
+  width: 100%;
+  cursor: pointer;
+}
+
+.filter-group-radios {
+  grid-column: 1 / -1;
+}
+.radio-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+.radio-options label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: normal;
+  text-transform: none;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  padding: 8px 12px;
+  border-radius: 4px;
+  flex-grow: 1;
+  justify-content: center;
+  border: 2px solid var(--bg-color);
+  cursor: pointer;
+}
+
+.radio-options label:has(input[type="radio"]:checked) {
+   border-color: var(--primary-color);
+   color: var(--primary-color);
+   background-color: var(--card-bg-color);
+}
+
+.radio-options input[type="radio"] {
+  display: none;
+}
+
+/* --- MOBILE RESPONSIVE --- */
+@media (max-width: 768px) {
+    .search-form.with-filters {
+      position: relative;
+      top: 0;
+      right: 0;
+      width: 100%;
+      box-shadow: none;
+      padding: 10px;
+      gap: 15px;
+    }
+}

@@ -1,5 +1,6 @@
 import { useState, useContext } from 'react';
 import SearchForm from './SearchForm';
+import '../components/Header.css';
 import { 
   HiOutlineSearch, 
   HiOutlineX, 

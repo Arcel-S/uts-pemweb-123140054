@@ -1,0 +1,160 @@
+/* --- HEADER STYLING --- */
+.main-header {
+    /* Gaya header utama */
+}
+
+.top-bar {
+    background-color: var(--card-bg-color); 
+    border-bottom: 1px solid var(--border-color);
+    width: 100%; 
+    transition: background-color 0.2s;
+    position: relative;
+}
+
+.top-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width); 
+    margin: 0 auto;
+    padding: 15px 20px; 
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px; 
+}
+
+.logo-section .logo {
+    font-size: 2.5rem; 
+    font-weight: 900;
+    color: var(--secondary-color); 
+}
+
+.logo-caption {
+    font-size: 0.7em;
+    color: var(--text-color-light);
+}
+
+.utility-menu {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+    flex-shrink: 0; 
+}
+
+.utility-menu a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.burger-toggle {
+    display: none; /* Sembunyikan di desktop */
+}
+
+
+.main-nav-single {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: flex-start; 
+    margin-right: 20px; 
+    min-width: 100px; 
+    overflow: hidden; 
+}
+
+.category-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    overflow: hidden; 
+    white-space: nowrap;
+}
+
+.category-links li {
+    margin-right: 15px;
+}
+
+.category-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: color 0.3s, border-bottom 0.3s;
+    text-transform: uppercase;
+}
+
+.category-links a:hover {
+    color: var(--primary-color);
+}
+
+.category-links a.active {
+    color: var(--secondary-color); 
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+/* --- MOBILE RESPONSIVE --- */
+@media (max-width: 768px) {
+    .top-content-wrapper {
+        flex-wrap: wrap; 
+        padding: 10px 10px;
+    }
+    
+    .logo-section {
+        flex-basis: 50%; 
+    }
+
+    .utility-menu {
+        flex-basis: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .burger-toggle {
+        display: flex; /* Tampilkan ikon burger di mobile */
+    }
+
+    .main-nav-single {
+        display: none; 
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--card-bg-color);
+        border-bottom: 1px solid var(--border-color);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        z-index: 100;
+    }
+    
+    .main-nav-single.mobile-open {
+        display: flex;
+    }
+
+    .category-links {
+        flex-direction: column;
+        width: 100%;
+        overflow: visible;
+        white-space: normal;
+    }
+    
+    .category-links li {
+        margin-right: 0;
+        border-bottom: 1px solid var(--border-color);
+    }
+    
+    .category-links li:last-child {
+        border-bottom: none;
+    }
+
+    .category-links a {
+        padding: 15px 20px;
+        font-size: 1em;
+    }
+}

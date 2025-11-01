@@ -3,6 +3,7 @@ import { HiOutlineSearch } from 'react-icons/hi';
 import DatePicker from 'react-datepicker';
 import { NewsContext } from '../context/NewsContext';
 import PropTypes from 'prop-types';
+import '../components/SearchForm.css';
 
 const SearchForm = ({ onSearchSubmit }) => {
   const { state, dispatch } = useContext(NewsContext);

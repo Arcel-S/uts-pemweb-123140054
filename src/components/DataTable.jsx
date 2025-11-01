@@ -1,5 +1,6 @@
 import DetailCard from './DetailCard';
 import PropTypes from 'prop-types';
+import '../components/DataTable.css';
 
 const DataTable = ({ articles }) => {
   return (

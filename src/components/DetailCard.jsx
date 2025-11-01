@@ -1,5 +1,6 @@
 import { formatDate } from '../utils/formatDate.js';
 import PropTypes from 'prop-types';
+import '../components/DetailCard.css';
 
 const DetailCard = ({ article }) => {
   const { urlToImage, title, source, publishedAt, url } = article;
