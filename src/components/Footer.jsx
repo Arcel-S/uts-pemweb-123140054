@@ -35,10 +35,10 @@ const Footer = () => {
 
                 {/* === KOLOM 2: TENTANG KAMI === */}
                 <div className="footer-section">
-                    <h4>Tentang Kami</h4>
+                    <h4>About Us</h4>
                     <p className="footer-description">
-                        <b>NEWSPORTAL.ID</b> adalah agregator berita independen yang didedikasikan 
-                        untuk menyajikan headline terbaru dari berbagai sumber global.
+                        <b>NEWSPORTAL.ID</b> is an independent news aggregator dedicated
+                        to delivering the latest headlines from various global sources.
                     </p>
                     <p className="footer-copyright">
                         &copy; {currentYear} NEWSPORTAL.ID by Marcel Kevin Togap Siagian - 123140054 
@@ -49,7 +49,7 @@ const Footer = () => {
 
                 {/* === KOLOM 3: KONTAK & SOSIAL MEDIA DUMMY === */}
                 <div className="footer-section">
-                    <h4>Hubungi Kami (Dummy Data)</h4>
+                    <h4>Contact Us</h4>
                     <ul className="footer-links">
                         <li><a href="mailto:contact@newsportal.id"><HiOutlineMail /> Email: contact@newsportal.id</a></li>
                         <li><a href="#"><HiOutlinePhone /> Phone: +62 812-3456-7890</a></li>
