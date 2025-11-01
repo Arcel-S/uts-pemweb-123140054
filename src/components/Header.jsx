@@ -5,7 +5,6 @@ import {
   HiOutlineX, 
   HiOutlineMoon, 
   HiOutlineSun,
-  // --- (BARU) Import Ikon Auth ---
   HiOutlineUser,
   HiOutlineLogout,
   HiOutlineHeart
@@ -17,10 +16,10 @@ import '../components/Header.css';
 const Header = ({ 
   theme, 
   toggleTheme,
-  // --- (BARU) Props untuk Auth ---
   currentUser,
   onLogout,
-  onOpenAuthModal
+  onOpenAuthModal,
+  favoritesCount
 }) => {
   const { state, dispatch } = useContext(NewsContext);
   
@@ -45,7 +44,6 @@ const Header = ({
     setIsMobileMenuOpen(false);
   };
 
-  // --- (BARU) Handler untuk Tombol Auth ---
   const handleAuthClick = (e) => {
     e.preventDefault();
     if (currentUser) {
@@ -53,7 +51,13 @@ const Header = ({
     } else {
         onOpenAuthModal();
     }
-    setIsMobileMenuOpen(false); // Tutup menu mobile setelah diklik
+    setIsMobileMenuOpen(false);
+  };
+
+  const handleShowFavorites = (e) => {
+    e.preventDefault();
+    dispatch({ type: 'SET_FAVORITES_VIEW', payload: favoritesCount });
+    setIsMobileMenuOpen(false);
   };
 
   return (
@@ -68,8 +72,9 @@ const Header = ({
           
           <nav className={`main-nav-single ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
             <ul className="category-links">
+              {/* Kategori (Sekarang berfungsi di Desktop & Mobile) */}
               {categories.map((cat, index) => (
-                <li key={index}>
+                <li key={index} className="category-link-item"> {/* <-- (FIX) Class diubah */}
                   <a 
                     href="#"
                     onClick={(e) => { e.preventDefault(); handleClickCategory(cat.param); }}
@@ -80,31 +85,31 @@ const Header = ({
                 </li>
               ))}
 
-              {/* --- (BARU) Tombol Auth & Favorites untuk Mobile --- */}
+              {/* Garis Pemisah (Hanya tampil di Mobile) */}
+              <li className="mobile-only-separator" aria-hidden="true"></li>
+
+              {/* Menu Khusus Mobile (Login & Favorites) */}
               <li className="mobile-only-menu">
                 <a href="#" onClick={handleAuthClick}>
                   {currentUser ? (
-                    <>
-                      <HiOutlineLogout /> Logout ({currentUser})
-                    </>
+                    <><HiOutlineLogout /> Logout ({currentUser})</>
                   ) : (
-                    <>
-                      <HiOutlineUser /> Login / Register
-                    </>
+                    <><HiOutlineUser /> Login / Register</>
                   )}
                 </a>
               </li>
 
               {currentUser && (
                 <li className="mobile-only-menu">
-                  {/* TODO: Ganti onClick ini dengan fungsi 'buka halaman favorit' */}
-                  <a href="#" onClick={(e) => {e.preventDefault(); setIsMobileMenuOpen(false);}}> 
-                    <HiOutlineHeart /> My Favorites
+                  <a 
+                    href="#" 
+                    onClick={handleShowFavorites}
+                    className={state.category === 'favorites' ? 'active-favorite' : ''}
+                  > 
+                    <HiOutlineHeart /> My Favorites ({favoritesCount})
                   </a>
                 </li>
               )}
-              {/* --- AKHIR MENU MOBILE BARU --- */}
-
             </ul>
           </nav>
 
@@ -120,19 +125,26 @@ const Header = ({
             <a href="#" onClick={(e) => { e.preventDefault(); toggleTheme(); }} className="theme-toggle-button">
               {theme === 'light' ? <HiOutlineMoon /> : <HiOutlineSun />}
             </a>
-
-            {/* --- (BARU) Tombol Auth untuk Desktop --- */}
+            
             <a href="#" onClick={handleAuthClick} className="desktop-auth-button">
               {currentUser ? (
-                <>
-                  <span className="desktop-username">{currentUser}</span>
-                  <HiOutlineLogout />
-                </>
+                <><span className="desktop-username">{currentUser}</span><HiOutlineLogout /></>
               ) : (
                 <HiOutlineUser />
               )}
             </a>
-            {/* --- AKHIR TOMBOL DESKTOP BARU --- */}
+
+            {currentUser && (
+              <a 
+                href="#" 
+                onClick={handleShowFavorites} 
+                className={`desktop-favorites-button ${state.category === 'favorites' ? 'active-favorite-desktop' : ''}`}
+                title="My Favorites"
+              >
+                <HiOutlineHeart />
+                {favoritesCount > 0 && <span className="favorite-count">{favoritesCount}</span>}
+              </a>
+            )}
             
             <a href="#" onClick={(e) => { e.preventDefault(); setIsMobileMenuOpen(prev => !prev); }} className="burger-toggle">
               {isMobileMenuOpen ? <HiOutlineX /> : '☰'}
@@ -147,10 +159,10 @@ const Header = ({
 Header.propTypes = {
   theme: PropTypes.string.isRequired,
   toggleTheme: PropTypes.func.isRequired,
-  // --- (BARU) PropTypes untuk Auth ---
-  currentUser: PropTypes.string, // string (username) or null
+  currentUser: PropTypes.string,
   onLogout: PropTypes.func.isRequired,
   onOpenAuthModal: PropTypes.func.isRequired,
+  favoritesCount: PropTypes.number.isRequired,
 };
 
 export default Header;

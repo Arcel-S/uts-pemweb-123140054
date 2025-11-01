@@ -53,10 +53,10 @@
     align-items: center;
 }
 
+/* --- TAMPILAN DESKTOP (DEFAULT) --- */
 .burger-toggle {
-    display: none; /* Sembunyikan di desktop */
+    display: none; /* Sembunyikan burger di desktop */
 }
-
 
 .main-nav-single {
     flex-grow: 1; 
@@ -71,14 +71,16 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
+    display: flex; /* Kategori horizontal */
     overflow: hidden; 
     white-space: nowrap;
 }
 
-.category-links li {
+.category-links li.category-link-item { /* <-- (FIX) Ubah selector */
     margin-right: 15px;
 }
+/* --- AKHIR TAMPILAN DESKTOP --- */
+
 
 .category-links a {
     color: var(--text-color);
@@ -97,8 +99,59 @@
 
 .category-links a.active {
     color: var(--secondary-color); 
-    border-bottom: 2px solid var(--secondary-color);
 }
+
+/* --- AUTH & FAVORITES MENU STYLING --- */
+
+/* Sembunyikan tombol mobile di desktop */
+.mobile-only-menu {
+    display: none;
+}
+.mobile-only-separator { /* <-- (BARU) Sembunyikan separator di desktop */
+    display: none;
+}
+.mobile-only-menu a.active-favorite {
+    color: var(--secondary-color) !important;
+    font-weight: bold !important;
+}
+
+/* Style tombol auth desktop */
+.desktop-auth-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.desktop-username {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+/* STYLE UNTUK TOMBOL FAVORITES DESKTOP */
+.desktop-favorites-button {
+    display: flex; 
+    align-items: center;
+    position: relative; /* Untuk bubble angka */
+}
+.desktop-favorites-button.active-favorite-desktop {
+    color: var(--secondary-color);
+}
+.favorite-count {
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 0.6em;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* --- MOBILE RESPONSIVE --- */
 @media (max-width: 768px) {
@@ -108,12 +161,17 @@
     }
     
     .logo-section {
-        flex-basis: 50%; 
+        flex-basis: auto; 
+    }
+    .logo-section .logo {
+        font-size: 1.8rem; /* Perkecil logo di mobile */
+    }
+    .logo-caption {
+        font-size: 0.6em; 
     }
 
     .utility-menu {
-        flex-basis: 50%;
-        display: flex;
+        flex-basis: auto; 
         justify-content: flex-end;
     }
 
@@ -121,6 +179,7 @@
         display: flex; /* Tampilkan ikon burger di mobile */
     }
 
+    /* Sembunyikan nav desktop di mobile */
     .main-nav-single {
         display: none; 
         position: absolute;
@@ -138,13 +197,19 @@
     }
 
     .category-links {
-        flex-direction: column;
+        flex-direction: column; /* Tumpuk semua link di mobile */
         width: 100%;
         overflow: visible;
         white-space: normal;
     }
     
     .category-links li {
+        margin-right: 0;
+        border-bottom: 1px solid var(--border-color);
+    }
+    
+    /* (FIX) Hapus aturan display:none yang salah */
+    .category-links li.category-link-item { 
         margin-right: 0;
         border-bottom: 1px solid var(--border-color);
     }
@@ -157,27 +222,16 @@
         padding: 15px 20px;
         font-size: 1em;
     }
-}
-
-.mobile-only-menu {
-    display: none;
-}
-.desktop-auth-button {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-.desktop-username {
-    font-size: 0.8em;
-    font-weight: bold;
-    color: var(--text-color);
-}
-
-/* --- MOBILE RESPONSIVE (Modifikasi) --- */
-@media (max-width: 768px) {
+    
     /* Tampilkan tombol mobile di dropdown */
     .mobile-only-menu {
         display: block;
+    }
+    .mobile-only-separator { /* <-- (BARU) Tampilkan separator di mobile */
+        display: block;
+        height: 1px;
+        background-color: var(--border-color);
+        margin: 5px 0;
         border-bottom: 1px solid var(--border-color);
     }
     
@@ -185,21 +239,24 @@
         display: flex;
         align-items: center;
         gap: 10px;
-        padding: 15px 20px !important; /* Paksa padding */
-        font-size: 1em !important; /* Paksa font size */
-        font-weight: normal !important; /* Reset font weight */
-        text-transform: none !important; /* Reset text transform */
-        color: var(--text-color) !important; /* Paksa warna */
-        border-bottom: none !important; /* Hapus border */
+        padding: 15px 20px !important;
+        font-size: 1em !important;
+        font-weight: normal !important;
+        text-transform: none !important;
+        color: var(--text-color) !important;
+        border-bottom: none !important;
     }
     
     .mobile-only-menu a:hover {
         background-color: var(--bg-color);
         color: var(--primary-color) !important;
     }
-    
-    /* Sembunyikan tombol auth desktop di mobile */
+
+    /* Sembunyikan tombol auth & favorites desktop di mobile */
     .desktop-auth-button {
         display: none;
+    }
+    .desktop-favorites-button {
+        display: none; 
     }
 }

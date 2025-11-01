@@ -7,9 +7,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import { NewsContext } from './context/NewsContext';
 import { useLocalStorage } from './hooks/useLocalStorage';
 
-// --- (BARU) Import untuk Auth ---
-// Pastikan path dan nama file (authUtils.js) sesuai
-import { getCurrentUser, logoutUser } from './utils/authUtils.js'; 
+import { getCurrentUser, logoutUser, getFavorites, updateFavorites } from './utils/authUtils.js'; 
 import AuthModal from './components/AuthModal';
 
 function App() {
@@ -32,27 +30,57 @@ function App() {
     loading, 
     error, 
     popularArticles,
+    popularError, // <-- (BARU) Ambil state error popular
     totalResults, 
     currentPage, 
     pageSize 
   } = state;
 
   
-  // --- (BARU) 3. Authentication State ---
-  const [currentUser, setCurrentUser] = useState(getCurrentUser()); // Cek user di localStorage
-  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false); // State Modal
+  // 3. Authentication & Favorites State
+  const [currentUser, setCurrentUser] = useState(getCurrentUser());
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
+  const [favorites, setFavorites] = useState([]);
 
-  // Callback ini dikirim ke AuthModal
   const handleLoginSuccess = useCallback((username) => {
     setCurrentUser(username);
+    setFavorites(getFavorites(username));
   }, []);
 
-  // Callback ini dikirim ke Header
+  useEffect(() => {
+    if (currentUser) {
+      setFavorites(getFavorites(currentUser));
+    }
+  }, [currentUser]);
+
   const handleLogout = useCallback(() => {
     logoutUser();
     setCurrentUser(null);
-  }, []);
-  // --- AKHIR AUTHENTICATION STATE ---
+    setFavorites([]);
+    dispatch({ type: 'SET_CATEGORY', payload: 'business' });
+  }, [dispatch]);
+
+  const toggleFavorite = useCallback((article) => {
+    if (!currentUser) return; 
+
+    const isFavorited = favorites.some(fav => fav.url === article.url);
+    let newFavorites;
+
+    if (isFavorited) {
+      newFavorites = favorites.filter(fav => fav.url !== article.url);
+    } else {
+      const newFavoriteItem = {
+        title: article.title,
+        url: article.url,
+        urlToImage: article.urlToImage,
+        source: { name: article.source.name },
+        publishedAt: article.publishedAt
+      };
+      newFavorites = [...favorites, newFavoriteItem];
+    }
+    setFavorites(newFavorites);
+    updateFavorites(currentUser, newFavorites);
+  }, [currentUser, favorites]);
 
 
   // 4. Derived State and Handlers
@@ -67,6 +95,10 @@ function App() {
   // 5. useMemo for Title
   const getTitle = useMemo(() => {
       const { category, searchTerm, startDate } = state;
+
+      if (category === 'favorites') {
+        return 'My Favorite Articles';
+      }
       let titleText = '';
       switch (category.toLowerCase()) {
           case 'search': titleText = `Search Results: "${searchTerm}"`; break;
@@ -77,7 +109,6 @@ function App() {
           case 'sports': titleText = 'LATEST SPORTS HEADLINES'; break;
           default: titleText = `Latest News - ${category.toUpperCase()}`;
       }
-
       if (startDate && (category === 'search' || category === 'apple' || category === 'tesla')) {
         const displayDate = startDate.toLocaleDateString('en-GB', {day: 'numeric', month: 'long', year: 'numeric'});
         if (category === 'search') {
@@ -93,15 +124,18 @@ function App() {
     e.currentTarget.src = 'https://placehold.co/65x65?text=Img';
   }, []);
 
+  const articlesToDisplay = state.category === 'favorites' ? favorites : articles;
+  const resultsToDisplay = state.category === 'favorites' ? favorites.length : totalResults;
+
   return (
     <div className="app-container">
       <Header 
         theme={theme}
         toggleTheme={toggleTheme}
-        // --- (BARU) Props untuk Auth ---
         currentUser={currentUser}
         onLogout={handleLogout}
         onOpenAuthModal={() => setIsAuthModalOpen(true)}
+        favoritesCount={favorites.length}
       />
 
       <main>
@@ -111,34 +145,41 @@ function App() {
                {getTitle}
              </h1>
 
-              {loading && <p>Loading news...</p>}
+              {loading && state.category !== 'favorites' && <p>Loading news...</p>}
               {error && <p className="error-message">Error: {error}</p>}
               
               {
-                !loading && !error && (
-                  articles.length > 0 ? (
+                (!loading || state.category === 'favorites') && !error && (
+                  articlesToDisplay.length > 0 ? (
                     <>
-                      <p>Total {totalResults} articles found.</p>
-                      <DataTable articles={articles} />
+                      <p>Total {resultsToDisplay} articles found.</p>
+                      <DataTable 
+                        articles={articlesToDisplay} 
+                        currentUser={currentUser}
+                        favorites={favorites}
+                        toggleFavorite={toggleFavorite}
+                      />
                       
-                      <div className="pagination-controls">
-                        <button 
-                          onClick={() => handlePageChange(currentPage - 1)} 
-                          disabled={currentPage === 1}
-                        >
-                          Previous
-                        </button>
-                        <span>Page {currentPage} Of {totalPages}</span>
-                        <button 
-                          onClick={() => handlePageChange(currentPage + 1)} 
-                          disabled={currentPage >= totalPages}
-                        >
-                          Next
-                        </button>
-                      </div>
+                      {state.category !== 'favorites' && (
+                        <div className="pagination-controls">
+                          <button 
+                            onClick={() => handlePageChange(currentPage - 1)} 
+                            disabled={currentPage === 1}
+                          >
+                            Previous
+                          </button>
+                          <span>Page {currentPage} Of {totalPages}</span>
+                          <button 
+                            onClick={() => handlePageChange(currentPage + 1)} 
+                            disabled={currentPage >= totalPages}
+                          >
+                            Next
+                          </button>
+                        </div>
+                      )}
                     </>
                   ) : (
-                    <p>No articles found for this category or search.</p>
+                    <p>{state.category === 'favorites' ? 'You have no favorite articles yet.' : 'No articles found for this category or search.'}</p>
                   )
                 )
               }
@@ -147,7 +188,10 @@ function App() {
           <aside className="popular-column">
             <h2>POPULAR POSTS</h2>
             <div className="popular-list">
-              {popularArticles.length > 0 ? (
+              {/* --- (BARU) Logika Error Handling Sidebar --- */}
+              {popularError && <p className="error-message">{popularError}</p>}
+              
+              {!popularError && popularArticles.length > 0 ? (
                 popularArticles.map((article, index) => (
                   <a 
                     href={article.url} 
@@ -169,7 +213,8 @@ function App() {
                   </a>
                 ))
               ) : (
-                <p>Loading popular posts...</p>
+                // Hanya tampilkan loading jika tidak ada error
+                !popularError && <p>Loading popular posts...</p>
               )}
             </div>
           </aside>
@@ -178,7 +223,6 @@ function App() {
       
       <Footer />
 
-      {/* --- (BARU) Render Modal Auth --- */}
       {isAuthModalOpen && (
         <AuthModal 
           onClose={() => setIsAuthModalOpen(false)}
