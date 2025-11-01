@@ -1,0 +1,105 @@
+/* --- FOOTER STYLING --- */
+.main-footer {
+    background-color: var(--card-bg-color);
+    border-top: 2px solid var(--border-color);
+    padding: 40px 20px; /* Tambah padding */
+    color: var(--text-color-light);
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    /* --- CSS GRID UNTUK LAYOUT 3 KOLOM --- */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Default 3 kolom */
+    gap: 30px;
+    text-align: left; /* Kembalikan teks ke kiri */
+}
+
+/* --- KOLOM KIRI: LOGO & IDENTITY --- */
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+    display: block;
+}
+
+.footer-tagline {
+    font-size: 0.8em;
+    color: var(--text-color-light);
+    margin-bottom: 10px;
+}
+
+.footer-copyright {
+    font-size: 0.75em;
+    margin-top: 20px;
+    line-height: 1.4;
+}
+
+/* --- JUDUL SEKSI --- */
+.footer-section h4 {
+    color: var(--text-color);
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--secondary-color); /* Aksen garis merah */
+    padding-bottom: 5px;
+}
+
+/* --- LIST LINKS (KANAN) --- */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-links a {
+    color: var(--text-color-light);
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: var(--primary-color);
+}
+
+/* --- RESPONSIVE MOBILE --- */
+@media (max-width: 768px) {
+    .main-footer {
+        padding: 20px 10px;
+    }
+    
+    .footer-content {
+        /* Ubah menjadi 1 kolom tumpuk di mobile */
+        grid-template-columns: 1fr; 
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .footer-links {
+        align-items: center;
+    }
+    
+    .footer-section h4 {
+        text-align: center;
+        width: 150px; /* Batasi lebar garis bawah */
+        margin: 0 auto 15px auto;
+        padding-bottom: 5px;
+    }
+    
+    .footer-logo {
+        text-align: center;
+    }
+}
