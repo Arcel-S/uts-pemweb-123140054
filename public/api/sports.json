@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "totalResults": 5,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "NBCSports.com"
+      },
+      "author": "Mike Florio",
+      "title": "Amid YouTube TV dispute, ESPN scrambles to gather College GameDay audience - NBC Sports",
+      "description": "If you're one of the millions of YouTube TV customers who had hoped to watch ESPN's College GameDay this morning, you're SOL.",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/amid-youtube-tv-dispute-espn-scrambles-to-gather-college-gameday-audience",
+      "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/eaa3733/2147483647/strip/true/crop/4456x2507+0+418/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fcd%2F59%2F439f23dc4676a28ab1e1e43ac8ea%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F1684406812",
+      "publishedAt": "2025-11-01T13:09:25Z",
+      "content": "If youre one of the millions of YouTube TV customers who had hoped to watch ESPNs College GameDay this morning, youre SOL.\r\nThe dispute between Google and Disney continues, which keeps ESPN, ABC, and… [+634 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Post"
+      },
+      "author": "Shane Galvin",
+      "title": "Rapper D4vd, whose Tesla trunk contained the body of teen girl, had ‘farm’ tools in his LA mansion: investigation",
+      "description": "Private investigator Steve Fisher shocking discoveries while investigating the activities of D4vd at his Los Angeles mansion.",
+      "url": "https://nypost.com/2025/11/01/us-news/rapper-d4vd-whose-tesla-trunk-contained-the-body-of-teen-girl-had-farm-tools-in-his-la-mansion-investigation/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2025/10/114503868.jpg?quality=75&strip=all&w=1200",
+      "publishedAt": "2025-11-01T12:15:00Z",
+      "content": "A private detective investigating the rental home of rapper D4vd claims to have discovered “farm” tools in the $20,000-a-month Los Angeles mansion which the musician fled after a 15-year-old girl was… [+3386 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The-independent.com"
+      },
+      "author": "Sean O'Grady",
+      "title": "Volkswagen Passat: Practical perfection",
+      "description": "The Passat estate returns as a plug-in hybrid that’s spacious, steady and reassuringly understated – a car for grown-ups, finds Sean O’Grady",
+      "url": "https://www.the-independent.com/life-style/motoring/volkswagen-passat-practical-perfection-b2855602.html",
+      "urlToImage": "https://static.the-independent.com/2025/10/30/18/54/Volkswagen-Passat.jpeg?trim=135,0,137,0&width=1200&height=800&crop=1200:800",
+      "publishedAt": "2025-11-01T06:00:00Z",
+      "content": "Your support helps us to tell the story\r\nFrom reproductive rights to climate change to Big Tech, The Independent is on the ground when the story is developing. Whether it's investigating the financia… [+5262 chars]"
+    }
+  ]
+}

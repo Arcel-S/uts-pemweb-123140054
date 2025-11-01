@@ -1,0 +1,291 @@
+{
+  "status": "ok",
+  "totalResults": 23,
+  "articles": [
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Nicholas G. Miller",
+      "title": "Newell Brands Cuts Outlook After Consumers Resist Price Hikes",
+      "description": "The maker of Yankee Candle and Sharpie saw third-quarter sales fall 7.2% to $1.81 billion after increasing prices to offset tariffs.",
+      "url": "https://www.wsj.com/business/earnings/newell-brands-cuts-outlook-as-tariffs-raise-costs-12bd10df",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/qkWfqzujtgrDBjFqhYWumw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/4ab0c29e659a40058537cd05c7c3ceb3",
+      "publishedAt": "2025-10-31T14:21:00Z",
+      "content": "The company now expects full-year net sales to be down 4.5% to 5%, a change from its previous prediction of a 2% to 3% decline. - andrew kelly/Reuters\r\nNewell Brandss price hikes drew resistance from… [+2894 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Nicholas G. Miller",
+      "title": "Chevron Profit Falls on Lower Oil Prices",
+      "description": "Chevron said its third-quarter profit fell, citing lower crude oil prices and expenses from its acquisition of Hess.",
+      "url": "https://www.wsj.com/business/earnings/chevron-profit-falls-on-lower-oil-prices-6d8c5ac3",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/VeVjpKquWnGlAY0Vx012ew--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/872af6b8f379b08616fb352b73b815c4",
+      "publishedAt": "2025-10-31T10:28:00Z",
+      "content": "Chevron said its third-quarter profit fell, citing lower crude oil prices and expenses from its acquisition of Hess. - brian snyder/Reuters\r\nChevron said its third-quarter profit fell, citing lower c… [+1230 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Corrie Driebusch",
+      "title": "Software Firm Tests IPO Waters During Shutdown",
+      "description": "Navan will be the first large company to debut without a fully functioning Securities and Exchange Commission.",
+      "url": "https://www.wsj.com/finance/stocks/software-firm-tests-ipo-waters-during-shutdown-19aad64d",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/FOFu1ONUXlqdsV0B6MW6pw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/0fa77c67e8eed9f71904dbccd71d58f2",
+      "publishedAt": "2025-10-30T11:00:00Z",
+      "content": "- Emil Lendof/WSJ\r\nSoftware company Navan plans to make its stock-market debut Thursday despite a government shutdown that has stalled other new listings.\r\nNavan priced its offering at $25 a share, v… [+2235 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Connor Hart",
+      "title": "Verizon Profit, Revenue Rise but Postpaid Phone Losses Continue",
+      "description": "Verizon Communications logged higher profit and revenue in the third quarter, but the company lost lucrative postpaid phone customers in its consumer...",
+      "url": "https://www.wsj.com/business/earnings/verizon-backs-outlook-as-profit-revenue-rise-f92e4a6c",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/xMVHp5E8FLYhAJvZPeHLPQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/cad7caa83e722c4ffe8e627c2731766e",
+      "publishedAt": "2025-10-29T12:27:00Z",
+      "content": "Verizon Communications logged higher third-quarter profit and revenue, and the company said it is still on course to meet its yearly goals. - Justin Sullivan/Getty Images\r\nVerizon Communications logg… [+1896 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Drew FitzGerald",
+      "title": "Boeing Books Nearly $5 Billion Charge for 777X Delays",
+      "description": "The company pushed back the first delivery of its new 777X model to 2027, citing regulatory hangups.",
+      "url": "https://www.wsj.com/business/airlines/boeing-ba-q3-earnings-report-stock-2025-af9355c7",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/A6HWhFdHki97vw7oCA3xCQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/26044ae8601e278b6becaef034d8ba94",
+      "publishedAt": "2025-10-29T12:17:00Z",
+      "content": "Boeing said revenue rose 30% in the latest quarter. - patrick t. fallon/Agence France-Presse/Getty Images\r\nBoeing said it is making more of its workhorse 737 MAX jets with fewer restrictionsdespite s… [+3378 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Anna Wilde Mathews",
+      "title": "UnitedHealth Revenue Rises as Turnaround Efforts Continue",
+      "description": "The healthcare giant reported revenue rose more than 10%, and its CEO said he was confident of solid earnings growth next year.",
+      "url": "https://www.wsj.com/business/earnings/unitedhealth-revenue-rises-as-turnaround-efforts-continue-c66c3d8d",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/..A30znoQu0PAN9aZPHNcQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/a86f591ddc9a674338dfb5123f8d553f",
+      "publishedAt": "2025-10-28T14:29:00Z",
+      "content": "For the third quarter, UnitedHealth reported adjusted earnings per share of $2.92, down from $7.15 a year earlier. - Michael Nagle/Bloomberg News\r\nUnitedHealth Group said it was making progress on th… [+2315 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Connor Hart",
+      "title": "Booz Allen Cuts Outlook as Government Funding Stalls",
+      "description": "Booz Allen slashed its outlook for the year as it faces a prolonged and severe slowdown in government contract funding, particularly in its civil sector.",
+      "url": "https://www.wsj.com/business/earnings/booz-allen-cuts-outlook-as-quarterly-profit-revenue-fall-3791a812",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/RzvHx4YMPAv6QJdneszQrQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/c42fbc2e07d13bb5a6d6ff92cd87863c",
+      "publishedAt": "2025-10-24T15:42:00Z",
+      "content": "For its three months ended Sept. 30, Booz Allen reported a profit of $175 million, or $1.42 a share. Stripping out certain one-time items, adjusted earnings were $1.49 a share. - Jason C. Andrew/Bloo… [+3082 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Nicholas G. Miller and Kelly Cloonan",
+      "title": "Procter & Gamble to Focus on Innovation, Not Discounts, to Attract Wary Shoppers",
+      "description": "Procter Gamble’s sales grew in the first quarter and the consumer products company expects a milder effect from tariffs this fiscal year.",
+      "url": "https://www.wsj.com/business/retail/procter-gamble-sales-rise-sees-tariff-risk-lower-for-fy26-3e27e439",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/3haptpQDjjqAUseN61vsoQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/55f7c3c06447cbc778e733337df386c6",
+      "publishedAt": "2025-10-24T15:33:00Z",
+      "content": "Organic sales edged up 2% due to higher pricing and a more favorable mix, with growth in the companys beauty, grooming and healthcare segments. - Justin Sullivan/Getty Images\r\nProcter &amp; Gamble re… [+3924 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Adrià Calatayud",
+      "title": "UBS Names New Chief Operating Officer in Executive Team Reshuffle",
+      "description": "Lukas Gaehwiler, vice chairman of UBS’s board since 2022, will retire following next year’s annual general meeting after a 45-year career in the sector.",
+      "url": "https://www.wsj.com/business/c-suite/ubs-names-new-chief-operating-officer-in-executive-team-reshuffle-43c6a52b",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/meJTjGhnCgFyfBGI88r5aw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/da6f6066fe96d3b403a089a8621ac6c1",
+      "publishedAt": "2025-10-24T06:42:00Z",
+      "content": "UBS said it remains on track to complete the Credit Suisse integration by the end of 2026. - denis balibouse/Reuters\r\nUBS Group named Beatriz Martin, head of noncore assets, new chief operating offic… [+1865 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Nicholas G. Miller",
+      "title": "Cleveland-Cliffs Gets Steel-Tariff Boost, Looks to Rare-Earth Minerals",
+      "description": "Cleveland-Cliffs reported rising demand for its steel in the third quarter, and said it will explore producing rare-earth minerals, as the Trump...",
+      "url": "https://www.wsj.com/business/earnings/cleveland-cliffs-revenue-rises-boosted-by-steel-tariffs-11ed6b04",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/Ni0nkvPl.3VU9NtaGzQPJQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/d75735d08a0d8055064c3d5522668c2d",
+      "publishedAt": "2025-10-20T14:07:00Z",
+      "content": "Cleveland-Cliffs posted higher third-quarter revenue and said demand for U.S.-produced steel was rising due to the Trump administrations tariffs. - Emily Rose Bennett for The Wall Street Journal\r\nCle… [+3377 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Alexander Saeedy",
+      "title": "Strong U.S. Economy Powers Bank of America Profit Higher",
+      "description": "The bank’s quarterly profit rose 23%, with consumer spending up and investment banking results booming.",
+      "url": "https://www.wsj.com/finance/banking/bank-of-america-bac-q3-earnings-report-stock-2025-6af3d29d",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/1qGlConlP9DwLdMvVCmTbw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/bcfd416e08d9e932b2bd73664756f7e2",
+      "publishedAt": "2025-10-15T12:40:00Z",
+      "content": "Bank of America posted record-high net interest income, the profit it makes from lending. - Seeger Gray/WSJ\r\nBank of America reported third-quarter earnings and revenue that bested analysts expectati… [+3234 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Dow Jones Newswires Staff",
+      "title": "Global Markets Up After Powell Signals New Rate Cuts",
+      "description": "Stock futures for the S 500 rose early following a volatile previous session marked by mixed rhetoric from the U.S. and China over trade.",
+      "url": "https://www.wsj.com/finance/global-markets-up-after-powell-signals-new-rate-cuts-501472b8",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/vFq6aaxTWyOStav5kKW0Xw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/96d6017d2c1da1e6f112ad71deda873e",
+      "publishedAt": "2025-10-15T08:25:00Z",
+      "content": "Federal Reserve Chair Jerome Powell signaled that an interest rate cut is coming at its meeting later this month. - Chip Somodevilla/Getty Images\r\nGlobal stock markets and U.S. stock futures rose ear… [+3189 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Jack Pitcher",
+      "title": "BlackRock’s Assets Hit Record $13.5 Trillion After Market Rally, Dealmaking Spree",
+      "description": "The investment manager’s base fees rose at an annualized rate of 10% in third quarter.",
+      "url": "https://www.wsj.com/finance/investing/blackrocks-assets-hit-record-13-5-trillion-after-market-rally-dealmaking-spree-b0cce2ca",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/WqWRvOzv3.77NdAWRcN6ZQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/02f4096e7c1a7f14a5bd6f33590e1670",
+      "publishedAt": "2025-10-14T20:14:00Z",
+      "content": "BlackRocks fee growth was driven by investors insatiable appetite for exchange-traded funds. - Bing Guan/Bloomberg News\r\nThe worlds biggest money manager just shattered its own record.\r\nBlackRock end… [+3025 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "AnnaMaria Andriotis",
+      "title": "Goldman Sachs Profit Surges, Fueled by Dealmaking Boom",
+      "description": "Investment banking revenue jumped 42% and results beat expectations, but the bank still plans job cuts.",
+      "url": "https://www.wsj.com/business/earnings/goldman-sachs-gs-q3-earnings-report-stock-2025-1f1ac185",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/lFKu6zK4vwUyVZh3BC0EtA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/b1a2a08a75950c4c7cd3b4a205c71995",
+      "publishedAt": "2025-10-14T15:02:00Z",
+      "content": "Goldman Sachs building in New York - John Taggart for WSJ\r\nGoldman Sachs reported a stronger-than-expected profit in the third quarter, with the bank now on pace for its best year ever in its main in… [+3241 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Alexander Gladstone and Margot Patrick",
+      "title": "First Brands Boss Resigns and Jefferies Seeks to Calm Its Investors",
+      "description": "The Wall Street firm sought to reassure investors it can absorb any potential losses related to the First Brands bankruptcy, after its shares fell 18% last...",
+      "url": "https://www.wsj.com/finance/jefferies-seeks-to-calm-worries-over-first-brands-cc41acab",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/LfRCb5hcDB1GdkHKLHmkzA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/03d4ef4c899b223c78c56e7a6b10ce8b",
+      "publishedAt": "2025-10-13T13:07:00Z",
+      "content": "Jefferies Financial said its own exposure to First Brands is limited to roughly $45 million. - Jeenah Moon/Bloomberg News\r\nPatrick James, the chief executive of bankrupt auto-parts supplier First Bra… [+2965 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Jennifer Williams and Connor Hart",
+      "title": "PepsiCo Taps Walmart Executive as New CFO",
+      "description": "PepsiCo logged higher revenue in its fiscal third quarter, though profit slipped as volumes fell. The company also tapped a Walmart executive to fill its top...",
+      "url": "https://www.wsj.com/articles/pepsico-posts-higher-revenue-profit-falls-a22216b3",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/ZcKOZPy4IUHnvpLsxQRiRw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/8c2cf51a92c8a5a4b3d4384c61a3d823",
+      "publishedAt": "2025-10-09T21:08:00Z",
+      "content": "PepsiCo logged higher revenue in its fiscal third quarter, though profit slipped as volumes fell. - David Paul Morris/Bloomberg News\r\nPepsiCo is shaking up its finance chief ranks as the company look… [+3854 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Dow Jones Newswires Staff",
+      "title": "Global Markets Mixed, Gold Rally Pauses on Easing Middle Eastern Tensions",
+      "description": "The yellow metal’s rally took a pause as a peace deal between Israel and Hamas begins to take shape.",
+      "url": "https://www.wsj.com/finance/global-markets-mixed-gold-rally-pauses-on-easing-middle-eastern-tensions-49455149",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/AplclTsDXCIsvMsq6l4qqA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/09942a44d09066c80c7824d59f5a5728",
+      "publishedAt": "2025-10-09T09:33:00Z",
+      "content": "- timothy a. clary/Agence France-Presse/Getty Images\r\nU.S. stock futures fell slightly Thursday, while golds rally paused as a peace deal between Israel and Hamas begins to take shape. The dollar str… [+2274 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Dominic Chopping and Eliot Brown",
+      "title": "SoftBank Expands AI Footprint With Multibillion-Dollar Robotics Deal",
+      "description": "The acquisition from ABB marks the largest in a long and patchy record of robotics investments by SoftBank Chief Executive Masayoshi Son.",
+      "url": "https://www.wsj.com/business/deals/softbank-to-buy-abbs-robotics-unit-in-5-38-billion-deal-f95024c8",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/DnhiC0Bxb9Ak_lhnd5zAOQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/ef00b03d56f1dfe40a996e4f25f37b49",
+      "publishedAt": "2025-10-08T12:19:00Z",
+      "content": "SoftBank CEO Masayoshi Sons autonomous aspirations go back years. - kim kyung-hoon/Reuters\r\nTech conglomerate SoftBank Group has agreed to a $5.4 billion deal for the industrial-robotics-focused busi… [+3079 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Jonathan Weil",
+      "title": "Nasdaq Has Become the Market of Choice for Dubious Penny-Stock IPOs",
+      "description": "Such listings surged starting last year. Now Nasdaq says it wants to tighten its standards.",
+      "url": "https://www.wsj.com/finance/stocks/nasdaq-has-become-the-market-of-choice-for-dubious-penny-stock-ipos-a01cae19",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/mAViuq6WUiRmuS8RcImfSg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/a2fa81b0f00130cdcf053220a6bc6260",
+      "publishedAt": "2025-10-06T11:00:00Z",
+      "content": "Final approval for Nasdaqs tightened listing standards could be months away. - Jimin Kim/ZUMA Press Nasdaq is known as the markets home for tech stocks, in particular giants like Nvidia, Apple and M… [+4427 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Jonathan Weil",
+      "title": "Opendoor Hype Won’t Make Its Business Any More Viable",
+      "description": "The loss-making house flipper has become a meme stock.",
+      "url": "https://www.wsj.com/finance/investing/opendoor-hype-wont-make-its-business-any-more-viable-b25ff0fd",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/GIfmN8yz9oJ8BBccOmvOtQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/890583dfd23c3e932f4d4fcdc0f50589",
+      "publishedAt": "2025-10-03T09:30:00Z",
+      "content": "While Opendoors stock has risen, the company still faces challenges. - Paul Kitagaki Jr./Sacramento Bee/ZUMA Press\r\nOpendoor Technologies is the digital home-flipping outfit that somehow keeps clingi… [+4180 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Kwanwoo Jun",
+      "title": "Samsung, SK Hynix Rally on Partnership With OpenAI for Stargate Project",
+      "description": "Shares in Samsung Electronics and SK Hynix surged to multiyear highs, after the South Korean memory-chip makers struck initial agreements with ChatGPT maker ...",
+      "url": "https://www.wsj.com/finance/samsung-sk-hynix-rally-on-partnership-with-openai-for-stargate-project-54937adf",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/1XXRiSPklp24R.QRQdpGSQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/d91a7998c674c8e8048906df377c958b",
+      "publishedAt": "2025-10-02T10:15:00Z",
+      "content": "Samsung Electronics is stepping up efforts to catch up in supplying next-generation HBM4 products. - odd andersen/Agence France-Presse/Getty Images\r\nShares in Samsung Electronics and SK Hynix surged … [+3233 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Adam Whittaker",
+      "title": "BP’s New Chairman Calls for Urgency in Push to Simplify the Business",
+      "description": "Albert Manifold’s message signaled more asset sales as it attempts to shore up its balance sheet while boosting valuations for shareholders.",
+      "url": "https://www.wsj.com/business/energy-oil/bps-new-chairman-calls-for-urgency-in-push-to-simplify-the-business-9ea9aa35",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/e3YqgmCltpvy3jeF4b_HYA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/a5e63ffac12b4aee746ad54fcafb5d46",
+      "publishedAt": "2m"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "status": "ok",
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Korben.info"
+      },
+      "author": "Korben",
+      "title": "Cette manette de jeu 8bitDo, fonctionne sur PC, sur Switch, sur Android, sur Mac, sur iPad... partout !",
+      "description": "– Article invité, rédigé par Vincent Lautier, contient des liens affiliés Amazon –\nOn a tous le même problème. Une manette pour la Switch, une autre pour le PC, et impossible de jouer sur son Mac ou son iPad sans devoir acheter encore un autre accessoire. On …",
+      "url": "https://korben.info/cette-manette-de-jeu-8bitdo-fonctionne-sur-pc-sur-switch-sur-android-sur-mac-sur-ipad-partout.html",
+      "urlToImage": "https://korben.info/cette-manette-de-jeu-8bitdo-fonctionne-sur-pc-sur-switch-sur-android-sur-mac-sur-ipad-partout/cette-manette-de-jeu-8bitdo-fonctionne-sur-pc-sur-switch-sur-android-sur-mac-sur-ipad-partout-1.jpeg",
+      "publishedAt": "2025-10-31T10:55:58Z",
+      "content": "Article invité, rédigé par Vincent Lautier, contient des liens affiliés Amazon \r\nOn a tous le même problème. Une manette pour la Switch, une autre pour le PC, et impossible de jouer sur son Mac ou so… [+4194 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Álvaro García M.",
+      "title": "Apple reconoce la inesperada demanda de los iPhone 17 a la par que confirma ingresos de récord",
+      "description": "Apple presume del 7,3%. Es el indice de crecimiento que ha experimentado en el último trimestre en comparación con el mismo periodo de 2024. Desde julio de este año y hasta finales de septiembre, coincidiendo con la primera tirada de los nuevos iPhone, la fir…",
+      "url": "https://www.applesfera.com/apple-1/apple-reconoce-inesperada-demanda-iphone-17-a-par-que-confirma-ingresos-record",
+      "urlToImage": "https://i.blogs.es/579f46/iphone-17/840_560.jpeg",
+      "publishedAt": "2025-10-31T07:30:09Z",
+      "content": "Apple presume del 7,3%. Es el indice de crecimiento que ha experimentado en el último trimestre en comparación con el mismo periodo de 2024. Desde julio de este año y hasta finales de septiembre, coi… [+5251 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Guille Lomener",
+      "title": "El ordenador más arriesgado de la historia de Steve Jobs fue un fracaso comercial. Aun así, salvó a Apple y creó Internet tal como la conocemos",
+      "description": "En 1985, Steve Jobs salió de Apple por la puerta de atrás, pero no tardó mucho en buscar su venganza personal. Fundó NeXT con doce millones de su dinero, fichó a sus mejores excompañeros del Macintosh y del Lisa, y puso como objetivo reinventar el ordenador p…",
+      "url": "https://www.applesfera.com/curiosidades/ordenador-arriesgado-historia-steve-jobs-fue-fracaso-comercial-asi-salvo-a-apple-creo-internet-tal-como-conocemos",
+      "urlToImage": "https://i.blogs.es/e594be/jobs-next/840_560.jpeg",
+      "publishedAt": "2025-10-31T17:00:57Z",
+      "content": "En 1985, Steve Jobs salió de Apple por la puerta de atrás, pero no tardó mucho en buscar su venganza personal. Fundó NeXT con doce millones de su dinero, fichó a sus mejores excompañeros del Macintos… [+3166 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eonline.com"
+      },
+      "author": null,
+      "title": "Elon Musk's Mom Maye Musk Shares Rare Insight Into Bond With His Kids",
+      "description": "Maye Musk is ready for the holiday season to begin.\nIndeed, while Elon Musk’s mom pulled out all the stops for her 2025 Halloween costume, stepping out at Heidi Klum’s Halloween party Oct. 31 as...",
+      "url": "https://www.eonline.com/news/1424532/elon-musks-mom-on-bond-with-his-kids-heidi-klum-halloween-party",
+      "urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/20251101/36b0b0d1-dabc-455e-9a2e-12bfa6b608e3_1762015986.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+      "publishedAt": "2025-11-01T17:04:01Z",
+      "content": "Maye Musk is ready for the holiday season to begin.\r\nIndeed, while Elon Musks mom pulled out all the stops for her 2025 Halloween costume, stepping out at Heidi Klums Halloween party Oct. 31 as the i… [+810 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Decrypt"
+      },
+      "author": "Ryan Gladwin",
+      "title": "Crypto Leverage Trading a 'Major Problem', Says Former FTX US President",
+      "description": "The former FTX US exec is launching a perpetual futures exchange for traditional assets, and wants to avoid the risks present in crypto.",
+      "url": "https://decrypt.co/347047/crypto-leverage-trading-major-problem-former-ftx-us-president",
+      "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Chart4_green-gID_7.png",
+      "publishedAt": "2025-11-01T17:01:03Z",
+      "content": "In brief\r\n<ul><li>Former president of FTX US, Brett Harrison, told Decrypt that offering leverage up to 1,001x on volatile crypto assets is \"irresponsible\" and a \"major problem.\"</li><li>Proponents o… [+5345 chars]"
+    }
+  ]
+}
