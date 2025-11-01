@@ -1,5 +1,3 @@
-// src/utils/auth-utils.js
-
 const USERS_KEY = 'newsportal_users';
 const LOGGED_IN_USER_KEY = 'newsportal_current_user';
 

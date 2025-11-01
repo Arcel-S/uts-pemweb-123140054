@@ -30,7 +30,7 @@ function App() {
     loading, 
     error, 
     popularArticles,
-    popularError, // <-- (BARU) Ambil state error popular
+    popularError, // Ambil state error popular
     totalResults, 
     currentPage, 
     pageSize 
@@ -188,7 +188,7 @@ function App() {
           <aside className="popular-column">
             <h2>POPULAR POSTS</h2>
             <div className="popular-list">
-              {/* --- (BARU) Logika Error Handling Sidebar --- */}
+              {/* --- Logika Error Handling Sidebar --- */}
               {popularError && <p className="error-message">{popularError}</p>}
               
               {!popularError && popularArticles.length > 0 ? (
