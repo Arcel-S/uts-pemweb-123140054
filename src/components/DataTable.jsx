@@ -10,7 +10,6 @@ const DataTable = ({ articles, currentUser, favorites, toggleFavorite }) => {
           <DetailCard 
             key={index} 
             article={article}
-            // --- (BARU) Teruskan props ---
             currentUser={currentUser}
             favorites={favorites}
             toggleFavorite={toggleFavorite}

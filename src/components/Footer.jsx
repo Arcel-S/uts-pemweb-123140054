@@ -6,8 +6,8 @@ import {
     HiOutlineLockClosed, 
     HiOutlineMail, 
     HiOutlinePhone, 
-    HiOutlineVideoCamera, // Kita pakai ini untuk YouTube/video
-    HiOutlineChatAlt2 // Kita pakai ini untuk Twitter/sosial
+    HiOutlineVideoCamera, 
+    HiOutlineChatAlt2 
 } from 'react-icons/hi';
 import '../components/Footer.css';
 

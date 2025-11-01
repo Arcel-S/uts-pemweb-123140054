@@ -1,5 +1,3 @@
-/* --- DETAIL CARD STYLING --- */
-
 .article-card {
   display: flex;
   flex-direction: column;
@@ -11,9 +9,7 @@
   color: var(--text-color);
   transition: transform 0.2s, background-color 0.2s;
   
-  /* --- INI ADALAH FIX-NYA --- */
   position: relative; 
-  /* --- AKHIR FIX --- */
 }
 
 .article-card:hover {
@@ -67,7 +63,6 @@
   white-space: nowrap; 
 }
 
-/* Tombol ini sekarang akan terkunci di dalam .article-card */
 .favorite-button {
     position: absolute;
     top: 10px;

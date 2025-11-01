@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// --- PERBAIKAN ADA DI BARIS INI ---
 import { loginUser, registerUser } from '../utils/authUtils.js';
 import { HiOutlineUser, HiOutlineLockClosed, HiOutlineX } from 'react-icons/hi';
 import '../components/AuthModal.css';
@@ -18,7 +17,6 @@ const AuthModal = ({ onClose, onLoginSuccess }) => {
             const result = registerUser(username, password);
             setMessage(result.message);
             if (result.success) {
-                // Setelah register, pindah ke mode login
                 setIsRegister(false);
             }
         } else {

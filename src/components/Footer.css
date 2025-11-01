@@ -1,4 +1,4 @@
-/* --- FOOTER STYLING --- */
+/* --- Footer Styling --- */
 .main-footer {
     background-color: var(--card-bg-color);
     border-top: 2px solid var(--border-color);
@@ -11,14 +11,12 @@
     max-width: 1200px;
     margin: 0 auto;
     
-    /* --- CSS GRID UNTUK LAYOUT 3 KOLOM --- */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* Default 3 kolom */
+    grid-template-columns: 1fr 1fr 1fr; 
     gap: 30px;
-    text-align: left; /* Kembalikan teks ke kiri */
+    text-align: left;
 }
 
-/* --- KOLOM KIRI: LOGO & IDENTITY --- */
 .footer-section {
     display: flex;
     flex-direction: column;
@@ -44,7 +42,6 @@
     line-height: 1.4;
 }
 
-/* --- JUDUL SEKSI --- */
 .footer-section h4 {
     color: var(--text-color);
     font-size: 1em;
@@ -54,7 +51,6 @@
     padding-bottom: 5px;
 }
 
-/* --- LIST LINKS (KANAN) --- */
 .footer-links {
     list-style: none;
     padding: 0;

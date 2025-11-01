@@ -1,7 +1,6 @@
 import { formatDate } from '../utils/formatDate.js';
 import PropTypes from 'prop-types';
 import '../components/DetailCard.css';
-// --- (BARU) Import Ikon Hati ---
 import { HiOutlineHeart, HiHeart } from 'react-icons/hi';
 
 const DetailCard = ({ article, currentUser, favorites, toggleFavorite }) => {
@@ -13,7 +12,6 @@ const DetailCard = ({ article, currentUser, favorites, toggleFavorite }) => {
     e.currentTarget.src = placeholderImage;
   };
 
-  // --- (BARU) Cek apakah artikel ini di-favoritkan ---
   const isFavorited = favorites.some(fav => fav.url === url);
 
   const handleFavoriteClick = (e) => {
@@ -24,7 +22,6 @@ const DetailCard = ({ article, currentUser, favorites, toggleFavorite }) => {
   return (
     <a href={url} target="_blank" rel="noopener noreferrer" className="article-card">
       
-      {/* --- (BARU) Tombol Favorite --- */}
       {currentUser && (
         <button 
           className={`favorite-button ${isFavorited ? 'favorited' : ''}`}
@@ -34,7 +31,6 @@ const DetailCard = ({ article, currentUser, favorites, toggleFavorite }) => {
           {isFavorited ? <HiHeart /> : <HiOutlineHeart />}
         </button>
       )}
-      {/* --- AKHIR TOMBOL BARU --- */}
 
       <div className="card-image-container">
         <img 
