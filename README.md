@@ -100,7 +100,7 @@ Proyek ini telah memenuhi dan **melampaui** semua kriteria yang dipersyaratkan.
 | **API Integration** | *Fetch*, *loading state*, *error handling* | **✅ Selesai** |
 | **Fitur Wajib** | Kategori, Search, Card List, Date Picker, Pagination | **✅ Selesai** |
 
-### B. Arsitektur Lanjutan (Melampaui Kriteria)
+### B. Optimasi
 
 | Kriteria | Implementasi |
 | :--- | :--- |
