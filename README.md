@@ -53,7 +53,7 @@ Aplikasi sudah di-*deploy* dan dapat diakses melalui link berikut:
 
 | Tampilan Desktop (Homepage) | Tampilan Mobile (Responsif) |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/94d67df5-655e-4e98-9646-08fe6c620576" alt="Screenshot Homepage" height="420" width="420"> | <img src="https://github.com/user-attachments/assets/4300bd5a-cc4f-4adf-8854-7a0714293b8f" alt="Screenshot Mobile View" height="420" width="420"> |
+| <img src="https://github.com/user-attachments/assets/94d67df5-655e-4e98-9646-08fe6c620576" alt="Screenshot Homepage" height="420" width="420"> | <img src="https://github.com/user-attachments/assets/4300bd5a-cc4f-4adf-8854-7a0714293b8f" alt="Screenshot Mobile View" height="420" width="200"> |
 | **Tampilan Login** | **Tampilan Dark Mode** |
 | <img src="https://github.com/user-attachments/assets/a87d0160-9533-4607-8896-e265d969e156" alt="Screenshot Login" height="420" width="420"> | <img src="https://github.com/user-attachments/assets/721c3b61-3d1c-4b4d-894f-41c314bf5009" alt="Screenshot Dark Mode" height="420" width="420"> |
 | **Tampilan Favorites** | **Search Form** |
