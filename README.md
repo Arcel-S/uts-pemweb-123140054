@@ -53,11 +53,11 @@ Aplikasi sudah di-*deploy* dan dapat diakses melalui link berikut:
 
 | Tampilan Desktop (Homepage) | Tampilan Mobile (Responsif) |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/94d67df5-655e-4e98-9646-08fe6c620576" alt="Screenshot Homepage" width="200"> | <img src="https://github.com/user-attachments/assets/4300bd5a-cc4f-4adf-8854-7a0714293b8f" alt="Screenshot Mobile View" width="200"> |
+| <img src="https://github.com/user-attachments/assets/94d67df5-655e-4e98-9646-08fe6c620576" alt="Screenshot Homepage" height="420" width="420"> | <img src="https://github.com/user-attachments/assets/4300bd5a-cc4f-4adf-8854-7a0714293b8f" alt="Screenshot Mobile View" height="420" width="420"> |
 | **Tampilan Login** | **Tampilan Dark Mode** |
-| <img src="https://github.com/user-attachments/assets/a87d0160-9533-4607-8896-e265d969e156" alt="Screenshot Login" width="200"> | <img src="https://github.com/user-attachments/assets/721c3b61-3d1c-4b4d-894f-41c314bf5009" alt="Screenshot Dark Mode" width="200"> |
+| <img src="https://github.com/user-attachments/assets/a87d0160-9533-4607-8896-e265d969e156" alt="Screenshot Login" height="420" width="420"> | <img src="https://github.com/user-attachments/assets/721c3b61-3d1c-4b4d-894f-41c314bf5009" alt="Screenshot Dark Mode" height="420" width="420"> |
 | **Tampilan Favorites** | **Search Form** |
-| <img width="1407" height="919" alt="Screenshot Favorites Page" src="https://github.com/user-attachments/assets/00196b78-55f1-4af7-aeda-1ee0ee46397b"> | <img width="524" height="445" alt="Screenshot Search Form" src="https://github.com/user-attachments/assets/79679035-ec26-45b4-97f0-1e8b7b6fea09"> |
+| <img height="420" width="420" alt="Screenshot Favorites Page" src="https://github.com/user-attachments/assets/00196b78-55f1-4af7-aeda-1ee0ee46397b"> | <img height="420" width="420" alt="Screenshot Search Form" src="https://github.com/user-attachments/assets/79679035-ec26-45b4-97f0-1e8b7b6fea09"> |
 
 ---
 
