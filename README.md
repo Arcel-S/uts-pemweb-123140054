@@ -65,7 +65,7 @@ Aplikasi sudah di-*deploy* dan dapat diakses melalui link berikut:
 
 1.  **Clone repository ini:**
     ```bash
-    git clone [https://github.com/Arcel-S/uts-pemweb-123140054.git](https://github.com/Arcel-S/uts-pemweb-123140054.git)
+    git clone https://github.com/Arcel-S/uts-pemweb-123140054.git
     ```
 2.  **Masuk ke folder proyek:**
     ```bash
