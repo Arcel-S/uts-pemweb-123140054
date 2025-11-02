@@ -1,7 +1,254 @@
 {
   "status": "ok",
-  "totalResults": 36,
+  "totalResults": 55,
   "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "NBCSports.com"
+      },
+      "author": "Mike Florio",
+      "title": "Amid YouTube TV dispute, ESPN scrambles to gather College GameDay audience - NBC Sports",
+      "description": "If you're one of the millions of YouTube TV customers who had hoped to watch ESPN's College GameDay this morning, you're SOL.",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/amid-youtube-tv-dispute-espn-scrambles-to-gather-college-gameday-audience",
+      "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/eaa3733/2147483647/strip/true/crop/4456x2507+0+418/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fcd%2F59%2F439f23dc4676a28ab1e1e43ac8ea%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F1684406812",
+      "publishedAt": "2025-11-01T13:09:25Z",
+      "content": "If youre one of the millions of YouTube TV customers who had hoped to watch ESPNs College GameDay this morning, youre SOL.\r\nThe dispute between Google and Disney continues, which keeps ESPN, ABC, and… [+634 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Yun Li",
+      "title": "Berkshire's operating earnings jump 34%, Buffett buys back no stock and raises cash hoard to $381 billion - CNBC",
+      "description": "Berkshire's operating profit generated from the conglomerate's wholly owned businesses including insurance and railroads jumped 34% in the third quarter.",
+      "url": "https://www.cnbc.com/2025/11/01/berkshire-hathaway-brk-earnings-q3-2025.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108140408-1746278498531-untitled-218-82.jpg?v=1746557643&w=1920&h=1080",
+      "publishedAt": "2025-11-01T12:27:58Z",
+      "content": "Warren Buffett's Berkshire Hathaway reported a sharp rebound in operating profit on Saturday, while its cash pile swelled to a new high with no buybacks.\r\nBerkshire's operating profit generated from … [+1838 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Luke Fountain",
+      "title": "'Trump effect' raises hopes for cannabis rally as investors bet on federal reforms, softer marijuana stance - CNBC",
+      "description": "Cannabis stocks could rally on hopes for new hemp regulations and Trump's possible softer stance on marijuana, fueling investor optimism across the industry.",
+      "url": "https://www.cnbc.com/2025/11/01/cannabis-stock-market-trump-marijuana.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107259488-1687282292246-gettyimages-1483659930-4-20commemorationinnewyork005.jpeg?v=1687283188&w=1920&h=1080",
+      "publishedAt": "2025-11-01T12:00:01Z",
+      "content": "Oils containing CBD (Cannabidiol).\r\nCannabis stocks could be poised for a rally after years of stagnation, fueled by investor optimism over the possibility for new federal rules for hemp-derived prod… [+11367 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MarketWatch"
+      },
+      "author": "Christine Ji, Philip van Doorn",
+      "title": "10 stocks that let you invest like Nvidia in the next hot AI trade - MarketWatch",
+      "description": "Here’s why Lumentum, Credo and eight other stocks are at the center of this ‘least understood’ part of the AI boom",
+      "url": "https://www.marketwatch.com/story/10-stocks-that-let-you-invest-like-nvidia-in-the-next-hot-ai-trade-d7af3161",
+      "urlToImage": "https://images.mktw.net/im-25436481/social",
+      "publishedAt": "2025-11-01T11:30:00Z",
+      "content": "Looking to invest in the artificial-intelligence boom beyond the obvious semiconductor bets? The AI connectivity trade is due for more attention.\r\nAdvanced AI models need to transmit increasing amoun… [+476 chars]"
+    },
+    {
+      "source": {
+        "id": "fortune",
+        "name": "Fortune"
+      },
+      "author": "Marco Quiroz-Gutierrez",
+      "title": "CEO Andy Jassy says Amazon’s 14,000 layoffs weren’t about cutting costs or AI taking jobs: 'It's culture' - Fortune",
+      "description": "Jassy said the cuts weren’t AI-driven, “not right now at least.”",
+      "url": "https://fortune.com/2025/11/01/ceo-andy-jassy-amazon-layoffs-about-culture-not-ai/",
+      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2025/10/GettyImages-2188101075-e1761933556339.jpg?resize=1200,600",
+      "publishedAt": "2025-11-01T09:03:00Z",
+      "content": "Amazons CEO has finally spoken up about the companys 14,000 layoffs earlier this week, and he claims the motive was not at all financial.Speaking during the companys quarterly earnings call Thursday,… [+2475 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Financial Times"
+      },
+      "author": "Thomas Hale, Ryan McMorrow",
+      "title": "China signals easing of Nexperia semiconductor export ban - Financial Times",
+      "description": "Dispute over Netherlands-based chipmaker has threatened to disrupt global auto supply chains",
+      "url": "https://www.ft.com/content/32c29626-703e-43c0-b8f5-2197c165effb",
+      "urlToImage": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Feb4f47ed-5913-4fd1-9830-b06c4035dbd5.jpg?source=next-barrier-page",
+      "publishedAt": "2025-11-01T07:45:08Z",
+      "content": "Then $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial."
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Rachel Roubein",
+      "title": "FDA limits fluoride tablets for children, stopping short of ban - The Washington Post",
+      "description": "The agency concluded ingestible fluoride should be limited to children aged three years and older who are at high risk for tooth decay.",
+      "url": "https://www.washingtonpost.com/health/2025/10/31/fda-fluoride-prescription-restrictions/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EQ3M2ZEHQZWCVOTWWNMX24PD7I.jpg&w=1440",
+      "publishedAt": "2025-11-01T03:15:08Z",
+      "content": "Most children should not receive prescription fluoride, Food and Drug Administration officials said Friday as they announced measures to restrict sales of the cavity-fighting drug.\r\nThe agency said c… [+232 chars]"
+    },
+    {
+      "source": {
+        "id": "cbs-news",
+        "name": "CBS News"
+      },
+      "author": "Neal  Riley",
+      "title": "Delta pilot says \"that was close\" after go-around at Boston's Logan Airport; FAA investigating - CBS News",
+      "description": "The FAA is investigating an apparent close call at Logan Airport Thursday involving a Delta Air Lines flight that was landing and a Cape Air plane that was taking off.",
+      "url": "https://www.cbsnews.com/boston/news/delta-close-call-logan-airport-boston/",
+      "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2025/11/01/61adec40-6eb5-4a8b-8f22-cb50a61820a0/thumbnail/1200x630/7c8527bde5f4edf53eb78a3de446957a/delta-plane.jpg",
+      "publishedAt": "2025-11-01T02:17:00Z",
+      "content": "The Federal Aviation Administration is investigating an apparent close call at Boston's Logan Airport Thursday involving a Delta Air Lines flight that was landing and a Cape Air plane that was taking… [+2051 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Marcus Mendes",
+      "title": "Apple stock closes slightly down following Q4 2025 report - 9to5Mac",
+      "description": "Apple shares rose after its Q4 2025 earnings report, but investor sentiment cooled as trading went on. Here are the numbers.",
+      "url": "https://9to5mac.com/2025/10/31/apple-stock-reaction-q4-2025-report/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/01/Apple-CEO-Tim-Cook-AAPL.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2025-10-31T23:44:00Z",
+      "content": "Following yesterdays quarterly report, Apple saw a welcome bump in its stock price. But as markets opened and the day progressed, investor sentiment appeared to shift slightly. Here are the details.\r… [+1308 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Seeking Alpha"
+      },
+      "author": "Carl Surran",
+      "title": "Exxon and Chevron keep boosting production despite weak oil price outlook (USO:NYSEARCA) - Seeking Alpha",
+      "description": "Exxon Mobil and Chevron, the two biggest US oil giants, increased their production during Q3 despite forecasts for a global supply glut and weakening oil prices.",
+      "url": "https://seekingalpha.com/news/4512637-exxon-and-chevron-keep-boosting-production-despite-weak-oil-price-outlook",
+      "urlToImage": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1213764535/image_1213764535.jpg?io=getty-c-w630",
+      "publishedAt": "2025-10-31T23:37:19Z",
+      "content": "SlavkoSereda/iStock via Getty Images\r\nExxon Mobil (XOM) and Chevron (CVX), the two biggest U.S. oil giants, increased their production during Q3 despite forecasts for a global supply glut and weakeni… [+98 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "US retailers are running out of pennies - BBC",
+      "description": "Find a penny, pick it up, then what? Now the US has stopped making pennies,  a shortage has emerged and created confusion.",
+      "url": "https://www.bbc.com/news/articles/c20556ly45eo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/d95e/live/8b1c99c0-b67d-11f0-b027-61021c9d4006.jpg",
+      "publishedAt": "2025-10-31T21:54:31Z",
+      "content": "US businesses are literally going penniless.\r\nSince the Trump administration ended minting the one-cent coins earlier this year, those still in circulation are becoming harder to find. Many stores ar… [+3430 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dailykos.com"
+      },
+      "author": null,
+      "title": "The AI Bubble will burst, and it may save society - Daily Kos",
+      "description": "I am sure you have already heard about the AI Bubble we are in. The self-dealing between tech companies with nVidia at the center of it all. It's clear that it is just a matter of time till it pops. Enough other people that are smarter about finance...",
+      "url": "https://www.dailykos.com/stories/2025/10/31/2351503/-The-AI-Bubble-will-burst-and-it-may-save-society",
+      "urlToImage": "https://cdn.prod.dailykos.com/images/217929/story_image/102134029-bubble-burst.1910x1000.jpg?1456907235",
+      "publishedAt": "2025-10-31T21:48:12Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Jacob Lorinc, Danielle Bochove",
+      "title": "Canada Backs 25 Critical Minerals Projects in G-7 Initiative - Bloomberg.com",
+      "description": "Rio Tinto Group and Nouveau Monde Graphite Inc. are among more than a dozen companies set to benefit from a Group of Seven initiative to strengthen access to critical minerals.",
+      "url": "https://www.bloomberg.com/news/articles/2025-10-31/canada-backs-25-new-critical-minerals-projects-in-g-7-initiative",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/irLIko7JUaLc/v1/1200x812.jpg",
+      "publishedAt": "2025-10-31T20:46:34Z",
+      "content": "Rio Tinto Group and Nouveau Monde Graphite Inc. are among more than a dozen companies set to benefit from a Group of Seven initiative to strengthen access to critical minerals.\r\nCanadian Prime Minist… [+352 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Catarina Saraiva, Alex Harris, Jonnelle Marte",
+      "title": "Fed ‘Chorus’ Comes Out Against Latest Cut, Citing Inflation - Bloomberg.com",
+      "description": "Three US central bank officials said they did not support a decision to cut interest rates this week, underscoring Federal Reserve Chair Jerome Powell’s warning Wednesday that another reduction in December is far from guaranteed.",
+      "url": "https://www.bloomberg.com/news/articles/2025-10-31/fed-s-logan-says-didn-t-want-rate-cut-with-inflation-still-high",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ilsrL5U9a.Qg/v0/1200x798.jpg",
+      "publishedAt": "2025-10-31T20:38:45Z",
+      "content": "Three US central bank officials said they did not support a decision to cut interest rates this week, underscoring Federal Reserve Chair Jerome Powells warning Wednesday that another reduction in Dec… [+364 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Investopedia"
+      },
+      "author": "Michael Bromberg",
+      "title": "S&P 500 Gains and Losses Today: Amazon Stock Surges as Cloud Business Boosts Earnings; DexCom Drops - Investopedia",
+      "description": "The world's largest online retailer got a lift from its booming cloud computing business on Friday, Oct. 31, 2025, while a soft sales outlook weighed on a medical device firm's stock.",
+      "url": "https://www.investopedia.com/s-and-p-500-gains-and-losses-today-amazon-stock-surges-as-cloud-business-boosts-earnings-dexcom-drops-11841490",
+      "urlToImage": "https://www.investopedia.com/thmb/JpJYRVa_JzDjb1C7Hosxsb-Hrl0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-2243343982-b60dfee3b3584f71ad94552e0f0b78f8.jpg",
+      "publishedAt": "2025-10-31T20:28:20Z",
+      "content": "<ul><li>The world's largest online retailer got a boost from its booming cloud computing business on Friday, Oct. 31, 2025, while a soft sales outlook weighed on a medical device firm.</li><li>Amazon… [+3171 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Dean Seal",
+      "title": "New York City Airports Disrupted by Air-Traffic Controller Shortage - The Wall Street Journal",
+      "description": "Air travel has been upset across the country as staffers miss paychecks because of government shutdown",
+      "url": "https://www.wsj.com/business/airlines/new-york-city-airports-disrupted-by-air-traffic-controller-shortage-81411948",
+      "urlToImage": "https://images.wsj.net/im-50811638/social",
+      "publishedAt": "2025-10-31T20:27:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Denitsa Tsekova, Carter Johnson",
+      "title": "Wall Street Confronts Fed Doubts as Bill Gross Sells Treasuries - Bloomberg.com",
+      "description": "Wall Street closed out October on a high. AI optimism, solid earnings, and easier financial conditions lifted stocks to their sixth consecutive month of gains while credit just notched its third straight advance.",
+      "url": "https://www.bloomberg.com/news/articles/2025-10-31/wall-street-confronts-fed-doubts-as-bill-gross-sells-treasuries",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iKrG2HhR_3pQ/v1/1200x800.jpg",
+      "publishedAt": "2025-10-31T20:10:30Z",
+      "content": "Wall Street closed out October on a high. AI optimism, solid earnings, and easier financial conditions lifted stocks to their sixth consecutive month of gains while credit just notched its third stra… [+108 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Umn.edu"
+      },
+      "author": null,
+      "title": "Deadly multistate Listeria outbreak tied to prepared pasta meals expands - CIDRAP",
+      "description": "Seven new illness and 2 additional deaths have been confirmed in the outbreak, which has grown to 27 cases and 6 deaths.",
+      "url": "https://www.cidrap.umn.edu/listeria/deadly-multistate-listeria-outbreak-tied-prepared-pasta-meals-expands",
+      "urlToImage": "https://www.cidrap.umn.edu/themes/custom/cidrap_theme/images/cidrap-og-image.jpg",
+      "publishedAt": "2025-10-31T19:59:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Financial Times"
+      },
+      "author": "Amelia Pollard, Sujeet Indap",
+      "title": "First Brands formally accused of ‘massive fraud’ by lenders - Financial Times",
+      "description": "Some creditors want an independent trustee involved in car parts maker’s bankruptcy process",
+      "url": "https://www.ft.com/content/27a28cce-b0c9-471a-a7ac-1f060e68f32f",
+      "urlToImage": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F3d9c1b9d-a2e5-48ee-be45-31a25b32462f.jpg?source=next-barrier-page",
+      "publishedAt": "2025-10-31T19:49:22Z",
+      "content": "Then $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial."
+    },
     {
       "source": {
         "id": null,
