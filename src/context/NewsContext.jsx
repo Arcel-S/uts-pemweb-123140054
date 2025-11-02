@@ -115,7 +115,9 @@ export const NewsContext = createContext();
 export const NewsProvider = ({ children }) => {
   const [state, dispatch] = useReducer(newsReducer, initialState);
 
-  const fetchNews = useCallback(async () => {
+
+// Penyesuaian Logika Search pada pencarian Json Local
+const fetchNews = useCallback(async () => {
     if (state.category === 'favorites') {
       return;
     }
@@ -123,9 +125,8 @@ export const NewsProvider = ({ children }) => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
     try {
-      const url = getCustomUrl(state);
+      const url = getCustomUrl(state); // misal: './api/search.json'
       
-      // (REVISI) Fetch sekarang menargetkan file JSON lokal di folder 'public'.
       const response = await fetch(url); 
 
       if (!response.ok) {
@@ -134,15 +135,80 @@ export const NewsProvider = ({ children }) => {
       
       const data = await response.json();
       
-      // Asumsi skema JSON Anda (dari NewsAPI) selalu memiliki status 'ok'
       if (data.status !== 'ok') {
         throw new Error('Format JSON dummy tidak valid');
       }
+
+      // --- LOGIKA FILTER MULARI DARI SINI ---
+
+      let processedArticles = data.articles;
+      const { category, searchTerm, searchInTitle, startDate, sortBy } = state;
+
+      // 1. Terapkan Filter HANYA jika kategorinya 'search'
+      if (category === 'search') {
+        
+        // Filter berdasarkan Kata Kunci (SearchTerm)
+        if (searchTerm) {
+          const lowerCaseQuery = searchTerm.toLowerCase();
+          
+          processedArticles = processedArticles.filter(article => {
+            const title = (article.title || '').toLowerCase();
+            
+            if (searchInTitle) {
+              // Hanya cari di judul
+              return title.includes(lowerCaseQuery);
+            }
+            
+            // Cari di judul DAN deskripsi (Asumsi file JSON Anda memiliki field 'description')
+            const description = (article.description || '').toLowerCase();
+            return title.includes(lowerCaseQuery) || description.includes(lowerCaseQuery);
+          });
+        }
+
+        // Filter berdasarkan Tanggal (StartDate)
+        if (startDate) {
+          // Set tanggal filter ke awal hari (00:00:00)
+          const filterDate = new Date(startDate);
+          filterDate.setHours(0, 0, 0, 0);
+          const filterDayTimestamp = filterDate.getTime();
+
+          processedArticles = processedArticles.filter(article => {
+            if (!article.publishedAt) return false;
+            
+            // Set tanggal artikel ke awal hari (00:00:00)
+            const articleDate = new Date(article.publishedAt);
+            articleDate.setHours(0, 0, 0, 0);
+            const articleDayTimestamp = articleDate.getTime();
+            
+            // Bandingkan timestamp harinya
+            return articleDayTimestamp === filterDayTimestamp;
+          });
+        }
+      }
+
+      // 2. Terapkan Sorting (Opsional, tapi penting untuk "Sort By")
+      if (sortBy === 'publishedAt') {
+        // Urutkan dari yang terbaru (descending)
+        processedArticles.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+      }
+      // 'relevancy' dan 'popularity' akan menggunakan urutan default dari JSON
       
-      dispatch({ type: 'SET_ARTICLES_SUCCESS', payload: { articles: data.articles, totalResults: data.totalResults } });
+      // 3. Dispatch hasil yang sudah difilter dan disortir
+      dispatch({ 
+        type: 'SET_ARTICLES_SUCCESS', 
+        payload: { 
+          articles: processedArticles, 
+          // PENTING: Update totalResults agar pagination dan hitungan sesuai
+          totalResults: processedArticles.length 
+        } 
+      });
+
+      // --- AKHIR DARI LOGIKA FILTER ---
+
     } catch (err) {
       dispatch({ type: 'SET_ARTICLES_ERROR', payload: err.message });
     }
+    // Pastikan semua state filter ada di dependency array
   }, [state.category, state.searchTerm, state.startDate, state.sortBy, state.currentPage, state.language, state.searchInTitle]);
 
   // (REVISI) Mengarahkan fetch popular news ke file JSON lokal.

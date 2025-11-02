@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "totalResults": 98,
+  "totalResults": 118,
   "articles": [
     {
       "source": {
@@ -27,45 +27,6 @@
       "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/LG-B5-OLED-TV-deal.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
       "publishedAt": "2025-10-31T22:25:55Z",
       "content": "<ul><li></li><li></li><li></li></ul>\r\nThe B5 remains a great entry-level OLED option.\r\nThe B5 remains a great entry-level OLED option.\r\nby\r\nBrandon RussellClose\r\nBrandon Russell\r\nPosts from this auth… [+3063 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Gizmodo.com"
-      },
-      "author": "Lucas Ropek",
-      "title": "Netflix Is Reportedly Mulling a Bid to Acquire Warner Bros Discovery",
-      "description": "The streaming giant is \"exploring a bid.\"",
-      "url": "https://gizmodo.com/netflix-is-reportedly-mulling-a-bid-to-acquire-warner-bros-discovery-2000680137",
-      "urlToImage": "https://gizmodo.com/app/uploads/2025/10/netflix-building-1200x675.jpg",
-      "publishedAt": "2025-10-31T18:35:16Z",
-      "content": "Big changes are happening in the media industry, and companies are getting gobbled up left and right. One particularly tasty piece of media real estate is the Hollywood icon Warner Bros. As companies… [+2178 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Gizmodo.com"
-      },
-      "author": "Kyle Barr",
-      "title": "The Best Gadgets of October 2025",
-      "description": "Let's reach into our pillow cases to pull out our favorite tech treats of October.",
-      "url": "https://gizmodo.com/best-gadgets-october-2025-2000680185",
-      "urlToImage": "https://gizmodo.com/app/uploads/2025/10/Best-Gadgets-Oct-2025-from-Adriano-and-Kyle-1200x675.jpg",
-      "publishedAt": "2025-10-31T18:44:18Z",
-      "content": "October was full of frights, but at least the tech on offer proved to be an occasional delight. We started off the month with a new slate of handheld gaming PCs from Lenovo and the dual might of Micr… [+7069 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Gizmodo.com"
-      },
-      "author": "James Pero",
-      "title": "Meta Ray-Ban Display Review: Is This the Future We Really Want?",
-      "description": "Meta's first pair of smart glasses with a display made me ask a lot of questions, and I'm not sure I like the potential answers.",
-      "url": "https://gizmodo.com/meta-ray-ban-display-smart-glasses-review-is-this-the-future-we-really-want-2000679520",
-      "urlToImage": "https://gizmodo.com/app/uploads/2025/10/Meta-Ray-Ban-Display-review-22-1200x675.jpg",
-      "publishedAt": "2025-10-31T23:00:42Z",
-      "content": "My first reaction when I put on Meta’s $800 Ray-Ban Display was excitement. As frivolous as it may seem to have yet another screen in your life, there’s something that happens when you basically glue… [+29390 chars]"
     },
     {
       "source": {
@@ -220,125 +181,617 @@
       "description": "To quickly catch you up on how things shook out, here's a rundown on the main takeaways from Alphabet, Amazon, Apple, Meta, and Microsoft.",
       "url": "https://www.businessinsider.com/key-insights-tech-earnings-alphabet-amazon-apple-meta-microsoft-2025-10",
       "urlToImage": "https://i.insider.com/6904c20b599d46a4ccc1387c?width=1200&format=jpeg",
-      "publishedAt": "2025-10-31T14:29:28Z",
-      "content": "ANGELA WEISS / AFP via Getty Images\r\n<ul><li>This post originally appeared in the Business Insider Today newsletter.</li><li>You can sign up for Business Insider's daily newsletter here.</li></ul>Hap… [+7805 chars]"
+      "publishedAt": "2D"
     },
     {
       "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
+        "id": "bloomberg",
+        "name": "Bloomberg"
       },
-      "author": "Theron Mohamed",
-      "title": "'Big Short' investor Michael Burry is back with a bubble warning after 2 years of silence",
-      "description": "In his first X post since 2023, Michael Burry of \"The Big Short\" fame wrote that during some bubbles, the \"only winning move is not to play.\"",
-      "url": "https://www.businessinsider.com/big-short-michael-burry-bubble-warning-x-account-scion-crash-2025-10",
-      "urlToImage": "https://i.insider.com/5fc7ee97037cbd00186136a4?width=1200&format=jpeg",
-      "publishedAt": "2025-10-31T05:44:11Z",
-      "content": "Michael BurryJim Spellman/WireImage\r\n<ul><li>Michael Burry of \"The Big Short\" fame just posted on X for the first time since April 2023.</li><li>The investor said that even if there's a bubble, somet… [+3287 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Alistair Barr",
-      "title": "OMG! 'AMG' is a money machine the world has never seen before.",
-      "description": "The AMG trio—Amazon, Microsoft, and Google—leads the cloud industry, creating a financial loop unmatched by other tech giants like Meta.",
-      "url": "https://www.businessinsider.com/amg-cloud-money-machine-amazon-microsoft-google-2025-10",
-      "urlToImage": "https://i.insider.com/69051c230be9845f2dc58749?width=920&format=jpeg",
-      "publishedAt": "2025-10-31T21:13:54Z",
-      "content": "Amazon CEO Andy Jassy (left), Microsoft CEO Satya Nadella (center), and Google CEO Sundar Pichai (right).Reuters\r\n<ul><li>Amazon, Microsoft, and Google dominate the cloud market with unprecedented sc… [+3692 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Ellen Thomas",
-      "title": "We broke down the eye-popping AI spending for 4 Big Tech firms — and their plans to go even harder next year",
-      "description": "Amazon, Google,  Meta, and Microsoft are spending record amounts on AI infrastructure.",
-      "url": "https://www.businessinsider.com/big-tech-spending-on-ai-capex-q3-2025-10",
-      "urlToImage": "https://i.insider.com/6903f3f6c007ca8c2737fa86?width=1200&format=jpeg",
-      "publishedAt": "2025-10-31T10:00:01Z",
-      "content": "Big Tech ramped up spending on capex in the third quarter.Andy Kiersz/Business Insider\r\n<ul><li>On earnings calls this week, Big Tech companies reported significant AI spending.</li><li>Each said the… [+5166 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Madeline Berg",
-      "title": "The largest superyachts owned by tech billionaires, from Jeff Bezos' Koru to Mark Zuckerberg's Launchpad",
-      "description": "When it comes to superyachts, the bigger the better. These are the largest yachts owned by tech billionaires like Jeff Bezos and Mark Zuckerberg.",
-      "url": "https://www.businessinsider.com/tech-billionaire-largest-superyachts-jeff-bezos-mark-zuckerberg-sergey-brin-2025-10",
-      "urlToImage": "https://i.insider.com/6904ffffc007ca8c27380aa5?width=1200&format=jpeg",
-      "publishedAt": "2025-10-31T19:31:53Z",
-      "content": "Mark Zuckerberg's Launchpad, which set sail in 2024, cost a nine-figure sum and is one of the largest superyachts owned by a tech billionaire.Sylvain Lefevre/Getty Images; Taylor Hill/Getty Images\r\n<… [+11880 chars]"
+      "author": "Alexandre Rajbhandari",
+      "title": "Buffett’s Berkshire Cash Hits Record $382 Billion, Earnings Soar - Bloomberg",
+      "description": "Berkshire Hathaway Inc.’s cash pile soared to $381.7 billion in the third quarter, a fresh record, and operating earnings surged 34% at Chief Executive Officer Warren Buffett’s conglomerate.",
+      "url": "https://www.bloomberg.com/news/articles/2025-11-01/buffett-s-berkshire-hathaway-cash-pile-soars-to-381-7-billion",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i15pcNXV9WJ4/v0/1200x812.jpg",
+      "publishedAt": "2025-11-01T15:51:51Z",
+      "content": "Berkshire Hathaway Inc.s cash pile soared to $381.7 billion in the third quarter, a fresh record, and operating earnings surged 34% at Chief Executive Officer Warren Buffetts conglomerate. \r\nThat fig… [+178 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Kotaku"
+        "name": "Variety"
       },
-      "author": "Kotaku Deals",
-      "title": "Anker’s Open-Ear Headphones Slash 53% Off, Now Nearly Free for Early Black Friday",
-      "description": "These Anker open-ear earbuds drop to just $23, now ten times cheaper than Apple's latest AirPods Pro 3.\nThe post Anker’s Open-Ear Headphones Slash 53% Off, Now Nearly Free for Early Black Friday appeared first on Kotaku.",
-      "url": "https://kotaku.com/ankers-open-ear-headphones-slash-53-off-now-nearly-free-for-early-black-friday-2000640322",
-      "urlToImage": "https://kotaku.com/app/uploads/2025/10/anker-open-ear-earbuds.jpg",
-      "publishedAt": "2025-10-31T01:25:18Z",
-      "content": "Spending $250 on AirPods Pro makes sense for some people, but plenty of situations call for something more affordable and practical. Anker earns enough trust from Apple to sell its products directly … [+3103 chars]"
+      "author": "Brian Steinberg",
+      "title": "ESPN Puts College GameDay on X as Disney-YouTube TV Clash Continues - Variety",
+      "description": "ESPN Puts College GameDay on X as Disney-YouTube TV Clash Continues",
+      "url": "https://variety.com/2025/tv/news/disney-youtube-tv-college-gameday-x-espn-1236567501/",
+      "urlToImage": "https://variety.com/wp-content/uploads/2020/04/carousel_cord-cutting_chronicles.jpg?w=250&h=140&crop=1",
+      "publishedAt": "2025-11-01T14:29:00Z",
+      "content": "Can Pat McAfee help Disney prevail over YouTube TV in TV’s never-ending carriage wars? \r\nDisney’s ESPN said it would make one of its most popular sports telecasts, “College GameDay,” widely available… [+3548 chars]"
+    },
+    {
+      "source": {
+        "id": "axios",
+        "name": "Axios"
+      },
+      "author": "Madison Mills",
+      "title": "What's next for the Big Tech stocks? - Axios",
+      "description": "Five of the Magnificent 7 reported earnings this week: All but Meta jumped afterward, with Amazon hitting a record high.",
+      "url": "https://www.axios.com/2025/11/01/google-meta-amazon-microsoft-stocks-ai",
+      "urlToImage": "https://images.axios.com/BIOP0v7DxgpjHhdiP5JGdS4bh34=/0x0:1600x900/1366x768/2025/10/31/1761924977512.png",
+      "publishedAt": "2025-11-01T13:29:37Z",
+      "content": "What they're saying: Demand for AI infrastructure, tools and power is still outstripping supply, notes Evan Schlossman of investment fund SuRo Capital. \r\n<ul><li>\"They're seeing shortfalls in their a… [+2143 chars]"
+    },
+    {
+      "source": {
+        "id": "axios",
+        "name": "Axios"
+      },
+      "author": "Kelly Tyko",
+      "title": "Retailers face growing penny shortage, sparking limits and SNAP concerns - Axios",
+      "description": "The end of penny production has stores rounding change and pushing for federal clarity.",
+      "url": "https://www.axios.com/2025/11/01/penny-shortage-exchange-pennies-gift-card-trade",
+      "urlToImage": "https://images.axios.com/rh3_6AXdjfIbxS6NVzn_cVWiRlo=/1366x768/smart/2025/01/30/185652-1738263412657.jpg",
+      "publishedAt": "2025-11-01T12:49:25Z",
+      "content": "Driving the news: The Federal Reserve has started rationing pennies to banks as supplies vanish faster than expected.\r\n<ul><li>More than half of the Fed's 170 coin distribution terminals have stopped… [+2800 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Hipertextual"
+        "name": "CNBC"
       },
-      "author": "Luis Miranda",
-      "title": "Apple se prepara para añadir otras IA a Apple Intelligence",
-      "description": "Apple está considerando añadir otros modelos de lenguaje para impulsar la nueva Siri con Apple Intelligence. Tras sufrir un tropiezo que derivó en una reestructuración interna de todo el equipo de Siri, los de Cupertino han buscado alternativas para recuperar…",
-      "url": "https://hipertextual.com/apple/apple-intelligence-integrara-ia-gemini-perplexity-siri/",
-      "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2025/08/siri-iphone.jpg",
-      "publishedAt": "2025-10-31T00:17:32Z",
-      "content": "Apple está considerando añadir otros modelos de lenguaje para impulsar la nueva Siri con Apple Intelligence. Tras sufrir un tropiezo que derivó en una reestructuración interna de todo el equipo de Si… [+2588 chars]"
+      "author": "Luke Fountain",
+      "title": "'Trump effect' raises hopes for cannabis rally as investors bet on federal reforms, softer marijuana stance - CNBC",
+      "description": "Cannabis stocks could rally on hopes for new hemp regulations and Trump's possible softer stance on marijuana, fueling investor optimism across the industry.",
+      "url": "https://www.cnbc.com/2025/11/01/cannabis-stock-market-trump-marijuana.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107259488-1687282292246-gettyimages-1483659930-4-20commemorationinnewyork005.jpeg?v=1687283188&w=1920&h=1080",
+      "publishedAt": "2025-11-01T12:00:01Z",
+      "content": "Oils containing CBD (Cannabidiol).\r\nCannabis stocks could be poised for a rally after years of stagnation, fueled by investor optimism over the possibility for new federal rules for hemp-derived prod… [+11367 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Hipertextual"
+        "name": "BBC News"
       },
-      "author": "Rubén Chicharro",
-      "title": "Cambio histórico en WhatsApp: llega al Apple Watch una novedad que llevamos años esperando",
-      "description": "WhatsApp está trabajando en múltiples cambios que llegarán muy pronto a la app de iOS y Android, incluyendo una nueva forma de administrar el almacenamiento o, incluso, un cambio de diseño en el caso de la versión disponible para el iPhone. Pero hoy, la compa…",
-      "url": "https://hipertextual.com/apple/whatsapp-llega-al-apple-watch-como-descargar-la-app/",
-      "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2025/10/whatsapp-apple-watch.jpg",
-      "publishedAt": "2025-10-31T08:28:45Z",
-      "content": "WhatsApp está trabajando en múltiples cambios que llegarán muy pronto a la app de iOS y Android, incluyendo una nueva forma de administrar el almacenamiento o, incluso, un cambio de diseño en el caso… [+2319 chars]"
+      "author": null,
+      "title": "Campari shares worth €1.3bn seized by police over alleged tax evasion - BBC",
+      "description": "The spirit manufacturer's parent firm is accused of failing to declare a similar amount in tax during a merger.",
+      "url": "https://www.bbc.com/news/articles/cpq11v5d1rno",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/14c4/live/17bb4860-b703-11f0-ba75-093eca1ac29b.jpg",
+      "publishedAt": "2025-11-01T11:27:16Z",
+      "content": "Shares worth 1.3bn (£1.1bn; $1.5bn) have been seized from the company that controls the manufacturer of Campari over alleged tax evasion, Italian police have said.\r\nOfficials ordered the confiscation… [+2209 chars]"
+    },
+    {
+      "source": {
+        "id": "fortune",
+        "name": "Fortune"
+      },
+      "author": "Marco Quiroz-Gutierrez",
+      "title": "CEO Andy Jassy says Amazon’s 14,000 layoffs weren’t about cutting costs or AI taking jobs: 'It's culture' - Fortune",
+      "description": "Jassy said the cuts weren’t AI-driven, “not right now at least.”",
+      "url": "https://fortune.com/2025/11/01/ceo-andy-jassy-amazon-layoffs-about-culture-not-ai/",
+      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2025/10/GettyImages-2188101075-e1761933556339.jpg?resize=1200,600",
+      "publishedAt": "2025-11-01T09:03:00Z",
+      "content": "Amazons CEO has finally spoken up about the companys 14,000 layoffs earlier this week, and he claims the motive was not at all financial.Speaking during the companys quarterly earnings call Thursday,… [+2475 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Biztoc.com"
+        "name": "CNET"
       },
-      "author": "zerohedge.com",
-      "title": "Is This The Secret SpaceX-Backed Flying Car Musk Just Hinted At?",
-      "description": "Is This The Secret SpaceX-Backed Flying Car Musk Just Hinted At? \n \nTesla CEO Elon Musk appeared on Joe Rogan's podcast on Friday for a three-hour conversation covering a wide range of topics, including the upcoming unveiling of the second-generation Tesla Ro…",
-      "url": "https://biztoc.com/x/eaa8ef4b7cefea48",
-      "urlToImage": "https://biztoc.com/cdn/eaa8ef4b7cefea48_s.webp",
-      "publishedAt": "2025-11-01T16:26:23Z",
-      "content": "Is This The Secret SpaceX-Backed Flying Car Musk Just Hinted At? \r\nTesla CEO Elon Musk appeared on Joe Rogan's podcast on Friday for a three-hour conversation covering a wide range of topics, includi… [+145 chars]"
+      "author": "See full bio",
+      "title": "A $20K Humanoid Robot to Help Around the House? The Price Isn't the Only Caveat - CNET",
+      "description": "The new Neo robot from 1X is designed to do chores. It'll have to learn a lot from you -- and about you.",
+      "url": "https://www.cnet.com/tech/a-20k-humanoid-robot-to-help-around-the-house-the-price-isnt-the-only-caveat/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/49c6ba210fc9bae3cb8eb21965dac0e3188f494c/hub/2025/10/31/f3d33800-56f5-4232-b9d0-212139baa231/1x-neo-folding-laundry-crop.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2025-11-01T08:20:00Z",
+      "content": "It stands 5 feet, 6 inches tall, weighs about as much as a golden retriever and costs near the price of a brand-new budget car. \r\nThis is Neo, the humanoid robot. It's billed as a personal assistant … [+4304 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Biztoc.com"
+        "name": "Financial Times"
       },
-      "author": "abnormalreturns.com",
-      "title": "Saturday links: seeing new opportunities",
-      "description": "EVs\nAmerican automakers could permanently lose out to China EV manufacturers. (ft.com)\nHow much did Elon's foray into politics cost Tesla ($TSLA) in sales? (axios.com)\nAVs\nA Waymo car hit a cat. People are freaking out. (semafor.com)\nWho is liable if a self-d…",
-      "url": "https://biztoc.com/x/4f4002912838076a",
-      "urlToImage": "https://biztoc.com/cdn/4f4002912838076a_s.webp",
-      "publishedAt": "2025-11-01T15:08:48Z",
-      "content": "EVsAmerican automakers could permanently lose out to China EV manufacturers. (ft.com)How much did Elon's foray into politics cost Tesla ($TSLA) in sales? (axios.com)AVsA Waymo car hit a cat. People a… [+143 chars]"
+      "author": "Thomas Hale, Ryan McMorrow",
+      "title": "China signals easing of Nexperia semiconductor export ban - Financial Times",
+      "description": "Dispute over Netherlands-based chipmaker has threatened to disrupt global auto supply chains",
+      "url": "https://www.ft.com/content/32c29626-703e-43c0-b8f5-2197c165effb",
+      "urlToImage": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Feb4f47ed-5913-4fd1-9830-b06c4035dbd5.jpg?source=next-barrier-page",
+      "publishedAt": "2025-11-01T07:45:08Z",
+      "content": "Then $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial."
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "Lindsay Whitehust",
+      "title": "A Vermont cycling apparel company is trying to survive Trump's tariffs. Will the Supreme Court help? - AP News",
+      "description": "A small company in Vermont that specializes in women's cycling apparel is at the center of the fight over President Donald Trump's contentious tariff policy. Terry Precision Cycling is challenging Trump's tariffs at the Supreme Court. The company has been hit…",
+      "url": "https://apnews.com/article/trump-tariffs-terry-cycling-lawsui-supreme-court-b3215d8ca2edfb40b58ad374bd580d1f",
+      "urlToImage": "https://dims.apnews.com/dims4/default/e2fa9d3/2147483647/strip/true/crop/5836x3283+0+450/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Faa%2Fa8%2F8bee8220acfba36d7d481dbb5cf7%2F78182fe65a224c81b6ab6d65cc9234d8",
+      "publishedAt": "2025-11-01T04:07:00Z",
+      "content": "BURLINGTON, Vt. (AP) From the moment President Donald Trump imposed tariffs on nearly every country, Nik Holm feared the company he leads might not survive.\r\nTerry Precision Cycling has made it 40 ye… [+7634 chars]"
+    },
+    {
+      "source": {
+        "id": "cbs-news",
+        "name": "CBS News"
+      },
+      "author": "Neal  Riley",
+      "title": "Delta pilot says \"that was close\" after go-around at Boston's Logan Airport; FAA investigating - CBS News",
+      "description": "The FAA is investigating an apparent close call at Logan Airport Thursday involving a Delta Air Lines flight that was landing and a Cape Air plane that was taking off.",
+      "url": "https://www.cbsnews.com/boston/news/delta-close-call-logan-airport-boston/",
+      "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2025/11/01/61adec40-6eb5-4a8b-8f22-cb50a61820a0/thumbnail/1200x630/7c8527bde5f4edf53eb78a3de446957a/delta-plane.jpg",
+      "publishedAt": "2025-11-01T02:17:00Z",
+      "content": "The Federal Aviation Administration is investigating an apparent close call at Boston's Logan Airport Thursday involving a Delta Air Lines flight that was landing and a Cape Air plane that was taking… [+2051 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Marcus Mendes",
+      "title": "Apple stock closes slightly down following Q4 2025 report - 9to5Mac",
+      "description": "Apple shares rose after its Q4 2025 earnings report, but investor sentiment cooled as trading went on. Here are the numbers.",
+      "url": "https://9to5mac.com/2025/10/31/apple-stock-reaction-q4-2025-report/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/01/Apple-CEO-Tim-Cook-AAPL.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2025-10-31T23:44:00Z",
+      "content": "Following yesterdays quarterly report, Apple saw a welcome bump in its stock price. But as markets opened and the day progressed, investor sentiment appeared to shift slightly. Here are the details.\r… [+1308 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Seeking Alpha"
+      },
+      "author": "Carl Surran",
+      "title": "Exxon and Chevron keep boosting production despite weak oil price outlook (USO:NYSEARCA) - Seeking Alpha",
+      "description": "Exxon Mobil and Chevron, the two biggest US oil giants, increased their production during Q3 despite forecasts for a global supply glut and weakening oil prices.",
+      "url": "https://seekingalpha.com/news/4512637-exxon-and-chevron-keep-boosting-production-despite-weak-oil-price-outlook",
+      "urlToImage": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1213764535/image_1213764535.jpg?io=getty-c-w630",
+      "publishedAt": "2025-10-31T23:37:19Z",
+      "content": "SlavkoSereda/iStock via Getty Images\r\nExxon Mobil (XOM) and Chevron (CVX), the two biggest U.S. oil giants, increased their production during Q3 despite forecasts for a global supply glut and weakeni… [+98 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "Matthew Perrone",
+      "title": "FDA restricts use of kids’ fluoride supplements citing emerging health risks - AP News",
+      "description": "The Food and Drug Administration is restricting the use of fluoride supplements used to strengthen children’s teeth. The agency said on Friday that the tablets and lozenges should only be used in children three and older who face serious risks of tooth decay.…",
+      "url": "https://apnews.com/article/fluoride-fda-dental-kennedy-teeth-cavities-e27c849f8dfd226df0a447f4cb7b9335",
+      "urlToImage": "https://dims.apnews.com/dims4/default/0a990d4/2147483647/strip/true/crop/2490x1401+0+130/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa4%2Fe1%2F7ee94346d4194e99b67f43a3fed4%2F4057cf9a51234c6f8f56bdff2b382bf2",
+      "publishedAt": "2025-10-31T23:02:00Z",
+      "content": "WASHINGTON (AP) The Food and Drug Administration on Friday moved to limit the use of fluoride supplements used to strengthen childrens teeth, the latest action by Health Secretary Robert F. Kennedy J… [+2744 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Barchart.com"
+      },
+      "author": "Rick Orford",
+      "title": "The Only 3 Dividend Kings You’ll Ever Need for a Lifetime of Income - Barchart.com",
+      "description": "Three Dividend Kings with decades of dividend growth and strong financials are poised to deliver reliable income and stability for investors in 2025.",
+      "url": "https://www.barchart.com/story/news/35838090/the-only-3-dividend-kings-youll-ever-need-for-a-lifetime-of-income",
+      "urlToImage": "https://media.barchart.com/contributors-admin/common-images/images/Stocks%2C%20Markets%2C%20%26%20Global%20Economy/Dividends/A%20gold%20crown%20with%20sparkling%20dust%20by%20tomertu%20via%20Shutterstock.jpg",
+      "publishedAt": "2025-10-31T23:00:02Z",
+      "content": "Volatility comes and goes... but through that, some companies consistently keep paying.\r\nDividend Kings are the elite group of companies that have offered shareholders 50 years of consistent dividend… [+5646 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hollywood Reporter"
+      },
+      "author": "James Hibberd",
+      "title": "Paramount’s No Good Very Bad Week - The Hollywood Reporter",
+      "description": "Top talent jumping ship, massive layoffs, Warner Bros. rejecting an acquisition bid, a messy shakeup at CBS News. David Ellison's golden age for Paramount has sailed into some choppy waters.",
+      "url": "http://www.hollywoodreporter.com/business/business-news/paramount-sheridan-layoffs-warner-bros-1236415267/",
+      "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2025/10/GettyImages-2239267696.jpg?w=1440&h=810&crop=1",
+      "publishedAt": "2025-10-31T22:23:54Z",
+      "content": "Nobody at Paramount needs to wear a Halloween costume into the office this week for things to be scary. \r\nThe studio has had a storm of recent headlines as new owner David Ellison and his top executi… [+4183 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Cut"
+      },
+      "author": "Asia Milia Ware",
+      "title": "What We’re Buying From Sephora’s Savings Event - The Cut",
+      "description": "From beauty tools that rarely go on sale to the products we keep on auto-refill: The Cut editors share what they are purchasing during the Sephora Savings Event.",
+      "url": "http://www.thecut.com/article/what-were-buying-from-sephoras-savings-event-2025.html",
+      "urlToImage": "https://pyxis.nymag.com/v1/imgs/c0c/4b1/5a716fcb9d035bb4b0f7fa381d3750f550-lede-1.1x.rsocial.w1200.jpg",
+      "publishedAt": "2025-10-31T21:50:00Z",
+      "content": "Its not Black Friday (yet), but for beauty lovers it might as well be because Sephoras annual Savings Event is here. Its the best time to restock on the lip balm youve been using up all summer or the… [+9037 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Korben.info"
+      },
+      "author": "Korben",
+      "title": "Cette manette de jeu 8bitDo, fonctionne sur PC, sur Switch, sur Android, sur Mac, sur iPad... partout !",
+      "description": "– Article invité, rédigé par Vincent Lautier, contient des liens affiliés Amazon –\nOn a tous le même problème. Une manette pour la Switch, une autre pour le PC, et impossible de jouer sur son Mac ou son iPad sans devoir acheter encore un autre accessoire. On …",
+      "url": "https://korben.info/cette-manette-de-jeu-8bitdo-fonctionne-sur-pc-sur-switch-sur-android-sur-mac-sur-ipad-partout.html",
+      "urlToImage": "https://korben.info/cette-manette-de-jeu-8bitdo-fonctionne-sur-pc-sur-switch-sur-android-sur-mac-sur-ipad-partout/cette-manette-de-jeu-8bitdo-fonctionne-sur-pc-sur-switch-sur-android-sur-mac-sur-ipad-partout-1.jpeg",
+      "publishedAt": "2025-10-31T10:55:58Z",
+      "content": "Article invité, rédigé par Vincent Lautier, contient des liens affiliés Amazon \r\nOn a tous le même problème. Une manette pour la Switch, une autre pour le PC, et impossible de jouer sur son Mac ou so… [+4194 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Álvaro García M.",
+      "title": "Apple reconoce la inesperada demanda de los iPhone 17 a la par que confirma ingresos de récord",
+      "description": "Apple presume del 7,3%. Es el indice de crecimiento que ha experimentado en el último trimestre en comparación con el mismo periodo de 2024. Desde julio de este año y hasta finales de septiembre, coincidiendo con la primera tirada de los nuevos iPhone, la fir…",
+      "url": "https://www.applesfera.com/apple-1/apple-reconoce-inesperada-demanda-iphone-17-a-par-que-confirma-ingresos-record",
+      "urlToImage": "https://i.blogs.es/579f46/iphone-17/840_560.jpeg",
+      "publishedAt": "2025-10-31T07:30:09Z",
+      "content": "Apple presume del 7,3%. Es el indice de crecimiento que ha experimentado en el último trimestre en comparación con el mismo periodo de 2024. Desde julio de este año y hasta finales de septiembre, coi… [+5251 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Guille Lomener",
+      "title": "El ordenador más arriesgado de la historia de Steve Jobs fue un fracaso comercial. Aun así, salvó a Apple y creó Internet tal como la conocemos",
+      "description": "En 1985, Steve Jobs salió de Apple por la puerta de atrás, pero no tardó mucho en buscar su venganza personal. Fundó NeXT con doce millones de su dinero, fichó a sus mejores excompañeros del Macintosh y del Lisa, y puso como objetivo reinventar el ordenador p…",
+      "url": "https://www.applesfera.com/curiosidades/ordenador-arriesgado-historia-steve-jobs-fue-fracaso-comercial-asi-salvo-a-apple-creo-internet-tal-como-conocemos",
+      "urlToImage": "https://i.blogs.es/e594be/jobs-next/840_560.jpeg",
+      "publishedAt": "2025-10-31T17:00:57Z",
+      "content": "En 1985, Steve Jobs salió de Apple por la puerta de atrás, pero no tardó mucho en buscar su venganza personal. Fundó NeXT con doce millones de su dinero, fichó a sus mejores excompañeros del Macintos… [+3166 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eonline.com"
+      },
+      "author": null,
+      "title": "Elon Musk's Mom Maye Musk Shares Rare Insight Into Bond With His Kids",
+      "description": "Maye Musk is ready for the holiday season to begin.\nIndeed, while Elon Musk’s mom pulled out all the stops for her 2025 Halloween costume, stepping out at Heidi Klum’s Halloween party Oct. 31 as...",
+      "url": "https://www.eonline.com/news/1424532/elon-musks-mom-on-bond-with-his-kids-heidi-klum-halloween-party",
+      "urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/20251101/36b0b0d1-dabc-455e-9a2e-12bfa6b608e3_1762015986.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+      "publishedAt": "2025-11-01T17:04:01Z",
+      "content": "Maye Musk is ready for the holiday season to begin.\r\nIndeed, while Elon Musks mom pulled out all the stops for her 2025 Halloween costume, stepping out at Heidi Klums Halloween party Oct. 31 as the i… [+810 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Decrypt"
+      },
+      "author": "Ryan Gladwin",
+      "title": "Crypto Leverage Trading a 'Major Problem', Says Former FTX US President",
+      "description": "The former FTX US exec is launching a perpetual futures exchange for traditional assets, and wants to avoid the risks present in crypto.",
+      "url": "https://decrypt.co/347047/crypto-leverage-trading-major-problem-former-ftx-us-president",
+      "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Chart4_green-gID_7.png",
+      "publishedAt": "2025-11-01T17:01:03Z",
+      "content": "In brief\r\n<ul><li>Former president of FTX US, Brett Harrison, told Decrypt that offering leverage up to 1,001x on volatile crypto assets is \"irresponsible\" and a \"major problem.\"</li><li>Proponents o… [+5345 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NBCSports.com"
+      },
+      "author": "Mike Florio",
+      "title": "Amid YouTube TV dispute, ESPN scrambles to gather College GameDay audience - NBC Sports",
+      "description": "If you're one of the millions of YouTube TV customers who had hoped to watch ESPN's College GameDay this morning, you're SOL.",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/amid-youtube-tv-dispute-espn-scrambles-to-gather-college-gameday-audience",
+      "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/eaa3733/2147483647/strip/true/crop/4456x2507+0+418/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fcd%2F59%2F439f23dc4676a28ab1e1e43ac8ea%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F1684406812",
+      "publishedAt": "2025-11-01T13:09:25Z",
+      "content": "If youre one of the millions of YouTube TV customers who had hoped to watch ESPNs College GameDay this morning, youre SOL.\r\nThe dispute between Google and Disney continues, which keeps ESPN, ABC, and… [+634 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Post"
+      },
+      "author": "Shane Galvin",
+      "title": "Rapper D4vd, whose Tesla trunk contained the body of teen girl, had ‘farm’ tools in his LA mansion: investigation",
+      "description": "Private investigator Steve Fisher shocking discoveries while investigating the activities of D4vd at his Los Angeles mansion.",
+      "url": "https://nypost.com/2025/11/01/us-news/rapper-d4vd-whose-tesla-trunk-contained-the-body-of-teen-girl-had-farm-tools-in-his-la-mansion-investigation/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2025/10/114503868.jpg?quality=75&strip=all&w=1200",
+      "publishedAt": "2025-11-01T12:15:00Z",
+      "content": "A private detective investigating the rental home of rapper D4vd claims to have discovered “farm” tools in the $20,000-a-month Los Angeles mansion which the musician fled after a 15-year-old girl was… [+3386 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The-independent.com"
+      },
+      "author": "Sean O'Grady",
+      "title": "Volkswagen Passat: Practical perfection",
+      "description": "The Passat estate returns as a plug-in hybrid that’s spacious, steady and reassuringly understated – a car for grown-ups, finds Sean O’Grady",
+      "url": "https://www.the-independent.com/life-style/motoring/volkswagen-passat-practical-perfection-b2855602.html",
+      "urlToImage": "https://static.the-independent.com/2025/10/30/18/54/Volkswagen-Passat.jpeg?trim=135,0,137,0&width=1200&height=800&crop=1200:800",
+      "publishedAt": "2025-11-01T06:00:00Z",
+      "content": "Your support helps us to tell the story\r\nFrom reproductive rights to climate change to Big Tech, The Independent is on the ground when the story is developing. Whether it's investigating the financia… [+5262 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Nicholas G. Miller",
+      "title": "Newell Brands Cuts Outlook After Consumers Resist Price Hikes",
+      "description": "The maker of Yankee Candle and Sharpie saw third-quarter sales fall 7.2% to $1.81 billion after increasing prices to offset tariffs.",
+      "url": "https://www.wsj.com/business/earnings/newell-brands-cuts-outlook-as-tariffs-raise-costs-12bd10df",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/qkWfqzujtgrDBjFqhYWumw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/4ab0c29e659a40058537cd05c7c3ceb3",
+      "publishedAt": "2025-10-31T14:21:00Z",
+      "content": "The company now expects full-year net sales to be down 4.5% to 5%, a change from its previous prediction of a 2% to 3% decline. - andrew kelly/Reuters\r\nNewell Brandss price hikes drew resistance from… [+2894 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Nicholas G. Miller",
+      "title": "Chevron Profit Falls on Lower Oil Prices",
+      "description": "Chevron said its third-quarter profit fell, citing lower crude oil prices and expenses from its acquisition of Hess.",
+      "url": "https://www.wsj.com/business/earnings/chevron-profit-falls-on-lower-oil-prices-6d8c5ac3",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/VeVjpKquWnGlAY0Vx012ew--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/872af6b8f379b08616fb352b73b815c4",
+      "publishedAt": "2025-10-31T10:28:00Z",
+      "content": "Chevron said its third-quarter profit fell, citing lower crude oil prices and expenses from its acquisition of Hess. - brian snyder/Reuters\r\nChevron said its third-quarter profit fell, citing lower c… [+1230 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Corrie Driebusch",
+      "title": "Software Firm Tests IPO Waters During Shutdown",
+      "description": "Navan will be the first large company to debut without a fully functioning Securities and Exchange Commission.",
+      "url": "https://www.wsj.com/finance/stocks/software-firm-tests-ipo-waters-during-shutdown-19aad64d",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/FOFu1ONUXlqdsV0B6MW6pw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/0fa77c67e8eed9f71904dbccd71d58f2",
+      "publishedAt": "2025-10-30T11:00:00Z",
+      "content": "- Emil Lendof/WSJ\r\nSoftware company Navan plans to make its stock-market debut Thursday despite a government shutdown that has stalled other new listings.\r\nNavan priced its offering at $25 a share, v… [+2235 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Connor Hart",
+      "title": "Verizon Profit, Revenue Rise but Postpaid Phone Losses Continue",
+      "description": "Verizon Communications logged higher profit and revenue in the third quarter, but the company lost lucrative postpaid phone customers in its consumer...",
+      "url": "https://www.wsj.com/business/earnings/verizon-backs-outlook-as-profit-revenue-rise-f92e4a6c",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/xMVHp5E8FLYhAJvZPeHLPQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/cad7caa83e722c4ffe8e627c2731766e",
+      "publishedAt": "2025-10-29T12:27:00Z",
+      "content": "Verizon Communications logged higher third-quarter profit and revenue, and the company said it is still on course to meet its yearly goals. - Justin Sullivan/Getty Images\r\nVerizon Communications logg… [+1896 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Drew FitzGerald",
+      "title": "Boeing Books Nearly $5 Billion Charge for 777X Delays",
+      "description": "The company pushed back the first delivery of its new 777X model to 2027, citing regulatory hangups.",
+      "url": "https://www.wsj.com/business/airlines/boeing-ba-q3-earnings-report-stock-2025-af9355c7",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/A6HWhFdHki97vw7oCA3xCQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/26044ae8601e278b6becaef034d8ba94",
+      "publishedAt": "2025-10-29T12:17:00Z",
+      "content": "Boeing said revenue rose 30% in the latest quarter. - patrick t. fallon/Agence France-Presse/Getty Images\r\nBoeing said it is making more of its workhorse 737 MAX jets with fewer restrictionsdespite s… [+3378 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Anna Wilde Mathews",
+      "title": "UnitedHealth Revenue Rises as Turnaround Efforts Continue",
+      "description": "The healthcare giant reported revenue rose more than 10%, and its CEO said he was confident of solid earnings growth next year.",
+      "url": "https://www.wsj.com/business/earnings/unitedhealth-revenue-rises-as-turnaround-efforts-continue-c66c3d8d",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/..A30znoQu0PAN9aZPHNcQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/a86f591ddc9a674338dfb5123f8d553f",
+      "publishedAt": "2025-10-28T14:29:00Z",
+      "content": "For the third quarter, UnitedHealth reported adjusted earnings per share of $2.92, down from $7.15 a year earlier. - Michael Nagle/Bloomberg News\r\nUnitedHealth Group said it was making progress on th… [+2315 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Connor Hart",
+      "title": "Booz Allen Cuts Outlook as Government Funding Stalls",
+      "description": "Booz Allen slashed its outlook for the year as it faces a prolonged and severe slowdown in government contract funding, particularly in its civil sector.",
+      "url": "https://www.wsj.com/business/earnings/booz-allen-cuts-outlook-as-quarterly-profit-revenue-fall-3791a812",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/RzvHx4YMPAv6QJdneszQrQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/c42fbc2e07d13bb5a6d6ff92cd87863c",
+      "publishedAt": "2025-10-24T15:42:00Z",
+      "content": "For its three months ended Sept. 30, Booz Allen reported a profit of $175 million, or $1.42 a share. Stripping out certain one-time items, adjusted earnings were $1.49 a share. - Jason C. Andrew/Bloo… [+3082 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Nicholas G. Miller and Kelly Cloonan",
+      "title": "Procter & Gamble to Focus on Innovation, Not Discounts, to Attract Wary Shoppers",
+      "description": "Procter Gamble’s sales grew in the first quarter and the consumer products company expects a milder effect from tariffs this fiscal year.",
+      "url": "https://www.wsj.com/business/retail/procter-gamble-sales-rise-sees-tariff-risk-lower-for-fy26-3e27e439",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/3haptpQDjjqAUseN61vsoQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/55f7c3c06447cbc778e733337df386c6",
+      "publishedAt": "2025-10-24T15:33:00Z",
+      "content": "Organic sales edged up 2% due to higher pricing and a more favorable mix, with growth in the companys beauty, grooming and healthcare segments. - Justin Sullivan/Getty Images\r\nProcter &amp; Gamble re… [+3924 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Adrià Calatayud",
+      "title": "UBS Names New Chief Operating Officer in Executive Team Reshuffle",
+      "description": "Lukas Gaehwiler, vice chairman of UBS’s board since 2022, will retire following next year’s annual general meeting after a 45-year career in the sector.",
+      "url": "https://www.wsj.com/business/c-suite/ubs-names-new-chief-operating-officer-in-executive-team-reshuffle-43c6a52b",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/meJTjGhnCgFyfBGI88r5aw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/da6f6066fe96d3b403a089a8621ac6c1",
+      "publishedAt": "2025-10-24T06:42:00Z",
+      "content": "UBS said it remains on track to complete the Credit Suisse integration by the end of 2026. - denis balibouse/Reuters\r\nUBS Group named Beatriz Martin, head of noncore assets, new chief operating offic… [+1865 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Nicholas G. Miller",
+      "title": "Cleveland-Cliffs Gets Steel-Tariff Boost, Looks to Rare-Earth Minerals",
+      "description": "Cleveland-Cliffs reported rising demand for its steel in the third quarter, and said it will explore producing rare-earth minerals, as the Trump...",
+      "url": "https://www.wsj.com/business/earnings/cleveland-cliffs-revenue-rises-boosted-by-steel-tariffs-11ed6b04",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/Ni0nkvPl.3VU9NtaGzQPJQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/d75735d08a0d8055064c3d5522668c2d",
+      "publishedAt": "2025-10-20T14:07:00Z",
+      "content": "Cleveland-Cliffs posted higher third-quarter revenue and said demand for U.S.-produced steel was rising due to the Trump administrations tariffs. - Emily Rose Bennett for The Wall Street Journal\r\nCle… [+3377 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Alexander Saeedy",
+      "title": "Strong U.S. Economy Powers Bank of America Profit Higher",
+      "description": "The bank’s quarterly profit rose 23%, with consumer spending up and investment banking results booming.",
+      "url": "https://www.wsj.com/finance/banking/bank-of-america-bac-q3-earnings-report-stock-2025-6af3d29d",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/1qGlConlP9DwLdMvVCmTbw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/bcfd416e08d9e932b2bd73664756f7e2",
+      "publishedAt": "2025-10-15T12:40:00Z",
+      "content": "Bank of America posted record-high net interest income, the profit it makes from lending. - Seeger Gray/WSJ\r\nBank of America reported third-quarter earnings and revenue that bested analysts expectati… [+3234 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Dow Jones Newswires Staff",
+      "title": "Global Markets Up After Powell Signals New Rate Cuts",
+      "description": "Stock futures for the S 500 rose early following a volatile previous session marked by mixed rhetoric from the U.S. and China over trade.",
+      "url": "https://www.wsj.com/finance/global-markets-up-after-powell-signals-new-rate-cuts-501472b8",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/vFq6aaxTWyOStav5kKW0Xw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/96d6017d2c1da1e6f112ad71deda873e",
+      "publishedAt": "2025-10-15T08:25:00Z",
+      "content": "Federal Reserve Chair Jerome Powell signaled that an interest rate cut is coming at its meeting later this month. - Chip Somodevilla/Getty Images\r\nGlobal stock markets and U.S. stock futures rose ear… [+3189 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Jack Pitcher",
+      "title": "BlackRock’s Assets Hit Record $13.5 Trillion After Market Rally, Dealmaking Spree",
+      "description": "The investment manager’s base fees rose at an annualized rate of 10% in third quarter.",
+      "url": "https://www.wsj.com/finance/investing/blackrocks-assets-hit-record-13-5-trillion-after-market-rally-dealmaking-spree-b0cce2ca",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/WqWRvOzv3.77NdAWRcN6ZQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/02f4096e7c1a7f14a5bd6f33590e1670",
+      "publishedAt": "2025-10-14T20:14:00Z",
+      "content": "BlackRocks fee growth was driven by investors insatiable appetite for exchange-traded funds. - Bing Guan/Bloomberg News\r\nThe worlds biggest money manager just shattered its own record.\r\nBlackRock end… [+3025 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "AnnaMaria Andriotis",
+      "title": "Goldman Sachs Profit Surges, Fueled by Dealmaking Boom",
+      "description": "Investment banking revenue jumped 42% and results beat expectations, but the bank still plans job cuts.",
+      "url": "https://www.wsj.com/business/earnings/goldman-sachs-gs-q3-earnings-report-stock-2025-1f1ac185",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/lFKu6zK4vwUyVZh3BC0EtA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/b1a2a08a75950c4c7cd3b4a205c71995",
+      "publishedAt": "2025-10-14T15:02:00Z",
+      "content": "Goldman Sachs building in New York - John Taggart for WSJ\r\nGoldman Sachs reported a stronger-than-expected profit in the third quarter, with the bank now on pace for its best year ever in its main in… [+3241 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Alexander Gladstone and Margot Patrick",
+      "title": "First Brands Boss Resigns and Jefferies Seeks to Calm Its Investors",
+      "description": "The Wall Street firm sought to reassure investors it can absorb any potential losses related to the First Brands bankruptcy, after its shares fell 18% last...",
+      "url": "https://www.wsj.com/finance/jefferies-seeks-to-calm-worries-over-first-brands-cc41acab",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/LfRCb5hcDB1GdkHKLHmkzA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/03d4ef4c899b223c78c56e7a6b10ce8b",
+      "publishedAt": "2025-10-13T13:07:00Z",
+      "content": "Jefferies Financial said its own exposure to First Brands is limited to roughly $45 million. - Jeenah Moon/Bloomberg News\r\nPatrick James, the chief executive of bankrupt auto-parts supplier First Bra… [+2965 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Jennifer Williams and Connor Hart",
+      "title": "PepsiCo Taps Walmart Executive as New CFO",
+      "description": "PepsiCo logged higher revenue in its fiscal third quarter, though profit slipped as volumes fell. The company also tapped a Walmart executive to fill its top...",
+      "url": "https://www.wsj.com/articles/pepsico-posts-higher-revenue-profit-falls-a22216b3",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/ZcKOZPy4IUHnvpLsxQRiRw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/8c2cf51a92c8a5a4b3d4384c61a3d823",
+      "publishedAt": "2025-10-09T21:08:00Z",
+      "content": "PepsiCo logged higher revenue in its fiscal third quarter, though profit slipped as volumes fell. - David Paul Morris/Bloomberg News\r\nPepsiCo is shaking up its finance chief ranks as the company look… [+3854 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Dow Jones Newswires Staff",
+      "title": "Global Markets Mixed, Gold Rally Pauses on Easing Middle Eastern Tensions",
+      "description": "The yellow metal’s rally took a pause as a peace deal between Israel and Hamas begins to take shape.",
+      "url": "https://www.wsj.com/finance/global-markets-mixed-gold-rally-pauses-on-easing-middle-eastern-tensions-49455149",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/AplclTsDXCIsvMsq6l4qqA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/09942a44d09066c80c7824d59f5a5728",
+      "publishedAt": "2025-10-09T09:33:00Z",
+      "content": "- timothy a. clary/Agence France-Presse/Getty Images\r\nU.S. stock futures fell slightly Thursday, while golds rally paused as a peace deal between Israel and Hamas begins to take shape. The dollar str… [+2274 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Dominic Chopping and Eliot Brown",
+      "title": "SoftBank Expands AI Footprint With Multibillion-Dollar Robotics Deal",
+      "description": "The acquisition from ABB marks the largest in a long and patchy record of robotics investments by SoftBank Chief Executive Masayoshi Son.",
+      "url": "https://www.wsj.com/business/deals/softbank-to-buy-abbs-robotics-unit-in-5-38-billion-deal-f95024c8",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/DnhiC0Bxb9Ak_lhnd5zAOQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/ef00b03d56f1dfe40a996e4f25f37b49",
+      "publishedAt": "2025-10-08T12:19:00Z",
+      "content": "SoftBank CEO Masayoshi Sons autonomous aspirations go back years. - kim kyung-hoon/Reuters\r\nTech conglomerate SoftBank Group has agreed to a $5.4 billion deal for the industrial-robotics-focused busi… [+3079 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Jonathan Weil",
+      "title": "Nasdaq Has Become the Market of Choice for Dubious Penny-Stock IPOs",
+      "description": "Such listings surged starting last year. Now Nasdaq says it wants to tighten its standards.",
+      "url": "https://www.wsj.com/finance/stocks/nasdaq-has-become-the-market-of-choice-for-dubious-penny-stock-ipos-a01cae19",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/mAViuq6WUiRmuS8RcImfSg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/a2fa81b0f00130cdcf053220a6bc6260",
+      "publishedAt": "2025-10-06T11:00:00Z",
+      "content": "Final approval for Nasdaqs tightened listing standards could be months away. - Jimin Kim/ZUMA Press Nasdaq is known as the markets home for tech stocks, in particular giants like Nvidia, Apple and M… [+4427 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Jonathan Weil",
+      "title": "Opendoor Hype Won’t Make Its Business Any More Viable",
+      "description": "The loss-making house flipper has become a meme stock.",
+      "url": "https://www.wsj.com/finance/investing/opendoor-hype-wont-make-its-business-any-more-viable-b25ff0fd",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/GIfmN8yz9oJ8BBccOmvOtQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/890583dfd23c3e932f4d4fcdc0f50589",
+      "publishedAt": "2025-10-03T09:30:00Z",
+      "content": "While Opendoors stock has risen, the company still faces challenges. - Paul Kitagaki Jr./Sacramento Bee/ZUMA Press\r\nOpendoor Technologies is the digital home-flipping outfit that somehow keeps clingi… [+4180 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Kwanwoo Jun",
+      "title": "Samsung, SK Hynix Rally on Partnership With OpenAI for Stargate Project",
+      "description": "Shares in Samsung Electronics and SK Hynix surged to multiyear highs, after the South Korean memory-chip makers struck initial agreements with ChatGPT maker ...",
+      "url": "https://www.wsj.com/finance/samsung-sk-hynix-rally-on-partnership-with-openai-for-stargate-project-54937adf",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/1XXRiSPklp24R.QRQdpGSQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/d91a7998c674c8e8048906df377c958b",
+      "publishedAt": "2025-10-02T10:15:00Z",
+      "content": "Samsung Electronics is stepping up efforts to catch up in supplying next-generation HBM4 products. - odd andersen/Agence France-Presse/Getty Images\r\nShares in Samsung Electronics and SK Hynix surged … [+3233 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Adam Whittaker",
+      "title": "BP’s New Chairman Calls for Urgency in Push to Simplify the Business",
+      "description": "Albert Manifold’s message signaled more asset sales as it attempts to shore up its balance sheet while boosting valuations for shareholders.",
+      "url": "https://www.wsj.com/business/energy-oil/bps-new-chairman-calls-for-urgency-in-push-to-simplify-the-business-9ea9aa35",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/e3YqgmCltpvy3jeF4b_HYA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/a5e63ffac12b4aee746ad54fcafb5d46",
+      "publishedAt": "2m"
     },
     {
       "source": {
@@ -499,19 +952,6 @@
     {
       "source": {
         "id": null,
-        "name": "Biztoc.com"
-      },
-      "author": "coindesk.com",
-      "title": "Tesla CEO Elon Musk Says X Chat's New P2P Encryption System Is Similar to Bitcoin's",
-      "description": "Tesla CEO Elon Musk Says X Chat's New P2P Encryption System Is Similar to Bitcoin's\nThe in-app Chat is in beta for Premium users with file sharing and media support, while a standalone X Chat app is slated to follow in the coming months.\nWhat to know:\n- X wil…",
-      "url": "https://biztoc.com/x/b6a5cf3788faf900",
-      "urlToImage": "https://biztoc.com/cdn/b6a5cf3788faf900_s.webp",
-      "publishedAt": "2025-11-01T12:11:53Z",
-      "content": "Tesla CEO Elon Musk Says X Chat's New P2P Encryption System Is Similar to Bitcoin'sThe in-app Chat is in beta for Premium users with file sharing and media support, while a standalone X Chat app is s… [+143 chars]"
-    },
-    {
-      "source": {
-        "id": null,
         "name": "Yahoo Entertainment"
       },
       "author": "David Kirakosyan",
@@ -547,19 +987,6 @@
       "urlToImage": "https://biztoc.com/cdn/950/og.png",
       "publishedAt": "2025-11-01T12:01:11Z",
       "content": "China EV makers XPeng and Nio had record October deliveries while Xiaomi likely did also. BYD had its best month of 2025 but is still struggling.The post Tesla Rivals XPeng, Nio Report Record China E… [+135 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Biztoc.com"
-      },
-      "author": "businessinsider.com",
-      "title": "I tried a Tesla FSD dupe. It's challenging how I think about the technology",
-      "description": "Business Insider went on a demo ride of Wayve's AV2.0, an advanced driver assistance system akin to Tesla's FSD (Supervised).\nLloyd Lee/BI\nTesla has an Advanced Driver Assistance System (ADAS) known as Full Self-Driving (Supervised).\nWayve, a UK-based startup…",
-      "url": "https://biztoc.com/x/fcf7cb351eef3fc4",
-      "urlToImage": "https://biztoc.com/cdn/fcf7cb351eef3fc4_s.webp",
-      "publishedAt": "2025-11-01T11:39:07Z",
-      "content": "Business Insider went on a demo ride of Wayve's AV2.0, an advanced driver assistance system akin to Tesla's FSD (Supervised).Lloyd Lee/BITesla has an Advanced Driver Assistance System (ADAS) known as… [+148 chars]"
     },
     {
       "source": {
@@ -668,19 +1095,6 @@
     {
       "source": {
         "id": null,
-        "name": "LADbible"
-      },
-      "author": "Olivia Burke",
-      "title": "Man narrowly avoids disaster as 'one-in-a-billion' meteorite smashes into windscreen while driving brand new Tesla",
-      "description": "Australian vet Dr Andrew Melville-Smith was driving his new Tesla home when a 'really violent explosion' rocked the car, burning a hole in his windcreen.",
-      "url": "https://www.ladbible.com/news/world-news/australia-tesla-driver-meteorite-smashes-windscreen-320199-20251101",
-      "urlToImage": "https://images.ladbible.com/ogimage/v3/assets/bltcd74acc1d0a99f3a/blta0274b4f363c3c63/6905e3026cdcf07b17fe4c2a/6902d50fdcc55e145ba05375_Meteorite_-_Andrew_Melville_Smith_crop.jpg",
-      "publishedAt": "2025-11-01T10:50:52Z",
-      "content": "You never forget the day you collect your brand new car. But for this bloke, the drive home was more memorable than the actual pickup.\r\nThat's because Dr Andrew Melville-Smith narrowly avoided a dead… [+4404 chars]"
-    },
-    {
-      "source": {
-        "id": null,
         "name": "CNET"
       },
       "author": "Connor Jewiss",
@@ -701,268 +1115,7 @@
       "description": "As investors prepare to vote, the board warns the world’s richest man may walk away — and the stakes could not be higher",
       "url": "https://www.irishtimes.com/your-money/2025/11/01/teslas-trillion-dollar-plea-wont-somebody-think-of-elon-musk/",
       "urlToImage": "https://www.irishtimes.com/resizer/v2/YPOSANSQ447FJPHKVC6747Y5CE.jpg?smart=true&auth=4676dec6639810a0c1527db1c8109483ffbb8f7252ab3be90a4f42339bbf9f49&width=1200&height=630",
-      "publishedAt": "2025-11-01T06:35:00Z",
-      "content": "Wont somebody please think of the worlds richest man? That, in essence, is Teslas pitch as shareholders prepare to vote on Elon Musks proposed $1 trillion pay deal. \r\nThe board has warned that if the… [+1645 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "NBCSports.com"
-      },
-      "author": "Mike Florio",
-      "title": "Amid YouTube TV dispute, ESPN scrambles to gather College GameDay audience - NBC Sports",
-      "description": "If you're one of the millions of YouTube TV customers who had hoped to watch ESPN's College GameDay this morning, you're SOL.",
-      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/amid-youtube-tv-dispute-espn-scrambles-to-gather-college-gameday-audience",
-      "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/eaa3733/2147483647/strip/true/crop/4456x2507+0+418/resize/1440x810!/quality/90/?url=httpsD%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fcd%2F59%2F439f23dc4676a28ab1e1e43ac8ea%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F1684406812",
-      "publishedAt": "2025-11-01T13:09:25Z",
-      "content": "If youre one of the millions of YouTube TV customers who had hoped to watch ESPNs College GameDay this morning, youre SOL.\r\nThe dispute between Google and Disney continues, which keeps ESPN, ABC, and… [+634 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "CNBC"
-      },
-      "author": "Yun Li",
-      "title": "Berkshire's operating earnings jump 34%, Buffett buys back no stock and raises cash hoard to $381 billion - CNBC",
-      "description": "Berkshire's operating profit generated from the conglomerate's wholly owned businesses including insurance and railroads jumped 34% in the third quarter.",
-      "url": "https://www.cnbc.com/2025/11/01/berkshire-hathaway-brk-earnings-q3-2025.html",
-      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108140408-1746278498531-untitled-218-82.jpg?v=1746557643&w=1920&h=1080",
-      "publishedAt": "2025-11-01T12:27:58Z",
-      "content": "Warren Buffett's Berkshire Hathaway reported a sharp rebound in operating profit on Saturday, while its cash pile swelled to a new high with no buybacks.\r\nBerkshire's operating profit generated from … [+1838 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "CNBC"
-      },
-      "author": "Luke Fountain",
-      "title": "'Trump effect' raises hopes for cannabis rally as investors bet on federal reforms, softer marijuana stance - CNBC",
-      "description": "Cannabis stocks could rally on hopes for new hemp regulations and Trump's possible softer stance on marijuana, fueling investor optimism across the industry.",
-      "url": "https://www.cnbc.com/2025/11/01/cannabis-stock-market-trump-marijuana.html",
-      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107259488-1687282292246-gettyimages-1483659930-4-20commemorationinnewyork005.jpeg?v=1687283188&w=1920&h=1080",
-      "publishedAt": "2025-11-01T12:00:01Z",
-      "content": "Oils containing CBD (Cannabidiol).\r\nCannabis stocks could be poised for a rally after years of stagnation, fueled by investor optimism over the possibility for new federal rules for hemp-derived prod… [+11367 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "MarketWatch"
-      },
-      "author": "Christine Ji, Philip van Doorn",
-      "title": "10 stocks that let you invest like Nvidia in the next hot AI trade - MarketWatch",
-      "description": "Here’s why Lumentum, Credo and eight other stocks are at the center of this ‘least understood’ part of the AI boom",
-      "url": "https://www.marketwatch.com/story/10-stocks-that-let-you-invest-like-nvidia-in-the-next-hot-ai-trade-d7af3161",
-      "urlToImage": "https://images.mktw.net/im-25436481/social",
-      "publishedAt": "2025-11-01T11:30:00Z",
-      "content": "Looking to invest in the artificial-intelligence boom beyond the obvious semiconductor bets? The AI connectivity trade is due for more attention.\r\nAdvanced AI models need to transmit increasing amoun… [+476 chars]"
-    },
-    {
-      "source": {
-        "id": "fortune",
-        "name": "Fortune"
-      },
-      "author": "Marco Quiroz-Gutierrez",
-      "title": "CEO Andy Jassy says Amazon’s 14,000 layoffs weren’t about cutting costs or AI taking jobs: 'It's culture' - Fortune",
-      "description": "Jassy said the cuts weren’t AI-driven, “not right now at least.”",
-      "url": "https://fortune.com/2025/11/01/ceo-andy-jassy-amazon-layoffs-about-culture-not-ai/",
-      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2025/10/GettyImages-2188101075-e1761933556339.jpg?resize=1200,600",
-      "publishedAt": "2025-11-01T09:03:00Z",
-      "content": "Amazons CEO has finally spoken up about the companys 14,000 layoffs earlier this week, and he claims the motive was not at all financial.Speaking during the companys quarterly earnings call Thursday,… [+2475 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Financial Times"
-      },
-      "author": "Thomas Hale, Ryan McMorrow",
-      "title": "China signals easing of Nexperia semiconductor export ban - Financial Times",
-      "description": "Dispute over Netherlands-based chipmaker has threatened to disrupt global auto supply chains",
-      "url": "https://www.ft.com/content/32c29626-703e-43c0-b8f5-2197c165effb",
-      "urlToImage": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Feb4f47ed-5913-4fd1-9830-b06c4035dbd5.jpg?source=next-barrier-page",
-      "publishedAt": "2025-11-01T07:45:08Z",
-      "content": "Then $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial."
-    },
-    {
-      "source": {
-        "id": "the-washington-post",
-        "name": "The Washington Post"
-      },
-      "author": "Rachel Roubein",
-      "title": "FDA limits fluoride tablets for children, stopping short of ban - The Washington Post",
-      "description": "The agency concluded ingestible fluoride should be limited to children aged three years and older who are at high risk for tooth decay.",
-      "url": "https://www.washingtonpost.com/health/2025/10/31/fda-fluoride-prescription-restrictions/",
-      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EQ3M2ZEHQZWCVOTWWNMX24PD7I.jpg&w=1440",
-      "publishedAt": "2025-11-01T03:15:08Z",
-      "content": "Most children should not receive prescription fluoride, Food and Drug Administration officials said Friday as they announced measures to restrict sales of the cavity-fighting drug.\r\nThe agency said c… [+232 chars]"
-    },
-    {
-      "source": {
-        "id": "cbs-news",
-        "name": "CBS News"
-      },
-      "author": "Neal  Riley",
-      "title": "Delta pilot says \"that was close\" after go-around at Boston's Logan Airport; FAA investigating - CBS News",
-      "description": "The FAA is investigating an apparent close call at Logan Airport Thursday involving a Delta Air Lines flight that was landing and a Cape Air plane that was taking off.",
-      "url": "https://www.cbsnews.com/boston/news/delta-close-call-logan-airport-boston/",
-      "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2025/11/01/61adec40-6eb5-4a8b-8f22-cb50a61820a0/thumbnail/1200x630/7c8527bde5f4edf53eb78a3de446957a/delta-plane.jpg",
-      "publishedAt": "2025-11-01T02:17:00Z",
-      "content": "The Federal Aviation Administration is investigating an apparent close call at Boston's Logan Airport Thursday involving a Delta Air Lines flight that was landing and a Cape Air plane that was taking… [+2051 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "9to5Mac"
-      },
-      "author": "Marcus Mendes",
-      "title": "Apple stock closes slightly down following Q4 2025 report - 9to5Mac",
-      "description": "Apple shares rose after its Q4 2025 earnings report, but investor sentiment cooled as trading went on. Here are the numbers.",
-      "url": "https://9to5mac.com/2025/10/31/apple-stock-reaction-q4-2025-report/",
-      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/01/Apple-CEO-Tim-Cook-AAPL.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-      "publishedAt": "2025-10-31T23:44:00Z",
-      "content": "Following yesterdays quarterly report, Apple saw a welcome bump in its stock price. But as markets opened and the day progressed, investor sentiment appeared to shift slightly. Here are the details.\r… [+1308 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Seeking Alpha"
-      },
-      "author": "Carl Surran",
-      "title": "Exxon and Chevron keep boosting production despite weak oil price outlook (USO:NYSEARCA) - Seeking Alpha",
-      "description": "Exxon Mobil and Chevron, the two biggest US oil giants, increased their production during Q3 despite forecasts for a global supply glut and weakening oil prices.",
-      "url": "https://seekingalpha.com/news/4512637-exxon-and-chevron-keep-boosting-production-despite-weak-oil-price-outlook",
-      "urlToImage": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1213764535/image_1213764535.jpg?io=getty-c-w630",
-      "publishedAt": "2025-10-31T23:37:19Z",
-      "content": "SlavkoSereda/iStock via Getty Images\r\nExxon Mobil (XOM) and Chevron (CVX), the two biggest U.S. oil giants, increased their production during Q3 despite forecasts for a global supply glut and weakeni… [+98 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Barron's"
-      },
-      "author": "Barron's",
-      "title": "Meta Stock Took a Dive. It’s the Poster Child for the Debate Over AI Spending. - Barron's",
-      "description": null,
-      "url": "https://www.barrons.com/articles/meta-stock-took-a-dive-its-the-poster-child-for-the-debate-over-ai-spending-a4fe924e",
-      "urlToImage": null,
-      "publishedAt": "2025-10-31T22:37:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "US retailers are running out of pennies - BBC",
-      "description": "Find a penny, pick it up, then what? Now the US has stopped making pennies,  a shortage has emerged and created confusion.",
-      "url": "https://www.bbc.com/news/articles/c20556ly45eo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/d95e/live/8b1c99c0-b67d-11f0-b027-61021c9d4006.jpg",
-      "publishedAt": "2025-10-31T21:54:31Z",
-      "content": "US businesses are literally going penniless.\r\nSince the Trump administration ended minting the one-cent coins earlier this year, those still in circulation are becoming harder to find. Many stores ar… [+3430 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Dailykos.com"
-      },
-      "author": null,
-      "title": "The AI Bubble will burst, and it may save society - Daily Kos",
-      "description": "I am sure you have already heard about the AI Bubble we are in. The self-dealing between tech companies with nVidia at the center of it all. It's clear that it is just a matter of time till it pops. Enough other people that are smarter about finance...",
-      "url": "https://www.dailykos.com/stories/2025/10/31/2351503/-The-AI-Bubble-will-burst-and-it-may-save-society",
-      "urlToImage": "https://cdn.prod.dailykos.com/images/217929/story_image/102134029-bubble-burst.1910x1000.jpg?1456907235",
-      "publishedAt": "2025-10-31T21:48:12Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "bloomberg",
-        "name": "Bloomberg"
-      },
-      "author": "Jacob Lorinc, Danielle Bochove",
-      "title": "Canada Backs 25 Critical Minerals Projects in G-7 Initiative - Bloomberg.com",
-      "description": "Rio Tinto Group and Nouveau Monde Graphite Inc. are among more than a dozen companies set to benefit from a Group of Seven initiative to strengthen access to critical minerals.",
-      "url": "https://www.bloomberg.com/news/articles/2025-10-31/canada-backs-25-new-critical-minerals-projects-in-g-7-initiative",
-      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/irLIko7JUaLc/v1/1200x812.jpg",
-      "publishedAt": "2025-10-31T20:46:34Z",
-      "content": "Rio Tinto Group and Nouveau Monde Graphite Inc. are among more than a dozen companies set to benefit from a Group of Seven initiative to strengthen access to critical minerals.\r\nCanadian Prime Minist… [+352 chars]"
-    },
-    {
-      "source": {
-        "id": "bloomberg",
-        "name": "Bloomberg"
-      },
-      "author": "Catarina Saraiva, Alex Harris, Jonnelle Marte",
-      "title": "Fed ‘Chorus’ Comes Out Against Latest Cut, Citing Inflation - Bloomberg.com",
-      "description": "Three US central bank officials said they did not support a decision to cut interest rates this week, underscoring Federal Reserve Chair Jerome Powell’s warning Wednesday that another reduction in December is far from guaranteed.",
-      "url": "https://www.bloomberg.com/news/articles/2025-10-31/fed-s-logan-says-didn-t-want-rate-cut-with-inflation-still-high",
-      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ilsrL5U9a.Qg/v0/1200x798.jpg",
-      "publishedAt": "2025-10-31T20:38:45Z",
-      "content": "Three US central bank officials said they did not support a decision to cut interest rates this week, underscoring Federal Reserve Chair Jerome Powells warning Wednesday that another reduction in Dec… [+364 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Investopedia"
-      },
-      "author": "Michael Bromberg",
-      "title": "S&P 500 Gains and Losses Today: Amazon Stock Surges as Cloud Business Boosts Earnings; DexCom Drops - Investopedia",
-      "description": "The world's largest online retailer got a lift from its booming cloud computing business on Friday, Oct. 31, 2025, while a soft sales outlook weighed on a medical device firm's stock.",
-      "url": "https://www.investopedia.com/s-and-p-500-gains-and-losses-today-amazon-stock-surges-as-cloud-business-boosts-earnings-dexcom-drops-11841490",
-      "urlToImage": "https://www.investopedia.com/thmb/JpJYRVa_JzDjb1C7Hosxsb-Hrl0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-2243343982-b60dfee3b3584f71ad94552e0f0b78f8.jpg",
-      "publishedAt": "2025-10-31T20:28:20Z",
-      "content": "<ul><li>The world's largest online retailer got a boost from its booming cloud computing business on Friday, Oct. 31, 2025, while a soft sales outlook weighed on a medical device firm.</li><li>Amazon… [+3171 chars]"
-    },
-    {
-      "source": {
-        "id": "the-wall-street-journal",
-        "name": "The Wall Street Journal"
-      },
-      "author": "Dean Seal",
-      "title": "New York City Airports Disrupted by Air-Traffic Controller Shortage - The Wall Street Journal",
-      "description": "Air travel has been upset across the country as staffers miss paychecks because of government shutdown",
-      "url": "https://www.wsj.com/business/airlines/new-york-city-airports-disrupted-by-air-traffic-controller-shortage-81411948",
-      "urlToImage": "https://images.wsj.net/im-50811638/social",
-      "publishedAt": "2025-10-31T20:27:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "bloomberg",
-        "name": "Bloomberg"
-      },
-      "author": "Denitsa Tsekova, Carter Johnson",
-      "title": "Wall Street Confronts Fed Doubts as Bill Gross Sells Treasuries - Bloomberg.com",
-      "description": "Wall Street closed out October on a high. AI optimism, solid earnings, and easier financial conditions lifted stocks to their sixth consecutive month of gains while credit just notched its third straight advance.",
-      "url": "https://www.bloomberg.com/news/articles/2025-10-31/wall-street-confronts-fed-doubts-as-bill-gross-sells-treasuries",
-      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iKrG2HhR_3pQ/v1/1200x800.jpg",
-      "publishedAt": "2025-10-31T20:10:30Z",
-      "content": "Wall Street closed out October on a high. AI optimism, solid earnings, and easier financial conditions lifted stocks to their sixth consecutive month of gains while credit just notched its third stra… [+108 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Umn.edu"
-      },
-      "author": null,
-      "title": "Deadly multistate Listeria outbreak tied to prepared pasta meals expands - CIDRAP",
-      "description": "Seven new illness and 2 additional deaths have been confirmed in the outbreak, which has grown to 27 cases and 6 deaths.",
-      "url": "https://www.cidrap.umn.edu/listeria/deadly-multistate-listeria-outbreak-tied-prepared-pasta-meals-expands",
-      "urlToImage": "https://www.cidrap.umn.edu/themes/custom/cidrap_theme/images/cidrap-og-image.jpg",
-      "publishedAt": "2025-10-31T19:59:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Financial Times"
-      },
-      "author": "Amelia Pollard, Sujeet Indap",
-      "title": "First Brands formally accused of ‘massive fraud’ by lenders - Financial Times",
-      "description": "Some creditors want an independent trustee involved in car parts maker’s bankruptcy process",
-      "url": "https://www.ft.com/content/27a28cce-b0c9-471a-a7ac-1f060e68f32f",
-      "urlToImage": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F3d9c1b9d-a2e5-48ee-be45-31a25b32462f.jpg?source=next-barrier-page",
-      "publishedAt": "2025-10-31T19:49:22Z",
-      "content": "Then $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial."
+      "publishedAt": "2m"
     }
   ]
 }

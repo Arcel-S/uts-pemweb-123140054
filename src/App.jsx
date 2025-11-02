@@ -11,7 +11,6 @@ import { getCurrentUser, logoutUser, getFavorites, updateFavorites } from './uti
 import AuthModal from './components/AuthModal';
 
 function App() {
-  // 1. Theme/Local Storage Logic
   const [theme, setTheme] = useLocalStorage('theme', 'light');
 
   useEffect(() => {
@@ -30,7 +29,7 @@ function App() {
     loading, 
     error, 
     popularArticles,
-    popularError, // Ambil state error popular
+    popularError,
     totalResults, 
     currentPage, 
     pageSize 
@@ -102,11 +101,11 @@ function App() {
       let titleText = '';
       switch (category.toLowerCase()) {
           case 'search': titleText = `Search Results: "${searchTerm}"`; break;
-          case 'apple': titleText = 'APPLE News'; break;
-          case 'tesla': titleText = 'TESLA News'; break;
-          case 'business': titleText = 'LATEST US BUSINESS HEADLINES'; break;
-          case 'technology': titleText = 'LATEST TECHNOLOGY HEADLINES'; break;
-          case 'sports': titleText = 'LATEST SPORTS HEADLINES'; break;
+          case 'apple': titleText = 'APPLE NEWS'; break;
+          case 'tesla': titleText = 'TESLA NEWS'; break;
+          case 'business': titleText = 'BUSINESS NEWS'; break;
+          case 'technology': titleText = 'TECHNOLOGY NEWS'; break;
+          case 'sports': titleText = 'SPORTS NEWS'; break;
           default: titleText = `Latest News - ${category.toUpperCase()}`;
       }
       if (startDate && (category === 'search' || category === 'apple' || category === 'tesla')) {
