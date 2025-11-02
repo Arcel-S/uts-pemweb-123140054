@@ -31,7 +31,7 @@ Meskipun datanya statis, seluruh arsitektur *fetching*, *loading state*, dan *er
 
 Aplikasi sudah di-*deploy* dan dapat diakses melalui link berikut:
 
-**Link Deployment Vercel:** [LINK VERCEL](https://uts-pemweb-123140054.vercel.app/)
+**Link Deployment Vercel:** [Vercel](https://uts-pemweb-123140054.vercel.app/)
 
 ---
 
