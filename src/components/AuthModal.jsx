@@ -14,12 +14,25 @@ const AuthModal = ({ onClose, onLoginSuccess }) => {
         setMessage('');
 
         if (isRegister) {
+            // --- VALIDASI BARU DIMULAI ---
+            if (username.length < 3) {
+                setMessage('Username minimal 3 karakter.');
+                return; // Hentikan fungsi
+            }
+            if (password.length < 8) {
+                setMessage('Password minimal 8 karakter.');
+                return; // Hentikan fungsi
+            }
+            // --- AKHIR VALIDASI ---
+
+            // Jika validasi lolos, lanjutkan registrasi
             const result = registerUser(username, password);
             setMessage(result.message);
             if (result.success) {
                 setIsRegister(false);
             }
         } else {
+            // Logika login tidak perlu validasi panjang
             const result = loginUser(username, password);
             setMessage(result.message);
             if (result.success) {

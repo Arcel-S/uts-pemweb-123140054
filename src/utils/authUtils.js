@@ -13,9 +13,19 @@ export const getCurrentUser = () => {
     return username;
 };
 
-// Fungsi Pendaftaran
+// Fungsi Pendaftaran (Diperbarui)
 export const registerUser = (username, password) => {
     const users = getUsers();
+
+    // --- VALIDASI BARU ---
+    if (username.length < 3) {
+        return { success: false, message: 'Username harus minimal 3 karakter.' };
+    }
+    if (password.length < 8) {
+        return { success: false, message: 'Password harus minimal 8 karakter.' };
+    }
+    // --- AKHIR VALIDASI ---
+
     if (users[username]) {
         return { success: false, message: 'Username sudah terdaftar.' };
     }
