@@ -1,4 +1,4 @@
-# 📰 Digit 4 – News Portal
+<img width="1892" height="947" alt="image" src="https://github.com/user-attachments/assets/1c76e6c8-5cb5-4d78-9eea-5a2de688a8b3" /><img width="1892" height="947" alt="image" src="https://github.com/user-attachments/assets/206bb4db-419a-425d-8a21-ed72a64a82fb" /><img width="1891" height="952" alt="image" src="https://github.com/user-attachments/assets/88134884-4003-4102-af68-0b2c8085a919" /># 📰 Digit 4 – News Portal
 
 **Proyek Ujian Tengah Semester (UTS) Pemrograman Web | 123140054**
 
@@ -31,7 +31,7 @@ Meskipun datanya statis, seluruh arsitektur *fetching*, *loading state*, dan *er
 
 Aplikasi sudah di-*deploy* dan dapat diakses melalui link berikut:
 
-**Link Deployment Vercel:** [LINK VERCEL ANDA DI SINI]
+**Link Deployment Vercel:** [LINK VERCEL](https://uts-pemweb-123140054.vercel.app/)
 
 ---
 
@@ -53,9 +53,13 @@ Aplikasi sudah di-*deploy* dan dapat diakses melalui link berikut:
 
 | Tampilan Desktop (Homepage) | Tampilan Mobile (Responsif) |
 | :---: | :---: |
-| ![Screenshot Homepage](path/to/your/screenshot_homepage.jpg) | ![Screenshot Mobile View](path/to/your/screenshot_mobile.jpg) |
+| ![Screenshot Homepage](<img width="1891" height="952" alt="image" src="https://github.com/user-attachments/assets/94d67df5-655e-4e98-9646-08fe6c620576" />
+) | ![Screenshot Mobile View](![WhatsApp Image 2025-11-02 at 16 31 09_f715b928](https://github.com/user-attachments/assets/1e528263-632e-435d-bc73-8bfa78db0530)
+) |
 | **Tampilan Login & Favorites** | **Tampilan Dark Mode** |
-| ![Screenshot Login](path/to/your/screenshot_login.jpg) | ![Screenshot Dark Mode](path/to/your/screenshot_darkmode.jpg) |
+| ![Screenshot Login](<img width="1894" height="949" alt="image" src="https://github.com/user-attachments/assets/a87d0160-9533-4607-8896-e265d969e156" />
+) | ![Screenshot Dark Mode](<img width="1897" height="952" alt="image" src="https://github.com/user-attachments/assets/721c3b61-3d1c-4b4d-894f-41c314bf5009" />
+) |
 
 ---
 
