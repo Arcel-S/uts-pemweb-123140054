@@ -1,7 +1,176 @@
 {
   "status": "ok",
-  "totalResults": 25,
+  "totalResults": 38,
   "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Livemint"
+      },
+      "author": "Riya R Alex",
+      "title": "Elon Musk vs Sam Altman again! OpenAI CEO alleges Tesla order issues, Musk hits back with, ‘you stole a non-profit’",
+      "description": "Elon Musk and Sam Altman's feud intensified after Altman alleged his Tesla reservation was not canceled. While Altman claimed delays in receiving a refund, Musk stated the issue was resolved promptly.&nbsp;",
+      "url": "https://www.livemint.com/companies/people/elon-musk-vs-sam-altman-again-openai-ceo-alleges-tesla-order-issues-musk-hits-back-with-you-stole-a-nonprofit-11762065022753.html",
+      "urlToImage": "https://www.livemint.com/lm-img/img/2025/11/02/1600x900/COMBO-US-TECHNOLOGY-OPENAI-ALTMAN-MUSK-1_1737597725582_1762068325673.jpg",
+      "publishedAt": "2025-11-02T07:51:03Z",
+      "content": "The feud between Elon Musk and Sam Altman took a new turn after the OpenAI CEO shared a post alleging that the world's richest man's EV company did not cancel his reservation of a Tesla vehicle.\r\nIn … [+2079 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "JESSICA HILL Associated Press",
+      "title": "Nation's largest fleet of police Cybertrucks to patrol Las Vegas",
+      "description": "The nation’s largest police fleet of Tesla Cybertrucks is set to begin patrolling the streets of Las Vegas in November",
+      "url": "https://abcnews.go.com/US/wireStory/nations-largest-fleet-police-cybertrucks-patrol-las-vegas-127102391",
+      "urlToImage": "https://i.abcnewsfe.com/a/3a377173-577e-4c05-83fd-0d3377d76089/wirestory_f8294c00635009a78fa8a86741eec2ca_16x9.jpg?w=1600",
+      "publishedAt": "2025-11-02T04:29:34Z",
+      "content": "LAS VEGAS -- The nation's largest police fleet of Tesla Cybertrucks is set to begin patrolling the streets of Las Vegas in November thanks to a donation from a U.S. tech billionaire, raising concerns… [+6433 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "Lauren Edmonds",
+      "title": "Elon Musk comes clean about the sink in his viral Twitter takeover pic",
+      "description": "Elon Musk told the \"All-In\" podcast on Friday that the video of him carrying a sink into Twitter's former headquarters in 2022 almost didn't happen.",
+      "url": "https://www.businessinsider.com/elon-musk-viral-video-carrying-sink-twitter-hq-2025-11",
+      "urlToImage": "https://i.insider.com/690629d3c007ca8c27381379?width=1200&format=jpeg",
+      "publishedAt": "2025-11-02T04:02:01Z",
+      "content": "Elon Musk carrying a sink at the former Twitter headquarters in 2022.-/Twitter account of Elon Musk/AFP via Getty Images\r\n<ul><li>Elon Musk shared the details behind a viral video of him carrying a s… [+2965 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "JESSICA HILL",
+      "title": "Nation's largest fleet of police Cybertrucks to patrol Las Vegas",
+      "description": "The nation's largest police fleet of Tesla Cybertrucks is set to begin patrolling the streets of Las Vegas in November thanks to a donation from a U.S. tech ...",
+      "url": "https://www.yahoo.com/news/articles/nations-largest-fleet-police-cybertrucks-040150117.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/0tQeMAph1CxusJH9k00nSA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/ap_finance_articles_694/bc787916804ed33a42a5034e373c2735",
+      "publishedAt": "2025-11-02T04:01:50Z",
+      "content": "LAS VEGAS (AP) The nation's largest police fleet of Tesla Cybertrucks is set to begin patrolling the streets of Las Vegas in November thanks to a donation from a U.S. tech billionaire, raising concer… [+6553 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Kaili Killpack",
+      "title": "'Zero Confidence': Experts Warn It's Too Late To Implement GOP's Proposed ACA Changes",
+      "description": "With open enrollment for Affordable Care Act coverage in full swing, experts are warning that Congress may have run out of time to implement the health...",
+      "url": "https://www.yahoo.com/news/articles/zero-confidence-experts-warn-too-000129192.html",
+      "urlToImage": "https://media.zenfs.com/en/Benzinga/ade7e4212f24dc59d2b656e16fe571a9",
+      "publishedAt": "2025-11-02T00:01:29Z",
+      "content": "With open enrollment for Affordable Care Act coverage in full swing, experts are warning that Congress may have run out of time to implement the health policy changes Republicans are demanding. As bo… [+3921 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "TheStreet"
+      },
+      "author": "Silin Chen",
+      "title": "Here are Cathie Wood’s latest moves.",
+      "description": "Cathie Wood, head of Ark Investment Management, does not hesitate to sell and pocket profits when her high-conviction names rally, even the ones she...",
+      "url": "https://www.thestreet.com/investing/stocks/cathie-wood-sells-21-4-million-of-surging-ai-stocks",
+      "urlToImage": "https://media.zenfs.com/en/thestreet_881/85237a421c24d9f9d43e41e8fbad4d23",
+      "publishedAt": "2025-11-01T23:47:41Z",
+      "content": "Cathie Wood, head of Ark Investment Management, does not hesitate to sell and pocket profits when her high-conviction names rally, even the ones she repeatedly calls her favorites.\r\nThats what she di… [+5172 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Biztoc.com"
+      },
+      "author": "nytimes.com",
+      "title": "A profile of Aaron Greenspan, who has spent years on a crusade to expose what he believes are financial problems at Tesla and at big tech companies",
+      "description": "",
+      "url": "https://biztoc.com/x/bb48c90d34c1c8b4",
+      "urlToImage": "https://biztoc.com/cdn/950/og.png",
+      "publishedAt": "2025-11-01T23:15:19Z",
+      "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Berkshire Hathaway's cash pile at a record high? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Warren B… [+758 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Guessingheadlights.com"
+      },
+      "author": "Olivia Richman",
+      "title": "These Carmakers are Using AI More Than Drivers May Realize",
+      "description": "Remember when the most advanced tech in your car was a CD changer? Those days are long gone. Today’s vehicles are essentially computers on wheels, and...",
+      "url": "https://guessingheadlights.com/these-carmakers-are-using-ai-more-than-drivers-may-realize/",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/o83qSRCyEcJlp4KqDiQrUg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/guessing_headlights_178/30068778aa0bae2273f3e3909bfea5ca",
+      "publishedAt": "2025-11-01T23:05:47Z",
+      "content": "Remember when the most advanced tech in your car was a CD changer? Those days are long gone. Today's vehicles are essentially computers on wheels, and artificial intelligence is the secret ingredient… [+15630 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Eric McConnell",
+      "title": "Yale Graduate Takes His Family's Apple Farm From Brink Of Ruin And Turns It Into $4 Million Per Year Operation",
+      "description": "When 41-year-old Joshua Morgenthau graduated from Yale with an art degree almost 20 years ago, he couldn't have imagined that his masterpiece would be saving...",
+      "url": "https://finance.yahoo.com/news/yale-graduate-takes-familys-apple-201904172.html",
+      "urlToImage": "https://media.zenfs.com/en/Benzinga/c11694465fb5e17e3a30d4df6d06c21f",
+      "publishedAt": "2025-11-01T20:19:04Z",
+      "content": "When 41-year-old Joshua Morgenthau graduated from Yale with an art degree almost 20 years ago, he couldn't have imagined that his masterpiece would be saving his family's apple farm and turning it in… [+4399 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Casey B. Renner",
+      "title": "'It's Not My Fault You Picked A Low-Paying Career,' Says 28-Year-Old Tech Worker Earning $130K Who Splits Bills 50/50 With His $45K Teacher Girlfriend",
+      "description": "A 28-year-old tech worker told his girlfriend her smaller income wasn't his responsibility after she asked to revise how they split living costs. The story, ...",
+      "url": "https://www.yahoo.com/lifestyle/articles/not-fault-picked-low-paying-190134270.html",
+      "urlToImage": "https://media.zenfs.com/en/Benzinga/33ccd0db5072de68d3423525a6ac7804",
+      "publishedAt": "2025-11-01T19:01:34Z",
+      "content": "A 28-year-old tech worker told his girlfriend her smaller income wasn't his responsibility after she asked to revise how they split living costs.\r\nThe story, shared by the original poster on the r/Am… [+3322 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "ledmonds@businessinsider.com (Lauren Edmonds)",
+      "title": "Elon Musk fires back at Sam Altman's posts about trying to cancel a Tesla Roadster order: 'You received a refund within 24 hours'",
+      "description": "\"And you forgot to mention act 4, where this issue was fixed and you received a refund within 24 hours,\" Elon Musk replied to the OpenAI CEO.",
+      "url": "https://www.businessinsider.com/elon-musk-response-sam-altman-tesla-roadster-refund-2025-11",
+      "urlToImage": "https://i.insider.com/69064692c007ca8c273813da?width=1200&format=jpeg",
+      "publishedAt": "2025-11-01T18:14:34Z",
+      "content": "Elon Musk and Sam Altman are going tit-for-tat. At the center of their latest online beef is the OpenAI CEO's reservation for Tesla's long-delayed Roadster.\r\nMusk took to his social media platform, X… [+2958 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "TheStreet"
+      },
+      "author": "Faizan Farooque",
+      "title": "Layoffs and a top exec out: what GM pullback on EVs means for you",
+      "description": "General Motors recently took its biggest step yet to address a slowing electric car industry, and it's not a minor one. GM has halted battery manufacturing...",
+      "url": "https://www.thestreet.com/automotive/layoffs-and-a-top-exec-out-what-gm-pullback-on-evs-means-for-you",
+      "urlToImage": "https://media.zenfs.com/en/thestreet_881/5ba36d1f7acde40f921d72333b48b3cd",
+      "publishedAt": "2025-11-01T17:33:00Z",
+      "content": "General Motors recently took its biggest step yet to address a slowing electric car industry, and it's not a minor one.\r\nGM has halted battery manufacturing in Ohio and Tennessee and reduced one of t… [+6049 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PCMag.com"
+      },
+      "author": "Will Mccurdy",
+      "title": "‘Flying’ Tesla Roadster To Demo in 2025, Musk Claims",
+      "description": "The Tesla CEO told podcaster Joe Rogan that the car would include 'crazy technology,' which is 'better than all the James Bond cars combined,' but the Roadster project has been plagued by setbacks and failed promises so far.\nIt's been almost eight years since…",
+      "url": "https://me.pcmag.com/en/cars-auto/33227/flying-tesla-roadster-to-demo-in-2025-musk-claims",
+      "urlToImage": "https://sm.pcmag.com/t/pcmag_me/news/f/flying-tes/flying-tesla-roadster-to-demo-in-2025-musk-claims_6vhm.1200.jpg",
+      "publishedAt": "2025-11-01T17:25:11Z",
+      "content": "It's been almost eight years since Tesla first announced the next-gen Tesla Roadster back in 2017, and the project has been beset by almost constant delays and setbacks since then. In the interim, nu… [+2307 chars]"
+    },
     {
       "source": {
         "id": null,

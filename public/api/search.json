@@ -1,187 +1,253 @@
 {
   "status": "ok",
-  "totalResults": 118,
+  "totalResults": 163,
   "articles": [
     {
       "source": {
-        "id": "the-verge",
-        "name": "The Verge"
+        "id": null,
+        "name": "BBC News"
       },
-      "author": "Emma Roth",
-      "title": "Netflix is reportedly looking into a bid for Warner Bros. Discovery",
-      "description": "Yet another rumor suggests that Netflix is interested in buying Warner Bros. Discovery’s studio and streaming businesses. On Friday, Reuters reported that Netflix is “actively exploring” a bid for the company and has hired a bank to look into a potential offe…",
-      "url": "https://www.theverge.com/news/811462/netflix-warner-bros-discovery-bid-rumor",
-      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23923974/acastro_STK072_04.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-      "publishedAt": "2025-10-31T15:30:07Z",
-      "content": "<ul><li></li><li></li><li></li></ul>\r\nThe streaming giant has hired a bank to explore a potential offer for its studio and streaming business, according to Reuters.\r\nThe streaming giant has hired a b… [+2686 chars]"
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "Brandon Russell",
-      "title": "LG’s brilliant B5 OLED TV is already down to just $530 for Black Friday",
-      "description": "Best Buy’s early Black Friday deals are already live, with discounts to be had on everything from smartphones and gaming PCs to wireless headphones. If you’re in the market for a new 4K TV, Best Buy is also offering an exclusive doorbuster deal on LG’s 48-inc…",
-      "url": "https://www.theverge.com/tech/811935/lg-b5-oled-tv-black-friday-doorbuster-deal-sale",
-      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/LG-B5-OLED-TV-deal.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-      "publishedAt": "2025-10-31T22:25:55Z",
-      "content": "<ul><li></li><li></li><li></li></ul>\r\nThe B5 remains a great entry-level OLED option.\r\nThe B5 remains a great entry-level OLED option.\r\nby\r\nBrandon RussellClose\r\nBrandon Russell\r\nPosts from this auth… [+3063 chars]"
+      "author": null,
+      "title": "Shein accused of selling childlike sex dolls in France - BBC",
+      "description": "The Asian fast fashion giant says it delisted the items \"immediately\" from its website and is investigating.",
+      "url": "https://www.bbc.com/news/articles/c4gjjyvg1nqo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/287b/live/ea5c6b20-b774-11f0-83d4-a74eeda7e8ab.jpg",
+      "publishedAt": "2025-11-01T23:14:42Z",
+      "content": "France's consumer watchdog has reported the Asian fast fashion giant Shein to authorities for selling \"sex dolls with a childlike appearance\" on its website. \r\nThe Directorate General for Competition… [+861 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Android Central"
+        "name": "WKRC TV Cincinnati"
       },
-      "author": "sanujb6@gmail.com (Sanuj Bhatia) , Sanuj Bhatia",
-      "title": "Google says Android phones now block more scams than iPhones",
-      "description": "Android's AI-powered detection reportedly outperforms Apple's tools, blocking 10B scam messages and 100M suspicious numbers.",
-      "url": "https://www.androidcentral.com/phones/google-pixel/google-says-android-phones-block-more-scams-than-iphones",
-      "urlToImage": "https://cdn.mos.cms.futurecdn.net/CvSmH8fHs6YawQjxHNpauU-2048-80.jpg",
-      "publishedAt": "2025-10-31T11:41:00Z",
-      "content": "What you need to know\r\n<ul><li>A new Google study shows Android users are less likely to receive scam texts than iPhone users.</li><li>Android's AI tools help detect and block fraudulent messages mor… [+2671 chars]"
+      "author": null,
+      "title": "Fruit sold in Kroger, other stores nationwide recalled due to potential contamination - WKRC",
+      "description": "Moonlight Companies has issued a nationwide recall of yellow and white peaches due to potential contamination with Listeria monocytogenes, according to the FDA.",
+      "url": "https://local12.com/news/nation-world/recall-recalls-fruit-peaches-sold-kroger-trader-joes-stores-nationwide-recalled-potential-listeria-contamination-moonlight-companies-fatal-infection-cincinnati-symptoms",
+      "urlToImage": "https://local12.com/resources/media/5dbf3a47-2940-47c6-8a71-861e5e83da58-krogernewport18_900x506x180010140185.jpg",
+      "publishedAt": "2025-11-01T22:30:00Z",
+      "content": "CINCINNATI (WKRC) - Moonlight Companies has issued a nationwide recall of yellow and white peaches due to potential contamination with Listeria monocytogenes, according to the FDA. The recall affects… [+630 chars]"
+    },
+    {
+      "source": {
+        "id": "cbs-news",
+        "name": "CBS News"
+      },
+      "author": "Christa  Swanson",
+      "title": "Doorbell video shows Colorado child refilling empty bowl with his own Halloween candy - CBS News",
+      "description": "A Colorado resident is hoping to reward a child they say refilled their candy bowl on Halloween after it was emptied.",
+      "url": "https://www.cbsnews.com/colorado/news/doorbell-video-colorado-child-refills-empty-bowl-halloween-candy/",
+      "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2025/11/01/122ecf64-a58f-4378-b860-891b73aebd50/thumbnail/1200x630/7861739f73138f0562f961132d41bd8a/child-fills-empty-bowl-in-broomfield-with-halloween-candy.png",
+      "publishedAt": "2025-11-01T22:18:00Z",
+      "content": "A Colorado resident is hoping to reward a child they say refilled their candy bowl on Halloween after it was emptied.\r\nA group of several boys approached a bowl set out on a table at a Broomfield hom… [+1145 chars]"
+    },
+    {
+      "source": {
+        "id": "fortune",
+        "name": "Fortune"
+      },
+      "author": "Hadriana Lowenkron, Bloomberg",
+      "title": "China to suspend some rare earth curbs, probes on U.S. chip firms - Fortune",
+      "description": "China will issue export licenses for rare earths, gallium, germanium, antimony and graphite “for the benefit of U.S. end users and their suppliers,” the White House said.",
+      "url": "https://fortune.com/2025/11/01/china-rare-earth-export-curbs-suspension-probes-us-chip-firms/",
+      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2025/11/GettyImages-2244072479-e1762033445612.jpg?resize=1200,600",
+      "publishedAt": "2025-11-01T21:50:00Z",
+      "content": "China will effectively suspend implementation of additional export controls on rare earth metals and terminate investigations targeting US companies in the semiconductor supply chain, the White House… [+3555 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Android Central"
+        "name": "Teslarati"
       },
-      "author": "jerry.hildenbrand@futurenet.com (Jerry Hildenbrand) , Jerry Hildenbrand",
-      "title": "The Fairphone 6 coming to the US means I'll be spending $900 and I ain't even mad about it",
-      "description": "I've always said that when Fairphone can sell and support a model for the U.S., I will buy it. It's about time.",
-      "url": "https://www.androidcentral.com/phones/the-fairphone-6-coming-to-the-us-means-ill-be-spending-usd900-and-i-aint-even-mad-about-it",
-      "urlToImage": "https://cdn.mos.cms.futurecdn.net/ebvdNMFTPXSVMhW4yAQKr8-2000-80.jpg",
-      "publishedAt": "2025-10-31T15:00:00Z",
-      "content": "The Fairphone 6 is heading to the U.S. and Canada (mostly), and it's the first Fairphone to be officially released in North America. I've long said that this is something I wanted to see, and when it… [+3702 chars]"
+      "author": "Simon Alvarez",
+      "title": "Michael Dell points out practical advantage of Elon Musk’s proposed pay package - Teslarati",
+      "description": "As pointed out by the Dell Technologies CEO, Musk will only be rewarded if he delivers extraordinary value to shareholders",
+      "url": "https://www.teslarati.com/michael-dell-points-out-practical-advantage-elon-musk-pay-package/",
+      "urlToImage": "https://www.teslarati.com/wp-content/uploads/2025/07/elon-musk-xai-grok-4-unveiling-1000x600.jpg",
+      "publishedAt": "2025-11-01T20:25:33Z",
+      "content": "Cathie Wood, CEO of ARK Invest and one of Teslas most ardent bulls, reiterated her support for Elon Musks 2025 CEO Performance Award. \r\nWood highlighted that Musks leadership attracts incredible tale… [+1751 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Anthony Ha",
+      "title": "Elon Musk wants you to know that Sam Altman got a refund for his Tesla Roadster - TechCrunch",
+      "description": "Elon Musk and Sam Altman are still taking swipes at each other on Musk’s social media platform X.",
+      "url": "https://techcrunch.com/2025/11/01/elon-musk-wants-you-to-know-that-sam-altman-got-a-refund-for-his-tesla-roadster/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2217126338.jpg?w=1024",
+      "publishedAt": "2025-11-01T20:01:10Z",
+      "content": "Elon Musk and Sam Altman are still taking swipes at each other on Musks social media platform X.\r\nWhile both men were founders at OpenAI, where Altman is CEO, they have subsequently sparred across so… [+1687 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "MacRumors"
+        "name": "PBS"
       },
-      "author": "Joe Rossignol",
-      "title": "Waiting for New Macs? Apple Just Shared Bad News",
-      "description": "Apple has just given a strong indication that it will not be releasing any additional new Macs for the remainder of the year.\n\n\n\n\n\nApple's CFO Kevan Parekh dropped the hint during the company's earnings call on Thursday:On Mac, keep in mind, we expect to face…",
-      "url": "https://www.macrumors.com/2025/10/31/waiting-for-new-macs-apple-just-shared-bad-news/",
-      "urlToImage": "https://images.macrumors.com/t/Sa45WpyBk4fP8VHn6dTWNNsULG8=/1960x/article-new/2025/10/M5-MacBook-Pro.jpg",
-      "publishedAt": "2025-10-31T14:32:24Z",
-      "content": "Apple has just given a strong indication that it will not be releasing any additional new Macs for the remainder of the year.\r\nApple's CFO Kevan Parekh dropped the hint during the company's earnings … [+1389 chars]"
+      "author": null,
+      "title": "What to know about the recall of atorvastatin pills for lowering cholesterol - PBS",
+      "description": "If you take cholesterol-lowering drugs called statins, you may have noticed a flurry of news coverage since late October about an extensive recall of thousands of bottles of atorvastatin, the generic version of Lipitor.",
+      "url": "https://www.pbs.org/newshour/health/what-to-know-about-the-recall-of-atorvastatin-pills-for-lowering-cholesterol",
+      "urlToImage": "https://d3i6fh83elv35t.cloudfront.net/static/2025/11/GettyImages-488048497-1024x683.jpg",
+      "publishedAt": "2025-11-01T19:55:52Z",
+      "content": "This article originally appeared on The Conversation.\r\nIf you take cholesterol-lowering drugs called statins, you may have noticed a flurry of news coverage since late October 2025 about an extensive… [+7889 chars]"
+    },
+    {
+      "source": {
+        "id": "fortune",
+        "name": "Fortune"
+      },
+      "author": "Jason Ma",
+      "title": "'Godfather of AI' says tech giants can't profit from their astronomical investments unless human labor is replaced - Fortune",
+      "description": "\"I think the big companies are betting on it causing massive job replacement by AI, because that's where the big money is going to be.\"",
+      "url": "https://fortune.com/2025/11/01/geoffrey-hinton-godfather-of-ai-investment-tech-company-profits-human-labor-replacement/",
+      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2025/11/GettyImages-1259927137-e1762017379870.jpg?resize=1200,600",
+      "publishedAt": "2025-11-01T18:43:00Z",
+      "content": "Computer scientist and Nobel laureate Geoffrey Hinton doubled down on his warnings about how artificial intelligence will affect the labor market and the role of companies leading the charge.In an in… [+2381 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "MacRumors"
+        "name": "CNBC"
       },
-      "author": "Tim Hardwick",
-      "title": "Apple Stockpiling Parts for Foldable iPhone Ahead of 2026 Launch",
-      "description": "Apple is building up inventory for its first foldable iPhone in preparation for the device's launch next year, claims a Chinese leaker with proven sources within Apple's supply chain.\n\n\n\n\n\nAccording to Weibo-based account Fixed Focus Digital, Apple is now sto…",
-      "url": "https://www.macrumors.com/2025/10/31/apple-stockpiling-parts-foldable-iphone/",
-      "urlToImage": "https://images.macrumors.com/t/utojh2KSAyPpmL2zSSHd0_hnVQQ=/2500x/article-new/2025/08/Apple-Foldable-Thumb.jpg",
-      "publishedAt": "2025-10-31T11:26:58Z",
-      "content": "Apple is building up inventory for its first foldable iPhone in preparation for the device's launch next year, claims a Chinese leaker with proven sources within Apple's supply chain.\r\nAccording to W… [+2151 chars]"
+      "author": "Jordan Novet",
+      "title": "Evolve Bank CEO fired after propositioning FBI agent who pretended to be a teen boy - CNBC",
+      "description": "In August, Evolve hired Hartheimer, who brought experience in financial regulatory matters, to help the bank recover from the collapse of startup Synapse.",
+      "url": "https://www.cnbc.com/2025/11/01/evolve-bank-ceo-fired-propositioning-fbi-agent-posing-as-teen-boy.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108220325-1762004191924-Hartheimer-mug.png?v=1762004290&w=1920&h=1080",
+      "publishedAt": "2025-11-01T18:05:31Z",
+      "content": "Bob Hartheimer, CEO of Tennessee's Evolve Bank &amp; Trust, was fired after U.S. law enforcement officials caught him propositioning a law enforcement officer posing as a 15-year-old boy on gay datin… [+3546 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Rachel Graf, Dorothy Ma",
+      "title": "The Ranks of Corporate Zombies Are Growing: Credit Weekly - Bloomberg.com",
+      "description": "As Halloween monsters of all stripes flood neighborhoods in search of candy and parties this weekend, credit markets are seeing the resurgence of a different type of zombie.",
+      "url": "https://www.bloomberg.com/news/articles/2025-11-01/the-ranks-of-corporate-zombies-are-growing-credit-weekly",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iDZ2FBPR7zIE/v1/1200x797.jpg",
+      "publishedAt": "2S025-11-01T18:00:05Z",
+      "content": "As Halloween monsters of all stripes flood neighborhoods in search of candy and parties this weekend, credit markets are seeing the resurgence of a different type of zombie. \r\nThe tally of zombie com… [+319 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "MacRumors"
+        "name": "Motley Fool"
       },
-      "author": "Mitchel Broussard",
-      "title": "Best Apple Deals of the Week: Halloween Deals Arrive Alongside New Record Lows on M5 iPad Pro",
-      "description": "This week we saw deals on Apple's new M5 iPad Pro, M4 MacBook Air, Apple Watch bands, and Samsung monitors. In addition to all of these ongoing sales, we're tracking a few big Halloween sales that are set to end either today or later this weekend, so be sure …",
-      "url": "https://www.macrumors.com/2025/10/31/best-apple-deals-of-the-week-10-31-25/",
-      "urlToImage": "https://images.macrumors.com/t/zTPcGQyYKUCuApDnVjRHwfI7r4U=/2500x/article-new/2024/10/halloween-hero.jpeg",
-      "publishedAt": "2025-10-31T16:09:17Z",
-      "content": "This week we saw deals on Apple's new M5 iPad Pro, M4 MacBook Air, Apple Watch bands, and Samsung monitors. In addition to all of these ongoing sales, we're tracking a few big Halloween sales that ar… [+3104 chars]"
+      "author": "George Budwell, George Budwell",
+      "title": "I Think These Are the 2 Best AI Stocks to Buy in November - The Motley Fool",
+      "description": "The AI infrastructure buildout has moved from speculation to reality, and two companies are positioned to capture the lion's share of spending.",
+      "url": "https://www.fool.com/investing/2025/11/01/i-think-these-are-the-2-best-ai-stocks-to-buy-in-n/",
+      "urlToImage": "https://g.foolcdn.com/editorial/images/840624/gettyimages-1518671364.jpg",
+      "publishedAt": "2025-11-01T18:00:00Z",
+      "content": "The AI infrastructure buildout has moved from speculation to reality, and two companies are positioned to capture the lion's share of spending.The artificial intelligence (AI) infrastructure buildout… [+4780 chars]"
+    },
+    {
+      "source": {
+        "id": "nbc-news",
+        "name": "NBC News"
+      },
+      "author": "Rob Wile",
+      "title": "From fast food to beverage giants, brands see rising income inequality among customers - NBC News",
+      "description": "The K-shaped economy is changing consumer spending, and Chipotle, Coca Cola and McDonalds are trying to adapt.",
+      "url": "https://www.nbcnews.com/business/economy/mcdonalds-cocacola-chipotle-economy-rcna241168",
+      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-10/251031-food-bank-ew-338p-0c1628.jpg",
+      "publishedAt": "2025-11-01T17:21:48Z",
+      "content": "The most common refrain so far this corporate earnings season is that the U.S. economy is increasingly divided between wealthy consumers and everyone else.\r\nWhile many Americans tighten their belts a… [+8816 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "CNET"
+        "name": "TheStreet"
       },
-      "author": "Prakhar Khanna",
-      "title": "Should You Upgrade to Apple Watch Series 11? Here Are the Key Features You Get",
-      "description": "The Apple Watch Series 11 has a number of new features. Here's how the new smartwatch compares to the Series 7 through Series 10.",
-      "url": "https://www.cnet.com/tech/mobile/should-you-upgrade-to-apple-watch-series-11-here-are-the-key-features-you-get/",
-      "urlToImage": "https://www.cnet.com/a/img/resize/199ae113a1ec1624d5fd8afdc6c31545564c0ed6/hub/2025/10/30/d3637756-84f1-48f1-ac8d-1a6adc60f11a/apple-watch-series-11-vs-cnet.png?auto=webp&fit=crop&height=675&width=1200",
-      "publishedAt": "2025-10-31T12:00:08Z",
-      "content": "The holiday season could be the best time to buy an Apple Watch. With over 59% of US adult shoppers in a recent CNET survey planning to spend an average of $931 on tech devices, we can expect to see … [+17975 chars]"
+      "author": "Patricia Battle",
+      "title": "Verizon CEO sounds alarm on why customers are leaving in droves - Yahoo Finance",
+      "description": "Verizon is struggling to shake a consumer trend that continues to grow legs, especially after the phone carrier issued several price hikes over the past year...",
+      "url": "https://www.thestreet.com/retail/verizon-ceo-sounds-alarm-on-why-customers-are-leaving-in-droves",
+      "urlToImage": "https://media.zenfs.com/en/thestreet_881/5cfdad1fe8e2c15defe697ec26cdfc2e",
+      "publishedAt": "2025-11-01T16:33:00Z",
+      "content": "Verizon is struggling to shake a consumer trend that continues to grow legs, especially after the phone carrier issued several price hikes over the past year for its services. The increases have unde… [+6490 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Tim De Chant",
+      "title": "Rising energy prices put AI and data centers in the crosshairs - TechCrunch",
+      "description": "A majority of consumers say they’re worried about data centers driving up electricity costs. Is the industry prepared for a possible backlash?",
+      "url": "https://techcrunch.com/2025/11/01/rising-energy-prices-put-ai-and-data-centers-in-the-crosshairs/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2197370288.jpg?resize=1200,800",
+      "publishedAt": "2025-11-01T16:15:00Z",
+      "content": "As tech companies tout their plans for massive new data centers, consumers are increasingly worried the AI-driven gold rush will ultimately drive up the price they pay for electricity, according to a… [+2885 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Danielle Abril",
+      "title": "The nation’s largest employers are putting their workers on notice - The Washington Post",
+      "description": "Amazon and Walmart are among firms warning employees of layoffs or disruption from AI as leaders across corporate America talk of increasing efficiency.",
+      "url": "https://www.washingtonpost.com/business/2025/11/01/layoffs-workers-ai-amazon-walmart/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/F3PTRFUUWHMUOF6ALME266KE2Y.JPG&w=1440",
+      "publishedAt": "2025-11-01T16:00:00Z",
+      "content": "Amazon and Walmart, the nations two largest private employers, swelled with hundreds of thousands of new workers in recent years as they battled for larger slices of consumer pocketbooks. Amazon said… [+222 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "CNET"
+        "name": "CNBC"
       },
-      "author": "Vanessa Hand Orellana",
-      "title": "Samsung's New Health Service Aims to Help You Avoid Fitness Plateaus",
-      "description": "Samsung is teaming up with iFit to bring expert-led workouts and real-time adaptive training to your gym equipment.",
-      "url": "https://www.cnet.com/tech/mobile/samsungs-new-health-service-aims-to-help-you-avoid-fitness-plateaus/",
-      "urlToImage": "https://www.cnet.com/a/img/resize/512954b651794296f3b6edf49ce07cc6c1bb1648/hub/2025/10/30/e2091f91-61c9-4eca-b7c9-d97f22e1c55e/ifitsamsung.jpg?auto=webp&fit=crop&height=675&width=1200",
-      "publishedAt": "2025-10-31T11:00:06Z",
-      "content": "Get ready for your Galaxy Watch to control your treadmill. \r\nSamsung is jumping into the personal training space, bringing expert-led workouts to its Health app. The company is partnering with fitnes… [+3674 chars]"
+      "author": "Annika Kim Constantino",
+      "title": "Where the Nexperia auto chip crisis stands now as the U.S., China and EU race to contain fallout - CNBC",
+      "description": "The Nexperia crisis is still threatening vehicle production worldwide.",
+      "url": "https://www.cnbc.com/2025/11/01/where-the-nexperia-auto-chip-crisis-stands-now.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108220234-17619405512025-10-23t103823z_1905056082_rc2mhhav54c5_rtrmadp_0_volkswagen-production-chips.jpeg?v=1761940606&w=1920&h=1080",
+      "publishedAt": "2025-11-01T15:56:49Z",
+      "content": "The logo of Chinese-owned semiconductor company Nexperia is displayed at the chipmaker's German facility, after the Dutch government seized control and auto industry bodies sounded the alarm over the… [+4022 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "CNET"
+        "name": "KOMO News"
       },
-      "author": "Attila Tomaschek",
-      "title": "Surfshark vs. Proton VPN: Two of the Best VPNs Compared",
-      "description": "Both VPNs are well-rounded, but offer different privacy selling points. Your choice will depend on whether you want critical privacy protections or innovative features.",
-      "url": "https://www.cnet.com/tech/services-and-software/surfshark-vs-proton-vpn/",
-      "urlToImage": "https://www.cnet.com/a/img/resize/7bf3a144fd8ea366bcf93950677864d0ad2af5ca/hub/2025/10/16/ba1e32ce-f054-45f5-935d-78aac32288a5/vpn.png?auto=webp&fit=crop&height=675&width=1200",
-      "publishedAt": "2025-10-31T13:00:00Z",
-      "content": "Surfshark and Proton VPN are two of the best virtual private networks you can buy. Based on my testing, I can confirm that each one delivers top-notch streaming capabilities, fast speeds and exceptio… [+15273 chars]"
+      "author": null,
+      "title": "Snohomish County resident first in state to be affected by nationwide listeria outbreak - KOMO",
+      "description": "A Snohomish County resident has been identified as part of a multistate outbreak of Listeria monocytogenes.",
+      "url": "https://komonews.com/news/local/recalled-food-snohomish-county-woman-hospitalized-amid-listeria-outbreak-prepared-pasta-meals-sprouts-qfc-pasta-salad",
+      "urlToImage": "https://komonews.com/resources/media/2a818e9a-0eb3-42cb-a70f-d23061162716-AP18081711295350.jpg",
+      "publishedAt": "2025-11-01T15:02:53Z",
+      "content": "EVERETT, Wash. A Snohomish County resident has been identified as part of a multistate outbreak of Listeria monocytogenes, a severe bacterial infection linked to contaminated food products, according… [+2990 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "MacRumors"
+        "name": "Gothamist"
       },
-      "author": "Joe Rossignol",
-      "title": "Apple to Donate Towards Hurricane Melissa Relief Efforts",
-      "description": "In a social media post today, Apple CEO Tim Cook said that Apple will be making a donation of an undisclosed amount towards Hurricane Melissa relief efforts.\n\n\n\n\n\n\"Our hearts go out to all of those impacted by the destruction of Hurricane Melissa,\" said Cook.…",
-      "url": "https://www.macrumors.com/2025/10/31/apple-hurricane-melissa-donation/",
-      "urlToImage": "https://images.macrumors.com/t/sJR4ML-uwT8mRNH0yIK6zAfSCG8=/2048x/article-new/2024/09/Apple-Logo-Top-Half.jpeg",
-      "publishedAt": "2025-10-31T17:20:17Z",
-      "content": "In a social media post today, Apple CEO Tim Cook said that Apple will be making a donation of an undisclosed amount towards Hurricane Melissa relief efforts.\r\n\"Our hearts go out to all of those impac… [+366 chars]"
+      "author": "https://gothamist.com/staff/ryan-kost",
+      "title": "United: Arriving flight at LaGuardia grazed parked plane, worsening Friday delays - Gothamist",
+      "description": "No one was injured, officials said",
+      "url": "https://gothamist.com/news/united-arriving-flight-at-laguardia-grazed-parked-plane-worsening-friday-delays",
+      "urlToImage": "https://api-prod.gothamist.com/images/353938/fill-1200x650|format-webp|webpquality-85/",
+      "publishedAt": "2025-11-01T14:54:00Z",
+      "content": "Two United Airlines planes grazed each other on the ground at LaGuardia Airport Friday evening, the airline said, exacerbating delays caused by ongoing staffing shortages.\r\nUnited flight 580 was turn… [+1007 chars]"
     },
     {
       "source": {
-        "id": null,
-        "name": "MacRumors"
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
       },
-      "author": "Tim Hardwick",
-      "title": "iPhone Fold: Launch, Pricing, and What to Expect From Apple's Foldable",
-      "description": "Apple is expected to launch a new foldable iPhone next year, based on multiple rumors and credible sources. The long-awaited device has been rumored for years now, but signs increasingly suggest that 2026 could indeed be the year that Apple releases its first…",
-      "url": "https://www.macrumors.com/2025/10/31/iphone-fold-release-pricing-features-foldable/",
-      "urlToImage": "https://images.macrumors.com/t/utojh2KSAyPpmL2zSSHd0_hnVQQ=/2500x/article-new/2025/08/Apple-Foldable-Thumb.jpg",
-      "publishedAt": "2025-10-31T15:52:58Z",
-      "content": "Apple is expected to launch a new foldable iPhone next year, based on multiple rumors and credible sources. The long-awaited device has been rumored for years now, but signs increasingly suggest that… [+5912 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "MacRumors"
-      },
-      "author": "Hartley Charlton",
-      "title": "The MacRumors Show: Giving Vision Pro Another Chance",
-      "description": "On this week's episode of The MacRumors Show, we dive back into the Vision Pro with Apple's new M5 model. \n\n\n\n\r\nSubscribe to The MacRumors Show YouTube channel for more videos\n\nApple's new Vision Pro headset features the M5 chip for better performance and eff…",
-      "url": "https://www.macrumors.com/2025/10/31/the-macrumors-show-vision-pro-another-chance/",
-      "urlToImage": "https://images.macrumors.com/t/xx7sYpa_v8IbaWEP4Ie-u2-uEXw=/2500x/article-new/2025/10/TMRS-169-M5-Apple-Vision-Pro-Thumb-1.jpg",
-      "publishedAt": "2025-10-31T15:48:28Z",
-      "content": "On this week's episode of The MacRumors Show, we dive back into the Vision Pro with Apple's new M5 model. \r\nApple's new Vision Pro headset features the M5 chip for better performance and efficiency, … [+1941 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Dan DeFrancesco",
-      "title": "How some of the world's biggest tech companies stacked up during earnings season",
-      "description": "To quickly catch you up on how things shook out, here's a rundown on the main takeaways from Alphabet, Amazon, Apple, Meta, and Microsoft.",
-      "url": "https://www.businessinsider.com/key-insights-tech-earnings-alphabet-amazon-apple-meta-microsoft-2025-10",
-      "urlToImage": "https://i.insider.com/6904c20b599d46a4ccc1387c?width=1200&format=jpeg",
-      "publishedAt": "2D"
+      "author": "Heather Gillers",
+      "title": "Berkshire’s Quarterly Earnings Rise After Insurance Results Bounce Back - The Wall Street Journal",
+      "description": "The conglomerate inches closer to Warren Buffett’s retirement as CEO with a record cash pile",
+      "url": "https://www.wsj.com/business/earnings/berkshire-hathaway-earnings-q3-2025-056aa89d",
+      "urlToImage": "https://images.wsj.net/im-52032737/social",
+      "publishedAt": "2025-11-01T14:44:00Z",
+      "content": null
     },
     {
       "source": {
@@ -407,6 +473,616 @@
     {
       "source": {
         "id": null,
+        "name": "CNET"
+      },
+      "author": "Katelyn Chedraoui",
+      "title": "Sora 2 App Is Open to All in the US and Others ... No Invite Code Required",
+      "description": "The wait is over for anyone in the US, Canada, Japan and South Korea who couldn't get their hands on an invite code to OpenAI's viral Sora 2 app.",
+      "url": "https://www.cnet.com/tech/services-and-software/sora-2-app-is-now-open-to-all-in-the-us-no-invite-code-needed/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/2f5135197f4e0bbc40dea8bee3b70bcfab824666/hub/2025/10/16/f4e4d2b9-f4ae-4741-96bb-7735c3f7013c/sora-app-gettyimages-2239565353.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2025-11-01T09:00:00Z",
+      "content": "OpenAI's new Sora app takes AI and social media to a whole new level. The creators of ChatGPT launched a social media platform where every video is AI-generated -- no ads, no influencers, no reality … [+3242 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Mitchel Broussard",
+      "title": "Apple Watch Ultra 3 Hits New Record Low Price of $699.99 ($99 Off)",
+      "description": "Apple Watch Ultra 3 has hit a new all-time low price on Amazon this weekend, available at $99 off select models. This includes the higher-end model with the Milanese Loop and a few Ocean Band options.\n\n\n\nNote: MacRumors is an affiliate partner with Amazon. Wh…",
+      "url": "https://www.macrumors.com/2025/11/01/apple-watch-ultra-3-low-price-699/",
+      "urlToImage": "https://images.macrumors.com/t/mXU2QtU7dBSqEi8e_eiJgwqpDMI=/2500x/article-new/2025/11/apple-watch-ultra-3-mint.jpeg",
+      "publishedAt": "2025-11-01T13:18:16Z",
+      "content": "Apple Watch Ultra 3 has hit a new all-time low price on Amazon this weekend, available at $99 off select models. This includes the higher-end model with the Milanese Loop and a few Ocean Band options… [+931 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "Samantha Grindell Pettyjohn",
+      "title": "Moving to a new state isn't easy. 3 people who relocated shared how they started over.",
+      "description": "People who moved to a new state shared what they learned about finding home, starting over, and building a new life from scratch.",
+      "url": "https://www.businessinsider.com/moving-to-new-different-state-relocating-reality-2025-11",
+      "urlToImage": "https://i.insider.com/68f7e4dc5dbc4fd10dab43d6?width=1200&format=jpeg",
+      "publishedAt": "2025-11-01T09:03:02Z",
+      "content": "Business Insider followed three people who relocated.Kendrick Brinson, Mark Felix, and Simon Simard for BI\r\nI started fantasizing about moving to New York when I visited the city at the age of 16. I … [+5521 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hipertextual"
+      },
+      "author": "Aglaia Berlutti",
+      "title": "Las 10 películas más terroríficas según ‘Science of Scare Project’ y dónde verlas",
+      "description": "El género de terror no para de crecer y sorprender. Y en esta década, además, se ha convertido en uno de los más rentables de Hollywood. Con productoras como Blumhouse, A24 y NEON, toda una nueva generación de directores ha tenido la oportunidad de mostrar su…",
+      "url": "https://hipertextual.com/tecnologia/las-10-peliculas-mas-terrorificas-segun-science-of-scare-project-y-donde-verlas/",
+      "urlToImage": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2025/10/10-peliculas-de-terror.jpg?fit=2000%2C1600&quality=70&strip=all&ssl=1",
+      "publishedAt": "2025-11-01T15:00:00Z",
+      "content": "El género de terror no para de crecer y sorprender. Y en esta década, además, se ha convertido en uno de los más rentables de Hollywood. Con productoras como Blumhouse, A24 y NEON, toda una nueva gen… [+9382 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tom's Guide"
+      },
+      "author": "John Velasco",
+      "title": "I’ve tested the entire iPhone 17 lineup for over a month — and this is the one you should buy",
+      "description": "I've been testing the iPhone 17, iPhone Air, iPhone 17 Pro, and iPhone 17 Pro Max for over a month and this is the one I recommend buying the most.",
+      "url": "https://www.tomsguide.com/phones/iphones/ive-tested-the-entire-iphone-17-lineup-for-over-a-month-and-this-is-the-one-you-should-buy",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/g7CdsfmAMP4sddNZ_OfSew--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/toms_guide_826/4a9692804ce52c9dd1e47a02bddf370c",
+      "publishedAt": "2025-11-01T04:45:00Z",
+      "content": "When you buy through links on our articles, Future and its syndication partners may earn a commission.\r\nJust like in years past, Apple released four new iPhones just in time for everyone to plan thei… [+22082 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Basketball Network"
+      },
+      "author": "Mislav Puljiz",
+      "title": "Shaquille O'Neal admits he forgot about his Google investment: \"The newspaper told me how much I made and I couldn't believe\"",
+      "description": "Before he was known as one of the best businessmen in the game, O'Neal’s first investment was unintentional.",
+      "url": "https://www.basketballnetwork.net/off-the-court/shaquille-oneal-admits-he-forgot-about-his-google-investment",
+      "urlToImage": "https://media.zenfs.com/en/basketball_network_725/a0dec3d3d2a620df1f058cd02f37c1bf",
+      "publishedAt": "2025-11-01T22:31:00Z",
+      "content": "During his 19-year career, Shaquille O'Neal made approximately $292 million from contracts alone. Even though that's more than enough money to live comfortably, he didn't stop there; the NBA legend b… [+3431 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Xataka.com"
+      },
+      "author": "John Tones",
+      "title": "Más allá de 'La casa de papel': cómo España ha conseguido que una de cada cuatro series reproducidas sea suya",
+      "description": "El impacto de las series españolas en el mercado del streaming es indicutible. Hace unos años 'La casa de papel' estaba en boca de todos, pero del mismo modo que las ficciones coreanas son mucho más que 'El juego del calamar', las españolas están empezando a …",
+      "url": "https://www.xataka.com/cine-y-tv/cada-cuatro-series-vistas-streaming-espanola-hemos-ido-mucho-alla-casa-papel",
+      "urlToImage": "https://i.blogs.es/b928e8/reina-roja-5-6569c4b47f30b/840_560.jpeg",
+      "publishedAt": "2025-11-01T16:30:57Z",
+      "content": "El impacto de las series españolas en el mercado del streaming es indicutible. Hace unos años 'La casa de papel' estaba en boca de todos, pero del mismo modo que las ficciones coreanas son mucho más … [+4449 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Bradley C",
+      "title": "Apple @ Work: Chrome’s new Extensible Single Sign-On support makes it a better Mac citizen for IT teams",
+      "description": "Apple @ Work is exclusively brought to you by Mosyle, the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional grade platform all the solutions necessary to seamlessly and automatically deploy, manage and protect A…",
+      "url": "https://9to5mac.com/2025/11/01/chromes-new-extensible-single-sign-on-support-makes-it-a-better-mac-citizen-for-it-teams/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/08/Apple-at-Work-Liquid-Glass-light.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2025-11-01T13:00:00Z",
+      "content": "Apple @ Work is exclusively brought to you by Mosyle, the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional grade platform all the solutions necessary … [+5203 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Michael Burkhardt",
+      "title": "Despite their unpopularity, iPhone crossbody straps aren’t as useless as they may seem",
+      "description": "With the launch of the iPhone 17 lineup this fall, Apple debuted a new accessory – the crossbody strap. It certainly received lukewarm reception, but after trying one out, I actually think it’s a rather nifty concept. At least, if you’re the right person for …",
+      "url": "https://9to5mac.com/2025/11/01/iphone-crossbody-straps-are-cooler-than-you-might-believe/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/09/crossbody-strap-iphone-air.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2025-11-01T17:56:04Z",
+      "content": "With the launch of the iPhone 17 lineup this fall, Apple debuted a new accessory – the crossbody strap. It certainly received lukewarm reception, but after trying one out, I actually think it’s a rat… [+2367 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Police"
+      },
+      "author": "Andy Boxall",
+      "title": "Apple iPhone Air review: Design taken seriously, with few compromises",
+      "description": "Get over your misconceptions, and embrace Apple's superstar thin phone",
+      "url": "https://www.androidpolice.com/apple-iphone-air-review/",
+      "urlToImage": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2025/10/apple-iphone-air-back-logo.JPG?w=1600&h=900&fit=crop",
+      "publishedAt": "2025-11-01T16:00:10Z",
+      "content": "Pay attention to the name, as Ive been using the Apple iPhone Air, not the iPhone 17 Air. Thats right, the thinnest iPhone ever isnt a member of the new iPhone 17 series in name, meaning its technica… [+11461 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Police"
+      },
+      "author": "Stephen Radochia",
+      "title": "Samsung, don't get embarrassed by OnePlus — again",
+      "description": "Samsung might get left in the dust",
+      "url": "https://www.androidpolice.com/samsung-oneplus-comparison/",
+      "urlToImage": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2025/10/img_0835.jpg?w=1600&h=900&fit=crop",
+      "publishedAt": "2025-11-01T17:33:10Z",
+      "content": "Apparently, were not done with major flagship releases in 2025 just yet.\r\nOnePlus announced that the OnePlus 15 will launch globally on November 13th, much earlier than expected. \r\nThe rumored specs … [+4842 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Genbeta.com"
+      },
+      "author": "Eva R. de Luis",
+      "title": "He logrado escribir este artículo diez veces más rápido de lo normal y ya no hay vuelta atrás: se lo he dictado a mi PC",
+      "description": "No culpo a nadie de tener las expectativas tan bajas sobre el uso de la voz para la informática: desde 2018 llevamos sufriendo a los asistentes de Amazon, Google y Apple liándose con peticiones tan sencillas como 'Pon el último álbum From Zero de Linkin Park …",
+      "url": "https://www.genbeta.com/ofimatica/he-logrado-escribir-este-articulo-diez-veces-rapido-normal-no-hay-vuelta-atras-se-he-dictado-a-mi-pc",
+      "urlToImage": "https://i.blogs.es/066f6e/img_0275/840_560.jpeg",
+      "publishedAt": "2025-11-01T09:00:57Z",
+      "content": "No culpo a nadie de tener las expectativas tan bajas sobre el uso de la voz para la informática: desde 2018 llevamos sufriendo a los asistentes de Amazon, Google y Apple liándose con peticiones tan s… [+3467 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Agirlsguidetocars.com"
+      },
+      "author": "Scotty Reiss",
+      "title": "Now That Toyota Has Redesigned the RAV4, Which is Better: Mazda CX-50 Hybrid Or Toyota RAV4 Hybrid?",
+      "description": "For what seems like forever, Toyota has owned the compact hybrid SUV market with the RAV4 hybrid. Getting nearly 40 […]",
+      "url": "https://agirlsguidetocars.com/hybrid-mazda-cx-50-vs-toyota-rav4",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/AF1F7E8D6EE67F38803F67226976A27F35ADEE11F3FA3318D3690499D765939C/subgraphmysterio/resizefit_w1200;quality_90;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fa_girls_guide_to_cars_articles_379%2F19f905e59c06769c99696a770284c676",
+      "publishedAt": "2025-11-01T16:03:08Z",
+      "content": "For what seems like forever, Toyota has owned the compact hybrid SUV market with the RAV4 hybrid. Getting nearly 40 MPG, with comfortable seating for 4 and a fun-to-drive 219 HP, the RAV 4 delivers a… [+9169 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.jp"
+      },
+      "author": "はらいさん",
+      "title": "来年発売されるかもしれない新型iPad mini、ついに耐水性能に対応か",
+      "description": "Image:Apple遊びも仕事ももっと捗りそうな1台になる予感。ちょうど良いサイズ感の小型タブレットとして人気を誇るiPadmini。去年発売されたモデルはA17Proチップを搭載し、AppleIntelligenceやApplePencilProにも対応しましたが、次期モデルは見た目も中身も大きく進化する可能性が出てきました。耐水性能＆OLEDディスプレイを搭載？Bloombergによると、現",
+      "url": "https://www.gizmodo.jp/2025/11/ipad-mini-water-resistant.html",
+      "urlToImage": "https://media.loom-app.com/gizmodo/dist/images/2025/10/29/20241001_7978_01.jpg?w=1280&h=630&f=jpg",
+      "publishedAt": "2025-11-01T22:00:00Z",
+      "content": "1\r\niPad miniA17 ProApple IntelligenceApple Pencil Pro\r\nBloombergAppleiPad mini\r\niPhoneIEC60529IP68630\r\niPad mini\r\nAppleiPad mini\r\niPad mini\r\niPad miniOLED2026OLED2iPad mini100\r\nSource: MacRumors, App… [+1 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.jp"
+      },
+      "author": "編集部",
+      "title": "よく見たらイヤホンもPCも汚れてない？ Apple製品のお掃除術",
+      "description": "Photo:はらいさん毎日使っているイヤホンやヘッドホン、PC。大事に使っていても、よ〜く見たら汚れが溜まっちゃっていませんか？特にAirPodsやそのケースは汚れが溜まりやすいし、メイクや日焼け止めをする方は特にヘッドホンのクッションなども汚れがち。今回はApple製品のお掃除方法を紹介します！3COINSのクリーナーペンでイヤホンの汚れスッキリPhoto:はらいさんウェアラブルなデバイスだから",
+      "url": "https://www.gizmodo.jp/2025/11/how_to_clean_apple_items.html",
+      "urlToImage": "https://media.loom-app.com/gizmodo/dist/images/2025/10/30/20250527_45124_01.jpg?w=1280&h=630&f=jpg",
+      "publishedAt": "2025-11-01T09:00:00Z",
+      "content": "Copyright © Mediagene Inc. All Rights Reserved."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Zachary McAuliffe",
+      "title": "All the Upgrades Your iPhone's Music App Got With iOS 26",
+      "description": "AutoMix and lyric translation are just a few of the new features you can find the Music app now.",
+      "url": "https://www.cnet.com/tech/services-and-software/all-the-upgrades-your-iphones-music-app-got-with-ios-26/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/1ca063ef8cfb7a3d8db6b1e62fa25beb156828a6/hub/2025/10/01/b7b726dc-479e-4f1e-8834-4dc8d614da45/ios-26-cnet-4.png?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2025-11-01T10:00:03Z",
+      "content": "Apple released iOS 26 in September, and it brought a handful of new features to your iPhone, like call screening, new ringtones and more. The update also brought some new features to Apple Music ($11… [+8492 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Jason Chun",
+      "title": "Don't Want to Pay to Store All Your Memories in the Cloud? Do This Instead",
+      "description": "There's an easy way to back up your photos and videos without relying on cloud subscription services.",
+      "url": "https://www.cnet.com/tech/services-and-software/dont-want-to-pay-to-store-all-your-memories-in-the-cloud-do-this-instead/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/134aa5aff7d585b70ab688797710fe67be3f764b/hub/2025/09/29/ed96b29b-fc00-49af-907c-14bdd11d78a5/image-6.png?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2025-11-01T13:00:04Z",
+      "content": "It costs nothing to take a picture with your phone. But between vacations, family gatherings and everyday moments, you can easily end up with thousands of photos. \r\nIf you store all those photos in t… [+7414 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yanko Design"
+      },
+      "author": "Srishti Mitra",
+      "title": "10 Essential Compact Travel Gadgets & Tools That Won’t Weigh You Down",
+      "description": "10 Essential Compact Travel Gadgets & Tools That Won’t Weigh You DownModern travel demands a delicate balance between staying connected and packing light. The days of stuffing suitcases with bulky electronics are over. Today’s best travel...",
+      "url": "https://www.yankodesign.com/2025/11/01/10-essential-compact-travel-gadgets-tools-that-wont-weigh-you-down/",
+      "urlToImage": "https://www.yankodesign.com/images/design_news/2025/10/essential-compact-travel-gadgets-that-wont-weigh-you-down/10_best_compact_essential_gadgets_yanko_design_hero.jpg",
+      "publishedAt": "2025-11-01T11:56:08Z",
+      "content": "Modern travel demands a delicate balance between staying connected and packing light. The days of stuffing suitcases with bulky electronics are over. Today’s best travel gadgets prioritize intelligen… [+11236 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Windows Central"
+      },
+      "author": "c.cale.hunt@gmail.com (Cale Hunt) , Cale Hunt",
+      "title": "\"The virtuous cycle of AI has arrived\" — NVIDIA's CEO believes AI can address $100 trillion of the world's industries as the market accelerates",
+      "description": "NVIDIA CEO Jensen Huang delivered a keynote speech at the APEC CEO summit in South Korea on Friday, in which he explained that the AI boom will likely only accelerate now that the industry has reached a tipping point that he calls a \"virtuous cycle.\"",
+      "url": "https://www.windowscentral.com/hardware/nvidia/nvidia-ceo-ai-boom-100-trillion-world-industries",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/pFU7uw8ENuZc8p8AdDhWzj-1920-80.jpg",
+      "publishedAt": "2025-11-01T12:45:00Z",
+      "content": "South Korea is currently hosting its APEC CEO Summit, and NVIDIA's CEO took to the stage on Friday to speak about the future of AI.\r\nThe keynote speech came just a couple of days after NVIDIA became … [+5410 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Álvaro García M.",
+      "title": "Llevo años queriendo CarPlay inalámbrico. Ahora solo uso el cable por una razón: batería",
+      "description": "Teniendo un coche que solo es compatible con CarPlay a través de cable, estuve mucho tiempo frustrado porque quería que fuese inalámbrico. No es que sea un drama tener que conectar el iPhone al coche cada vez, ya que es conectar un cable y ya, pero es mucho m…",
+      "url": "https://www.applesfera.com/ios/llevo-anos-queriendo-carplay-inalambrico-ahora-solo-uso-cable-razon-bateria",
+      "urlToImage": "https://i.blogs.es/30a99e/carplay/840_560.jpeg",
+      "publishedAt": "2025-11-01T16:00:57Z",
+      "content": "Teniendo un coche que solo es compatible con CarPlay a través de cable, estuve mucho tiempo frustrado porque quería que fuese inalámbrico. No es que sea un drama tener que conectar el iPhone al coche… [+3413 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MakeUseOf"
+      },
+      "author": "Jayric Maning",
+      "title": "This open-source bookmarks sync tool just freed me from Google Chrome",
+      "description": "This open-source tool lets you sync bookmarks across browsers and devices effortlessly",
+      "url": "https://www.makeuseof.com/open-source-bookmarks-sync-tool-freed-from-google-chrome/",
+      "urlToImage": "https://static0.makeuseofimages.com/wordpress/wp-content/uploads/wm/2025/10/floccus-mobile-app.jpg?w=1600&h=900&fit=crop",
+      "publishedAt": "2025-11-01T11:00:17Z",
+      "content": "I spent years trapped in the Chrome ecosystem, not because I loved the browser, but because switching meant abandoning hundreds of carefully organized bookmarks. Every time I tried Firefox or Edge, I… [+5742 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Presse-citron"
+      },
+      "author": "Manuel Castejon",
+      "title": "Test de la Xiaomi Redmi Pad 2 Pro : une tablette à prix mini pensée pour le multimédia",
+      "description": "La Xiaomi Redmi Pad 2 Pro est-elle la pro du divertissement qu'elle prétend être ? La réponse dans ce test !",
+      "url": "https://www.presse-citron.net/test-de-la-xiaomi-redmi-pad-2-pro-une-tablette-a-prix-mini-pensee-pour-le-multimedia/",
+      "urlToImage": "https://www.presse-citron.net/app/uploads/2025/10/xiaomi-redmi-pad-2-pro-test-une-1600x900.jpg",
+      "publishedAt": "2025-11-01T08:00:19Z",
+      "content": "L’iPad n’a pas le monopole des tablettes. En septembre, aux côtés du Xiaomi 15T, Xiaomi a enrichi son catalogue d’une Redmi Pad 2 Pro voulant miser sur l’immersion et le fun, notamment grâce à « son … [+9038 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Authority"
+      },
+      "author": "Mishaal Rahman",
+      "title": "Android Auto is borrowing a key new Apple CarPlay feature",
+      "description": "We break down the news that Android Auto is getting dashboard widgets and Android 17 is getting AOD app integration.",
+      "url": "https://www.androidauthority.com/authority-insights-podcast-011-3612047/",
+      "urlToImage": "https://www.androidauthority.com/wp-content/uploads/2025/10/Episode-Thumbnail-4.jpg",
+      "publishedAt": "2025-11-01T12:01:23Z",
+      "content": "00:00 Mishaal Rahman: Android Auto may soon let you place widgets on your cars dashboard.\r\n00:03 C. Scott Brown: And Android 17 could let you use Google Maps on your phones always on display.\r\n00:08 … [+45850 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Authority"
+      },
+      "author": "Mishaal Rahman",
+      "title": "The Android IRS: How Google once tried to tax battery-sucking background apps",
+      "description": "A deep dive into The Android Resource Economy, a scrapped reimagining of how Android manages background apps using macroeconomic principles.",
+      "url": "https://www.androidauthority.com/the-android-resource-economy-retrospective-3611494/",
+      "urlToImage": "https://www.androidauthority.com/wp-content/uploads/2025/10/Photo-of-Android-Bot-dressed-up-as-an-IRS-agent-scaled.jpg",
+      "publishedAt": "2025-11-01T12:00:00Z",
+      "content": "There are three things that are certain in life: death, taxes, and Google restricting background work. With every new Android release, Google seemingly further restricts what apps running in the back… [+13020 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Presse-citron"
+      },
+      "author": "Jean-Yves Alric",
+      "title": "Tim Cook : ce conseil parfait du PDG d’Apple pour réussir et donner du sens à sa vie",
+      "description": "Le patron d'Apple s’est confié à ce sujet et il livre une vision du monde très originale.",
+      "url": "https://www.presse-citron.net/tim-cook-ce-conseil-parfait-du-pdg-dapple-pour-reussir-et-donner-du-sens-sa-vie/",
+      "urlToImage": "https://www.presse-citron.net/app/uploads/2025/04/Tim-Cook-Airpods-1500x900.jpg",
+      "publishedAt": "2025-11-01T15:45:32Z",
+      "content": "Si vous deviez parler à votre vous du passé, quels conseils lui donneriez-vous ? Cest à cette question complexe qua tenté de répondre Tim Cook il y a quelques années lors dune émission organisée par … [+2904 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Faz.net"
+      },
+      "author": "Roland Lindner, New York",
+      "title": "Tech-Konzern: Wer folgt auf Tim Cook als Apple-Chef?",
+      "description": "Tim Cook wird 65 Jahre alt und – auch wenn Cook lässt keine Amtsmüdigkeit erkennen lässt – wird über seine Nachfolge bei Apple bereits spekuliert. Vor allem ein Name wird genannt.",
+      "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/wer-folgt-auf-tim-cook-als-apple-chef-vor-allem-ein-name-wird-genannt-accg-110759081.html",
+      "urlToImage": "https://media0.faz.net/ppmedia/w1200/aktuell/wirtschaft/357077713/1.10759682/facebook_teaser/tim-cook-hat-apple-wirklich.jpg.webp",
+      "publishedAt": "2025-11-01T16:15:02Z",
+      "content": "Donald Trump hat Tim Cook in dieser Woche ein vorgezogenes Geburtstagsgeschenk gemacht. Der US-Präsident hat in den Handelsgesprächen mit dem chinesischen Staatschef Xi Jinping vereinbart, dass die I… [+6595 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Habr.com"
+      },
+      "author": "fransua",
+      "title": "Публикация PWA в App Store и Play Store на github actions",
+      "description": "Понадобилось мне как-то раз сделать из PWA мобильные приложения. Приключение на 20 минут, зашли и вышли - подумал я и пропал на пару месяцев. В статье будет гремучая смесь из Java, C#, NodeJS, Swift, bash, Dockerfile и github actions. Но в результате возможно…",
+      "url": "https://habr.com/ru/articles/855830/#post-content-body",
+      "urlToImage": "https://habrastorage.org/getpro/habr/upload_files/5ef/e11/e0b/5efe11e0b67862cf1e09cade0fe47514.png",
+      "publishedAt": "2025-11-01T13:14:01Z",
+      "content": "- PWA . 20 , - . Java, C#, NodeJS, Swift, bash, Dockerfile github actions. .\r\n.\r\nPWA builder PWA iOS Android. . : bubblewrap andoird PWA builder iOS. , PWA builder. github actions , .\r\nBubblewrap\r\n ,… [+764 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Mitchel Broussard",
+      "title": "The Best Early Black Friday Apple Deals",
+      "description": "We're officially in the month of Black Friday, which will take place on Friday, November 28 in 2025. As always, this will be the best time of the year to shop for great deals, including popular Apple products like AirPods, iPad, Apple Watch, and more. In this…",
+      "url": "https://www.macrumors.com/2025/11/01/best-early-black-friday-apple-deals-2025/",
+      "urlToImage": "https://images.macrumors.com/t/ciftS4vVNOxHx10Tmrs8i58t6mQ=/2500x/article-new/2025/10/Early-Black-Friday-Deals-2.jpg",
+      "publishedAt": "2025-11-01T13:04:05Z",
+      "content": "We're officially in the month of Black Friday, which will take place on Friday, November 28 in 2025. As always, this will be the best time of the year to shop for great deals, including popular Apple… [+3188 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "MacRumors Staff",
+      "title": "Top Stories: iOS 26.1 Imminent, iPhone 18 Rumors, and More",
+      "description": "After a flurry of Apple releases in September in October, the calendar has now turned to November, but that doesn't necessarily mean Apple is done making news for 2025.\n\n\n\n\n\nBeyond those nearer-term software and hardware update expectations, this week saw fre…",
+      "url": "https://www.macrumors.com/2025/11/01/top-stories-ios-26-1-imminent/",
+      "urlToImage": "https://images.macrumors.com/t/N6rWmBCN8Nx5fVC9GDx5D8dqcAE=/1600x/article-new/2025/11/top-stories-2025-11-01.jpg",
+      "publishedAt": "2025-11-01T13:00:00Z",
+      "content": "After a flurry of Apple releases in September in October, the calendar has now turned to November, but that doesn't necessarily mean Apple is done making news for 2025.\r\nBeyond those nearer-term soft… [+4345 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Les Numériques"
+      },
+      "author": "Laure Renouard",
+      "title": "Actualité : Ultra 3, Series 11, SE 3 : quelle Apple Watch choisir en 2025 selon vos besoins ?",
+      "description": "Trois montres connectées, de multiples déclinaisons et des designs globalement similaires : pas facile de faire un choix entre les différentes Apple Watch lancées en 2025, réparties entre une SE 3, une Series 11 et une Ultra 3. Voici quelques éléments pour vo…",
+      "url": "https://www.lesnumeriques.com/montre-connectee/ultra-3-series-11-se-3-quelle-apple-watch-choisir-en-2025-selon-vos-besoins-n244623.html",
+      "urlToImage": "https://cdn.lesnumeriques.com/optim/news/24/244623/d323d752-weekend-ultra-series-11-se-3-quelle-apple-watch-choisir-en-2025-selon-vos-besoins__1200_678__149-302-2740-1662.jpg",
+      "publishedAt": "2025-11-01T07:08:00Z",
+      "content": "Lors de sa dernière keynote, Apple n'a pas failli à ses habitudes. La Pomme a non seulement lancé quatre iPhone, dont un modèle Air entièrement inédit, mais aussi de nouvelles montres connectées. Pas… [+4540 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Les Numériques"
+      },
+      "author": "Alexandre Scotti",
+      "title": "Actualité : Avant d’acheter un nouveau smartphone, posez-vous ces 5 questions essentielles",
+      "description": "L’achat d’un nouveau smartphone vous fait de l’œil ? Vous êtes au bon endroit pour réfléchir à cette question hautement existentielle !",
+      "url": "https://www.lesnumeriques.com/telephone-portable/avant-d-acheter-un-nouveau-smartphone-posez-vous-ces-5-questions-essentielles-n244375.html",
+      "urlToImage": "https://cdn.lesnumeriques.com/optim/news/24/244375/adf82464-agenda-avant-d-acheter-un-nouveau-smartphone-posez-vous-ces-5-questions-essentielles__1200_678__0-526-6480-3928.jpg",
+      "publishedAt": "2025-11-01T17:00:00Z",
+      "content": "Vous avez envie dacheter un nouveau smartphone pour remplacer votre modèle actuel ? Avant toute chose, prenez le temps de répondre à ces cinq questions essentielles, sans quoi vous pourriez faire un … [+5567 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Xatakamovil.com"
+      },
+      "author": "Eva R. de Luis",
+      "title": "El OPPO X9 Find Pro para mí ha iniciado una era: la de los móviles de gama alta con batería para tres días",
+      "description": "Los Google Pixel 10 llegaron con el nuevo chip Tensor G5, que permite por primera vez usar IA completamente en el dispositivo, los iPhone 17 Pro dejaron atrás el titanio, renovaron diseño y actualizaron sus cámaras para albergar tres sensores traseros de 48 M…",
+      "url": "https://www.xatakamovil.com/oppo/oppo-x9-find-pro-para-mi-ha-iniciado-era-moviles-gama-alta-bateria-para-tres-diam",
+      "urlToImage": "https://i.blogs.es/6edc21/find/840_560.jpeg",
+      "publishedAt": "2025-11-01T12:00:57Z",
+      "content": "Los Google Pixel 10 llegaron con el nuevo chip Tensor G5, que permite por primera vez usar IA completamente en el dispositivo, los iPhone 17 Pro dejaron atrás el titanio, renovaron diseño y actualiza… [+3778 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "TMZ"
+      },
+      "author": "TMZ Staff",
+      "title": "Heidi Klum Dresses as Medusa for Her Annual Halloween Party in NYC",
+      "description": "Heidi Klum held true to her promise by rocking an \"ugly\" but recognizable Halloween costume -- she dressed up as the Greek mythological figure Medusa for her annual Halloween party! We got a peek at her walking onto her red carpet and into her epic…",
+      "url": "https://www.tmz.com/2025/11/01/heidi-klum-medusa-costume-halloween-party-nyc/",
+      "urlToImage": "https://imagez.tmz.com/image/c4/16by9/2025/11/01/c48e7a8e996d4f7385adb464c9911540_xl.png",
+      "publishedAt": "2025-11-01T12:29:47Z",
+      "content": "Heidi Klumheld true to her promise by rocking an \"ugly\" but recognizable Halloween costume -- she dressed up as the Greek mythological figure Medusa for her annual Halloween party!\r\nWe got a peek at … [+1286 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Emma Roth",
+      "title": "Netflix is reportedly looking into a bid for Warner Bros. Discovery",
+      "description": "Yet another rumor suggests that Netflix is interested in buying Warner Bros. Discovery’s studio and streaming businesses. On Friday, Reuters reported that Netflix is “actively exploring” a bid for the company and has hired a bank to look into a potential offe…",
+      "url": "https://www.theverge.com/news/811462/netflix-warner-bros-discovery-bid-rumor",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23923974/acastro_STK072_04.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2025-10-31T15:30:07Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nThe streaming giant has hired a bank to explore a potential offer for its studio and streaming business, according to Reuters.\r\nThe streaming giant has hired a b… [+2686 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Brandon Russell",
+      "title": "LG’s brilliant B5 OLED TV is already down to just $530 for Black Friday",
+      "description": "Best Buy’s early Black Friday deals are already live, with discounts to be had on everything from smartphones and gaming PCs to wireless headphones. If you’re in the market for a new 4K TV, Best Buy is also offering an exclusive doorbuster deal on LG’s 48-inc…",
+      "url": "https://www.theverge.com/tech/811935/lg-b5-oled-tv-black-friday-doorbuster-deal-sale",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/LG-B5-OLED-TV-deal.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2025-10-31T22:25:55Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nThe B5 remains a great entry-level OLED option.\r\nThe B5 remains a great entry-level OLED option.\r\nby\r\nBrandon RussellClose\r\nBrandon Russell\r\nPosts from this auth… [+3063 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Central"
+      },
+      "author": "sanujb6@gmail.com (Sanuj Bhatia) , Sanuj Bhatia",
+      "title": "Google says Android phones now block more scams than iPhones",
+      "description": "Android's AI-powered detection reportedly outperforms Apple's tools, blocking 10B scam messages and 100M suspicious numbers.",
+      "url": "https://www.androidcentral.com/phones/google-pixel/google-says-android-phones-block-more-scams-than-iphones",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/CvSmH8fHs6YawQjxHNpauU-2048-80.jpg",
+      "publishedAt": "2025-10-31T11:41:00Z",
+      "content": "What you need to know\r\n<ul><li>A new Google study shows Android users are less likely to receive scam texts than iPhone users.</li><li>Android's AI tools help detect and block fraudulent messages mor… [+2671 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Central"
+      },
+      "author": "jerry.hildenbrand@futurenet.com (Jerry Hildenbrand) , Jerry Hildenbrand",
+      "title": "The Fairphone 6 coming to the US means I'll be spending $900 and I ain't even mad about it",
+      "description": "I've always said that when Fairphone can sell and support a model for the U.S., I will buy it. It's about time.",
+      "url": "https://www.androidcentral.com/phones/the-fairphone-6-coming-to-the-us-means-ill-be-spending-usd900-and-i-aint-even-mad-about-it",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/ebvdNMFTPXSVMhW4yAQKr8-2000-80.jpg",
+      "publishedAt": "2025-10-31T15:00:00Z",
+      "content": "The Fairphone 6 is heading to the U.S. and Canada (mostly), and it's the first Fairphone to be officially released in North America. I've long said that this is something I wanted to see, and when it… [+3702 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Joe Rossignol",
+      "title": "Waiting for New Macs? Apple Just Shared Bad News",
+      "description": "Apple has just given a strong indication that it will not be releasing any additional new Macs for the remainder of the year.\n\n\n\n\n\nApple's CFO Kevan Parekh dropped the hint during the company's earnings call on Thursday:On Mac, keep in mind, we expect to face…",
+      "url": "https://www.macrumors.com/2025/10/31/waiting-for-new-macs-apple-just-shared-bad-news/",
+      "urlToImage": "https://images.macrumors.com/t/Sa45WpyBk4fP8VHn6dTWNNsULG8=/1960x/article-new/2025/10/M5-MacBook-Pro.jpg",
+      "publishedAt": "2025-10-31T14:32:24Z",
+      "content": "Apple has just given a strong indication that it will not be releasing any additional new Macs for the remainder of the year.\r\nApple's CFO Kevan Parekh dropped the hint during the company's earnings … [+1389 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Tim Hardwick",
+      "title": "Apple Stockpiling Parts for Foldable iPhone Ahead of 2026 Launch",
+      "description": "Apple is building up inventory for its first foldable iPhone in preparation for the device's launch next year, claims a Chinese leaker with proven sources within Apple's supply chain.\n\n\n\n\n\nAccording to Weibo-based account Fixed Focus Digital, Apple is now sto…",
+      "url": "https://www.macrumors.com/2025/10/31/apple-stockpiling-parts-foldable-iphone/",
+      "urlToImage": "https://images.macrumors.com/t/utojh2KSAyPpmL2zSSHd0_hnVQQ=/2500x/article-new/2025/08/Apple-Foldable-Thumb.jpg",
+      "publishedAt": "2025-10-31T11:26:58Z",
+      "content": "Apple is building up inventory for its first foldable iPhone in preparation for the device's launch next year, claims a Chinese leaker with proven sources within Apple's supply chain.\r\nAccording to W… [+2151 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Mitchel Broussard",
+      "title": "Best Apple Deals of the Week: Halloween Deals Arrive Alongside New Record Lows on M5 iPad Pro",
+      "description": "This week we saw deals on Apple's new M5 iPad Pro, M4 MacBook Air, Apple Watch bands, and Samsung monitors. In addition to all of these ongoing sales, we're tracking a few big Halloween sales that are set to end either today or later this weekend, so be sure …",
+      "url": "https://www.macrumors.com/2025/10/31/best-apple-deals-of-the-week-10-31-25/",
+      "urlToImage": "https://images.macrumors.com/t/zTPcGQyYKUCuApDnVjRHwfI7r4U=/2500x/article-new/2024/10/halloween-hero.jpeg",
+      "publishedAt": "2025-10-31T16:09:17Z",
+      "content": "This week we saw deals on Apple's new M5 iPad Pro, M4 MacBook Air, Apple Watch bands, and Samsung monitors. In addition to all of these ongoing sales, we're tracking a few big Halloween sales that ar… [+3104 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Prakhar Khanna",
+      "title": "Should You Upgrade to Apple Watch Series 11? Here Are the Key Features You Get",
+      "description": "The Apple Watch Series 11 has a number of new features. Here's how the new smartwatch compares to the Series 7 through Series 10.",
+      "url": "https://www.cnet.com/tech/mobile/should-you-upgrade-to-apple-watch-series-11-here-are-the-key-features-you-get/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/199ae113a1ec1624d5fd8afdc6c31545564c0ed6/hub/2025/10/30/d3637756-84f1-48f1-ac8d-1a6adc60f11a/apple-watch-series-11-vs-cnet.png?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2025-10-31T12:00:08Z",
+      "content": "The holiday season could be the best time to buy an Apple Watch. With over 59% of US adult shoppers in a recent CNET survey planning to spend an average of $931 on tech devices, we can expect to see … [+17975 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Vanessa Hand Orellana",
+      "title": "Samsung's New Health Service Aims to Help You Avoid Fitness Plateaus",
+      "description": "Samsung is teaming up with iFit to bring expert-led workouts and real-time adaptive training to your gym equipment.",
+      "url": "https://www.cnet.com/tech/mobile/samsungs-new-health-service-aims-to-help-you-avoid-fitness-plateaus/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/512954b651794296f3b6edf49ce07cc6c1bb1648/hub/2025/10/30/e2091f91-61c9-4eca-b7c9-d97f22e1c55e/ifitsamsung.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2025-10-31T11:00:06Z",
+      "content": "Get ready for your Galaxy Watch to control your treadmill. \r\nSamsung is jumping into the personal training space, bringing expert-led workouts to its Health app. The company is partnering with fitnes… [+3674 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Attila Tomaschek",
+      "title": "Surfshark vs. Proton VPN: Two of the Best VPNs Compared",
+      "description": "Both VPNs are well-rounded, but offer different privacy selling points. Your choice will depend on whether you want critical privacy protections or innovative features.",
+      "url": "https://www.cnet.com/tech/services-and-software/surfshark-vs-proton-vpn/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/7bf3a144fd8ea366bcf93950677864d0ad2af5ca/hub/2025/10/16/ba1e32ce-f054-45f5-935d-78aac32288a5/vpn.png?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2025-10-31T13:00:00Z",
+      "content": "Surfshark and Proton VPN are two of the best virtual private networks you can buy. Based on my testing, I can confirm that each one delivers top-notch streaming capabilities, fast speeds and exceptio… [+15273 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Joe Rossignol",
+      "title": "Apple to Donate Towards Hurricane Melissa Relief Efforts",
+      "description": "In a social media post today, Apple CEO Tim Cook said that Apple will be making a donation of an undisclosed amount towards Hurricane Melissa relief efforts.\n\n\n\n\n\n\"Our hearts go out to all of those impacted by the destruction of Hurricane Melissa,\" said Cook.…",
+      "url": "https://www.macrumors.com/2025/10/31/apple-hurricane-melissa-donation/",
+      "urlToImage": "https://images.macrumors.com/t/sJR4ML-uwT8mRNH0yIK6zAfSCG8=/2048x/article-new/2024/09/Apple-Logo-Top-Half.jpeg",
+      "publishedAt": "2025-10-31T17:20:17Z",
+      "content": "In a social media post today, Apple CEO Tim Cook said that Apple will be making a donation of an undisclosed amount towards Hurricane Melissa relief efforts.\r\n\"Our hearts go out to all of those impac… [+366 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Tim Hardwick",
+      "title": "iPhone Fold: Launch, Pricing, and What to Expect From Apple's Foldable",
+      "description": "Apple is expected to launch a new foldable iPhone next year, based on multiple rumors and credible sources. The long-awaited device has been rumored for years now, but signs increasingly suggest that 2026 could indeed be the year that Apple releases its first…",
+      "url": "https://www.macrumors.com/2025/10/31/iphone-fold-release-pricing-features-foldable/",
+      "urlToImage": "https://images.macrumors.com/t/utojh2KSAyPpmL2zSSHd0_hnVQQ=/2500x/article-new/2025/08/Apple-Foldable-Thumb.jpg",
+      "publishedAt": "2025-10-31T15:52:58Z",
+      "content": "Apple is expected to launch a new foldable iPhone next year, based on multiple rumors and credible sources. The long-awaited device has been rumored for years now, but signs increasingly suggest that… [+5912 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Hartley Charlton",
+      "title": "The MacRumors Show: Giving Vision Pro Another Chance",
+      "description": "On this week's episode of The MacRumors Show, we dive back into the Vision Pro with Apple's new M5 model. \n\n\n\n\r\nSubscribe to The MacRumors Show YouTube channel for more videos\n\nApple's new Vision Pro headset features the M5 chip for better performance and eff…",
+      "url": "https://www.macrumors.com/2025/10/31/the-macrumors-show-vision-pro-another-chance/",
+      "urlToImage": "https://images.macrumors.com/t/xx7sYpa_v8IbaWEP4Ie-u2-uEXw=/2500x/article-new/2025/10/TMRS-169-M5-Apple-Vision-Pro-Thumb-1.jpg",
+      "publishedAt": "2025-10-31T15:48:28Z",
+      "content": "On this week's episode of The MacRumors Show, we dive back into the Vision Pro with Apple's new M5 model. \r\nApple's new Vision Pro headset features the M5 chip for better performance and efficiency, … [+1941 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "Dan DeFrancesco",
+      "title": "How some of the world's biggest tech companies stacked up during earnings season",
+      "description": "To quickly catch you up on how things shook out, here's a rundown on the main takeaways from Alphabet, Amazon, Apple, Meta, and Microsoft.",
+      "url": "https://www.businessinsider.com/key-insights-tech-earnings-alphabet-amazon-apple-meta-microsoft-2025-10",
+      "urlToImage": "https://i.insider.com/6904c20b599d46a4ccc1387c?width=1200&format=jpeg",
+      "publishedAt": "2D"
+    },
+    {
+      "source": {
+        "id": null,
         "name": "Korben.info"
       },
       "author": "Korben",
@@ -472,6 +1148,32 @@
     {
       "source": {
         "id": null,
+        "name": "redmondpie.com"
+      },
+      "author": "Oliver Haslam",
+      "title": "Get $40 Off The Logitech G Pro x Superlight 2 Mouse, Today Only",
+      "description": "Upgrading your gaming mouse might not make you a crack shot on its own, but it certainly won't hurt. And the Logitech G Pro x Superlight 2 mouse comes in at just 60g and sports plenty of buttons. And even better, it's yours for just $139.99.\nThe post Get $40 …",
+      "url": "https://www.redmondpie.com/get-40-off-the-logitech-g-pro-x-superlight-2-mouse-today-only/",
+      "urlToImage": "https://cdn.redmondpie.com/wp-content/uploads/2025/11/Logitech-super-light-mouse-1.jpg",
+      "publishedAt": "2025-11-01T18:58:56Z",
+      "content": "Upgrading your gaming mouse might not make you a crack shot on its own, but it certainly won’t hurt. And the Logitech G Pro x Superlight 2 mouse comes in at just 60g and sports plenty of buttons. And… [+1201 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": null,
+      "title": "Musk teases Tesla Roadster demo by year-end. He's been hyping a new one since 2017",
+      "description": "Tesla's Elon Musk told Joe Rogan that his company is aiming to develop a redesigned version of the Roadster before the end of the year.",
+      "url": "https://www.cnbc.com/2025/10/31/musk-teases-tesla-roadster-demo-this-year-been-hyping-it-since-2017.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108165343-1751051524166-2010-11-12T120000Z_766215986_GM1E6BC11ZK01_RTRMADP_3_TOYOTA-TESLA.JPG?v=1751051610&w=1920&h=1080",
+      "publishedAt": "2025-10-31T23:53:25Z",
+      "content": "Eight years ago, TeslaCEO Elon Musk promoted a next-generation Roadster, basing the name of the sports car on the company's debut electric vehicle from 2008.\r\nThe updated version has yet to hit produ… [+2238 chars]"
+    },
+    {
+      "source": {
+        "id": null,
         "name": "NBCSports.com"
       },
       "author": "Mike Florio",
@@ -507,6 +1209,136 @@
       "urlToImage": "https://static.the-independent.com/2025/10/30/18/54/Volkswagen-Passat.jpeg?trim=135,0,137,0&width=1200&height=800&crop=1200:800",
       "publishedAt": "2025-11-01T06:00:00Z",
       "content": "Your support helps us to tell the story\r\nFrom reproductive rights to climate change to Big Tech, The Independent is on the ground when the story is developing. Whether it's investigating the financia… [+5262 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Lauren Forristal",
+      "title": "Bye-bye bots: Altera's game-playing AI agents get backing from Eric Schmidt | TechCrunch",
+      "description": "Autonomous, AI-based players are coming to a gaming experience near you, and a new startup, Altera, is joining the fray to build this new guard of AI Research company Altera raised $9 million to build AI agents that can play video games alongside other player…",
+      "url": "https://techcrunch.com/2024/05/08/bye-bye-bots-alteras-game-playing-ai-agents-get-backing-from-eric-schmidt/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/Minecraft-keyart.jpg?resize=1200,720",
+      "publishedAt": "2024-05-08T15:14:57Z",
+      "content": "Autonomous, AI-based players are coming to a gaming experience near you, and a new startup, Altera, is joining the fray to build this new guard of AI agents.\r\nThe company announced Wednesday that it … [+6416 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Alex Wilhelm and Theresa Loconsolo",
+      "title": "$450M for Noname, two billion-dollar rounds, and good news for crypto startups | TechCrunch",
+      "description": "This morning on Equity, not only do we have good news for crypto founders, we're also digging into Akamai spending $450 million for API security firm Noname, and billion dollar deals from Wiz and Wayve.",
+      "url": "https://techcrunch.com/2024/05/08/450m-for-noname-two-billion-dollar-rounds-and-good-news-for-crypto-startups/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-942480316.jpg?resize=1200,835",
+      "publishedAt": "2024-05-08T15:01:51Z",
+      "content": "Good news, crypto founders: Venture capital activity is picking up in your sector after falling to multi-year lows in late 2023. Put another way, venture folks appear more web3-bullish than before, e… [+1599 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Alex Wilhelm",
+      "title": "Watch: When did iPads get as expensive as MacBooks?",
+      "description": "Would you switch out your MacBook for an iPad with an M4 chip and OLED display? With the increase in price, Apple seems to be arguing these are comparable but we’re curious to see if consumers will make the change.",
+      "url": "https://techcrunch.com/2024/05/08/techcrunch-minute-when-did-ipads-get-as-expensive-as-macbooks/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/ipad-noplay.png?resize=1200,675",
+      "publishedAt": "2024-05-08T14:52:26Z",
+      "content": "Apple’s iPad event had a lot to like. New iPads with new chips and new sizes, a new Apple Pencil, and even some software updates. If you are a big fan of Apple hardware, well, it was probably a good … [+1385 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Rebecca Bellan",
+      "title": "Uber promises member exclusives as Uber One passes $1B run-rate | TechCrunch",
+      "description": "Uber plans to deliver more perks to Uber One members, like member-exclusive events, in a bid to gain more revenue through subscriptions.  “You will see",
+      "url": "https://techcrunch.com/2024/05/08/uber-promises-member-exclusives-as-uber-one-passes-1b-run-rate/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1142304853-a.jpg?resize=1200,675",
+      "publishedAt": "2024-05-08T14:41:36Z",
+      "content": "Uber plans to deliver more perks to Uber One members, like member-exclusive events, in a bid to gain more revenue through subscriptions. \r\nYou will see more member-exclusives coming up where members … [+4676 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Mike Butcher",
+      "title": "Checkfirst raises $1.5M pre-seed, applying AI to remote inspections and audits | TechCrunch",
+      "description": "Checkfirst enables businesses to schedule inspectors based on geographical location and qualifications, in addition to allowing for remote inspections.",
+      "url": "https://techcrunch.com/2024/05/08/checkfirst-raises-1-5m-pre-seed-applying-ai-to-remote-inspections-and-audits/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/Checkfirst-team.jpg?w=960",
+      "publishedAt": "2024-05-08T13:02:12Z",
+      "content": "Weve all seen them. The inspector with a clipboard, walking around a building, ticking off the last time the fire extinguishers were checked, or if all the lights are working. They work in the TICC (… [+3279 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Paul Sawers",
+      "title": "UK challenger bank Monzo nabs another $190M as US expansion beckons | TechCrunch",
+      "description": "Monzo has raised another $190 million, as the challenger bank looks to expand its presence internationally — particularly in the U.S.",
+      "url": "https://techcrunch.com/2024/05/08/uk-challenger-bank-monzo-nabs-another-190m-at-5-2b-valuation/",
+      "urlToImage": "httpsD://techcrunch.com/wp-content/uploads/2024/05/GettyImages-1259121938-e1715164252704.jpg?resize=1200,676",
+      "publishedAt": "2024-05-08T12:34:05Z",
+      "content": "Monzo has raised another £150 million ($190 million), as the challenger bank looks to expand its presence internationally particularly in the U.S.\r\nThe new round comes just two months after Monzo rai… [+1960 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Brian Heater",
+      "title": "iRobot names former Timex head Gary Cohen as CEO | TechCrunch",
+      "description": "iRobot Tuesday announced the successor to longtime CEO, Colin Angle. Gary Cohen, who previous held chief executive role at Timex and Qualitor Automotive,",
+      "url": "https://techcrunch.com/2024/05/08/irobot-names-former-timex-head-gary-cohen-as-ceo/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/Screenshot-2024-05-08-at-7.19.50%E2%80%AFAM.jpg?resize=1200,919",
+      "publishedAt": "2024-05-08T12:22:30Z",
+      "content": "iRobot Tuesday announced the successor to longtime CEO, Colin Angle. Gary Cohen, who previous held chief executive role at Timex and Qualitor Automotive, will be heading up the company, marking a maj… [+2120 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Devin Coldewey",
+      "title": "Google Deepmind debuts huge AlphaFold update and free proteomics-as-a-service web app | TechCrunch",
+      "description": "Google Deepmind has taken the wraps off a new version AlphaFold, their transformative machine learning model that predicts the shape and behavior of",
+      "url": "https://techcrunch.com/2024/05/08/google-deepmind-debuts-huge-alphafold-update-and-free-proteomics-as-a-service-web-app/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/alphafold-3-deepmind.jpg?resize=1200,675",
+      "publishedAt": "2024-05-07T22:10:14Z",
+      "content": "Google Deepmind has taken the wraps off a new version AlphaFold, their transformative machine learning model that predicts the shape and behavior of proteins. AlphaFold 3 is not only more accurate, b… [+7069 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Tim De Chant",
+      "title": "Mycocycle uses mushrooms to upcycle old tires and construction waste | TechCrunch",
+      "description": "The startup's fungi use their mycelium to consume oil-based rubbers and plastics, creating new bio-based materials in the process.",
+      "url": "https://techcrunch.com/2024/05/08/mycocycle-uses-mushrooms-to-upcycle-old-tires-and-construction-waste/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/GettyImages-1350655821.jpeg?resize=1200,796",
+      "publishedAt": "2024-05-07T18:07:09Z",
+      "content": "Usually, when something starts to rot, it gets pitched in the trash. But Joanne Rodriguez wants to turn the concept of rot on its head by growing fungus on trash to turn it into something better.\r\nWe… [+4229 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Kyle Wiggers",
+      "title": "Controversial drone company Xtend leans into defense with new $40M round | TechCrunch",
+      "description": "Xtend, a drone company heavily involved with defense customers, has raised a new round of capital to expand its operations.",
+      "url": "https://techcrunch.com/2024/05/08/controversial-drone-company-xtend-leans-into-defense/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/wildfire_drone_web.jpg?w=900",
+      "publishedAt": "2024-05-07T18:01:34Z",
+      "content": "Close to a decade ago, brothers Aviv and Matteo Shapira co-founded Replay, a company that created a video format for 360-degree replays — the sorts of replays that have become part and parcel of majo… [+5398 chars]"
     },
     {
       "source": {
@@ -792,6 +1624,175 @@
       "url": "https://www.wsj.com/business/energy-oil/bps-new-chairman-calls-for-urgency-in-push-to-simplify-the-business-9ea9aa35",
       "urlToImage": "https://s.yimg.com/ny/api/res/1.2/e3YqgmCltpvy3jeF4b_HYA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/the_wall_street_journal_hosted_996/a5e63ffac12b4aee746ad54fcafb5d46",
       "publishedAt": "2m"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Livemint"
+      },
+      "author": "Riya R Alex",
+      "title": "Elon Musk vs Sam Altman again! OpenAI CEO alleges Tesla order issues, Musk hits back with, ‘you stole a non-profit’",
+      "description": "Elon Musk and Sam Altman's feud intensified after Altman alleged his Tesla reservation was not canceled. While Altman claimed delays in receiving a refund, Musk stated the issue was resolved promptly.&nbsp;",
+      "url": "https://www.livemint.com/companies/people/elon-musk-vs-sam-altman-again-openai-ceo-alleges-tesla-order-issues-musk-hits-back-with-you-stole-a-nonprofit-11762065022753.html",
+      "urlToImage": "https://www.livemint.com/lm-img/img/2025/11/02/1600x900/COMBO-US-TECHNOLOGY-OPENAI-ALTMAN-MUSK-1_1737597725582_1762068325673.jpg",
+      "publishedAt": "2025-11-02T07:51:03Z",
+      "content": "The feud between Elon Musk and Sam Altman took a new turn after the OpenAI CEO shared a post alleging that the world's richest man's EV company did not cancel his reservation of a Tesla vehicle.\r\nIn … [+2079 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "JESSICA HILL Associated Press",
+      "title": "Nation's largest fleet of police Cybertrucks to patrol Las Vegas",
+      "description": "The nation’s largest police fleet of Tesla Cybertrucks is set to begin patrolling the streets of Las Vegas in November",
+      "url": "https://abcnews.go.com/US/wireStory/nations-largest-fleet-police-cybertrucks-patrol-las-vegas-127102391",
+      "urlToImage": "https://i.abcnewsfe.com/a/3a377173-577e-4c05-83fd-0d3377d76089/wirestory_f8294c00635009a78fa8a86741eec2ca_16x9.jpg?w=1600",
+      "publishedAt": "2025-11-02T04:29:34Z",
+      "content": "LAS VEGAS -- The nation's largest police fleet of Tesla Cybertrucks is set to begin patrolling the streets of Las Vegas in November thanks to a donation from a U.S. tech billionaire, raising concerns… [+6433 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "Lauren Edmonds",
+      "title": "Elon Musk comes clean about the sink in his viral Twitter takeover pic",
+      "description": "Elon Musk told the \"All-In\" podcast on Friday that the video of him carrying a sink into Twitter's former headquarters in 2022 almost didn't happen.",
+      "url": "https://www.businessinsider.com/elon-musk-viral-video-carrying-sink-twitter-hq-2025-11",
+      "urlToImage": "https://i.insider.com/690629d3c007ca8c27381379?width=1200&format=jpeg",
+      "publishedAt": "2025-11-02T04:02:01Z",
+      "content": "Elon Musk carrying a sink at the former Twitter headquarters in 2022.-/Twitter account of Elon Musk/AFP via Getty Images\r\n<ul><li>Elon Musk shared the details behind a viral video of him carrying a s… [+2965 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "JESSICA HILL",
+      "title": "Nation's largest fleet of police Cybertrucks to patrol Las Vegas",
+      "description": "The nation's largest police fleet of Tesla Cybertrucks is set to begin patrolling the streets of Las Vegas in November thanks to a donation from a U.S. tech ...",
+      "url": "https://www.yahoo.com/news/articles/nations-largest-fleet-police-cybertrucks-040150117.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/0tQeMAph1CxusJH9k00nSA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/ap_finance_articles_694/bc787916804ed33a42a5034e373c2735",
+      "publishedAt": "2025-11-02T04:01:50Z",
+      "content": "LAS VEGAS (AP) The nation's largest police fleet of Tesla Cybertrucks is set to begin patrolling the streets of Las Vegas in November thanks to a donation from a U.S. tech billionaire, raising concer… [+6553 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Kaili Killpack",
+      "title": "'Zero Confidence': Experts Warn It's Too Late To Implement GOP's Proposed ACA Changes",
+      "description": "With open enrollment for Affordable Care Act coverage in full swing, experts are warning that Congress may have run out of time to implement the health...",
+      "url": "https://www.yahoo.com/news/articles/zero-confidence-experts-warn-too-000129192.html",
+      "urlToImage": "https://media.zenfs.com/en/Benzinga/ade7e4212f24dc59d2b656e16fe571a9",
+      "publishedAt": "2025-11-02T00:01:29Z",
+      "content": "With open enrollment for Affordable Care Act coverage in full swing, experts are warning that Congress may have run out of time to implement the health policy changes Republicans are demanding. As bo… [+3921 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "TheStreet"
+      },
+      "author": "Silin Chen",
+      "title": "Here are Cathie Wood’s latest moves.",
+      "description": "Cathie Wood, head of Ark Investment Management, does not hesitate to sell and pocket profits when her high-conviction names rally, even the ones she...",
+      "url": "https://www.thestreet.com/investing/stocks/cathie-wood-sells-21-4-million-of-surging-ai-stocks",
+      "urlToImage": "https://media.zenfs.com/en/thestreet_881/85237a421c24d9f9d43e41e8fbad4d23",
+      "publishedAt": "2025-11-01T23:47:41Z",
+      "content": "Cathie Wood, head of Ark Investment Management, does not hesitate to sell and pocket profits when her high-conviction names rally, even the ones she repeatedly calls her favorites.\r\nThats what she di… [+5172 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Biztoc.com"
+      },
+      "author": "nytimes.com",
+      "title": "A profile of Aaron Greenspan, who has spent years on a crusade to expose what he believes are financial problems at Tesla and at big tech companies",
+      "description": "",
+      "url": "https://biztoc.com/x/bb48c90d34c1c8b4",
+      "urlToImage": "https://biztoc.com/cdn/950/og.png",
+      "publishedAt": "2025-11-01T23:15:19Z",
+      "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Berkshire Hathaway's cash pile at a record high? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Warren B… [+758 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Guessingheadlights.com"
+      },
+      "author": "Olivia Richman",
+      "title": "These Carmakers are Using AI More Than Drivers May Realize",
+      "description": "Remember when the most advanced tech in your car was a CD changer? Those days are long gone. Today’s vehicles are essentially computers on wheels, and...",
+      "url": "https://guessingheadlights.com/these-carmakers-are-using-ai-more-than-drivers-may-realize/",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/o83qSRCyEcJlp4KqDiQrUg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/guessing_headlights_178/30068778aa0bae2273f3e3909bfea5ca",
+      "publishedAt": "2025-11-01T23:05:47Z",
+      "content": "Remember when the most advanced tech in your car was a CD changer? Those days are long gone. Today's vehicles are essentially computers on wheels, and artificial intelligence is the secret ingredient… [+15630 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Eric McConnell",
+      "title": "Yale Graduate Takes His Family's Apple Farm From Brink Of Ruin And Turns It Into $4 Million Per Year Operation",
+      "description": "When 41-year-old Joshua Morgenthau graduated from Yale with an art degree almost 20 years ago, he couldn't have imagined that his masterpiece would be saving...",
+      "url": "https://finance.yahoo.com/news/yale-graduate-takes-familys-apple-201904172.html",
+      "urlToImage": "https://media.zenfs.com/en/Benzinga/c11694465fb5e17e3a30d4df6d06c21f",
+      "publishedAt": "2025-11-01T20:19:04Z",
+      "content": "When 41-year-old Joshua Morgenthau graduated from Yale with an art degree almost 20 years ago, he couldn't have imagined that his masterpiece would be saving his family's apple farm and turning it in… [+4399 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Casey B. Renner",
+      "title": "'It's Not My Fault You Picked A Low-Paying Career,' Says 28-Year-Old Tech Worker Earning $130K Who Splits Bills 50/50 With His $45K Teacher Girlfriend",
+      "description": "A 28-year-old tech worker told his girlfriend her smaller income wasn't his responsibility after she asked to revise how they split living costs. The story, ...",
+      "url": "https://www.yahoo.com/lifestyle/articles/not-fault-picked-low-paying-190134270.html",
+      "urlToImage": "https://media.zenfs.com/en/Benzinga/33ccd0db5072de68d3423525a6ac7804",
+      "publishedAt": "2025-11-01T19:01:34Z",
+      "content": "A 28-year-old tech worker told his girlfriend her smaller income wasn't his responsibility after she asked to revise how they split living costs.\r\nThe story, shared by the original poster on the r/Am… [+3322 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "ledmonds@businessinsider.com (Lauren Edmonds)",
+      "title": "Elon Musk fires back at Sam Altman's posts about trying to cancel a Tesla Roadster order: 'You received a refund within 24 hours'",
+      "description": "\"And you forgot to mention act 4, where this issue was fixed and you received a refund within 24 hours,\" Elon Musk replied to the OpenAI CEO.",
+      "url": "https://www.businessinsider.com/elon-musk-response-sam-altman-tesla-roadster-refund-2025-11",
+      "urlToImage": "https://i.insider.com/69064692c007ca8c273813da?width=1200&format=jpeg",
+      "publishedAt": "2025-11-01T18:14:34Z",
+      "content": "Elon Musk and Sam Altman are going tit-for-tat. At the center of their latest online beef is the OpenAI CEO's reservation for Tesla's long-delayed Roadster.\r\nMusk took to his social media platform, X… [+2958 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "TheStreet"
+      },
+      "author": "Faizan Farooque",
+      "title": "Layoffs and a top exec out: what GM pullback on EVs means for you",
+      "description": "General Motors recently took its biggest step yet to address a slowing electric car industry, and it's not a minor one. GM has halted battery manufacturing...",
+      "url": "https://www.thestreet.com/automotive/layoffs-and-a-top-exec-out-what-gm-pullback-on-evs-means-for-you",
+      "urlToImage": "https://media.zenfs.com/en/thestreet_881/5ba36d1f7acde40f921d72333b48b3cd",
+      "publishedAt": "2025-11-01T17:33:00Z",
+      "content": "General Motors recently took its biggest step yet to address a slowing electric car industry, and it's not a minor one.\r\nGM has halted battery manufacturing in Ohio and Tennessee and reduced one of t… [+6049 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PCMag.com"
+      },
+      "author": "Will Mccurdy",
+      "title": "‘Flying’ Tesla Roadster To Demo in 2025, Musk Claims",
+      "description": "The Tesla CEO told podcaster Joe Rogan that the car would include 'crazy technology,' which is 'better than all the James Bond cars combined,' but the Roadster project has been plagued by setbacks and failed promises so far.\nIt's been almost eight years since…",
+      "url": "https://me.pcmag.com/en/cars-auto/33227/flying-tesla-roadster-to-demo-in-2025-musk-claims",
+      "urlToImage": "https://sm.pcmag.com/t/pcmag_me/news/f/flying-tes/flying-tesla-roadster-to-demo-in-2025-musk-claims_6vhm.1200.jpg",
+      "publishedAt": "2025-11-01T17:25:11Z",
+      "content": "It's been almost eight years since Tesla first announced the next-gen Tesla Roadster back in 2017, and the project has been beset by almost constant delays and setbacks since then. In the interim, nu… [+2307 chars]"
     },
     {
       "source": {

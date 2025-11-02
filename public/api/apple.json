@@ -1,7 +1,436 @@
 {
   "status": "ok",
-  "totalResults": 24,
+  "totalResults": 38,
   "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Katelyn Chedraoui",
+      "title": "Sora 2 App Is Open to All in the US and Others ... No Invite Code Required",
+      "description": "The wait is over for anyone in the US, Canada, Japan and South Korea who couldn't get their hands on an invite code to OpenAI's viral Sora 2 app.",
+      "url": "https://www.cnet.com/tech/services-and-software/sora-2-app-is-now-open-to-all-in-the-us-no-invite-code-needed/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/2f5135197f4e0bbc40dea8bee3b70bcfab824666/hub/2025/10/16/f4e4d2b9-f4ae-4741-96bb-7735c3f7013c/sora-app-gettyimages-2239565353.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2025-11-01T09:00:00Z",
+      "content": "OpenAI's new Sora app takes AI and social media to a whole new level. The creators of ChatGPT launched a social media platform where every video is AI-generated -- no ads, no influencers, no reality … [+3242 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Mitchel Broussard",
+      "title": "Apple Watch Ultra 3 Hits New Record Low Price of $699.99 ($99 Off)",
+      "description": "Apple Watch Ultra 3 has hit a new all-time low price on Amazon this weekend, available at $99 off select models. This includes the higher-end model with the Milanese Loop and a few Ocean Band options.\n\n\n\nNote: MacRumors is an affiliate partner with Amazon. Wh…",
+      "url": "https://www.macrumors.com/2025/11/01/apple-watch-ultra-3-low-price-699/",
+      "urlToImage": "https://images.macrumors.com/t/mXU2QtU7dBSqEi8e_eiJgwqpDMI=/2500x/article-new/2025/11/apple-watch-ultra-3-mint.jpeg",
+      "publishedAt": "2025-11-01T13:18:16Z",
+      "content": "Apple Watch Ultra 3 has hit a new all-time low price on Amazon this weekend, available at $99 off select models. This includes the higher-end model with the Milanese Loop and a few Ocean Band options… [+931 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "Samantha Grindell Pettyjohn",
+      "title": "Moving to a new state isn't easy. 3 people who relocated shared how they started over.",
+      "description": "People who moved to a new state shared what they learned about finding home, starting over, and building a new life from scratch.",
+      "url": "https://www.businessinsider.com/moving-to-new-different-state-relocating-reality-2025-11",
+      "urlToImage": "https://i.insider.com/68f7e4dc5dbc4fd10dab43d6?width=1200&format=jpeg",
+      "publishedAt": "2025-11-01T09:03:02Z",
+      "content": "Business Insider followed three people who relocated.Kendrick Brinson, Mark Felix, and Simon Simard for BI\r\nI started fantasizing about moving to New York when I visited the city at the age of 16. I … [+5521 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hipertextual"
+      },
+      "author": "Aglaia Berlutti",
+      "title": "Las 10 películas más terroríficas según ‘Science of Scare Project’ y dónde verlas",
+      "description": "El género de terror no para de crecer y sorprender. Y en esta década, además, se ha convertido en uno de los más rentables de Hollywood. Con productoras como Blumhouse, A24 y NEON, toda una nueva generación de directores ha tenido la oportunidad de mostrar su…",
+      "url": "https://hipertextual.com/tecnologia/las-10-peliculas-mas-terrorificas-segun-science-of-scare-project-y-donde-verlas/",
+      "urlToImage": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2025/10/10-peliculas-de-terror.jpg?fit=2000%2C1600&quality=70&strip=all&ssl=1",
+      "publishedAt": "2025-11-01T15:00:00Z",
+      "content": "El género de terror no para de crecer y sorprender. Y en esta década, además, se ha convertido en uno de los más rentables de Hollywood. Con productoras como Blumhouse, A24 y NEON, toda una nueva gen… [+9382 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tom's Guide"
+      },
+      "author": "John Velasco",
+      "title": "I’ve tested the entire iPhone 17 lineup for over a month — and this is the one you should buy",
+      "description": "I've been testing the iPhone 17, iPhone Air, iPhone 17 Pro, and iPhone 17 Pro Max for over a month and this is the one I recommend buying the most.",
+      "url": "https://www.tomsguide.com/phones/iphones/ive-tested-the-entire-iphone-17-lineup-for-over-a-month-and-this-is-the-one-you-should-buy",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/g7CdsfmAMP4sddNZ_OfSew--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/toms_guide_826/4a9692804ce52c9dd1e47a02bddf370c",
+      "publishedAt": "2025-11-01T04:45:00Z",
+      "content": "When you buy through links on our articles, Future and its syndication partners may earn a commission.\r\nJust like in years past, Apple released four new iPhones just in time for everyone to plan thei… [+22082 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Basketball Network"
+      },
+      "author": "Mislav Puljiz",
+      "title": "Shaquille O'Neal admits he forgot about his Google investment: \"The newspaper told me how much I made and I couldn't believe\"",
+      "description": "Before he was known as one of the best businessmen in the game, O'Neal’s first investment was unintentional.",
+      "url": "https://www.basketballnetwork.net/off-the-court/shaquille-oneal-admits-he-forgot-about-his-google-investment",
+      "urlToImage": "https://media.zenfs.com/en/basketball_network_725/a0dec3d3d2a620df1f058cd02f37c1bf",
+      "publishedAt": "2025-11-01T22:31:00Z",
+      "content": "During his 19-year career, Shaquille O'Neal made approximately $292 million from contracts alone. Even though that's more than enough money to live comfortably, he didn't stop there; the NBA legend b… [+3431 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Xataka.com"
+      },
+      "author": "John Tones",
+      "title": "Más allá de 'La casa de papel': cómo España ha conseguido que una de cada cuatro series reproducidas sea suya",
+      "description": "El impacto de las series españolas en el mercado del streaming es indicutible. Hace unos años 'La casa de papel' estaba en boca de todos, pero del mismo modo que las ficciones coreanas son mucho más que 'El juego del calamar', las españolas están empezando a …",
+      "url": "https://www.xataka.com/cine-y-tv/cada-cuatro-series-vistas-streaming-espanola-hemos-ido-mucho-alla-casa-papel",
+      "urlToImage": "https://i.blogs.es/b928e8/reina-roja-5-6569c4b47f30b/840_560.jpeg",
+      "publishedAt": "2025-11-01T16:30:57Z",
+      "content": "El impacto de las series españolas en el mercado del streaming es indicutible. Hace unos años 'La casa de papel' estaba en boca de todos, pero del mismo modo que las ficciones coreanas son mucho más … [+4449 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Bradley C",
+      "title": "Apple @ Work: Chrome’s new Extensible Single Sign-On support makes it a better Mac citizen for IT teams",
+      "description": "Apple @ Work is exclusively brought to you by Mosyle, the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional grade platform all the solutions necessary to seamlessly and automatically deploy, manage and protect A…",
+      "url": "https://9to5mac.com/2025/11/01/chromes-new-extensible-single-sign-on-support-makes-it-a-better-mac-citizen-for-it-teams/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/08/Apple-at-Work-Liquid-Glass-light.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2025-11-01T13:00:00Z",
+      "content": "Apple @ Work is exclusively brought to you by Mosyle, the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional grade platform all the solutions necessary … [+5203 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Michael Burkhardt",
+      "title": "Despite their unpopularity, iPhone crossbody straps aren’t as useless as they may seem",
+      "description": "With the launch of the iPhone 17 lineup this fall, Apple debuted a new accessory – the crossbody strap. It certainly received lukewarm reception, but after trying one out, I actually think it’s a rather nifty concept. At least, if you’re the right person for …",
+      "url": "https://9to5mac.com/2025/11/01/iphone-crossbody-straps-are-cooler-than-you-might-believe/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/09/crossbody-strap-iphone-air.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2025-11-01T17:56:04Z",
+      "content": "With the launch of the iPhone 17 lineup this fall, Apple debuted a new accessory – the crossbody strap. It certainly received lukewarm reception, but after trying one out, I actually think it’s a rat… [+2367 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Police"
+      },
+      "author": "Andy Boxall",
+      "title": "Apple iPhone Air review: Design taken seriously, with few compromises",
+      "description": "Get over your misconceptions, and embrace Apple's superstar thin phone",
+      "url": "https://www.androidpolice.com/apple-iphone-air-review/",
+      "urlToImage": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2025/10/apple-iphone-air-back-logo.JPG?w=1600&h=900&fit=crop",
+      "publishedAt": "2025-11-01T16:00:10Z",
+      "content": "Pay attention to the name, as Ive been using the Apple iPhone Air, not the iPhone 17 Air. Thats right, the thinnest iPhone ever isnt a member of the new iPhone 17 series in name, meaning its technica… [+11461 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Police"
+      },
+      "author": "Stephen Radochia",
+      "title": "Samsung, don't get embarrassed by OnePlus — again",
+      "description": "Samsung might get left in the dust",
+      "url": "https://www.androidpolice.com/samsung-oneplus-comparison/",
+      "urlToImage": "https://static0.anpoimages.com/wordpress/wp-content/uploads/wm/2025/10/img_0835.jpg?w=1600&h=900&fit=crop",
+      "publishedAt": "2025-11-01T17:33:10Z",
+      "content": "Apparently, were not done with major flagship releases in 2025 just yet.\r\nOnePlus announced that the OnePlus 15 will launch globally on November 13th, much earlier than expected. \r\nThe rumored specs … [+4842 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Genbeta.com"
+      },
+      "author": "Eva R. de Luis",
+      "title": "He logrado escribir este artículo diez veces más rápido de lo normal y ya no hay vuelta atrás: se lo he dictado a mi PC",
+      "description": "No culpo a nadie de tener las expectativas tan bajas sobre el uso de la voz para la informática: desde 2018 llevamos sufriendo a los asistentes de Amazon, Google y Apple liándose con peticiones tan sencillas como 'Pon el último álbum From Zero de Linkin Park …",
+      "url": "https://www.genbeta.com/ofimatica/he-logrado-escribir-este-articulo-diez-veces-rapido-normal-no-hay-vuelta-atras-se-he-dictado-a-mi-pc",
+      "urlToImage": "https://i.blogs.es/066f6e/img_0275/840_560.jpeg",
+      "publishedAt": "2025-11-01T09:00:57Z",
+      "content": "No culpo a nadie de tener las expectativas tan bajas sobre el uso de la voz para la informática: desde 2018 llevamos sufriendo a los asistentes de Amazon, Google y Apple liándose con peticiones tan s… [+3467 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Agirlsguidetocars.com"
+      },
+      "author": "Scotty Reiss",
+      "title": "Now That Toyota Has Redesigned the RAV4, Which is Better: Mazda CX-50 Hybrid Or Toyota RAV4 Hybrid?",
+      "description": "For what seems like forever, Toyota has owned the compact hybrid SUV market with the RAV4 hybrid. Getting nearly 40 […]",
+      "url": "https://agirlsguidetocars.com/hybrid-mazda-cx-50-vs-toyota-rav4",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/AF1F7E8D6EE67F38803F67226976A27F35ADEE11F3FA3318D3690499D765939C/subgraphmysterio/resizefit_w1200;quality_90;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fa_girls_guide_to_cars_articles_379%2F19f905e59c06769c99696a770284c676",
+      "publishedAt": "2025-11-01T16:03:08Z",
+      "content": "For what seems like forever, Toyota has owned the compact hybrid SUV market with the RAV4 hybrid. Getting nearly 40 MPG, with comfortable seating for 4 and a fun-to-drive 219 HP, the RAV 4 delivers a… [+9169 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.jp"
+      },
+      "author": "はらいさん",
+      "title": "来年発売されるかもしれない新型iPad mini、ついに耐水性能に対応か",
+      "description": "Image:Apple遊びも仕事ももっと捗りそうな1台になる予感。ちょうど良いサイズ感の小型タブレットとして人気を誇るiPadmini。去年発売されたモデルはA17Proチップを搭載し、AppleIntelligenceやApplePencilProにも対応しましたが、次期モデルは見た目も中身も大きく進化する可能性が出てきました。耐水性能＆OLEDディスプレイを搭載？Bloombergによると、現",
+      "url": "https://www.gizmodo.jp/2025/11/ipad-mini-water-resistant.html",
+      "urlToImage": "https://media.loom-app.com/gizmodo/dist/images/2025/10/29/20241001_7978_01.jpg?w=1280&h=630&f=jpg",
+      "publishedAt": "2025-11-01T22:00:00Z",
+      "content": "1\r\niPad miniA17 ProApple IntelligenceApple Pencil Pro\r\nBloombergAppleiPad mini\r\niPhoneIEC60529IP68630\r\niPad mini\r\nAppleiPad mini\r\niPad mini\r\niPad miniOLED2026OLED2iPad mini100\r\nSource: MacRumors, App… [+1 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.jp"
+      },
+      "author": "編集部",
+      "title": "よく見たらイヤホンもPCも汚れてない？ Apple製品のお掃除術",
+      "description": "Photo:はらいさん毎日使っているイヤホンやヘッドホン、PC。大事に使っていても、よ〜く見たら汚れが溜まっちゃっていませんか？特にAirPodsやそのケースは汚れが溜まりやすいし、メイクや日焼け止めをする方は特にヘッドホンのクッションなども汚れがち。今回はApple製品のお掃除方法を紹介します！3COINSのクリーナーペンでイヤホンの汚れスッキリPhoto:はらいさんウェアラブルなデバイスだから",
+      "url": "https://www.gizmodo.jp/2025/11/how_to_clean_apple_items.html",
+      "urlToImage": "https://media.loom-app.com/gizmodo/dist/images/2025/10/30/20250527_45124_01.jpg?w=1280&h=630&f=jpg",
+      "publishedAt": "2025-11-01T09:00:00Z",
+      "content": "Copyright © Mediagene Inc. All Rights Reserved."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Zachary McAuliffe",
+      "title": "All the Upgrades Your iPhone's Music App Got With iOS 26",
+      "description": "AutoMix and lyric translation are just a few of the new features you can find the Music app now.",
+      "url": "https://www.cnet.com/tech/services-and-software/all-the-upgrades-your-iphones-music-app-got-with-ios-26/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/1ca063ef8cfb7a3d8db6b1e62fa25beb156828a6/hub/2025/10/01/b7b726dc-479e-4f1e-8834-4dc8d614da45/ios-26-cnet-4.png?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2025-11-01T10:00:03Z",
+      "content": "Apple released iOS 26 in September, and it brought a handful of new features to your iPhone, like call screening, new ringtones and more. The update also brought some new features to Apple Music ($11… [+8492 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Jason Chun",
+      "title": "Don't Want to Pay to Store All Your Memories in the Cloud? Do This Instead",
+      "description": "There's an easy way to back up your photos and videos without relying on cloud subscription services.",
+      "url": "https://www.cnet.com/tech/services-and-software/dont-want-to-pay-to-store-all-your-memories-in-the-cloud-do-this-instead/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/134aa5aff7d585b70ab688797710fe67be3f764b/hub/2025/09/29/ed96b29b-fc00-49af-907c-14bdd11d78a5/image-6.png?auto=webp&fit=crop&height=675&width=1200",
+      "publishedAt": "2025-11-01T13:00:04Z",
+      "content": "It costs nothing to take a picture with your phone. But between vacations, family gatherings and everyday moments, you can easily end up with thousands of photos. \r\nIf you store all those photos in t… [+7414 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yanko Design"
+      },
+      "author": "Srishti Mitra",
+      "title": "10 Essential Compact Travel Gadgets & Tools That Won’t Weigh You Down",
+      "description": "10 Essential Compact Travel Gadgets & Tools That Won’t Weigh You DownModern travel demands a delicate balance between staying connected and packing light. The days of stuffing suitcases with bulky electronics are over. Today’s best travel...",
+      "url": "https://www.yankodesign.com/2025/11/01/10-essential-compact-travel-gadgets-tools-that-wont-weigh-you-down/",
+      "urlToImage": "https://www.yankodesign.com/images/design_news/2025/10/essential-compact-travel-gadgets-that-wont-weigh-you-down/10_best_compact_essential_gadgets_yanko_design_hero.jpg",
+      "publishedAt": "2025-11-01T11:56:08Z",
+      "content": "Modern travel demands a delicate balance between staying connected and packing light. The days of stuffing suitcases with bulky electronics are over. Today’s best travel gadgets prioritize intelligen… [+11236 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Windows Central"
+      },
+      "author": "c.cale.hunt@gmail.com (Cale Hunt) , Cale Hunt",
+      "title": "\"The virtuous cycle of AI has arrived\" — NVIDIA's CEO believes AI can address $100 trillion of the world's industries as the market accelerates",
+      "description": "NVIDIA CEO Jensen Huang delivered a keynote speech at the APEC CEO summit in South Korea on Friday, in which he explained that the AI boom will likely only accelerate now that the industry has reached a tipping point that he calls a \"virtuous cycle.\"",
+      "url": "https://www.windowscentral.com/hardware/nvidia/nvidia-ceo-ai-boom-100-trillion-world-industries",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/pFU7uw8ENuZc8p8AdDhWzj-1920-80.jpg",
+      "publishedAt": "2025-11-01T12:45:00Z",
+      "content": "South Korea is currently hosting its APEC CEO Summit, and NVIDIA's CEO took to the stage on Friday to speak about the future of AI.\r\nThe keynote speech came just a couple of days after NVIDIA became … [+5410 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Álvaro García M.",
+      "title": "Llevo años queriendo CarPlay inalámbrico. Ahora solo uso el cable por una razón: batería",
+      "description": "Teniendo un coche que solo es compatible con CarPlay a través de cable, estuve mucho tiempo frustrado porque quería que fuese inalámbrico. No es que sea un drama tener que conectar el iPhone al coche cada vez, ya que es conectar un cable y ya, pero es mucho m…",
+      "url": "https://www.applesfera.com/ios/llevo-anos-queriendo-carplay-inalambrico-ahora-solo-uso-cable-razon-bateria",
+      "urlToImage": "https://i.blogs.es/30a99e/carplay/840_560.jpeg",
+      "publishedAt": "2025-11-01T16:00:57Z",
+      "content": "Teniendo un coche que solo es compatible con CarPlay a través de cable, estuve mucho tiempo frustrado porque quería que fuese inalámbrico. No es que sea un drama tener que conectar el iPhone al coche… [+3413 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MakeUseOf"
+      },
+      "author": "Jayric Maning",
+      "title": "This open-source bookmarks sync tool just freed me from Google Chrome",
+      "description": "This open-source tool lets you sync bookmarks across browsers and devices effortlessly",
+      "url": "https://www.makeuseof.com/open-source-bookmarks-sync-tool-freed-from-google-chrome/",
+      "urlToImage": "https://static0.makeuseofimages.com/wordpress/wp-content/uploads/wm/2025/10/floccus-mobile-app.jpg?w=1600&h=900&fit=crop",
+      "publishedAt": "2025-11-01T11:00:17Z",
+      "content": "I spent years trapped in the Chrome ecosystem, not because I loved the browser, but because switching meant abandoning hundreds of carefully organized bookmarks. Every time I tried Firefox or Edge, I… [+5742 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Presse-citron"
+      },
+      "author": "Manuel Castejon",
+      "title": "Test de la Xiaomi Redmi Pad 2 Pro : une tablette à prix mini pensée pour le multimédia",
+      "description": "La Xiaomi Redmi Pad 2 Pro est-elle la pro du divertissement qu'elle prétend être ? La réponse dans ce test !",
+      "url": "https://www.presse-citron.net/test-de-la-xiaomi-redmi-pad-2-pro-une-tablette-a-prix-mini-pensee-pour-le-multimedia/",
+      "urlToImage": "https://www.presse-citron.net/app/uploads/2025/10/xiaomi-redmi-pad-2-pro-test-une-1600x900.jpg",
+      "publishedAt": "2025-11-01T08:00:19Z",
+      "content": "L’iPad n’a pas le monopole des tablettes. En septembre, aux côtés du Xiaomi 15T, Xiaomi a enrichi son catalogue d’une Redmi Pad 2 Pro voulant miser sur l’immersion et le fun, notamment grâce à « son … [+9038 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Authority"
+      },
+      "author": "Mishaal Rahman",
+      "title": "Android Auto is borrowing a key new Apple CarPlay feature",
+      "description": "We break down the news that Android Auto is getting dashboard widgets and Android 17 is getting AOD app integration.",
+      "url": "https://www.androidauthority.com/authority-insights-podcast-011-3612047/",
+      "urlToImage": "https://www.androidauthority.com/wp-content/uploads/2025/10/Episode-Thumbnail-4.jpg",
+      "publishedAt": "2025-11-01T12:01:23Z",
+      "content": "00:00 Mishaal Rahman: Android Auto may soon let you place widgets on your cars dashboard.\r\n00:03 C. Scott Brown: And Android 17 could let you use Google Maps on your phones always on display.\r\n00:08 … [+45850 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Authority"
+      },
+      "author": "Mishaal Rahman",
+      "title": "The Android IRS: How Google once tried to tax battery-sucking background apps",
+      "description": "A deep dive into The Android Resource Economy, a scrapped reimagining of how Android manages background apps using macroeconomic principles.",
+      "url": "https://www.androidauthority.com/the-android-resource-economy-retrospective-3611494/",
+      "urlToImage": "https://www.androidauthority.com/wp-content/uploads/2025/10/Photo-of-Android-Bot-dressed-up-as-an-IRS-agent-scaled.jpg",
+      "publishedAt": "2025-11-01T12:00:00Z",
+      "content": "There are three things that are certain in life: death, taxes, and Google restricting background work. With every new Android release, Google seemingly further restricts what apps running in the back… [+13020 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Presse-citron"
+      },
+      "author": "Jean-Yves Alric",
+      "title": "Tim Cook : ce conseil parfait du PDG d’Apple pour réussir et donner du sens à sa vie",
+      "description": "Le patron d'Apple s’est confié à ce sujet et il livre une vision du monde très originale.",
+      "url": "https://www.presse-citron.net/tim-cook-ce-conseil-parfait-du-pdg-dapple-pour-reussir-et-donner-du-sens-sa-vie/",
+      "urlToImage": "https://www.presse-citron.net/app/uploads/2025/04/Tim-Cook-Airpods-1500x900.jpg",
+      "publishedAt": "2025-11-01T15:45:32Z",
+      "content": "Si vous deviez parler à votre vous du passé, quels conseils lui donneriez-vous ? Cest à cette question complexe qua tenté de répondre Tim Cook il y a quelques années lors dune émission organisée par … [+2904 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Faz.net"
+      },
+      "author": "Roland Lindner, New York",
+      "title": "Tech-Konzern: Wer folgt auf Tim Cook als Apple-Chef?",
+      "description": "Tim Cook wird 65 Jahre alt und – auch wenn Cook lässt keine Amtsmüdigkeit erkennen lässt – wird über seine Nachfolge bei Apple bereits spekuliert. Vor allem ein Name wird genannt.",
+      "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/wer-folgt-auf-tim-cook-als-apple-chef-vor-allem-ein-name-wird-genannt-accg-110759081.html",
+      "urlToImage": "https://media0.faz.net/ppmedia/w1200/aktuell/wirtschaft/357077713/1.10759682/facebook_teaser/tim-cook-hat-apple-wirklich.jpg.webp",
+      "publishedAt": "2025-11-01T16:15:02Z",
+      "content": "Donald Trump hat Tim Cook in dieser Woche ein vorgezogenes Geburtstagsgeschenk gemacht. Der US-Präsident hat in den Handelsgesprächen mit dem chinesischen Staatschef Xi Jinping vereinbart, dass die I… [+6595 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Habr.com"
+      },
+      "author": "fransua",
+      "title": "Публикация PWA в App Store и Play Store на github actions",
+      "description": "Понадобилось мне как-то раз сделать из PWA мобильные приложения. Приключение на 20 минут, зашли и вышли - подумал я и пропал на пару месяцев. В статье будет гремучая смесь из Java, C#, NodeJS, Swift, bash, Dockerfile и github actions. Но в результате возможно…",
+      "url": "https://habr.com/ru/articles/855830/#post-content-body",
+      "urlToImage": "https://habrastorage.org/getpro/habr/upload_files/5ef/e11/e0b/5efe11e0b67862cf1e09cade0fe47514.png",
+      "publishedAt": "2025-11-01T13:14:01Z",
+      "content": "- PWA . 20 , - . Java, C#, NodeJS, Swift, bash, Dockerfile github actions. .\r\n.\r\nPWA builder PWA iOS Android. . : bubblewrap andoird PWA builder iOS. , PWA builder. github actions , .\r\nBubblewrap\r\n ,… [+764 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Mitchel Broussard",
+      "title": "The Best Early Black Friday Apple Deals",
+      "description": "We're officially in the month of Black Friday, which will take place on Friday, November 28 in 2025. As always, this will be the best time of the year to shop for great deals, including popular Apple products like AirPods, iPad, Apple Watch, and more. In this…",
+      "url": "https://www.macrumors.com/2025/11/01/best-early-black-friday-apple-deals-2025/",
+      "urlToImage": "https://images.macrumors.com/t/ciftS4vVNOxHx10Tmrs8i58t6mQ=/2500x/article-new/2025/10/Early-Black-Friday-Deals-2.jpg",
+      "publishedAt": "2025-11-01T13:04:05Z",
+      "content": "We're officially in the month of Black Friday, which will take place on Friday, November 28 in 2025. As always, this will be the best time of the year to shop for great deals, including popular Apple… [+3188 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "MacRumors Staff",
+      "title": "Top Stories: iOS 26.1 Imminent, iPhone 18 Rumors, and More",
+      "description": "After a flurry of Apple releases in September in October, the calendar has now turned to November, but that doesn't necessarily mean Apple is done making news for 2025.\n\n\n\n\n\nBeyond those nearer-term software and hardware update expectations, this week saw fre…",
+      "url": "https://www.macrumors.com/2025/11/01/top-stories-ios-26-1-imminent/",
+      "urlToImage": "https://images.macrumors.com/t/N6rWmBCN8Nx5fVC9GDx5D8dqcAE=/1600x/article-new/2025/11/top-stories-2025-11-01.jpg",
+      "publishedAt": "2025-11-01T13:00:00Z",
+      "content": "After a flurry of Apple releases in September in October, the calendar has now turned to November, but that doesn't necessarily mean Apple is done making news for 2025.\r\nBeyond those nearer-term soft… [+4345 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Les Numériques"
+      },
+      "author": "Laure Renouard",
+      "title": "Actualité : Ultra 3, Series 11, SE 3 : quelle Apple Watch choisir en 2025 selon vos besoins ?",
+      "description": "Trois montres connectées, de multiples déclinaisons et des designs globalement similaires : pas facile de faire un choix entre les différentes Apple Watch lancées en 2025, réparties entre une SE 3, une Series 11 et une Ultra 3. Voici quelques éléments pour vo…",
+      "url": "https://www.lesnumeriques.com/montre-connectee/ultra-3-series-11-se-3-quelle-apple-watch-choisir-en-2025-selon-vos-besoins-n244623.html",
+      "urlToImage": "https://cdn.lesnumeriques.com/optim/news/24/244623/d323d752-weekend-ultra-series-11-se-3-quelle-apple-watch-choisir-en-2025-selon-vos-besoins__1200_678__149-302-2740-1662.jpg",
+      "publishedAt": "2025-11-01T07:08:00Z",
+      "content": "Lors de sa dernière keynote, Apple n'a pas failli à ses habitudes. La Pomme a non seulement lancé quatre iPhone, dont un modèle Air entièrement inédit, mais aussi de nouvelles montres connectées. Pas… [+4540 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Les Numériques"
+      },
+      "author": "Alexandre Scotti",
+      "title": "Actualité : Avant d’acheter un nouveau smartphone, posez-vous ces 5 questions essentielles",
+      "description": "L’achat d’un nouveau smartphone vous fait de l’œil ? Vous êtes au bon endroit pour réfléchir à cette question hautement existentielle !",
+      "url": "https://www.lesnumeriques.com/telephone-portable/avant-d-acheter-un-nouveau-smartphone-posez-vous-ces-5-questions-essentielles-n244375.html",
+      "urlToImage": "https://cdn.lesnumeriques.com/optim/news/24/244375/adf82464-agenda-avant-d-acheter-un-nouveau-smartphone-posez-vous-ces-5-questions-essentielles__1200_678__0-526-6480-3928.jpg",
+      "publishedAt": "2025-11-01T17:00:00Z",
+      "content": "Vous avez envie dacheter un nouveau smartphone pour remplacer votre modèle actuel ? Avant toute chose, prenez le temps de répondre à ces cinq questions essentielles, sans quoi vous pourriez faire un … [+5567 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Xatakamovil.com"
+      },
+      "author": "Eva R. de Luis",
+      "title": "El OPPO X9 Find Pro para mí ha iniciado una era: la de los móviles de gama alta con batería para tres días",
+      "description": "Los Google Pixel 10 llegaron con el nuevo chip Tensor G5, que permite por primera vez usar IA completamente en el dispositivo, los iPhone 17 Pro dejaron atrás el titanio, renovaron diseño y actualizaron sus cámaras para albergar tres sensores traseros de 48 M…",
+      "url": "https://www.xatakamovil.com/oppo/oppo-x9-find-pro-para-mi-ha-iniciado-era-moviles-gama-alta-bateria-para-tres-diam",
+      "urlToImage": "https://i.blogs.es/6edc21/find/840_560.jpeg",
+      "publishedAt": "2025-11-01T12:00:57Z",
+      "content": "Los Google Pixel 10 llegaron con el nuevo chip Tensor G5, que permite por primera vez usar IA completamente en el dispositivo, los iPhone 17 Pro dejaron atrás el titanio, renovaron diseño y actualiza… [+3778 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "TMZ"
+      },
+      "author": "TMZ Staff",
+      "title": "Heidi Klum Dresses as Medusa for Her Annual Halloween Party in NYC",
+      "description": "Heidi Klum held true to her promise by rocking an \"ugly\" but recognizable Halloween costume -- she dressed up as the Greek mythological figure Medusa for her annual Halloween party! We got a peek at her walking onto her red carpet and into her epic…",
+      "url": "https://www.tmz.com/2025/11/01/heidi-klum-medusa-costume-halloween-party-nyc/",
+      "urlToImage": "https://imagez.tmz.com/image/c4/16by9/2025/11/01/c48e7a8e996d4f7385adb464c9911540_xl.png",
+      "publishedAt": "2025-11-01T12:29:47Z",
+      "content": "Heidi Klumheld true to her promise by rocking an \"ugly\" but recognizable Halloween costume -- she dressed up as the Greek mythological figure Medusa for her annual Halloween party!\r\nWe got a peek at … [+1286 chars]"
+    },
     {
       "source": {
         "id": "the-verge",

@@ -1,7 +1,254 @@
 {
   "status": "ok",
-  "totalResults": 44,
+  "totalResults": 36,
   "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "Shein accused of selling childlike sex dolls in France - BBC",
+      "description": "The Asian fast fashion giant says it delisted the items \"immediately\" from its website and is investigating.",
+      "url": "https://www.bbc.com/news/articles/c4gjjyvg1nqo",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/287b/live/ea5c6b20-b774-11f0-83d4-a74eeda7e8ab.jpg",
+      "publishedAt": "2025-11-01T23:14:42Z",
+      "content": "France's consumer watchdog has reported the Asian fast fashion giant Shein to authorities for selling \"sex dolls with a childlike appearance\" on its website. \r\nThe Directorate General for Competition… [+861 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "WKRC TV Cincinnati"
+      },
+      "author": null,
+      "title": "Fruit sold in Kroger, other stores nationwide recalled due to potential contamination - WKRC",
+      "description": "Moonlight Companies has issued a nationwide recall of yellow and white peaches due to potential contamination with Listeria monocytogenes, according to the FDA.",
+      "url": "https://local12.com/news/nation-world/recall-recalls-fruit-peaches-sold-kroger-trader-joes-stores-nationwide-recalled-potential-listeria-contamination-moonlight-companies-fatal-infection-cincinnati-symptoms",
+      "urlToImage": "https://local12.com/resources/media/5dbf3a47-2940-47c6-8a71-861e5e83da58-krogernewport18_900x506x180010140185.jpg",
+      "publishedAt": "2025-11-01T22:30:00Z",
+      "content": "CINCINNATI (WKRC) - Moonlight Companies has issued a nationwide recall of yellow and white peaches due to potential contamination with Listeria monocytogenes, according to the FDA. The recall affects… [+630 chars]"
+    },
+    {
+      "source": {
+        "id": "cbs-news",
+        "name": "CBS News"
+      },
+      "author": "Christa  Swanson",
+      "title": "Doorbell video shows Colorado child refilling empty bowl with his own Halloween candy - CBS News",
+      "description": "A Colorado resident is hoping to reward a child they say refilled their candy bowl on Halloween after it was emptied.",
+      "url": "https://www.cbsnews.com/colorado/news/doorbell-video-colorado-child-refills-empty-bowl-halloween-candy/",
+      "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2025/11/01/122ecf64-a58f-4378-b860-891b73aebd50/thumbnail/1200x630/7861739f73138f0562f961132d41bd8a/child-fills-empty-bowl-in-broomfield-with-halloween-candy.png",
+      "publishedAt": "2025-11-01T22:18:00Z",
+      "content": "A Colorado resident is hoping to reward a child they say refilled their candy bowl on Halloween after it was emptied.\r\nA group of several boys approached a bowl set out on a table at a Broomfield hom… [+1145 chars]"
+    },
+    {
+      "source": {
+        "id": "fortune",
+        "name": "Fortune"
+      },
+      "author": "Hadriana Lowenkron, Bloomberg",
+      "title": "China to suspend some rare earth curbs, probes on U.S. chip firms - Fortune",
+      "description": "China will issue export licenses for rare earths, gallium, germanium, antimony and graphite “for the benefit of U.S. end users and their suppliers,” the White House said.",
+      "url": "https://fortune.com/2025/11/01/china-rare-earth-export-curbs-suspension-probes-us-chip-firms/",
+      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2025/11/GettyImages-2244072479-e1762033445612.jpg?resize=1200,600",
+      "publishedAt": "2025-11-01T21:50:00Z",
+      "content": "China will effectively suspend implementation of additional export controls on rare earth metals and terminate investigations targeting US companies in the semiconductor supply chain, the White House… [+3555 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Teslarati"
+      },
+      "author": "Simon Alvarez",
+      "title": "Michael Dell points out practical advantage of Elon Musk’s proposed pay package - Teslarati",
+      "description": "As pointed out by the Dell Technologies CEO, Musk will only be rewarded if he delivers extraordinary value to shareholders",
+      "url": "https://www.teslarati.com/michael-dell-points-out-practical-advantage-elon-musk-pay-package/",
+      "urlToImage": "https://www.teslarati.com/wp-content/uploads/2025/07/elon-musk-xai-grok-4-unveiling-1000x600.jpg",
+      "publishedAt": "2025-11-01T20:25:33Z",
+      "content": "Cathie Wood, CEO of ARK Invest and one of Teslas most ardent bulls, reiterated her support for Elon Musks 2025 CEO Performance Award. \r\nWood highlighted that Musks leadership attracts incredible tale… [+1751 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Anthony Ha",
+      "title": "Elon Musk wants you to know that Sam Altman got a refund for his Tesla Roadster - TechCrunch",
+      "description": "Elon Musk and Sam Altman are still taking swipes at each other on Musk’s social media platform X.",
+      "url": "https://techcrunch.com/2025/11/01/elon-musk-wants-you-to-know-that-sam-altman-got-a-refund-for-his-tesla-roadster/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2217126338.jpg?w=1024",
+      "publishedAt": "2025-11-01T20:01:10Z",
+      "content": "Elon Musk and Sam Altman are still taking swipes at each other on Musks social media platform X.\r\nWhile both men were founders at OpenAI, where Altman is CEO, they have subsequently sparred across so… [+1687 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PBS"
+      },
+      "author": null,
+      "title": "What to know about the recall of atorvastatin pills for lowering cholesterol - PBS",
+      "description": "If you take cholesterol-lowering drugs called statins, you may have noticed a flurry of news coverage since late October about an extensive recall of thousands of bottles of atorvastatin, the generic version of Lipitor.",
+      "url": "https://www.pbs.org/newshour/health/what-to-know-about-the-recall-of-atorvastatin-pills-for-lowering-cholesterol",
+      "urlToImage": "https://d3i6fh83elv35t.cloudfront.net/static/2025/11/GettyImages-488048497-1024x683.jpg",
+      "publishedAt": "2025-11-01T19:55:52Z",
+      "content": "This article originally appeared on The Conversation.\r\nIf you take cholesterol-lowering drugs called statins, you may have noticed a flurry of news coverage since late October 2025 about an extensive… [+7889 chars]"
+    },
+    {
+      "source": {
+        "id": "fortune",
+        "name": "Fortune"
+      },
+      "author": "Jason Ma",
+      "title": "'Godfather of AI' says tech giants can't profit from their astronomical investments unless human labor is replaced - Fortune",
+      "description": "\"I think the big companies are betting on it causing massive job replacement by AI, because that's where the big money is going to be.\"",
+      "url": "https://fortune.com/2025/11/01/geoffrey-hinton-godfather-of-ai-investment-tech-company-profits-human-labor-replacement/",
+      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2025/11/GettyImages-1259927137-e1762017379870.jpg?resize=1200,600",
+      "publishedAt": "2025-11-01T18:43:00Z",
+      "content": "Computer scientist and Nobel laureate Geoffrey Hinton doubled down on his warnings about how artificial intelligence will affect the labor market and the role of companies leading the charge.In an in… [+2381 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Jordan Novet",
+      "title": "Evolve Bank CEO fired after propositioning FBI agent who pretended to be a teen boy - CNBC",
+      "description": "In August, Evolve hired Hartheimer, who brought experience in financial regulatory matters, to help the bank recover from the collapse of startup Synapse.",
+      "url": "https://www.cnbc.com/2025/11/01/evolve-bank-ceo-fired-propositioning-fbi-agent-posing-as-teen-boy.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108220325-1762004191924-Hartheimer-mug.png?v=1762004290&w=1920&h=1080",
+      "publishedAt": "2025-11-01T18:05:31Z",
+      "content": "Bob Hartheimer, CEO of Tennessee's Evolve Bank &amp; Trust, was fired after U.S. law enforcement officials caught him propositioning a law enforcement officer posing as a 15-year-old boy on gay datin… [+3546 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Rachel Graf, Dorothy Ma",
+      "title": "The Ranks of Corporate Zombies Are Growing: Credit Weekly - Bloomberg.com",
+      "description": "As Halloween monsters of all stripes flood neighborhoods in search of candy and parties this weekend, credit markets are seeing the resurgence of a different type of zombie.",
+      "url": "https://www.bloomberg.com/news/articles/2025-11-01/the-ranks-of-corporate-zombies-are-growing-credit-weekly",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iDZ2FBPR7zIE/v1/1200x797.jpg",
+      "publishedAt": "2S025-11-01T18:00:05Z",
+      "content": "As Halloween monsters of all stripes flood neighborhoods in search of candy and parties this weekend, credit markets are seeing the resurgence of a different type of zombie. \r\nThe tally of zombie com… [+319 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Motley Fool"
+      },
+      "author": "George Budwell, George Budwell",
+      "title": "I Think These Are the 2 Best AI Stocks to Buy in November - The Motley Fool",
+      "description": "The AI infrastructure buildout has moved from speculation to reality, and two companies are positioned to capture the lion's share of spending.",
+      "url": "https://www.fool.com/investing/2025/11/01/i-think-these-are-the-2-best-ai-stocks-to-buy-in-n/",
+      "urlToImage": "https://g.foolcdn.com/editorial/images/840624/gettyimages-1518671364.jpg",
+      "publishedAt": "2025-11-01T18:00:00Z",
+      "content": "The AI infrastructure buildout has moved from speculation to reality, and two companies are positioned to capture the lion's share of spending.The artificial intelligence (AI) infrastructure buildout… [+4780 chars]"
+    },
+    {
+      "source": {
+        "id": "nbc-news",
+        "name": "NBC News"
+      },
+      "author": "Rob Wile",
+      "title": "From fast food to beverage giants, brands see rising income inequality among customers - NBC News",
+      "description": "The K-shaped economy is changing consumer spending, and Chipotle, Coca Cola and McDonalds are trying to adapt.",
+      "url": "https://www.nbcnews.com/business/economy/mcdonalds-cocacola-chipotle-economy-rcna241168",
+      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-10/251031-food-bank-ew-338p-0c1628.jpg",
+      "publishedAt": "2025-11-01T17:21:48Z",
+      "content": "The most common refrain so far this corporate earnings season is that the U.S. economy is increasingly divided between wealthy consumers and everyone else.\r\nWhile many Americans tighten their belts a… [+8816 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "TheStreet"
+      },
+      "author": "Patricia Battle",
+      "title": "Verizon CEO sounds alarm on why customers are leaving in droves - Yahoo Finance",
+      "description": "Verizon is struggling to shake a consumer trend that continues to grow legs, especially after the phone carrier issued several price hikes over the past year...",
+      "url": "https://www.thestreet.com/retail/verizon-ceo-sounds-alarm-on-why-customers-are-leaving-in-droves",
+      "urlToImage": "https://media.zenfs.com/en/thestreet_881/5cfdad1fe8e2c15defe697ec26cdfc2e",
+      "publishedAt": "2025-11-01T16:33:00Z",
+      "content": "Verizon is struggling to shake a consumer trend that continues to grow legs, especially after the phone carrier issued several price hikes over the past year for its services. The increases have unde… [+6490 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Tim De Chant",
+      "title": "Rising energy prices put AI and data centers in the crosshairs - TechCrunch",
+      "description": "A majority of consumers say they’re worried about data centers driving up electricity costs. Is the industry prepared for a possible backlash?",
+      "url": "https://techcrunch.com/2025/11/01/rising-energy-prices-put-ai-and-data-centers-in-the-crosshairs/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2197370288.jpg?resize=1200,800",
+      "publishedAt": "2025-11-01T16:15:00Z",
+      "content": "As tech companies tout their plans for massive new data centers, consumers are increasingly worried the AI-driven gold rush will ultimately drive up the price they pay for electricity, according to a… [+2885 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Danielle Abril",
+      "title": "The nation’s largest employers are putting their workers on notice - The Washington Post",
+      "description": "Amazon and Walmart are among firms warning employees of layoffs or disruption from AI as leaders across corporate America talk of increasing efficiency.",
+      "url": "https://www.washingtonpost.com/business/2025/11/01/layoffs-workers-ai-amazon-walmart/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/F3PTRFUUWHMUOF6ALME266KE2Y.JPG&w=1440",
+      "publishedAt": "2025-11-01T16:00:00Z",
+      "content": "Amazon and Walmart, the nations two largest private employers, swelled with hundreds of thousands of new workers in recent years as they battled for larger slices of consumer pocketbooks. Amazon said… [+222 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Annika Kim Constantino",
+      "title": "Where the Nexperia auto chip crisis stands now as the U.S., China and EU race to contain fallout - CNBC",
+      "description": "The Nexperia crisis is still threatening vehicle production worldwide.",
+      "url": "https://www.cnbc.com/2025/11/01/where-the-nexperia-auto-chip-crisis-stands-now.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108220234-17619405512025-10-23t103823z_1905056082_rc2mhhav54c5_rtrmadp_0_volkswagen-production-chips.jpeg?v=1761940606&w=1920&h=1080",
+      "publishedAt": "2025-11-01T15:56:49Z",
+      "content": "The logo of Chinese-owned semiconductor company Nexperia is displayed at the chipmaker's German facility, after the Dutch government seized control and auto industry bodies sounded the alarm over the… [+4022 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "KOMO News"
+      },
+      "author": null,
+      "title": "Snohomish County resident first in state to be affected by nationwide listeria outbreak - KOMO",
+      "description": "A Snohomish County resident has been identified as part of a multistate outbreak of Listeria monocytogenes.",
+      "url": "https://komonews.com/news/local/recalled-food-snohomish-county-woman-hospitalized-amid-listeria-outbreak-prepared-pasta-meals-sprouts-qfc-pasta-salad",
+      "urlToImage": "https://komonews.com/resources/media/2a818e9a-0eb3-42cb-a70f-d23061162716-AP18081711295350.jpg",
+      "publishedAt": "2025-11-01T15:02:53Z",
+      "content": "EVERETT, Wash. A Snohomish County resident has been identified as part of a multistate outbreak of Listeria monocytogenes, a severe bacterial infection linked to contaminated food products, according… [+2990 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gothamist"
+      },
+      "author": "https://gothamist.com/staff/ryan-kost",
+      "title": "United: Arriving flight at LaGuardia grazed parked plane, worsening Friday delays - Gothamist",
+      "description": "No one was injured, officials said",
+      "url": "https://gothamist.com/news/united-arriving-flight-at-laguardia-grazed-parked-plane-worsening-friday-delays",
+      "urlToImage": "https://api-prod.gothamist.com/images/353938/fill-1200x650|format-webp|webpquality-85/",
+      "publishedAt": "2025-11-01T14:54:00Z",
+      "content": "Two United Airlines planes grazed each other on the ground at LaGuardia Airport Friday evening, the airline said, exacerbating delays caused by ongoing staffing shortages.\r\nUnited flight 580 was turn… [+1007 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Heather Gillers",
+      "title": "Berkshire’s Quarterly Earnings Rise After Insurance Results Bounce Back - The Wall Street Journal",
+      "description": "The conglomerate inches closer to Warren Buffett’s retirement as CEO with a record cash pile",
+      "url": "https://www.wsj.com/business/earnings/berkshire-hathaway-earnings-q3-2025-056aa89d",
+      "urlToImage": "https://images.wsj.net/im-52032737/social",
+      "publishedAt": "2025-11-01T14:44:00Z",
+      "content": null
+    },
     {
       "source": {
         "id": "bloomberg",
