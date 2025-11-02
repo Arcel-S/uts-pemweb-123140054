@@ -31,7 +31,7 @@ Meskipun datanya statis, seluruh arsitektur *fetching*, *loading state*, dan *er
 
 Aplikasi sudah di-*deploy* dan dapat diakses melalui link berikut:
 
-**Link Deployment Vercel:** [LINK VERCEL ANDA DI SINI]
+**Link Deployment Vercel:** [LINK VERCEL](https://uts-pemweb-123140054.vercel.app/)
 
 ---
 
@@ -53,9 +53,9 @@ Aplikasi sudah di-*deploy* dan dapat diakses melalui link berikut:
 
 | Tampilan Desktop (Homepage) | Tampilan Mobile (Responsif) |
 | :---: | :---: |
-| ![Screenshot Homepage](path/to/your/screenshot_homepage.jpg) | ![Screenshot Mobile View](path/to/your/screenshot_mobile.jpg) |
+| <img src="https://github.com/user-attachments/assets/94d67df5-655e-4e98-9646-08fe6c620576" alt="Screenshot Homepage" width="420"> | <img src="https://github.com/user-attachments/assets/4300bd5a-cc4f-4adf-8854-7a0714293b8f" alt="Screenshot Mobile View" width="200"> |
 | **Tampilan Login & Favorites** | **Tampilan Dark Mode** |
-| ![Screenshot Login](path/to/your/screenshot_login.jpg) | ![Screenshot Dark Mode](path/to/your/screenshot_darkmode.jpg) |
+| <img src="https://github.com/user-attachments/assets/a87d0160-9533-4607-8896-e265d969e156" alt="Screenshot Login" width="420"> | <img src="https://github.com/user-attachments/assets/721c3b61-3d1c-4b4d-894f-41c314bf5009" alt="Screenshot Dark Mode" width="420"> |
 
 ---
 
@@ -100,7 +100,7 @@ Proyek ini telah memenuhi dan **melampaui** semua kriteria yang dipersyaratkan.
 | **API Integration** | *Fetch*, *loading state*, *error handling* | **✅ Selesai** |
 | **Fitur Wajib** | Kategori, Search, Card List, Date Picker, Pagination | **✅ Selesai** |
 
-### B. Arsitektur Lanjutan (Melampaui Kriteria)
+### B. Optimasi
 
 | Kriteria | Implementasi |
 | :--- | :--- |
