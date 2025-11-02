@@ -57,7 +57,7 @@ Aplikasi sudah di-*deploy* dan dapat diakses melalui link berikut:
 | **Tampilan Login** | **Tampilan Dark Mode** |
 | <img src="https://github.com/user-attachments/assets/a87d0160-9533-4607-8896-e265d969e156" alt="Screenshot Login" height="520" width="420"> | <img src="https://github.com/user-attachments/assets/721c3b61-3d1c-4b4d-894f-41c314bf5009" alt="Screenshot Dark Mode" height="520" width="420"> |
 | **Tampilan Favorites** | **Search Form** |
-| <img height="420" width="420" alt="Screenshot Favorites Page" src="https://github.com/user-attachments/assets/00196b78-55f1-4af7-aeda-1ee0ee46397b"> | <img height="420" width="420" alt="Screenshot Search Form" src="https://github.com/user-attachments/assets/79679035-ec26-45b4-97f0-1e8b7b6fea09"> |
+| <img height="420" width="420" alt="Screenshot Favorites Page" src="https://github.com/user-attachments/assets/00196b78-55f1-4af7-aeda-1ee0ee46397b"> | <img height="250" width="250" alt="Screenshot Search Form" src="https://github.com/user-attachments/assets/79679035-ec26-45b4-97f0-1e8b7b6fea09"> |
 
 ---
 
