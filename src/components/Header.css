@@ -76,7 +76,7 @@
     white-space: nowrap;
 }
 
-.category-links li {
+.category-links li.category-link-item { /* <-- (FIX) Ubah selector */
     margin-right: 15px;
 }
 /* --- AKHIR TAMPILAN DESKTOP --- */
@@ -107,7 +107,7 @@
 .mobile-only-menu {
     display: none;
 }
-.mobile-only-separator {
+.mobile-only-separator { /* <-- (BARU) Sembunyikan separator di desktop */
     display: none;
 }
 .mobile-only-menu a.active-favorite {
@@ -131,7 +131,7 @@
 .desktop-favorites-button {
     display: flex; 
     align-items: center;
-    position: relative; /* Ini adalah "jangkar" untuk gelembung */
+    position: relative; /* Untuk bubble angka */
 }
 .desktop-favorites-button.active-favorite-desktop {
     color: var(--secondary-color);
@@ -208,9 +208,10 @@
         border-bottom: 1px solid var(--border-color);
     }
     
-    /* Sembunyikan kategori desktop di mobile */
-    .category-link-item { 
-        display: none;
+    /* (FIX) Hapus aturan display:none yang salah */
+    .category-links li.category-link-item { 
+        margin-right: 0;
+        border-bottom: 1px solid var(--border-color);
     }
     
     .category-links li:last-child {
@@ -226,7 +227,7 @@
     .mobile-only-menu {
         display: block;
     }
-    .mobile-only-separator {
+    .mobile-only-separator { /* <-- (BARU) Tampilkan separator di mobile */
         display: block;
         height: 1px;
         background-color: var(--border-color);

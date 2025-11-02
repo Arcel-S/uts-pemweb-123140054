@@ -67,8 +67,7 @@ main {
 
 h1.main-title {
     font-size: 2em;
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 1%;
     padding: 0 0px;
 }
 
@@ -83,7 +82,7 @@ h1.main-title {
     padding: 0 20px; 
 }
 
-/* --- PESAN UMUM & DATE PICKER GAYA VENDOR --- */
+/* --- PESAN UMUM & DATE PICKER --- */
 .error-message {
   padding: 15px;
   background-color: #ffdddd;
@@ -165,7 +164,8 @@ h1.main-title {
     }
 
     h1.main-title {
-        padding: 0 10px;
         font-size: 1.5em;
+        margin-top: 2%;
+        margin-left: 0%;
     }
 }

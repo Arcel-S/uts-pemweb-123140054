@@ -72,9 +72,9 @@ const Header = ({
           
           <nav className={`main-nav-single ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
             <ul className="category-links">
-              {/* Kategori (Sekarang berfungsi di Desktop & Mobile) */}
+              {/* (FIX) Kelas diubah agar tidak disembunyikan di mobile */}
               {categories.map((cat, index) => (
-                <li key={index} className="category-link-item"> {/* <-- (FIX) Class diubah */}
+                <li key={index} className="category-link-item"> 
                   <a 
                     href="#"
                     onClick={(e) => { e.preventDefault(); handleClickCategory(cat.param); }}
@@ -85,7 +85,7 @@ const Header = ({
                 </li>
               ))}
 
-              {/* Garis Pemisah (Hanya tampil di Mobile) */}
+              {/* (BARU) Garis pemisah untuk menu mobile */}
               <li className="mobile-only-separator" aria-hidden="true"></li>
 
               {/* Menu Khusus Mobile (Login & Favorites) */}
