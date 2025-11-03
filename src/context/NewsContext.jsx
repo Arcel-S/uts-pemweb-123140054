@@ -1,6 +1,6 @@
 import React, { createContext, useReducer, useEffect, useCallback, useMemo } from 'react';
 
-// (REVISI) Hapus konstanta API. Kita tidak lagi memanggil API eksternal
+// (REVISI) Hapus API. Kita tidak lagi memanggil API eksternal
 // sesuai instruksi untuk menggunakan JSON lokal agar Vercel berfungsi.
 // const API_KEY = import.meta.env.VITE_NEWS_API_KEY;
 // const BASE_URL_TOP = 'https://newsapi.org/v2/everything';
@@ -12,7 +12,7 @@ const initialState = {
   popularError: null,
   loading: true,
   error: null,
-  category: 'business',
+  category: 'homepage',
   pageSize: 20,
   currentPage: 1,
   totalResults: 0,
@@ -23,7 +23,6 @@ const initialState = {
   language: 'id',
 };
 
-// Reducer tetap sama, tidak ada perubahan
 const newsReducer = (state, action) => {
   switch (action.type) {
     case 'SET_LOADING':
@@ -79,8 +78,6 @@ const newsReducer = (state, action) => {
   }
 };
 
-// (REVISI) Fungsi ini diubah untuk mengembalikan path ke file JSON lokal.
-// Ini dilakukan agar Vercel dapat menyajikan data tanpa diblokir oleh NewsAPI.
 const getCustomUrl = (state) => {
   const { category } = state;
   
@@ -88,7 +85,6 @@ const getCustomUrl = (state) => {
     return null; // Tidak perlu fetch
   }
 
-  // (REVISI) Alihkan panggilan kategori ke file JSON lokal di folder 'public/api/'.
   switch (category.toLowerCase()) {
     case 'apple':
       return './api/apple.json';
@@ -100,12 +96,12 @@ const getCustomUrl = (state) => {
       return './api/technology.json';
     case 'sports':
       return './api/sports.json';
+      
+    case 'homepage': // Update Homepage
     case 'search':
-      // (REVISI) Semua pencarian (apapun kata kuncinya) akan mengembalikan data 'search.json'.
-      // Ini adalah batasan dari penggunaan data lokal.
       return './api/search.json';
     default:
-      return './api/business.json';
+      return './api/search.json';
   }
 };
 
@@ -122,7 +118,7 @@ const fetchNews = useCallback(async () => {
       return;
     }
     dispatch({ type: 'SET_LOADING' });
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Hapus window.scrollTo, biarkan App.jsx yang menangani scroll
 
     try {
       const url = getCustomUrl(state); // misal: './api/search.json'
@@ -139,10 +135,8 @@ const fetchNews = useCallback(async () => {
         throw new Error('Format JSON dummy tidak valid');
       }
 
-      // --- LOGIKA FILTER MULARI DARI SINI ---
-
       let processedArticles = data.articles;
-      const { category, searchTerm, searchInTitle, startDate, sortBy } = state;
+      const { category, searchTerm, searchInTitle, startDate, sortBy, currentPage, pageSize } = state;
 
       // 1. Terapkan Filter HANYA jika kategorinya 'search'
       if (category === 'search') {
@@ -167,7 +161,6 @@ const fetchNews = useCallback(async () => {
 
         // Filter berdasarkan Tanggal (StartDate)
         if (startDate) {
-          // Set tanggal filter ke awal hari (00:00:00)
           const filterDate = new Date(startDate);
           filterDate.setHours(0, 0, 0, 0);
           const filterDayTimestamp = filterDate.getTime();
@@ -186,32 +179,47 @@ const fetchNews = useCallback(async () => {
         }
       }
 
-      // 2. Terapkan Sorting (Opsional, tapi penting untuk "Sort By")
-      if (sortBy === 'publishedAt') {
-        // Urutkan dari yang terbaru (descending)
-        processedArticles.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+      // 2. Terapkan Randomize hanya jika kategorinya 'homepage'
+      if (category === 'homepage') {
+        for (let i = processedArticles.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [processedArticles[i], processedArticles[j]] = [processedArticles[j], processedArticles[i]];
+        }
       }
-      // 'relevancy' dan 'popularity' akan menggunakan urutan default dari JSON
+
+      // 3. Terapkan Sorting (mengecualikan homepage, karena sudah random)
+      if (category !== 'homepage') {
+          if (sortBy === 'publishedAt') {
+            // Urutkan dari yang terbaru (descending)
+            processedArticles.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+          }
+          // 'relevancy' dan 'popularity' akan menggunakan urutan default dari JSON
+      }
       
-      // 3. Dispatch hasil yang sudah difilter dan disortir
+      // Simpan total hasil sebelum paginasi
+      const totalResultsAfterProcessing = processedArticles.length;
+
+      // 4. Terapkan Paginasi Sisi Klien
+      const startIndex = (currentPage - 1) * pageSize;
+      const endIndex = startIndex + pageSize;
+      const paginatedArticles = processedArticles.slice(startIndex, endIndex);
+
+      // 5. Dispatch hasil Akhir
       dispatch({ 
         type: 'SET_ARTICLES_SUCCESS', 
         payload: { 
-          articles: processedArticles, 
-          // PENTING: Update totalResults agar pagination dan hitungan sesuai
-          totalResults: processedArticles.length 
+          articles: paginatedArticles, // Data per halaman
+          totalResults: totalResultsAfterProcessing // Total data
         } 
       });
 
-      // --- AKHIR DARI LOGIKA FILTER ---
 
     } catch (err) {
       dispatch({ type: 'SET_ARTICLES_ERROR', payload: err.message });
     }
-    // Pastikan semua state filter ada di dependency array
-  }, [state.category, state.searchTerm, state.startDate, state.sortBy, state.currentPage, state.language, state.searchInTitle]);
+  }, [state.category, state.searchTerm, state.startDate, state.sortBy, state.currentPage, state.language, state.searchInTitle, state.pageSize]);
 
-  // (REVISI) Mengarahkan fetch popular news ke file JSON lokal.
+
   const fetchPopularNews = useCallback(async () => {
     const popularUrl = './api/popular.json'; // Arahkan ke file JSON lokal
     try {
@@ -226,12 +234,10 @@ const fetchNews = useCallback(async () => {
   }, []);
 
   useEffect(() => {
-    // (REVISI) Hapus pengecekan API_KEY, kita selalu fetch dari lokal.
     fetchNews();
   }, [fetchNews]);
 
   useEffect(() => {
-    // (REVISI) Hapus pengecekan API_KEY, kita selalu fetch dari lokal.
     fetchPopularNews();
   }, [fetchPopularNews]);
 

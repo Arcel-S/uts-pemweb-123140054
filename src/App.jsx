@@ -56,7 +56,7 @@ function App() {
     logoutUser();
     setCurrentUser(null);
     setFavorites([]);
-    dispatch({ type: 'SET_CATEGORY', payload: 'business' });
+    dispatch({ type: 'SET_CATEGORY', payload: 'homepage' }); // Arahkan ke homepage saat logout
   }, [dispatch]);
 
   const toggleFavorite = useCallback((article) => {
@@ -87,6 +87,7 @@ function App() {
 
   const handlePageChange = useCallback((newPage) => {
     if (newPage > 0 && newPage <= totalPages) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
       dispatch({ type: 'SET_PAGE', payload: newPage });
     }
   }, [totalPages, dispatch]);
@@ -100,6 +101,7 @@ function App() {
       }
       let titleText = '';
       switch (category.toLowerCase()) {
+          case 'homepage': titleText = 'NEWS RECOMMENDATION'; break; // (BARU)
           case 'search': titleText = `Search Results: "${searchTerm}"`; break;
           case 'apple': titleText = 'APPLE NEWS'; break;
           case 'tesla': titleText = 'TESLA NEWS'; break;
@@ -159,7 +161,7 @@ function App() {
                         toggleFavorite={toggleFavorite}
                       />
                       
-                      {state.category !== 'favorites' && (
+                      {state.category !== 'favorites' && totalResults > pageSize && ( // Sembunyikan jika total < pageSize
                         <div className="pagination-controls">
                           <button 
                             onClick={() => handlePageChange(currentPage - 1)} 

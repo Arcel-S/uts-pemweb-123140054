@@ -24,6 +24,7 @@ const Header = ({
   const { state, dispatch } = useContext(NewsContext);
   
   const categories = [
+    { name: 'Home', param: 'homepage' }, // Menambahkan Homepage
     { name: 'Business', param: 'business' },
     { name: 'Apple', param: 'apple' },
     { name: 'Tesla', param: 'tesla' },
@@ -72,7 +73,7 @@ const Header = ({
           
           <nav className={`main-nav-single ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
             <ul className="category-links">
-              {/* (FIX) Kelas diubah agar tidak disembunyikan di mobile */}
+              {/* (Fix UI) Kelas diubah agar tidak disembunyikan di mobile */}
               {categories.map((cat, index) => (
                 <li key={index} className="category-link-item"> 
                   <a 
