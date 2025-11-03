@@ -1,7 +1,137 @@
 {
   "status": "ok",
-  "totalResults": 38,
+  "totalResults": 46,
   "articles": [
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "Lauren Edmonds",
+      "title": "Elon Musk comes clean about the sink in his viral Twitter takeover pic",
+      "description": "Elon Musk told the \"All-In\" podcast on Friday that the video of him carrying a sink into Twitter's former headquarters in 2022 almost didn't happen.",
+      "url": "https://www.businessinsider.com/elon-musk-viral-video-carrying-sink-twitter-hq-2025-11",
+      "urlToImage": "https://i.insider.com/690629d3c007ca8c27381379?width=1200&format=jpeg",
+      "publishedAt": "2025-11-02T04:02:01Z",
+      "content": "Elon Musk carrying a sink at the former Twitter headquarters in 2022.-/Twitter account of Elon Musk/AFP via Getty Images\r\n<ul><li>Elon Musk shared the details behind a viral video of him carrying a s… [+2965 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Techbang.com"
+      },
+      "author": "cnBeta",
+      "title": "特斯拉 Autopilot 保密機制曝光，連內部員工都難窺全貌",
+      "description": "想了解 Tesla 如何保護 Autopilot 技術？解密文件揭露，即使是 Autopilot 團隊成員也難以存取所有檔案。近年來，特斯拉（Tesla）的 Autopilot 自動輔助駕駛系統備受矚目，其技術發展與安全性也引發廣泛討論。然而，Autopilot 團隊的運作方式始終籠罩著一層神秘面紗。近期，一份來自美國佛羅里達州法院的解密文件，意外揭露了這個神祕團隊的嚴格保密措施，讓外界得以一窺其內部運作的冰山一角。\n訴訟文件揭露 Autopilot 團隊保密機制\n這份文件源於一起涉及 Autopilot 系統導…",
+      "url": "https://www.techbang.com/posts/126260-tesla-autopilot-tech-security",
+      "urlToImage": "https://cdn0.techbang.com/system/excerpt_images/126260/original/c72bc1dba94c40c81bda8a44c3263aa1.jpg?1761897549",
+      "publishedAt": "2025-11-02T03:00:00Z",
+      "content": "Tesla Autopilot Autopilot \r\n Autopilot \r\n Autopilot Christopher Payne Autopilot \r\nPayne Autopilot Autopilot \r\nAutopilot \r\nAutopilot Autopilot Autopilot \r\n Autopilot \r\nAutopilot \r\n Autopilot \r\nAutopil… [+1 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Www.abc.es"
+      },
+      "author": "(abc)",
+      "title": "El primer robot amo de casa parece un muñeco y no sabe hacer nada solo",
+      "description": "Neo tiene un rostro negro en el que no hay espacio para nada, ni los ojos, la boca, las cejas o la nariz. Mide 1,68 metros y pesa apenas 30 kilogramos, pero eso no impide que pueda levantar unos 70. Su cuerpo metálico está cubierto por un traje de punto de un…",
+      "url": "https://www.abc.es/tecnologia/primer-robot-amo-casa-parece-muneco-sabe-20251102165651-nt.html",
+      "urlToImage": "https://s2.abcstatics.com/abc/www/multimedia/tecnologia/2025/11/02/robot-neo-U32420186550ToX-1024x512@diario_abc.jpg",
+      "publishedAt": "2025-11-02T02:20:17Z",
+      "content": "Neo tiene un rostro negro en el que no hay espacio para nada, ni los ojos, la boca, las cejas o la nariz. Mide 1,68 metros y pesa apenas 30 kilogramos, pero eso no impide que pueda levantar unos 70. … [+5494 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.jp"
+      },
+      "author": "そうこ",
+      "title": "またですか？ Teslaがサイバートラックをリコール",
+      "description": "Photo:Shutterstock.comTeslaがサイバートラックのリコールを発表しました。対象となるのは6197台で、過去のリコールよりは影響はかなり小さいものの、それでもまたリコール。もうギャグか？ってほどリコールしまくっています。糊付け問題今回のリコールで問題になっているのは、オプションのライトバーアクセサリー（だから対象車が少ないんだね！）。これの取り付けに使用されたプライマーが適切",
+      "url": "https://www.gizmodo.jp/2025/11/cybertruck-recall.html",
+      "urlToImage": "https://media.loom-app.com/gizmodo/dist/images/2025/10/31/shutterstock_2592566325.jpg?w=1280&h=630&f=jpg",
+      "publishedAt": "2025-11-02T02:00:00Z",
+      "content": "Copyright © Mediagene Inc. All Rights Reserved."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Kaili Killpack",
+      "title": "'Zero Confidence': Experts Warn It's Too Late To Implement GOP's Proposed ACA Changes",
+      "description": "With open enrollment for Affordable Care Act coverage in full swing, experts are warning that Congress may have run out of time to implement the health...",
+      "url": "https://www.yahoo.com/news/articles/zero-confidence-experts-warn-too-000129192.html",
+      "urlToImage": "https://media.zenfs.com/en/Benzinga/ade7e4212f24dc59d2b656e16fe571a9",
+      "publishedAt": "2025-11-02T00:01:29Z",
+      "content": "With open enrollment for Affordable Care Act coverage in full swing, experts are warning that Congress may have run out of time to implement the health policy changes Republicans are demanding. As bo… [+3921 chars]"
+    },
+    {
+      "source": {
+        "id": "info-money",
+        "name": "InfoMoney"
+      },
+      "author": "Anna França",
+      "title": "Um robô pode cuidar de você na velhice. Saiba como isso vai ocorrer",
+      "description": "Vários modelos de robôs estão sendo testados para cuidados de idosos \nThe post Um robô pode cuidar de você na velhice. Saiba como isso vai ocorrer appeared first on InfoMoney.",
+      "url": "https://www.infomoney.com.br/mundo/um-robo-pode-cuidar-de-voce-na-velhice-saiba-como-isso-vai-ocorrer/",
+      "urlToImage": "https://www.infomoney.com.br/wp-content/uploads/2019/06/pepper-bloomberg.jpg?quality=70",
+      "publishedAt": "2025-11-01T22:11:20Z",
+      "content": "O envelhecimento populacional em todo o mundo tem levado cientistas e empresas de tecnologia a apostar na criação de robôs para suprir a crescente falta de mão de obra no segmento de cuidadores de id… [+2809 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Finance.ua"
+      },
+      "author": "Finance.UA",
+      "title": "Продажи Tesla сокращаются второй год подряд",
+      "description": "Продажи Tesla продолжают падать уже второй год подряд — в первой половине 2025 года поставки уменьшились на 13%. Компания теряет долю рынка в США, Европе и Китае из-за растущей конкуренции со стороны китайского гиганта BYD, устаревшей модельной линейки и сокр…",
+      "url": "https://news.finance.ua/ru/prodazhi-tesla-sokrashhayutsya-vtoroy-god-podryad",
+      "urlToImage": "https://finance-news-media.fra1.cdn.digitaloceanspaces.com/prod/4/b/4bd72e8c0472b05976f7c4d32b69d5f1",
+      "publishedAt": "2025-11-01T22:06:00Z",
+      "content": "Tesla \r\nTesla   2025 13%. , - BYD, .\r\n , Tesla   Model 3, Y, S, X Cybertruck.\r\n , Ctrl+Enter , ."
+    },
+    {
+      "source": {
+        "id": "la-nacion",
+        "name": "La Nacion"
+      },
+      "author": "LA NACION",
+      "title": "Tesla Model Y o Toyota Corolla: cuál es el auto eléctrico más barato para comprar en noviembre de 2025 en EE.UU.",
+      "description": "La preferencia por los autos eléctricos crece cada año. Sin embargo, los modelos híbridos siguen destacando entre quienes buscan equilibrio entre precio, eficiencia y sostenibilidad",
+      "url": "https://www.lanacion.com.ar/estados-unidos/tesla-model-y-o-toyota-corolla-cual-es-el-auto-electrico-mas-barato-para-comprar-en-noviembre-de-nid01112025/",
+      "urlToImage": "https://resizer.glanacion.com/resizer/v2/la-diferencia-de-precio-entre-los-dos-automoviles-665VB37ZLBEONGAAJBIFOVX4BY.jpg?auth=d966ee12dbc56a99b8615caf2077cc3f92ea0fe49758a93f0c3ee5f714d233c7&width=1200&quality=70&smart=false&height=800",
+      "publishedAt": "2025-11-01T21:43:00Z",
+      "content": "Los autos eléctricos cada vez ganan más popularidad en Estados Unidos. Uno de los modelos más vendidos en el país es el Tesla Model Y, el cual tiene un precio de casi US$40 mil. Para quienes buscan u… [+3114 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Iphoneros.com"
+      },
+      "author": "iPhoneros",
+      "title": "Apple CarPlay podrá indicar puntos de carga en rutas de coches eléctricos de Toyota",
+      "description": "Estos días se celebra en Tokio el Japan Mobility 2025, el salón del automóvil más importante del país nipón. Toyota lo ha aprovechado para anunciar todos sus futuros coches con motores eléctricos, híbridos y de combustión, además de conceptos de diseño y otra…",
+      "url": "https://iphoneros.com/102687/carplay-con-rutas-a-puntos-de-carga-toyota",
+      "urlToImage": "https://iphoneros.com/wp-content/uploads/2025/11/MY26bz_AppleRouting-2048x1509-1.jpg",
+      "publishedAt": "2025-11-01T21:07:06Z",
+      "content": "Estos días se celebra en Tokio el Japan Mobility 2025, el salón del automóvil más importante del país nipón. Toyota lo ha aprovechado para anunciar todos sus futuros coches con motores eléctricos, hí… [+2036 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "1pezeshk.com"
+      },
+      "author": "علیرضا مجیدی",
+      "title": "ایلان ماسک در گفت‌وگوی جو روگان، از هراس انقراض بشر تا آرزوی ادغام ذهن با ماشین",
+      "description": "پادکست The Joe Rogan Experience یکی از پرمخاطب‌ترین برنامه‌های گفت‌وگومحور جهان است، بیش از بیست میلیون مشترک در یوتیوب دارد و هزاران ساعت گفت‌وگو با سیاستمداران، دانشمندان و هنرمندان را در کارنامه خود دارد. در میان همهٔ قسمت‌ها، حضور ایلان ماسک همواره جنجالی…",
+      "url": "https://www.1pezeshk.com/archives/2025/11/elon-musk-joe-rogan-podcast-summary.html",
+      "urlToImage": "https://www.1pezeshk.com/wp-content/uploads/2025/11/11-08-1404-12-24-48-ق-ظ.webp",
+      "publishedAt": "2025-11-01T20:57:32Z",
+      "content": "The Joe Rogan Experience . ( !) ( ) Neuralink .\r\n . « ». . .\r\n . «» . .\r\n . \r\n « » xAI Tesla . . (Large Language Models) « ». « .»\r\n . . « » : .\r\n . . . .\r\n . « » « » .\r\n . \r\n . . « » .\r\n . . . .\r\n .… [+453 chars]"
+    },
     {
       "source": {
         "id": null,
@@ -30,19 +160,6 @@
     },
     {
       "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Lauren Edmonds",
-      "title": "Elon Musk comes clean about the sink in his viral Twitter takeover pic",
-      "description": "Elon Musk told the \"All-In\" podcast on Friday that the video of him carrying a sink into Twitter's former headquarters in 2022 almost didn't happen.",
-      "url": "https://www.businessinsider.com/elon-musk-viral-video-carrying-sink-twitter-hq-2025-11",
-      "urlToImage": "https://i.insider.com/690629d3c007ca8c27381379?width=1200&format=jpeg",
-      "publishedAt": "2025-11-02T04:02:01Z",
-      "content": "Elon Musk carrying a sink at the former Twitter headquarters in 2022.-/Twitter account of Elon Musk/AFP via Getty Images\r\n<ul><li>Elon Musk shared the details behind a viral video of him carrying a s… [+2965 chars]"
-    },
-    {
-      "source": {
         "id": null,
         "name": "Yahoo Entertainment"
       },
@@ -53,19 +170,6 @@
       "urlToImage": "https://s.yimg.com/ny/api/res/1.2/0tQeMAph1CxusJH9k00nSA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/ap_finance_articles_694/bc787916804ed33a42a5034e373c2735",
       "publishedAt": "2025-11-02T04:01:50Z",
       "content": "LAS VEGAS (AP) The nation's largest police fleet of Tesla Cybertrucks is set to begin patrolling the streets of Las Vegas in November thanks to a donation from a U.S. tech billionaire, raising concer… [+6553 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Kaili Killpack",
-      "title": "'Zero Confidence': Experts Warn It's Too Late To Implement GOP's Proposed ACA Changes",
-      "description": "With open enrollment for Affordable Care Act coverage in full swing, experts are warning that Congress may have run out of time to implement the health...",
-      "url": "https://www.yahoo.com/news/articles/zero-confidence-experts-warn-too-000129192.html",
-      "urlToImage": "https://media.zenfs.com/en/Benzinga/ade7e4212f24dc59d2b656e16fe571a9",
-      "publishedAt": "2025-11-02T00:01:29Z",
-      "content": "With open enrollment for Affordable Care Act coverage in full swing, experts are warning that Congress may have run out of time to implement the health policy changes Republicans are demanding. As bo… [+3921 chars]"
     },
     {
       "source": {

@@ -1,7 +1,852 @@
 {
   "status": "ok",
-  "totalResults": 163,
+  "totalResults": 224,
   "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Elconfidencial.com"
+      },
+      "author": "P. M.",
+      "title": "La predicción de Elon Musk que está a un paso de hacerse realidad: “Estamos al borde de una grave crisis”",
+      "description": "El magnate tecnológico ha advertido sobre un panorama que puede afectar al equilibrio energético que puede afectar profundamente el rumbo de la humanidad.",
+      "url": "https://www.elconfidencial.com/tecnologia/2025-11-02/elon-musk-prediccion-paso-hacerse-realidad-grave-crisis_4239820/",
+      "urlToImage": "https://images.ecestaticos.com/vZhmlW3Qa_X0jB9lavmoWo_Tltk=/0x0:2272x1515/600x315/filters:fill(white):format(jpg):quality(99):watermark(f.elconfidencial.com/file/bae/eea/fde/baeeeafde1b3229287b0c008f7602058.png,0,275,1)/f.elconfidencial.com/original/d09/d03/1e3/d09d031e32c5d713790b6507dcdec0aa.jpg",
+      "publishedAt": "2025-11-02T04:00:00Z",
+      "content": "Jensen Huang, CEO de Nvidia: \"Vas a perder tu trabajo por culpa de alguien que sabe de IA\"Sigue a El Confidencial en Google Discover para enterarte de todas las noticiasEl mundo se encuentra atravesa… [+3135 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Techbang.com"
+      },
+      "author": "cnBeta",
+      "title": "特斯拉 Autopilot 保密機制曝光，連內部員工都難窺全貌",
+      "description": "想了解 Tesla 如何保護 Autopilot 技術？解密文件揭露，即使是 Autopilot 團隊成員也難以存取所有檔案。近年來，特斯拉（Tesla）的 Autopilot 自動輔助駕駛系統備受矚目，其技術發展與安全性也引發廣泛討論。然而，Autopilot 團隊的運作方式始終籠罩著一層神秘面紗。近期，一份來自美國佛羅里達州法院的解密文件，意外揭露了這個神祕團隊的嚴格保密措施，讓外界得以一窺其內部運作的冰山一角。\n訴訟文件揭露 Autopilot 團隊保密機制\n這份文件源於一起涉及 Autopilot 系統導…",
+      "url": "https://www.techbang.com/posts/126260-tesla-autopilot-tech-security",
+      "urlToImage": "https://cdn0.techbang.com/system/excerpt_images/126260/original/c72bc1dba94c40c81bda8a44c3263aa1.jpg?1761897549",
+      "publishedAt": "2025-11-02T03:00:00Z",
+      "content": "Tesla Autopilot Autopilot \r\n Autopilot \r\n Autopilot Christopher Payne Autopilot \r\nPayne Autopilot Autopilot \r\nAutopilot \r\nAutopilot Autopilot Autopilot \r\n Autopilot \r\nAutopilot \r\n Autopilot \r\nAutopil… [+1 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Www.abc.es"
+      },
+      "author": "(abc)",
+      "title": "El primer robot amo de casa parece un muñeco y no sabe hacer nada solo",
+      "description": "Neo tiene un rostro negro en el que no hay espacio para nada, ni los ojos, la boca, las cejas o la nariz. Mide 1,68 metros y pesa apenas 30 kilogramos, pero eso no impide que pueda levantar unos 70. Su cuerpo metálico está cubierto por un traje de punto de un…",
+      "url": "https://www.abc.es/tecnologia/primer-robot-amo-casa-parece-muneco-sabe-20251102165651-nt.html",
+      "urlToImage": "https://s2.abcstatics.com/abc/www/multimedia/tecnologia/2025/11/02/robot-neo-U32420186550ToX-1024x512@diario_abc.jpg",
+      "publishedAt": "2025-11-02T02:20:17Z",
+      "content": "Neo tiene un rostro negro en el que no hay espacio para nada, ni los ojos, la boca, las cejas o la nariz. Mide 1,68 metros y pesa apenas 30 kilogramos, pero eso no impide que pueda levantar unos 70. … [+5494 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.jp"
+      },
+      "author": "そうこ",
+      "title": "またですか？ Teslaがサイバートラックをリコール",
+      "description": "Photo:Shutterstock.comTeslaがサイバートラックのリコールを発表しました。対象となるのは6197台で、過去のリコールよりは影響はかなり小さいものの、それでもまたリコール。もうギャグか？ってほどリコールしまくっています。糊付け問題今回のリコールで問題になっているのは、オプションのライトバーアクセサリー（だから対象車が少ないんだね！）。これの取り付けに使用されたプライマーが適切",
+      "url": "https://www.gizmodo.jp/2025/11/cybertruck-recall.html",
+      "urlToImage": "https://media.loom-app.com/gizmodo/dist/images/2025/10/31/shutterstock_2592566325.jpg?w=1280&h=630&f=jpg",
+      "publishedAt": "2025-11-02T02:00:00Z",
+      "content": "Copyright © Mediagene Inc. All Rights Reserved."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Kaili Killpack",
+      "title": "'Zero Confidence': Experts Warn It's Too Late To Implement GOP's Proposed ACA Changes",
+      "description": "With open enrollment for Affordable Care Act coverage in full swing, experts are warning that Congress may have run out of time to implement the health...",
+      "url": "https://www.yahoo.com/news/articles/zero-confidence-experts-warn-too-000129192.html",
+      "urlToImage": "https://media.zenfs.com/en/Benzinga/ade7e4212f24dc59d2b656e16fe571a9",
+      "publishedAt": "2025-11-02T00:01:29Z",
+      "content": "With open enrollment for Affordable Care Act coverage in full swing, experts are warning that Congress may have run out of time to implement the health policy changes Republicans are demanding. As bo… [+3921 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Biztoc.com"
+      },
+      "author": "nytimes.com",
+      "title": "A profile of Aaron Greenspan, who has spent years on a crusade to expose what he believes are financial problems at Tesla and at big tech companies",
+      "description": "",
+      "url": "https://biztoc.com/x/bb48c90d34c1c8b4",
+      "urlToImage": "https://biztoc.com/cdn/950/og.png",
+      "publishedAt": "2025-11-01T23:15:19Z",
+      "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Berkshire Hathaway's cash pile at a record high? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Warren B… [+758 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Guessingheadlights.com"
+      },
+      "author": "Olivia Richman",
+      "title": "These Carmakers are Using AI More Than Drivers May Realize",
+      "description": "Remember when the most advanced tech in your car was a CD changer? Those days are long gone. Today’s vehicles are essentially computers on wheels, and...",
+      "url": "https://guessingheadlights.com/these-carmakers-are-using-ai-more-than-drivers-may-realize/",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/o83qSRCyEcJlp4KqDiQrUg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/guessing_headlights_178/30068778aa0bae2273f3e3909bfea5ca",
+      "publishedAt": "2025-11-01T23:05:47Z",
+      "content": "Remember when the most advanced tech in your car was a CD changer? Those days are long gone. Today's vehicles are essentially computers on wheels, and artificial intelligence is the secret ingredient… [+15630 chars]"
+    },
+    {
+      "source": {
+        "id": "info-money",
+        "name": "InfoMoney"
+      },
+      "author": "Anna França",
+      "title": "Um robô pode cuidar de você na velhice. Saiba como isso vai ocorrer",
+      "description": "Vários modelos de robôs estão sendo testados para cuidados de idosos \nThe post Um robô pode cuidar de você na velhice. Saiba como isso vai ocorrer appeared first on InfoMoney.",
+      "url": "https://www.infomoney.com.br/mundo/um-robo-pode-cuidar-de-voce-na-velhice-saiba-como-isso-vai-ocorrer/",
+      "urlToImage": "https://www.infomoney.com.br/wp-content/uploads/2019/06/pepper-bloomberg.jpg?quality=70",
+      "publishedAt": "2025-11-01T22:11:20Z",
+      "content": "O envelhecimento populacional em todo o mundo tem levado cientistas e empresas de tecnologia a apostar na criação de robôs para suprir a crescente falta de mão de obra no segmento de cuidadores de id… [+2809 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Finance.ua"
+      },
+      "author": "Finance.UA",
+      "title": "Продажи Tesla сокращаются второй год подряд",
+      "description": "Продажи Tesla продолжают падать уже второй год подряд — в первой половине 2025 года поставки уменьшились на 13%. Компания теряет долю рынка в США, Европе и Китае из-за растущей конкуренции со стороны китайского гиганта BYD, устаревшей модельной линейки и сокр…",
+      "url": "https://news.finance.ua/ru/prodazhi-tesla-sokrashhayutsya-vtoroy-god-podryad",
+      "urlToImage": "https://finance-news-media.fra1.cdn.digitaloceanspaces.com/prod/4/b/4bd72e8c0472b05976f7c4d32b69d5f1",
+      "publishedAt": "2025-11-01T22:06:00Z",
+      "content": "Tesla \r\nTesla   2025 13%. , - BYD, .\r\n , Tesla   Model 3, Y, S, X Cybertruck.\r\n , Ctrl+Enter , ."
+    },
+    {
+      "source": {
+        "id": "la-nacion",
+        "name": "La Nacion"
+      },
+      "author": "LA NACION",
+      "title": "Tesla Model Y o Toyota Corolla: cuál es el auto eléctrico más barato para comprar en noviembre de 2025 en EE.UU.",
+      "description": "La preferencia por los autos eléctricos crece cada año. Sin embargo, los modelos híbridos siguen destacando entre quienes buscan equilibrio entre precio, eficiencia y sostenibilidad",
+      "url": "https://www.lanacion.com.ar/estados-unidos/tesla-model-y-o-toyota-corolla-cual-es-el-auto-electrico-mas-barato-para-comprar-en-noviembre-de-nid01112025/",
+      "urlToImage": "https://resizer.glanacion.com/resizer/v2/la-diferencia-de-precio-entre-los-dos-automoviles-665VB37ZLBEONGAAJBIFOVX4BY.jpg?auth=d966ee12dbc56a99b8615caf2077cc3f92ea0fe49758a93f0c3ee5f714d233c7&width=1200&quality=70&smart=false&height=800",
+      "publishedAt": "2025-11-01T21:43:00Z",
+      "content": "Los autos eléctricos cada vez ganan más popularidad en Estados Unidos. Uno de los modelos más vendidos en el país es el Tesla Model Y, el cual tiene un precio de casi US$40 mil. Para quienes buscan u… [+3114 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Iphoneros.com"
+      },
+      "author": "iPhoneros",
+      "title": "Apple CarPlay podrá indicar puntos de carga en rutas de coches eléctricos de Toyota",
+      "description": "Estos días se celebra en Tokio el Japan Mobility 2025, el salón del automóvil más importante del país nipón. Toyota lo ha aprovechado para anunciar todos sus futuros coches con motores eléctricos, híbridos y de combustión, además de conceptos de diseño y otra…",
+      "url": "https://iphoneros.com/102687/carplay-con-rutas-a-puntos-de-carga-toyota",
+      "urlToImage": "https://iphoneros.com/wp-content/uploads/2025/11/MY26bz_AppleRouting-2048x1509-1.jpg",
+      "publishedAt": "2025-11-01T21:07:06Z",
+      "content": "Estos días se celebra en Tokio el Japan Mobility 2025, el salón del automóvil más importante del país nipón. Toyota lo ha aprovechado para anunciar todos sus futuros coches con motores eléctricos, hí… [+2036 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "1pezeshk.com"
+      },
+      "author": "علیرضا مجیدی",
+      "title": "ایلان ماسک در گفت‌وگوی جو روگان، از هراس انقراض بشر تا آرزوی ادغام ذهن با ماشین",
+      "description": "پادکست The Joe Rogan Experience یکی از پرمخاطب‌ترین برنامه‌های گفت‌وگومحور جهان است، بیش از بیست میلیون مشترک در یوتیوب دارد و هزاران ساعت گفت‌وگو با سیاستمداران، دانشمندان و هنرمندان را در کارنامه خود دارد. در میان همهٔ قسمت‌ها، حضور ایلان ماسک همواره جنجالی…",
+      "url": "https://www.1pezeshk.com/archives/2025/11/elon-musk-joe-rogan-podcast-summary.html",
+      "urlToImage": "https://www.1pezeshk.com/wp-content/uploads/2025/11/11-08-1404-12-24-48-ق-ظ.webp",
+      "publishedAt": "2025-11-01T20:57:32Z",
+      "content": "The Joe Rogan Experience . ( !) ( ) Neuralink .\r\n . « ». . .\r\n . «» . .\r\n . \r\n « » xAI Tesla . . (Large Language Models) « ». « .»\r\n . . « » : .\r\n . . . .\r\n . « » « » .\r\n . \r\n . . « » .\r\n . . . .\r\n .… [+453 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Israelnationalnews.com"
+      },
+      "author": "Barry Shaw",
+      "title": "The Zohran Mamdani apple didn’t fall far from the family tree",
+      "description": "The Free Press: \"Clearly, the [NYC] population is primed for a villain, and the world’s oldest scapegoats are just wandering around New York for the taking.\" Will those naive scapegoats realize who Mamdani is in time and not vote for an antisemitic villain? O…",
+      "url": "https://www.israelnationalnews.com/news/417154",
+      "urlToImage": "https://2.a7.org/files/pictures/000/1202362.jpg",
+      "publishedAt": "2025-11-02T04:18:55Z",
+      "content": "Let us see how Zohan Mamdanis Father Influences his thinking.and whether that wwill affect how he acts if he becomes mayor of New York, as seems likely.\r\nA big test about what this man truly represen… [+10954 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "DANICA KIRKA",
+      "title": "Prince William burnishes credentials as king-in-waiting with Earthshot Prize and COP30 in Brazil",
+      "description": "We’ve seen a lot of Prince William recently — and we’re going to see a lot more.  The heir to the British throne will be on the streets of Rio de Janeiro...",
+      "url": "https://www.yahoo.com/news/articles/prince-william-burnishes-credentials-king-040353077.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/kQ.dBJX_rW_GyyHMWaoMdQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/ap.org/c2ebb78bd29b9fd9a679eb2b39103f68",
+      "publishedAt": "2025-11-02T04:03:53Z",
+      "content": "LONDON (AP) Weve seen a lot of Prince William recently and were going to see a lot more.\r\nThe heir to the British throne will be on the streets of Rio de Janeiro this week to promote his Earthshot Pr… [+5612 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Post"
+      },
+      "author": "Shane Galvin",
+      "title": "‘SNL’ roasts NYC mayoral candidates in star-studded mock debate — days before election",
+      "description": "Saturday Night Live roasted the New York City mayoral candidates in a mock debate choc-ful of New York references that sent-up the characteristic foibles of each of the Gracie Mansion hopefuls.",
+      "url": "https://nypost.com/2025/11/02/entertainment/snl-cold-open-mocks-nyc-mayoral-election-2025-race-between-mamdani-cuomo-sliwa/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2025/11/newspress-collage-3c88h12t9-1762055799695.jpg?quality=75&strip=all&1762041515&w=1200",
+      "publishedAt": "2025-11-02T04:03:29Z",
+      "content": "Saturday Night Live roasted the New York City mayoral candidates in a mock debate choc-ful of New York references that sent-up the characteristic foibles of each of the Gracie Mansion hopefuls.\r\nHost… [+1431 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "周刊王CTWANT |林孜軒",
+      "title": "10月台股高光再報喜！　本周聚焦重點一次看",
+      "description": "美國科技巨擘亞馬遜（Amazon）和蘋果（Apple）財報亮眼，激勵31日買盤進場，美股四大指數上周五全數收紅。美股10月表現強勁，納斯達克連續第2個月上漲超過4%，並創下連續7個月上揚紀錄；標普500與道瓊則分別連續6個月上漲。台新投顧分析指出，台股多頭勢態持續，加上輝達GTC...",
+      "url": "https://tw.news.yahoo.com/10%E6%9C%88%E5%8F%B0%E8%82%A1%E9%AB%98%E5%85%89%E5%86%8D%E5%A0%B1%E5%96%9C-%E6%9C%AC%E5%91%A8%E8%81%9A%E7%84%A6%E9%87%8D%E9%BB%9E-%E6%AC%A1%E7%9C%8B-120115417.html",
+      "urlToImage": "https://media.zenfs.com/ko/ctwant_com_582/41a0faeb4673b1bbe14af1fd1e264611",
+      "publishedAt": "2025-11-02T04:01:15Z",
+      "content": "IC311,420.977.85.5EPS15.842.646.5AIAI ASIC10\r\n 1"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Elperiodico.com"
+      },
+      "author": "Martí Saballs Pons",
+      "title": "Unas bolsas atadas al futuro de Nvidia y la IA",
+      "description": "La futura evolución de la bolsa española no depende de cuantos trapos bien diseñados logre vender Inditex por el mundo, de la estrategia del Santander o del BBVA para desarrollar nuevos y sofisticados productos financieros para sus clientes, de los vaivenes d…",
+      "url": "https://www.elperiodico.com/es/economia/20251102/bolsas-atadas-futuro-nvidia-ia-123232358",
+      "urlToImage": "https://estaticos-cdn.prensaiberica.es/clip/f0908a1f-5d84-4c55-9373-9595454f27ae_16-9-discover-aspect-ratio_default_0.jpg",
+      "publishedAt": "2025-11-02T04:00:19Z",
+      "content": "Evolución del Ibex desde 2007. / 'ACTIVOS'\r\nLa futura evolución de la bolsa española no depende de cuantos trapos bien diseñados logre vender Inditex por el mundo, de la estrategia del Santander o de… [+4553 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Americanthinker.com"
+      },
+      "author": null,
+      "title": "Talking with Professor Charles Murray about his journey to God",
+      "description": "I had the opportunity to interview Professor Charles Murray, one of my favorite conservative intellectuals. I’ve written down some of the highlights of that interview, but you can listen to the entire interview, which I’ve embedded below....",
+      "url": "https://www.americanthinker.com/articles/2025/11/talking_with_professor_charles_murray_about_his_journey_to_god.html",
+      "urlToImage": "https://images.americanthinker.com/8c/8c6cjpearchbogipgbib_800.jpg",
+      "publishedAt": "2025-11-02T04:00:00Z",
+      "content": "I had the opportunity to interview Professor Charles Murray, one of my favorite conservative intellectuals. I’ve written down some of the highlights of that interview, but you can listen to the entir… [+6533 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Americanthinker.com"
+      },
+      "author": null,
+      "title": "Alexandre Dumas meets Robin Hood in the Big Apple",
+      "description": "The setting is 17th century France during the reign of King Louis XIII and the novel that is about that period written two centuries later deals with a swashbuckling trio of three sword-wielding characters who get mixed up with a cardinal, a que...",
+      "url": "https://www.americanthinker.com/blog/2025/11/alexandre_dumas_meets_robin_hood_in_the_big_apple.html",
+      "urlToImage": "https://images.americanthinker.com/ne/neas7aai0jmwopwri0pe_800.jpg",
+      "publishedAt": "2025-11-02T04:00:00Z",
+      "content": "The setting is 17th century France during the reign of King Louis XIII and the novel that is about that period written two centuries later deals with a swashbuckling trio of three sword-wielding char… [+4326 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sabah.com.tr"
+      },
+      "author": "TİMUR SIRT",
+      "title": "TİMUR SIRT / İki asistandan hangisini istersin? Daha zeki mi olsun daha güvenilir mi?",
+      "description": "Bir zamanlar sadece konuştuğumuz telefonlar artık bizi dinliyor, anlıyor ve öğreniyor. Ancak bu büyülü çağda en büyük soru şu: Kullanıcıların gizliliği gerçekten korunabiliyor mu?Devamı için tıklayınız",
+      "url": "https://www.sabah.com.tr/yazarlar/pazar/sirt/2025/11/02/iki-asistandan-hangisini-istersin-daha-zeki-mi-olsun-daha-guvenilir-mi",
+      "urlToImage": "https://iasbh.tmgrup.com.tr/ad11e7/1200/675/98/0/1403/735?u=https://isbh.tmgrup.com.tr/sbh/2025/11/02/iki-asistandan-hangisini-istersin-daha-zeki-mi-olsun-daha-guvenilir-mi-1762049021386.jpeg",
+      "publishedAt": "2025-11-02T03:58:07Z",
+      "content": "Bugün milyonlarca kullanc, cep telefonlarndaki bu iki \"gizlilik koruyucusu\" sayesinde daha akll ama ayn zamanda daha güvenli bir dijital dünyada yayor. Yapay zeka asistanlarnn hayatmza girmesiyle kii… [+9149 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Deadline"
+      },
+      "author": "Dominic Patten",
+      "title": "‘SNL’ Goes Full Zohran Mamdani Vs. Donald Trump In Big Apple Cold Open",
+      "description": "The federal government is still shut down, food stamps are being cut off for millions of Americans, the LA Dodgers are still grinding it out with the Toronto Blue Jays in the World Series finale and there’s big elections in NYC, Virginia and New Jersey on Nov…",
+      "url": "http://deadline.com/2025/11/snl-cold-open-zohran-mamdani-trump-1236604869/",
+      "urlToImage": "https://deadline.com/wp-content/uploads/2025/11/snl-cold-open-nov-1.jpg?w=1024",
+      "publishedAt": "2025-11-02T03:53:25Z",
+      "content": "The federal government is still shut down, food stamps are being cut off for millions of Americans, the LA Dodgers are still grinding it out with the Toronto Blue Jays in the World Series finale and … [+1943 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Technews.tw"
+      },
+      "author": "姚 惠茹",
+      "title": "睡眠追蹤迎來重大升級？Apple Watch 將透過 AI 具備醫療級睡眠評估功能",
+      "description": "隨著科技的進步，Apple Watch 的睡眠追蹤功能即將迎來重大升級，麻省大學阿默斯特分校（UMass Amherst）的研究團隊，開發一種名為 BIDSleep 的新系統，這項技術結合 Apple Watch 的心率感測器與 AI 模型，得以讓睡眠監測的準確度更接近臨床標準。\r\n\nBIDSleep 由 Joyita Dutta 領導的「生物醫學影像與數據科學實驗室」開發，研究成果已發表於《IEEE Transactions on Biomedical Engineering》，系統透過 Apple Watch…",
+      "url": "https://technews.tw/2025/11/02/bidsleep/",
+      "urlToImage": "https://img.technews.tw/wp-content/uploads/2025/09/19125415/Apple-Watch-Ultra-3.jpeg",
+      "publishedAt": "2025-11-02T03:43:04Z",
+      "content": "Apple Watch UMass Amherst BIDSleep Apple Watch AI \r\nBIDSleep Joyita Dutta IEEE Transactions on Biomedical Engineering Apple Watch AI REM \r\nBIDSleep EEG 71%\r\n Tzu-An Song BIDSleep Apple Watch \r\n Apple… [+108 chars]"
+    },
+    {
+      "source": {
+        "id": "marca",
+        "name": "Marca"
+      },
+      "author": "marca.com",
+      "title": "Not even Lionel Messi's stunning goal can save Inter Miami, as Nashville force a Game 3",
+      "description": "The MLS Playoffs are always a tricky proposition, even for the best teams in the league. Upsets happen often, with parity being ever-prevalent in MLS, especially in recent seasons.",
+      "url": "https://www.marca.com/en/football/mls/2025/11/02/6906c91cca474191588b45ea.html",
+      "urlToImage": "https://phantom.estaticos-marca.com/a21e278d39913d06af0650a069956688/resize/1200/f/webp/assets/multimedia/imagenes/2025/11/02/17620515064634.png",
+      "publishedAt": "2025-11-02T03:14:48Z",
+      "content": "The MLS Playoffs are always a tricky proposition, even for the best teams in the league. Upsets happen often, with parity being ever-prevalent in MLS, especially in recent seasons. Inter Miami knows … [+1553 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Koreaboo.com"
+      },
+      "author": "Koreaboo",
+      "title": "HYBE Girl Group Member’s Private Photos Seemingly Leaked, Sparks Major Concerns",
+      "description": "HYBE Girl Group Member’s Private Photos Seemingly Leaked, Sparks Major Concernskoreaboo.com",
+      "url": "https://www.koreaboo.com/news/hybe-girl-group-member-private-photos-seemingly-leaked-sparks-major-concerns/",
+      "urlToImage": "https://image.koreaboo.com/2025/11/lara.jpg",
+      "publishedAt": "2025-11-02T03:10:34Z",
+      "content": "KATSEYE member Laras private photos have been doing the rounds on the internet, sparking heated reactions from fans.\r\nKATSEYE’s Lara | @lararajj/Instagram\r\nThe pictures in question showed Lara sittin… [+1934 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Jabin Bastian",
+      "title": "CNA Financial (CNA) Q3 Earnings Report Preview: What To Look For",
+      "description": "Insurance provider CNA Financial (NYSE:CNA) will be reporting results this Monday morning. Here’s what to look for.",
+      "url": "https://finance.yahoo.com/news/cna-financial-cna-q3-earnings-030353976.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/QtH9hDsDXPTQdMB6318sVg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02MDA-/https://media.zenfs.com/en/stockstory_922/b176f7091b60dec6456190aa48efb0fa",
+      "publishedAt": "2025-11-02T03:03:53Z",
+      "content": "Insurance provider CNA Financial (NYSE:CNA) will be reporting results this Monday morning. Heres what to look for.\r\nCNA Financial missed analysts revenue expectations by 0.8% last quarter, reporting … [+2667 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Indianapolis Star"
+      },
+      "author": "IndyStar | The Indianapolis Star",
+      "title": "Time, TV channel announced for No. 2 Indiana football game at Penn State",
+      "description": "The Hoosiers had two big games on their schedule and the second one will still be treated as such.",
+      "url": "https://www.indystar.com/story/sports/college/indiana/2025/11/01/indiana-football-game-time-tv-channel-penn-state-tickets/87046433007/",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/FW0x7jPYqB0SGuXIiuqjxw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTg7Y2Y9d2VicA--/https://media.zenfs.com/en/indystar-the-indianapolis-star/e45dcb37e3ba07f76e0cd626242038bf",
+      "publishedAt": "2025-11-02T02:51:55Z",
+      "content": "Indiana football will kick off at noon for the second time in three weeks when it takes on Penn State on Saturday in State College, Pennsylvania.\r\nThe Big Ten announced additional kickoff times and n… [+956 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Aajtak.in"
+      },
+      "author": "aajtak.in",
+      "title": "लिवर से गंदगी बाहर निकालते हैं ये 3 फल, Fatty Liver रहेगा दूर",
+      "description": "Liver Health: लिवर को हेल्दी रखने के लिए सबसे जरूरी संतुलित खानपान और लाइफस्टाइल है. इसके अलावा अगर आप रोजाना कुछ फलों का सेवन करते हैं तो आपकी लिवर की हेल्थ भी इंप्रूव होती है और फैटी लिवर का रिस्क कम होता है.",
+      "url": "https://www.aajtak.in/lifestyle/news/story/liver-health-fruits-for-healthy-liver-and-fatty-liver-weight-loss-tvisp-dskc-2373691-2025-11-02",
+      "urlToImage": "https://akm-img-a-in.tosshub.com/aajtak/images/story/202511/69062344d0873-fruits-for-healthy-liver-011158670-16x9.jpg",
+      "publishedAt": "2025-11-02T02:30:06Z",
+      "content": "Fruits for Liver Health: .   , ,  ,   .   ,   .\r\n            . \r\n, ,       .  C          . .\r\n2.   'An apple a day keeps the doctor away'. . .  . .       .   .\r\n3. , , ,      .     ."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Togetter.com"
+      },
+      "author": "Togetter編集部",
+      "title": "かつて音楽の授業や合唱でガチで歌ったり、英語の発音が良いことを理由に笑われる時代があったが、今の小中学生は変わってきている、という話",
+      "description": "音楽や合唱で真剣に歌ったり、朗読で感情を込めると笑われる風潮が昔あった。そうした空気が子どもの表現力不足につながっている面がある。改善策は、英語の発音でも「アップル」ではなく「apple」と実際の音で表現してみること。楽器を通すと伝わりにくい分、大胆に表現してみて、過剰なら止める。表現は日本伝統に限定されないと理解することも重要。",
+      "url": "https://togetter.com/li/2623122",
+      "urlToImage": "https://s.tgstc.com/ogp3/36ddfd1440f440128969ced7e9fa5af2-1200x630.jpeg",
+      "publishedAt": "2025-11-02T02:29:56Z",
+      "content": "TogetterXEnterpriseAPIXXAPI"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Ouniversodatv.com"
+      },
+      "author": "Anderson Ramos",
+      "title": "Apple TV+ divulga clipe inédito e detalhes do oitavo episódio da quarta temporada de The Morning Show",
+      "description": "Foto: Apple TV O Apple TV  revela um clipe inédito do oitavo episódio da quarta temporada, da série dramática de sucesso mundial '' ...",
+      "url": "https://www.ouniversodatv.com/2025/11/apple-tv-divulga-clipe-inedito-e.html",
+      "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAgw45IEEZjMCG9DH2uJnXgLeniQY67xlUR5eG3bIvbxfRq1KdoeVxCGTxpMOgVnEDPAZ6VcU2nQWAtorWtayg3C-2VFugaiY6JgKhVMNbOZBYTfS6HVyGkuZu3gSpmQJ-0el-4G3_8hvwTdmuvYwEvUklLNG0Zk-qBtVp1XRlR045NPp6AVmcOdftv9lY/w1600/The_Morning_Show_Photo_040807.jpg",
+      "publishedAt": "2025-11-02T02:27:00Z",
+      "content": "<table><tr><td></td></tr><tr><td>Foto: Apple TV</td></tr>\r\n</table>O Apple TV revela um clipe inédito do oitavo episódio da quarta temporada, da série dramática de sucesso mundial ''The Morning Show'… [+2873 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Droidsans.com"
+      },
+      "author": "Masuo",
+      "title": "Counterpoint Research เผยตลาดพีซี Q3 2025 โต 8.1% เหตุ Windows 10 หมดอายุ บีบผู้ใช้ต้องเปลี่ยนเครื่องใหม่",
+      "description": "รายงานล่าสุดจาก Counterpoint Research ระบุว่าตลาดพีซีทั่วโลกในไตรมาส 3 ปี 2025 เติบโตขึ้น 8.1% เมื่อเทียบกับปีก่อน โดยมีปัจจัยหลักจากการที่ Microsoft เตรียมหยุดสนับสนุน Windows 10 ในเดือนตุลาคมนี้ ส่งผลให้ทั้งผู้ใช้ทั่วไปและองค์กรจำนวนมากต้องเร่งเปลี่ยนเครื่อ…",
+      "url": "https://droidsans.com/counterpoint-research-q3-2025-pc/",
+      "urlToImage": "https://images.droidsans.com/wp-content/uploads/2025/10/cover-counterpoint-research-q3-2025-pc.jpg",
+      "publishedAt": "2025-11-02T02:26:00Z",
+      "content": "3 2025 8.1% Counterpoint Research Microsoft Windows 10 2025 \r\n Windows 10 40% Windows 10 \r\nLenovo 17.4% HP 10% Dell 1% Apple 15% MacBook Asus 14% 22% 5 75% \r\n Counterpoint AI PC AI 2026 Qualcomm, Int… [+142 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Soydemac.com"
+      },
+      "author": "Alberto Navarro",
+      "title": "iOS 26.1: todas las novedades, fecha de lanzamiento y cambios",
+      "description": "iOS 26.1 trae más control de Liquid Glass, alarmas con deslizar, mejoras de seguridad y nuevos idiomas. Fechas, móviles compatibles y cómo actualizar.",
+      "url": "https://www.soydemac.com/ios-26-1-todas-las-novedades-fecha-de-lanzamiento-y-cambios/",
+      "urlToImage": "https://www.soydemac.com/wp-content/uploads/2025/11/iOS-26.1-1.jpg",
+      "publishedAt": "2025-11-02T02:20:27Z",
+      "content": "Apple ultima iOS 26.1, la primera gran puesta al día de la generación iOS 26: tras la versión candidata (RC) para desarrolladores y beta pública, el lanzamiento para todo el mundo está a la vuelta de… [+7160 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Phoronix"
+      },
+      "author": null,
+      "title": "Steam On Linux Gaming Finally Cracks 3% For October 2025 - Phoronix",
+      "description": "Steam on Linux use has hit an all-time high! With the Steam Survey results for October 2025 coming out this evening, Steam on Linux has finally cracked the 3% threshold! A few months back Steam on Linux was close to 3% before stumbling a bit but now it's abov…",
+      "url": "https://www.phoronix.com/news/Steam-Linux-Above-3P-Oct-2025",
+      "urlToImage": "https://www.phoronix.net/image.php?id=2025&image=steam_october_4",
+      "publishedAt": "2025-11-02T00:45:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "mashable",
+        "name": "Mashable"
+      },
+      "author": "Sponsored by StackCommerce",
+      "title": "Treat your PC to Microsoft Office apps for less than $7 each - Mashable",
+      "description": "One lifetime license, eight apps, endless possibilities.",
+      "url": "https://mashable.com/article/nov-1-microsoft-office-professional-2021-for-windows",
+      "urlToImage": "https://helios-i.mashable.com/imagery/articles/003OgStrRyHv29zB1J7buf9/hero-image.fill.size_1200x675.v1761919554.jpg",
+      "publishedAt": "2025-11-01T23:00:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eurogamer.net"
+      },
+      "author": "Vikki Blake",
+      "title": "Battlefield 6 drops a new \"relaxed\" way to earn XP \"without the intensity of a full PvP lobby\" - Eurogamer",
+      "description": "Battlefield 6 has introduced a new \"relaxed way\" to play \"while still earning progression and completing challenges\" - …",
+      "url": "https://www.eurogamer.net/battlefield-6-drops-a-new-relaxed-way-to-earn-xp-without-the-intensity-of-a-full-pvp-lobby",
+      "urlToImage": "https://assetsio.gnwcdn.com/battlefield-6-all-weapons-hero-images.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+      "publishedAt": "2025-11-01T21:39:05Z",
+      "content": "Battlefield 6 has introduced a new \"relaxed way\" to play \"while still earning progression and completing challenges\" - Casual Breakthrough.\r\nGiving you the chance to get into the action \"without the … [+2025 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Police"
+      },
+      "author": "Rajesh Pandey",
+      "title": "The best Android phones never make it to the US - Android Police",
+      "description": "US Android users deserve better flagships",
+      "url": "https://www.androidpolice.com/the-best-android-phones-never-make-it-to-the-us/",
+      "urlToImage": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2025/10/android-flagships-xiaomi-oppo.png?w=1600&h=900&fit=crop",
+      "publishedAt": "2025-11-01T19:34:00Z",
+      "content": "The list of best Android phones available in the US and the rest of the world varies wildly.\r\nIn the US, your options boil down to the latest flagship phones from Samsung and Google.\r\nOutside the Sta… [+5028 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "RoadandTrack.com"
+      },
+      "author": "Brendan McAleer",
+      "title": "Aerotech Reborn: The Stashed-Away 257-MPH GM Prototypes Live to Drive Another Day - Road & Track",
+      "description": "“I said, 'I heard you used to have the Aerotech,' and he said, 'That's not true.' I said, 'Oh, I'm so sorry to bother you,' and he said, 'No. I still have them.'”",
+      "url": "https://www.roadandtrack.com/car-culture/a69220164/aerotech-reborn-257-mph-gm-prototypes-live-to-drive-another-day/",
+      "urlToImage": "https://hips.hearstapps.com/hmg-prod/images/2s6a4932-6905ab5e1d3d0.jpg?crop=1.00xw:0.750xh;0,0.180xh&resize=1200:*",
+      "publishedAt": "2025-11-01T19:05:35Z",
+      "content": "Imagine if, after its cars finished first and second at the 1970 running of the 24 Hours of Le Mans, Porsche had ordered the red and white 917K short-tail and psychedelic Martini Racing livery 917L l… [+8077 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Push Square"
+      },
+      "author": "Robert Ramsey",
+      "title": "Yakuza 3 Remake Backlash Blows Up Again as Actor Guilty of Sexual Harassment Stars in New Trailer - Push Square",
+      "description": "#REMOVEKAGAWA returns",
+      "url": "https://www.pushsquare.com/news/2025/11/yakuza-3-remake-backlash-blows-up-again-as-actor-guilty-of-sexual-harassment-stars-in-new-trailer",
+      "urlToImage": "https://images.pushsquare.com/86e1686fb28ba/large.jpg",
+      "publishedAt": "2025-11-01T19:00:00Z",
+      "content": "An ongoing campaign against the recasting of a character in Yakuza Kiwami 3 a remake of the original PS3 game has gained some additional momentum today, as SEGA's released a new trailer that focuses … [+2150 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Michael Burkhardt",
+      "title": "Despite their unpopularity, iPhone crossbody straps aren’t as useless as they may seem - 9to5Mac",
+      "description": "With the launch of the iPhone 17 lineup this fall, Apple debuted a new accessory – the crossbody strap. It...",
+      "url": "https://9to5mac.com/2025/11/01/iphone-crossbody-straps-are-cooler-than-you-might-believe/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/09/crossbody-strap-iphone-air.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2025-11-01T18:56:00Z",
+      "content": "With the launch of the iPhone 17 lineup this fall, Apple debuted a new accessory the crossbody strap. It certainly received lukewarm reception, but after trying one out, I actually think its a rather… [+2334 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5google.com"
+      },
+      "author": "Abner Li",
+      "title": "New Google Pixel October 2025 update with ‘performance improvements’ rolls out [U] - 9to5Google",
+      "description": "Google today released new October builds for the Pixel 7-10 series, with Verizon shedding some light on what this update brings.",
+      "url": "http://9to5google.com/2025/11/01/new-pixel-october-2025-update/",
+      "urlToImage": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2025/10/Pixel-6-family-with-Pixel-10-family-1.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2025-11-01T18:21:52Z",
+      "content": "Google today released new October builds for the Pixel 7-10 series, with Verizon shedding some light on what this update brings.\r\nUpdate 11/1: Over the past day, this update is widely rolling out to … [+1568 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BGR"
+      },
+      "author": "Briley Kenney",
+      "title": "Yes, You Can Run Windows 95 In Your Browser, And It's Glorious - bgr.com",
+      "description": "Windows 95 is back in an accessible and free way thanks to this website, which allows you to boot up the formative operating system right in your browser.",
+      "url": "https://www.bgr.com/2007837/run-windows-95-in-browser/",
+      "urlToImage": "https://www.bgr.com/img/gallery/yes-you-can-run-windows-95-in-your-browser-and-its-glorious/l-intro-1761333837.jpg",
+      "publishedAt": "2025-11-01T18:17:00Z",
+      "content": "The tool (or window, rather) takes a minute to load when you first visit the page, so wait a few minutes until you see Windows 95 has finished booting. From there, you can interact with anything in t… [+1376 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Push Square"
+      },
+      "author": "Robert Ramsey",
+      "title": "Poll: Are You Happy with Your PS Plus Essential Games for November 2025? - Push Square",
+      "description": "Plus or minus?",
+      "url": "https://www.pushsquare.com/features/poll-are-you-happy-with-your-ps-plus-essential-games-for-november-2025",
+      "urlToImage": "https://images.pushsquare.com/53cc329ba01bb/large.jpg",
+      "publishedAt": "2025-11-01T17:00:00Z",
+      "content": "Image: Push Square\r\nOh boy, we've got a particularly prevalent feeling that November 2025's PS Plus Essential lineup won't please everyone.\r\nConfirmed earlier this week, the latest selection is made … [+1611 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Videocardz.com"
+      },
+      "author": null,
+      "title": "AMD bundles four Steam games with Lenovo Legion Go 2, Costco only - VideoCardz.com",
+      "description": "AMD launches “4 Games” bundle for Lenovo Legion Go 2 with Ryzen Z2 APU AMD has launched a Costco-exclusive promotion for Lenovo’s Legion Go 2 with the Ryzen Z2 APU. The handheld features an 8.8-inch 1920×1200 OLED display at up to 144 Hz, detachable controlle…",
+      "url": "https://videocardz.com/newz/amd-bundles-four-steam-games-with-lenovo-legion-go-2-costco-only",
+      "urlToImage": "https://cdn.videocardz.com/1/2025/11/LEGION-GO-AMD-GAME-BUNDLE.jpg",
+      "publishedAt": "2025-11-01T16:48:00Z",
+      "content": "AMD has launched a Costco-exclusive promotion for Lenovos Legion Go 2 with the Ryzen Z2 APU. The handheld features an 8.8-inch 1920×1200 OLED display at up to 144 Hz, detachable controllers, and a 74… [+2335 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Terrence O'Brien",
+      "title": "Ayaneo Phone confirmed in a teaser featuring retro Remake branding - The Verge",
+      "description": "A teaser video confirms there’s an Ayaneo Phone coming with physical controls.",
+      "url": "https://www.theverge.com/news/812084/ayaneo-phone-confirmed-in-a-teaser-featuring-retro-remake-branding",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/maxresdefault.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+      "publishedAt": "2025-11-01T16:43:17Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nDetails are limited, but it appears to have physical controls.\r\nDetails are limited, but it appears to have physical controls.\r\nby\r\nTerrence O'BrienClose\r\nTerren… [+2364 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eurogamer.net"
+      },
+      "author": "Vikki Blake",
+      "title": "GTA 6 developer Rockstar accused of union-busting after it fires dozens of developers - Eurogamer",
+      "description": "Grand Theft Auto 6 developer Rockstar Games has been accused of union-busting after terminating the contracts of 30-40 …",
+      "url": "https://www.eurogamer.net/gta-6-developer-rockstar-accused-of-union-busting-after-it-fires-dozens-of-developers",
+      "urlToImage": "https://assetsio.gnwcdn.com/Jason_and_Lucia_01_landscape.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+      "publishedAt": "2025-11-01T16:36:29Z",
+      "content": "Grand Theft Auto 6 developer Rockstar Games has been accused of union-busting after terminating the contracts of 30-40 staff, all of whom were purportedly involved in union activities. Rockstar claim… [+1196 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "EventHubs"
+      },
+      "author": "Dakota DarkHorse Hills",
+      "title": "Exclusive: 20 minutes of high-level Chun-Li match footage in Fatal Fury: City of the Wolves - EventHubs",
+      "description": "Fatal Fury: City of the Wolves fans finally got to see Street Fighter's Chun-Li in action yesterday with her new gameplay trailer, but now it's time to get an even better picture of what she's capable of ...",
+      "url": "https://www.eventhubs.com/news/2025/nov/01/chun-li-fatal-fury-footage/",
+      "urlToImage": "https://media.eventhubs.com/images/2025/10/31-chunli-footaget.webp",
+      "publishedAt": "2025-11-01T15:01:46Z",
+      "content": "Fatal Fury: City of the Wolves fans finally got to see Street Fighter's Chun-Li in action yesterday with her new gameplay trailer, but now it's time to get an even better picture of what she's capabl… [+1561 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Julie Bort",
+      "title": "AI researchers ’embodied’ an LLM into a robot – and it started channeling Robin Williams - TechCrunch",
+      "description": "AI researchers at Andon Labs embedded various LLMs in a vacuum robot to test how ready they were to be embodied. And hilarity ensued.",
+      "url": "https://techcrunch.com/2025/11/01/ai-researchers-embodied-an-llm-into-a-robot-and-it-started-channeling-robin-williams/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2147670244.jpg?resize=1200,800",
+      "publishedAt": "2025-11-01T15:00:00Z",
+      "content": "The AI researchers at Andon Labs the people who gave Anthropic Claude an office vending machine to run and hilarity ensued have published the results of a new AI experiment. This time they programmed… [+7753 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Phoronix"
+      },
+      "author": null,
+      "title": "Linux Kernel Ported To WebAssembly - Demo Lets You Run It In Your Web Browser - Phoronix",
+      "description": "Open-source developer Joel Severin today announced his work on porting the Linux kernel to WebAssembly and has successffully gotten the kernel up and running within WASM-capable web browsers.",
+      "url": "https://www.phoronix.com/news/Linux-Kernel-WebAssembly",
+      "urlToImage": "https://www.phoronix.net/image.php?id=2025&image=linux_wasm_2",
+      "publishedAt": "2025-11-01T14:40:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Paul Tassi",
+      "title": "The Big Question About Destiny 2’s Missing Roadmap - Forbes",
+      "description": "Destiny 2 has no stated plan for year two, despite promising a roadmap covering the future of the game two months ago now.",
+      "url": "https://www.forbes.com/sites/paultassi/2025/11/01/the-big-question-about-destiny-2s-missing-roadmap/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/690617722011087499dd3574/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-11-01T14:27:22Z",
+      "content": "Destiny 2 players have been left confused about where things are going from here, as after the Renegades expansion this December, things seem nebulous. A roadmap of the path forward was promised by B… [+3661 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Rogueliker.com"
+      },
+      "author": "Mike Holmes",
+      "title": "The Monthly Update: dozens of Roguelites & Roguelikes are about to take over November - Rogueliker",
+      "description": "November is going to be a banger for roguelikes and roguelites, with Forestrike, Morsels, Dog Witch, and Moonlighter 2 all landing this month.",
+      "url": "https://rogueliker.com/new-roguelike-games-november-25/",
+      "urlToImage": "https://rogueliker.com/wp-content/uploads/2025/11/moonlighter2222.jpg",
+      "publishedAt": "2025-11-01T14:20:54Z",
+      "content": "Welcome to the November Update, you lovely lot! Heads up: its a big one this month, with rogues of all shapes and sizes up for grabs! \r\nIn fact, its so bloody chonky that Ill not waste much time on t… [+19290 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Brandon Russell",
+      "title": "LG’s brilliant B5 OLED TV is already down to just $530 for Black Friday - The Verge",
+      "description": "LG’s B5 is an excellent entry-level OLED TV, and the 48-inch model is currently on sale for just $529.99 at Best Buy ahead of Black Friday.",
+      "url": "https://www.theverge.com/tech/811935/lg-b5-oled-tv-black-friday-doorbuster-deal-sale",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/LG-B5-OLED-TV-deal.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2025-11-01T14:00:00Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nThe B5 remains a great entry-level OLED option.\r\nThe B5 remains a great entry-level OLED option.\r\nby\r\nBrandon RussellClose\r\nBrandon Russell\r\nPosts from this auth… [+3063 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Scarlet and Game"
+      },
+      "author": "Braulio Perez",
+      "title": "Ryan Day quote after Ohio State football crushed Penn State made the win better - Scarlet and Game",
+      "description": "You just know Ryan Day was extra motivated to take down Jim Knowles and Penn State on Saturday. What a win for Ohio State.",
+      "url": "https://scarletandgame.com/ryan-day-quote-after-ohio-state-football-crushed-penn-state-made-win-better",
+      "urlToImage": "https://images2.minutemediacdn.com/image/upload/c_crop,x_407,y_57,w_4312,h_2425/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/GettyImages/mmsport/151/01k90cexpwjqcmfppsa3.jpg",
+      "publishedAt": "2025-11-01T19:32:20Z",
+      "content": "Never a doubt. Ohio State football hosted Penn State on Saturday at The Shoe and you had a feeling that Ryan Day was going to be a bit motivated in this one. There's been plenty of talk about Jim Kno… [+2159 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "SB Nation"
+      },
+      "author": "Dustin George-Miller",
+      "title": "Tottenham 0-1 Chelsea: *fart noise* - Cartilage Free Captain",
+      "description": "lol…lmao",
+      "url": "https://cartilagefreecaptain.sbnation.com/tottenham-hotspur-match-reports/66725/tottenham-0-1-chelsea-fart-noise",
+      "urlToImage": "https://platform.cartilagefreecaptain.sbnation.com/wp-content/uploads/sites/60/2025/11/gettyimages-2244493161.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2025-11-01T19:32:07Z",
+      "content": "Tottenham Hotspur went into todays home match against Chelsea having won just once against the Blues in their last 17 matches.\r\nMake it once in 18. A quick-fire series of defensive lapses in one sequ… [+2388 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Prideofdetroit.com"
+      },
+      "author": "Al Karsten",
+      "title": "Vikings vs. Lions Week 9 preview: 4 key stats coming out of the bye week - Pride Of Detroit",
+      "description": "A data-driven look at the pivotal numbers heading into the divisional matchup between the Vikings and Lions.",
+      "url": "https://www.prideofdetroit.com/detroit-lions-game-preview/147239/vikings-vs-lions-week-9-preview-4-key-stats-coming-out-of-the-bye-week",
+      "urlToImage": "https://platform.prideofdetroit.com/wp-content/uploads/sites/127/2025/11/gettyimages-1357491481.jpg?quality=90&strip=all&crop=0%2C10.745197983927%2C100%2C78.509604032146&w=1200",
+      "publishedAt": "2025-11-01T19:01:17Z",
+      "content": "Sunday afternoons battle doesnt carry quite the same gravity as last years Week 18 clash for the NFCs top seed. Still, coming off the bye with the Minnesota Vikings returning to their planned startin… [+10215 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "247Sports"
+      },
+      "author": "Patrick Brown",
+      "title": "Bold predictions: Oklahoma at Tennessee - 247Sports",
+      "description": "GoVols247 makes its bold predictions for Tennessees pivotal game against Oklahoma on Saturday night at Neyland Stadium",
+      "url": "https://247sports.com/college/tennessee/longformarticle/tennessee-vols-vs-oklahoma-sooners-bold-predictions-259607152/",
+      "urlToImage": "https://s3media.247sports.com/Uploads/Assets/220/383/13383220.jpg?width=1200&height=628&crop=1.91:1&fit=cover",
+      "publishedAt": "2025-11-01T17:35:32Z",
+      "content": "November is here for the Tennessee Volunteers and GoVols247 is bringing back one of our staple features for each and every game: Our bold predictions. The premise is simple: Our staff picks some thin… [+1417 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Detroithockeynow.com"
+      },
+      "author": "Kevin Allen",
+      "title": "Red Wings College Prospect Leads Nation in Scoring - Detroit Hockey Now",
+      "description": "When the Detroit Red Wings drafted Max Plante in the second round (47th) of the 2024 NHL draft, Sirius Radio draft analyst Russ Cohen called him the smartest player in the draft class. USA Hockey’s national teams guru John Vanbiesbrouck talked about Plante’s …",
+      "url": "https://detroithockeynow.com/2025/11/01/plante-max-red-wings-prospect-college-prospect-leads-nation-in-scoring/",
+      "urlToImage": "https://detroithockeynow.com/wp-content/uploads/sites/11/2024/06/IMG_1956-scaled-e1719681005832-1000x600.jpg",
+      "publishedAt": "2025-11-01T16:37:27Z",
+      "content": "When the Detroit Red Wings drafted Max Plante in the second round (47th) of the 2024 NHL draft, Sirius Radio draft analyst Russ Cohen called him the smartest player in the draft class. USA Hockey’s n… [+2128 chars]"
+    },
+    {
+      "source": {
+        "id": "nhl-news",
+        "name": "NHL News"
+      },
+      "author": null,
+      "title": "Projected Lineup: Nov. 1 at Columbus - NHL.com",
+      "description": "Updated: Based on warmups, defenseman Matthew Kessel will draw back into the lineup in place of Logan Mailloux.\nNo major lineup changes are expected as the St. Louis Blues prepare to take on the Columbus Blue Jackets on Saturday at Nationwide Arena (6 p.m. CT…",
+      "url": "https://www.nhl.com/blues/news/projected-lineup-nov-1-at-columbus",
+      "urlToImage": "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/prd/h55fq3carsitovnsx3hb.png",
+      "publishedAt": "2025-11-01T16:00:51Z",
+      "content": "Updated: Based on warmups, defenseman Matthew Kessel will draw back into the lineup in place of Logan Mailloux.\r\nNo major lineup changes are expected as the St. Louis Blues prepare to take on the Col… [+1489 chars]"
+    },
+    {
+      "source": {
+        "id": "nhl-news",
+        "name": "NHL News"
+      },
+      "author": null,
+      "title": "Projected Lineup: November 1 at Boston - NHL.com",
+      "description": "Jarvis a game-time decision after leaving Thursday's win early",
+      "url": "https://www.nhl.com/hurricanes/news/projected-lineup-november-1-at-boston",
+      "urlToImage": "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/prd/nqg1ovlt5ury2kpgvdef.png",
+      "publishedAt": "2025-11-01T15:15:30Z",
+      "content": "BOSTON - Carolina Hurricanes forward Seth Jarvis will be a game-time decision on Saturday when the team takes on the Boston Bruins at TD Garden.\r\nThe 23-year-old winger had to be helped off the ice d… [+1793 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MLB.com"
+      },
+      "author": "Keegan Matheson, Sonja Chen, Anthony Castrovince",
+      "title": "Dodgers-Blue Jays World Series Game 7 FAQ, lineups (8 ET, FOX) - MLB.com",
+      "description": "TORONTO -- The Blue Jays and Dodgers pushed each other to the physical, mental and emotional limit in a thrilling 18-inning game earlier in this World Series.\nBut that was nothing compared to what’s coming.\nGame 7 of the World Series is set for Saturday night…",
+      "url": "https://www.mlb.com/news/dodgers-vs-blue-jays-world-series-game-7-starting-lineups-and-pitching-matchup",
+      "urlToImage": "https://img.mlbstatic.com/mlb-images/image/upload/t_2x1/t_w1536/mlb/bgeiuoxjlaxiipxbv4zv.jpg",
+      "publishedAt": "2025-11-01T13:38:10Z",
+      "content": "TORONTO -- The Blue Jays and Dodgers pushed each other to the physical, mental and emotional limit in a thrilling 18-inning game earlier in this World Series.\r\nBut that was nothing compared to whats … [+10411 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Arrowhead Pride"
+      },
+      "author": "Nate Christensen",
+      "title": "The Chiefs’ 3 biggest questions against the Bills in Week 9 - Arrowhead Pride",
+      "description": "What will be the essential factors that determine the Kansas City Chiefs’ success (or failure) agains the Buffalo Bills in Week 9’s critical AFC matchup?",
+      "url": "https://www.arrowheadpride.com/kansas-city-chiefs-roster/185407/3-biggest-questions-against-bills-in-week-9",
+      "urlToImage": "https://platform.arrowheadpride.com/wp-content/uploads/sites/12/2025/11/gettyimages-2240851211.jpg?quality=90&strip=all&crop=8%2C0%2C84.4%2C66.276094499122&w=1200",
+      "publishedAt": "2025-11-01T13:05:56Z",
+      "content": "Following their third consecutive win a 28-7 defeat of the Washington Commanders the Kansas City Chiefs are taking their 5-3 record back on the road to face the Buffalo Bills in a critical AFC West s… [+4810 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Post"
+      },
+      "author": "Matt Ehalt",
+      "title": "Bill Belichick finally wins an ACC game as UNC downs Syracuse - New York Post",
+      "description": "Bill Belichick finally beat a college team on his level.",
+      "url": "https://nypost.com/2025/11/01/sports/bill-belichick-finally-wins-acc-game-as-unc-downs-syracuse/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2025/11/newspress-collage-tpi24egfn-1761999302526.jpg?quality=75&strip=all&1761984952&w=1200",
+      "publishedAt": "2025-11-01T12:27:18Z",
+      "content": "Bill Belichick finally beat a college team on his level.\r\nNorth Carolina earned its first win against a Power Four team Friday night with a 27-10 road win over Syracuse albeit, an SU team without its… [+2811 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sports Illustrated"
+      },
+      "author": "Bryan Fischer",
+      "title": "College Football Playoff Bracket Week 10 Live Projections: ACC Chaos Bumps SEC Up to Five Bids - Sports Illustrated",
+      "description": "Throughout Saturday’s slate, Sports Illustrated will give an updated look at the playoff seeding and matchups.",
+      "url": "https://www.si.com/college-football/college-football-playoff-bracket-week-10-live-projections",
+      "urlToImage": "https://images2.minutemediacdn.com/image/upload/c_crop,w_6890,h_3875,x_0,y_325/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/si/01k90h73xvj98qeg12yx.jpg",
+      "publishedAt": "2025-11-01T11:00:04Z",
+      "content": "Week 10 offers real tests for a handful of College Football Playoff contenders. Throughout Saturdays slate, Sports Illustrated will give an updated look at the playoff seeding and matchups. Heres eve… [+4382 chars]"
+    },
+    {
+      "source": {
+        "id": "espn",
+        "name": "ESPN"
+      },
+      "author": "John Keim",
+      "title": "'Going to keep chipping away': Commanders trying to revive reeling run game - ESPN",
+      "description": "Washington knows it needs to run the ball by any means necessary with Seattle and Detroit coming to town.",
+      "url": "https://www.espn.com/nfl/story/_/id/46796364/commanders-trying-revive-run-game-vs-seahawks-lions",
+      "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F1101%2Fr1569016_1296x729_16%2D9.jpg",
+      "publishedAt": "2025-11-01T11:00:00Z",
+      "content": "ASHBURN, Va. -- In early October, the Washington Commanders capped off their fifth game of the season doing what they had done in most of the first four: run the ball well. It led to a double-digit r… [+6868 chars]"
+    },
+    {
+      "source": {
+        "id": "nbc-news",
+        "name": "NBC News"
+      },
+      "author": "Chloe Atkins, Corky Siemaszko",
+      "title": "Ex-NBA player Damon Jones allegedly used championship ring as collateral - NBC News",
+      "description": "When former NBA player Damon Jones, who has been accused of feeding inside information to sports gamblers, first filed for bankruptcy in 2013, he had to list his Yorkshire Terrier as an asset",
+      "url": "https://www.nbcnews.com/sports/nba/ex-nba-player-damon-jones-allegedly-used-championship-ring-collateral-rcna240974",
+      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-10/251030-damon-jones-ch-1720-95b4cd.jpg",
+      "publishedAt": "2025-11-01T10:42:00Z",
+      "content": "When former NBA player Damon Jones, who has been accused of feeding inside information to sports gamblers, first filed for bankruptcy in 2013, he had to list his Yorkshire Terrier as an asset.\r\nThe u… [+6384 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Silver Screen and Roll "
+      },
+      "author": "Edwin Garcia",
+      "title": "Player Grades: Lakers vs. Grizzlies - Silver Screen and Roll",
+      "description": "Grading every Lakers player’s performance from the team’s 117-112 win against the Grizzlies.",
+      "url": "https://www.silverscreenandroll.com/lakers-analysis/99224/player-grades-lakers-vs-grizzlies-luka-doncic-austin-reaves-deandre-ayton-nba-cup",
+      "urlToImage": "https://platform.silverscreenandroll.com/wp-content/uploads/sites/144/2025/11/gettyimages-2243891114.jpg?quality=90&strip=all&crop=0%2C10.739013314491%2C100%2C78.521973371019&w=1200",
+      "publishedAt": "2025-11-01T05:29:00Z",
+      "content": "Luka Doni returned to the court on Friday, and he dominated once again. He scored 44 points and helped the Lakers win their first NBA Cup game of the year.\r\nThe Lakers offense slowed down in the seco… [+4565 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sports Illustrated"
+      },
+      "author": "Trevor Tarr",
+      "title": "Nebraska’s USC Weekend Visitor List Reflects Matt Rhule’s Commitment to Turning the Program Around - Sports Illustrated",
+      "description": "The Huskers are set for their biggest recruiting weekend yet as USC comes to Lincoln, giving Matt Rhule and his staff a prime opportunity to make inroads with several of the nation’s top prospects.",
+      "url": "https://www.si.com/college/nebraska/recruiting/nebraska-s-usc-weekend-visitor-list-reflects-matt-rhule-s-commitment-to-turning-the-program-around-2025",
+      "urlToImage": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4881,h_2745,x_0,y_0/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/all_huskers/01k8y7z6k8nr709ezbsb.jpg",
+      "publishedAt": "2025-11-01T03:04:55Z",
+      "content": "Saturday night, the Huskers are set to take on the No. 23 USC Trojans under the lights in Memorial Stadium on national television. But the game itself wont be the only thing on Matt Rhules agenda. Wi… [+3581 chars]"
+    },
     {
       "source": {
         "id": null,
@@ -1280,19 +2125,6 @@
         "id": "techcrunch",
         "name": "TechCrunch"
       },
-      "author": "Paul Sawers",
-      "title": "UK challenger bank Monzo nabs another $190M as US expansion beckons | TechCrunch",
-      "description": "Monzo has raised another $190 million, as the challenger bank looks to expand its presence internationally — particularly in the U.S.",
-      "url": "https://techcrunch.com/2024/05/08/uk-challenger-bank-monzo-nabs-another-190m-at-5-2b-valuation/",
-      "urlToImage": "httpsD://techcrunch.com/wp-content/uploads/2024/05/GettyImages-1259121938-e1715164252704.jpg?resize=1200,676",
-      "publishedAt": "2024-05-08T12:34:05Z",
-      "content": "Monzo has raised another £150 million ($190 million), as the challenger bank looks to expand its presence internationally particularly in the U.S.\r\nThe new round comes just two months after Monzo rai… [+1960 chars]"
-    },
-    {
-      "source": {
-        "id": "techcrunch",
-        "name": "TechCrunch"
-      },
       "author": "Brian Heater",
       "title": "iRobot names former Timex head Gary Cohen as CEO | TechCrunch",
       "description": "iRobot Tuesday announced the successor to longtime CEO, Colin Angle. Gary Cohen, who previous held chief executive role at Timex and Qualitor Automotive,",
@@ -1640,19 +2472,6 @@
     },
     {
       "source": {
-        "id": "abc-news",
-        "name": "ABC News"
-      },
-      "author": "JESSICA HILL Associated Press",
-      "title": "Nation's largest fleet of police Cybertrucks to patrol Las Vegas",
-      "description": "The nation’s largest police fleet of Tesla Cybertrucks is set to begin patrolling the streets of Las Vegas in November",
-      "url": "https://abcnews.go.com/US/wireStory/nations-largest-fleet-police-cybertrucks-patrol-las-vegas-127102391",
-      "urlToImage": "https://i.abcnewsfe.com/a/3a377173-577e-4c05-83fd-0d3377d76089/wirestory_f8294c00635009a78fa8a86741eec2ca_16x9.jpg?w=1600",
-      "publishedAt": "2025-11-02T04:29:34Z",
-      "content": "LAS VEGAS -- The nation's largest police fleet of Tesla Cybertrucks is set to begin patrolling the streets of Las Vegas in November thanks to a donation from a U.S. tech billionaire, raising concerns… [+6433 chars]"
-    },
-    {
-      "source": {
         "id": "business-insider",
         "name": "Business Insider"
       },
@@ -1680,19 +2499,6 @@
     {
       "source": {
         "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Kaili Killpack",
-      "title": "'Zero Confidence': Experts Warn It's Too Late To Implement GOP's Proposed ACA Changes",
-      "description": "With open enrollment for Affordable Care Act coverage in full swing, experts are warning that Congress may have run out of time to implement the health...",
-      "url": "https://www.yahoo.com/news/articles/zero-confidence-experts-warn-too-000129192.html",
-      "urlToImage": "https://media.zenfs.com/en/Benzinga/ade7e4212f24dc59d2b656e16fe571a9",
-      "publishedAt": "2025-11-02T00:01:29Z",
-      "content": "With open enrollment for Affordable Care Act coverage in full swing, experts are warning that Congress may have run out of time to implement the health policy changes Republicans are demanding. As bo… [+3921 chars]"
-    },
-    {
-      "source": {
-        "id": null,
         "name": "TheStreet"
       },
       "author": "Silin Chen",
@@ -1702,19 +2508,6 @@
       "urlToImage": "https://media.zenfs.com/en/thestreet_881/85237a421c24d9f9d43e41e8fbad4d23",
       "publishedAt": "2025-11-01T23:47:41Z",
       "content": "Cathie Wood, head of Ark Investment Management, does not hesitate to sell and pocket profits when her high-conviction names rally, even the ones she repeatedly calls her favorites.\r\nThats what she di… [+5172 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Biztoc.com"
-      },
-      "author": "nytimes.com",
-      "title": "A profile of Aaron Greenspan, who has spent years on a crusade to expose what he believes are financial problems at Tesla and at big tech companies",
-      "description": "",
-      "url": "https://biztoc.com/x/bb48c90d34c1c8b4",
-      "urlToImage": "https://biztoc.com/cdn/950/og.png",
-      "publishedAt": "2025-11-01T23:15:19Z",
-      "content": "{ window.open(this.href, '_blank'); }, 200); return false;\"&gt;Why is Berkshire Hathaway's cash pile at a record high? { window.open(this.href, '_blank'); }, 200); return false;\"&gt;How will Warren B… [+758 chars]"
     },
     {
       "source": {
